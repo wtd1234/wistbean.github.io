@@ -20,12 +20,12 @@
     <meta name="theme-color" content="#3F51B5">
     
     
-    <meta name="keywords" content="vpn,Tag2,Tag3">
+    <meta name="keywords" content="vpn搭建,搬瓦工,IPsec/L2TP">
     <meta name="description" content="搭建IPsec/L2TP VPN的准备 一台云服务器VPS 远程连接VPS工具  1.我使用的云服务器是搬瓦工官网，因为性价比高，一年也就十几刀，速度快。 如何拿到搬瓦工优惠码之前说过，可以看这里：拿到搬瓦工优惠码 2.远程连接工具我一直用的是 SecureCRT , 当然你也可以使用其它的 SSH 工具。 开始搭建 IPsec/L2TP VPN获取搬瓦工服务器的ip，端口，账号密码有了搬瓦工服务">
-<meta name="keywords" content="vpn,Tag2,Tag3">
+<meta name="keywords" content="vpn搭建,搬瓦工,IPsec&#x2F;L2TP">
 <meta property="og:type" content="article">
 <meta property="og:title" content="快速搭建一个属于自己的IPsec&#x2F;L2TP VPN">
-<meta property="og:url" content="http://www.wistbean.com/2018/08/28/2018-08-26-showdowsocks/index.html">
+<meta property="og:url" content="http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/index.html">
 <meta property="og:site_name" content="wistbean">
 <meta property="og:description" content="搭建IPsec/L2TP VPN的准备 一台云服务器VPS 远程连接VPS工具  1.我使用的云服务器是搬瓦工官网，因为性价比高，一年也就十几刀，速度快。 如何拿到搬瓦工优惠码之前说过，可以看这里：拿到搬瓦工优惠码 2.远程连接工具我一直用的是 SecureCRT , 当然你也可以使用其它的 SSH 工具。 开始搭建 IPsec/L2TP VPN获取搬瓦工服务器的ip，端口，账号密码有了搬瓦工服务">
 <meta property="og:locale" content="zh">
@@ -36,7 +36,7 @@
 <meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pic6.png">
 <meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pic7.jpg">
 <meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pic8.png">
-<meta property="og:updated_time" content="2018-08-28T15:15:06.321Z">
+<meta property="og:updated_time" content="2018-08-29T09:21:39.411Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="快速搭建一个属于自己的IPsec&#x2F;L2TP VPN">
 <meta name="twitter:description" content="搭建IPsec/L2TP VPN的准备 一台云服务器VPS 远程连接VPS工具  1.我使用的云服务器是搬瓦工官网，因为性价比高，一年也就十几刀，速度快。 如何拿到搬瓦工优惠码之前说过，可以看这里：拿到搬瓦工优惠码 2.远程连接工具我一直用的是 SecureCRT , 当然你也可以使用其它的 SSH 工具。 开始搭建 IPsec/L2TP VPN获取搬瓦工服务器的ip，端口，账号密码有了搬瓦工服务">
@@ -153,12 +153,12 @@
         <h1 class="title">快速搭建一个属于自己的IPsec/L2TP VPN</h1>
         <h5 class="subtitle">
             
-                <time datetime="2018-08-28T15:07:43.525Z" itemprop="datePublished" class="page-time">
-  2018-08-28
+                <time datetime="2018-08-29T09:16:04.000Z" itemprop="datePublished" class="page-time">
+  2018-08-29
 </time>
 
 
-	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/cate/">cate</a></li></ul>
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/vpn/">vpn</a></li></ul>
 
             
         </h5>
@@ -180,16 +180,16 @@
     </aside>
 
 
-<article id="post-2018-08-26-showdowsocks"
+<article id="post-ipsec,l2tp_vpn"
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
         <h1 class="post-card-title">快速搭建一个属于自己的IPsec/L2TP VPN</h1>
         <div class="post-meta">
-            <time class="post-time" title="2018-08-28 23:07:43" datetime="2018-08-28T15:07:43.525Z"  itemprop="datePublished">2018-08-28</time>
+            <time class="post-time" title="2018-08-29 17:16:04" datetime="2018-08-29T09:16:04.000Z"  itemprop="datePublished">2018-08-29</time>
 
             
-	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/cate/">cate</a></li></ul>
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/vpn/">vpn</a></li></ul>
 
 
 
@@ -206,7 +206,7 @@
 <li>远程连接VPS工具</li>
 </ul>
 <p>1.我使用的云服务器是<a href="https://bwh1.net/aff.php?aff=32874" target="_blank">搬瓦工官网</a>，<br>因为性价比高，一年也就十几刀，速度快。</p>
-<p>如何拿到搬瓦工优惠码之前说过，可以看这里：<a href="http://www.wistbean.com/blog/2018/06/10/vpn/#section">拿到搬瓦工优惠码</a></p>
+<p>如何拿到搬瓦工优惠码之前说过，可以看这里：<a href="/2018/06/10/banwagong-vpn/#3-2拿到搬瓦工优惠码">拿到搬瓦工优惠码</a></p>
 <p>2.远程连接工具我一直用的是 SecureCRT , 当然你也可以使用其它的 SSH 工具。</p>
 <h1 id="开始搭建-IPsec-L2TP-VPN"><a href="#开始搭建-IPsec-L2TP-VPN" class="headerlink" title="开始搭建 IPsec/L2TP VPN"></a>开始搭建 IPsec/L2TP VPN</h1><h2 id="获取搬瓦工服务器的ip，端口，账号密码"><a href="#获取搬瓦工服务器的ip，端口，账号密码" class="headerlink" title="获取搬瓦工服务器的ip，端口，账号密码"></a>获取搬瓦工服务器的ip，端口，账号密码</h2><p>有了<a href="https://bwh1.net/aff.php?aff=32874" target="_blank">搬瓦工</a>服务器的IP地址和端口<br>我们就可以连接了：</p>
 <figure class="image-bubble">
@@ -343,7 +343,7 @@ Secure Socket Tunneling Protocol Service
 <p>其它客户端连接方式请参考：<a href="https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/docs/clients-zh.md" target="_blank" rel="noopener">配置 IPsec/L2TP VPN 客户端</a></p>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://github.com/hwdsl2/setup-ipsec-vpn" target="_blank" rel="noopener">IPsec VPN 服务器一键安装脚本</a></p>
 <p><a href="https://moshuqi.github.io/2017/07/20/%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BAVPN%E6%9C%8D%E5%8A%A1%E5%99%A8/" target="_blank" rel="noopener">自己搭建VPN服务器</a></p>
-<p><a href="http://www.wistbean.com/blog/2018/06/10/vpn">使用搬瓦工快速搭建自己的VPN</a></p>
+<p><a href="/2018/06/10/banwagong-vpn">使用搬瓦工快速搭建自己的VPN</a></p>
 
         </div>
 
@@ -352,7 +352,7 @@ Secure Socket Tunneling Protocol Service
     <div class="content">
         
 <span class="post-time">
-    Last updated: <time datetime="2018-08-28T15:15:06.321Z" itemprop="dateUpdated">2018-08-28 23:15:06</time>
+    Last updated: <time datetime="2018-08-29T09:21:39.411Z" itemprop="dateUpdated">2018-08-29 17:21:39</time>
 </span><br>
 
 
@@ -378,7 +378,7 @@ Secure Socket Tunneling Protocol Service
 
         <div class="post-footer">
             
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Tag2/">Tag2</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Tag3/">Tag3</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vpn/">vpn</a></li></ul>
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/IPsec-L2TP/">IPsec/L2TP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vpn搭建/">vpn搭建</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/搬瓦工/">搬瓦工</a></li></ul>
 
 
             
@@ -388,7 +388,7 @@ Secure Socket Tunneling Protocol Service
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.wistbean.com/2018/08/28/2018-08-26-showdowsocks/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&pic=http://www.wistbean.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&pic=http://www.wistbean.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -398,22 +398,22 @@ Secure Socket Tunneling Protocol Service
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.wistbean.com/2018/08/28/2018-08-26-showdowsocks/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&source=wistbean的个人博客，主要涉及到编程（Java，Python，Linux等），个人提升学习，视频教程，《肯定会软件技术》电台节目" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&source=wistbean的个人博客，主要涉及到编程（Java，Python，Linux等），个人提升学习，视频教程，《肯定会软件技术》电台节目" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.wistbean.com/2018/08/28/2018-08-26-showdowsocks/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&url=http://www.wistbean.com/2018/08/28/2018-08-26-showdowsocks/&via=http://www.wistbean.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&via=http://www.wistbean.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://www.wistbean.com/2018/08/28/2018-08-26-showdowsocks/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -433,14 +433,21 @@ Secure Socket Tunneling Protocol Service
     </div>
 
     
-<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/2018/08/29/java-ssm-1-1/" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">「1-1」分布式高并发java web项目实战视频教程介绍</h4>
+      </a>
+    </div>
   
 
   
     <div class="waves-block waves-effect next">
-      <a href="/2018/08/28/hello-world/" id="post-next" class="post-nav-link">
+      <a href="/2018/06/10/banwagong-vpn/" id="post-next" class="post-nav-link">
         <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
-        <h4 class="title">Hello World</h4>
+        <h4 class="title">使用搬瓦工快速搭建自己的VPN</h4>
       </a>
     </div>
   
@@ -561,7 +568,7 @@ Secure Socket Tunneling Protocol Service
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.wistbean.com/2018/08/28/2018-08-26-showdowsocks/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&pic=http://www.wistbean.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&pic=http://www.wistbean.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -571,22 +578,22 @@ Secure Socket Tunneling Protocol Service
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.wistbean.com/2018/08/28/2018-08-26-showdowsocks/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&source=wistbean的个人博客，主要涉及到编程（Java，Python，Linux等），个人提升学习，视频教程，《肯定会软件技术》电台节目" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&source=wistbean的个人博客，主要涉及到编程（Java，Python，Linux等），个人提升学习，视频教程，《肯定会软件技术》电台节目" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.wistbean.com/2018/08/28/2018-08-26-showdowsocks/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&url=http://www.wistbean.com/2018/08/28/2018-08-26-showdowsocks/&via=http://www.wistbean.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&via=http://www.wistbean.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://www.wistbean.com/2018/08/28/2018-08-26-showdowsocks/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -597,7 +604,7 @@ Secure Socket Tunneling Protocol Service
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACIElEQVR42u3aSW7DMBAEQP//0841QGK5m6MEMFk6GbYWlgJMZuHjER/Pb8f1OT/Pv76qfcrowMDA+FjG8/JIlpUs+tU9r++QrA0DA+McRhJAJ58nv16vDQMDAyMJjm3Ibr/BwMDAuJeRlLjX32NgYGBMiti2xZaH1xteGQYGxtaMvOv+/5//ZL6BgYHxUYy1cjS/dm0wWa8KAwNja0Ye4PL2fZvwrQVcDAyMcxiThv51MM23XyTfvIFhYGAcw8gfMxk0tuzo9WFgYGzNaFv2a4PPvIjNBwBv5hsYGBjbMdZOSjZJtEXsWpsPAwNjb0ZejraBcjJTrf8CGBgYWzPaTRVrg8k2jLZXYWBg7M1oxwDzgeVkhFB0DTEwMDZl5DeaRPT8qgKMgYFxDCPfALHWbssT0Lr9h4GBcQxjsqy1UNuOKovUEAMDYyNG/ph8eDDfbNG+OAwMjL0ZbdrXFq51uCwzPQwMjBMYa1sfWva99x/9P8HAwPhYxjyZm48h22D9yyvAwMA4gJEUrvdu6spDc/RaMTAwjmHkbbV2uWsBvSBhYGBsyniWR5u05WE6SRnrpBADA2MLxmTAudaqm48Tbp7TYmBgfAjj3iA738CRrwEDA+M0RjI4nMxI70r1ohEmBgbG8Yw8yCZLbO9c79rAwMA4kjGpjOfDgJflNAYGxgGMdstF/pi1tK9+cRgYGFsz1lr8bWLXFrST0hoDA2MjxhdOHNsZYdBnmAAAAABJRU5ErkJggg==" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACIklEQVR42u3aO27EMAwFwL3/pZ02RXb9SGoDWBpVQeBYnhQEf69XfK5f591vPj/fu2XxwcDAeCzj+njyZ3qfuOxeDAyMAxjvLs6fyYPm58DduxcDAwOjGgQ/P19NQDEwMDAmAbf6EdXSFwMDA6MXQHvNsqRA7QV3DAyMExh5s+z/f/7KfAMDA+NRjKt4vjdOuAYHAwNjb8batK/XpFtVMGNgYOzK6IXa3pJEPv6sDkQxMDDOYeRFbELqtdiqSxh/BFwMDIztGMmYcJLSVVv5Nx86mcRiYGA8nNHLtfK2WpLwVdcslqWMGBgYD2T0ErvqnLG6WFa+FwMDYztGHhCTYUB1DDBptN0UsRgYGFsw8lQsSQfztK9ajt68EwMDY2tG9eNWVcm9Ivbm/RgYGJsy8nWualttvkZWCMoYGBjHM5LCctUaWTXo32S4GBgYBzAmbbJqgZq/vxxwMTAwtmDkQ8rqAKDagMvfhoGBcQ5jUqYmbbL5fLVQHmNgYBzAWNvWX5u/Rf8mDAyMYxjzlG7ehksGA1Gei4GBsR1jvsKVhN3qk4XcDwMDY1PGVTy9IJsH3OoIM7oSAwPj4YxJsKv+1XwIWi2bMTAwdmIkIbI6Eqi+ebQWhoGBcQyjujTWG1jm/6ZyAYyBgYERLGT0QvOyRQ0MDAyMViHaWwvLR5jLUkMMDIyHMPJSc17czoeaGBgYpzGqIa+X2OUfkS98YGBgHMD4ARobapih2i+jAAAAAElFTkSuQmCC" alt="微信分享二维码">
 </div>
 
 
