@@ -14,7 +14,7 @@
     
     
     
-    <title>快速搭建一个属于自己的IPsec/L2TP VPN | wistbean | 肯定会</title>
+    <title>CentOS快速搭建一个属于自己的IPsec/L2TP VPN | wistbean | 肯定会</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
@@ -24,7 +24,7 @@
     <meta name="description" content="搭建IPsec/L2TP VPN的准备 一台云服务器VPS 远程连接VPS工具  1.我使用的云服务器是搬瓦工官网，因为性价比高，一年也就十几刀，速度快。 如何拿到搬瓦工优惠码之前说过，可以看这里：拿到搬瓦工优惠码 2.远程连接工具我一直用的是 SecureCRT , 当然你也可以使用其它的 SSH 工具。 开始搭建 IPsec/L2TP VPN获取搬瓦工服务器的ip，端口，账号密码有了搬瓦工服务">
 <meta name="keywords" content="vpn搭建,搬瓦工,IPsec&#x2F;L2TP">
 <meta property="og:type" content="article">
-<meta property="og:title" content="快速搭建一个属于自己的IPsec&#x2F;L2TP VPN">
+<meta property="og:title" content="CentOS快速搭建一个属于自己的IPsec&#x2F;L2TP VPN">
 <meta property="og:url" content="http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/index.html">
 <meta property="og:site_name" content="wistbean">
 <meta property="og:description" content="搭建IPsec/L2TP VPN的准备 一台云服务器VPS 远程连接VPS工具  1.我使用的云服务器是搬瓦工官网，因为性价比高，一年也就十几刀，速度快。 如何拿到搬瓦工优惠码之前说过，可以看这里：拿到搬瓦工优惠码 2.远程连接工具我一直用的是 SecureCRT , 当然你也可以使用其它的 SSH 工具。 开始搭建 IPsec/L2TP VPN获取搬瓦工服务器的ip，端口，账号密码有了搬瓦工服务">
@@ -36,9 +36,9 @@
 <meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pic6.png">
 <meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pic7.jpg">
 <meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pic8.png">
-<meta property="og:updated_time" content="2018-08-29T09:21:39.411Z">
+<meta property="og:updated_time" content="2018-09-01T11:33:41.390Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="快速搭建一个属于自己的IPsec&#x2F;L2TP VPN">
+<meta name="twitter:title" content="CentOS快速搭建一个属于自己的IPsec&#x2F;L2TP VPN">
 <meta name="twitter:description" content="搭建IPsec/L2TP VPN的准备 一台云服务器VPS 远程连接VPS工具  1.我使用的云服务器是搬瓦工官网，因为性价比高，一年也就十几刀，速度快。 如何拿到搬瓦工优惠码之前说过，可以看这里：拿到搬瓦工优惠码 2.远程连接工具我一直用的是 SecureCRT , 当然你也可以使用其它的 SSH 工具。 开始搭建 IPsec/L2TP VPN获取搬瓦工服务器的ip，端口，账号密码有了搬瓦工服务">
 <meta name="twitter:image" content="http://owx1uvd7t.bkt.clouddn.com/pic1.png">
     
@@ -128,7 +128,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">快速搭建一个属于自己的IPsec/L2TP VPN</div>
+        <div class="flex-col header-title ellipsis">CentOS快速搭建一个属于自己的IPsec/L2TP VPN</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -150,7 +150,7 @@
 <header class="content-header post-header">
 
     <div class="container fade-scale">
-        <h1 class="title">快速搭建一个属于自己的IPsec/L2TP VPN</h1>
+        <h1 class="title">CentOS快速搭建一个属于自己的IPsec/L2TP VPN</h1>
         <h5 class="subtitle">
             
                 <time datetime="2018-08-29T09:16:04.000Z" itemprop="datePublished" class="page-time">
@@ -184,7 +184,7 @@
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
-        <h1 class="post-card-title">快速搭建一个属于自己的IPsec/L2TP VPN</h1>
+        <h1 class="post-card-title">CentOS快速搭建一个属于自己的IPsec/L2TP VPN</h1>
         <div class="post-meta">
             <time class="post-time" title="2018-08-29 17:16:04" datetime="2018-08-29T09:16:04.000Z"  itemprop="datePublished">2018-08-29</time>
 
@@ -207,7 +207,7 @@
 </ul>
 <p>1.我使用的云服务器是<a href="https://bwh1.net/aff.php?aff=32874" target="_blank">搬瓦工官网</a>，<br>因为性价比高，一年也就十几刀，速度快。</p>
 <p>如何拿到搬瓦工优惠码之前说过，可以看这里：<a href="/2018/06/10/banwagong-vpn/#3-2拿到搬瓦工优惠码">拿到搬瓦工优惠码</a></p>
-<p>2.远程连接工具我一直用的是 SecureCRT , 当然你也可以使用其它的 SSH 工具。</p>
+<p>2.远程连接工具我一直用的是 <a href="https://www.vandyke.com/products/securecrt/" target="_blank" rel="noopener">SecureCRT</a> , 当然你也可以使用其它的 SSH 工具。</p>
 <h1 id="开始搭建-IPsec-L2TP-VPN"><a href="#开始搭建-IPsec-L2TP-VPN" class="headerlink" title="开始搭建 IPsec/L2TP VPN"></a>开始搭建 IPsec/L2TP VPN</h1><h2 id="获取搬瓦工服务器的ip，端口，账号密码"><a href="#获取搬瓦工服务器的ip，端口，账号密码" class="headerlink" title="获取搬瓦工服务器的ip，端口，账号密码"></a>获取搬瓦工服务器的ip，端口，账号密码</h2><p>有了<a href="https://bwh1.net/aff.php?aff=32874" target="_blank">搬瓦工</a>服务器的IP地址和端口<br>我们就可以连接了：</p>
 <figure class="image-bubble">
                 <div class="img-lightbox">
@@ -352,7 +352,7 @@ Secure Socket Tunneling Protocol Service
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2018-08-29T09:21:39.411Z" itemprop="dateUpdated">2018-08-29 17:21:39</time>
+    最后更新时间：<time datetime="2018-09-01T11:33:41.390Z" itemprop="dateUpdated">2018-09-01 19:33:41</time>
 </span><br>
 
 
@@ -388,7 +388,7 @@ Secure Socket Tunneling Protocol Service
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&pic=http://www.wistbean.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《CentOS快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&pic=http://www.wistbean.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -398,7 +398,7 @@ Secure Socket Tunneling Protocol Service
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&source=wistbean的个人博客，主要涉及到编程（Java，Python，Linux等），个人提升学习，视频教程，《肯定会软件技术》电台节目" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《CentOS快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&source=wistbean的个人博客，主要涉及到编程（Java，Python，Linux等），个人提升学习，视频教程，《肯定会软件技术》电台节目" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -408,7 +408,7 @@ Secure Socket Tunneling Protocol Service
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&via=http://www.wistbean.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《CentOS快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&via=http://www.wistbean.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
@@ -568,7 +568,7 @@ Secure Socket Tunneling Protocol Service
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&pic=http://www.wistbean.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《CentOS快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&pic=http://www.wistbean.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -578,7 +578,7 @@ Secure Socket Tunneling Protocol Service
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&source=wistbean的个人博客，主要涉及到编程（Java，Python，Linux等），个人提升学习，视频教程，《肯定会软件技术》电台节目" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&title=《CentOS快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&source=wistbean的个人博客，主要涉及到编程（Java，Python，Linux等），个人提升学习，视频教程，《肯定会软件技术》电台节目" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -588,7 +588,7 @@ Secure Socket Tunneling Protocol Service
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&via=http://www.wistbean.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《CentOS快速搭建一个属于自己的IPsec/L2TP VPN》 — wistbean&url=http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/&via=http://www.wistbean.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
