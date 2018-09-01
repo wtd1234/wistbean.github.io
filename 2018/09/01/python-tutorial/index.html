@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    
+    <title>python3趣味教程 | wistbean | 肯定会</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="教程,python">
+    <meta name="description" content="pick up Python给大家说一下，我要开始学习 Python 了， Python 最近很火嘛（小样，别太膨胀），不过还好我是个程序员，只不过之前玩的不是 Python 语言，所以接下来我要 pick up Python了。是的，没错，pick up，以后你告诉别人说你要学 python，你可以很装逼的告诉他：“老子要pick up Python了！”">
+<meta name="keywords" content="教程,python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python3趣味教程">
+<meta property="og:url" content="http://www.wistbean.com/2018/09/01/python-tutorial/index.html">
+<meta property="og:site_name" content="wistbean">
+<meta property="og:description" content="pick up Python给大家说一下，我要开始学习 Python 了， Python 最近很火嘛（小样，别太膨胀），不过还好我是个程序员，只不过之前玩的不是 Python 语言，所以接下来我要 pick up Python了。是的，没错，pick up，以后你告诉别人说你要学 python，你可以很装逼的告诉他：“老子要pick up Python了！”">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_jpg/US10Gcd0tQEBNhn1uHVbVL9604SySChCibKa4RYCibDLqWtKUZV2qBZWejlmUBJPXChOicoDkKZpiaNIAONsHTeyXw/640">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/US10Gcd0tQEBNhn1uHVbVL9604SySChCnyxCXnyvK24Sia478clqW8FRgScelQ7gJvrXYT337jpNQltVG6mcyvg/640">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/jqUicDbXFcKiblwyflFvRickgYgIuGww9tZ9Picicu03AtdwHszN9IerL8ojnMTj3GDHL38fUnrw2UHch5lLqRVe0QA/640">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_jpg/US10Gcd0tQEBNhn1uHVbVL9604SySChCVzXPt5Mc7xIeKdF3Cnk2hYS7KycU47IlZ69WsMV0YD3Qywd0DWbbJA/640">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_png/jqUicDbXFcKiblwyflFvRickgYgIuGww9tZ3O0deqPibQLlyUoWicS3LcUA7qypXEfhpJbIbngpS2jsbMpxj7K8a8Og/640">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_jpg/US10Gcd0tQEBNhn1uHVbVL9604SySChCOcR4YHRhR4k7qBX6SicVkdicNzfGlS9XSkuWibeZTF5ubzvkqQkkf9giaQ/640">
+<meta property="og:image" content="https://mmbiz.qpic.cn/mmbiz_jpg/jqUicDbXFcKiblwyflFvRickgYgIuGww9tZP00G5xvYGLlGuMe1uhkEeiadwg3fzH7nagyjMAbJ91w3dibrrzR9ao8Q/640">
+<meta property="og:updated_time" content="2018-09-01T09:19:36.158Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="python3趣味教程">
+<meta name="twitter:description" content="pick up Python给大家说一下，我要开始学习 Python 了， Python 最近很火嘛（小样，别太膨胀），不过还好我是个程序员，只不过之前玩的不是 Python 语言，所以接下来我要 pick up Python了。是的，没错，pick up，以后你告诉别人说你要学 python，你可以很装逼的告诉他：“老子要pick up Python了！”">
+<meta name="twitter:image" content="https://mmbiz.qpic.cn/mmbiz_jpg/US10Gcd0tQEBNhn1uHVbVL9604SySChCibKa4RYCibDLqWtKUZV2qBZWejlmUBJPXChOicoDkKZpiaNIAONsHTeyXw/640">
+    
+        <link rel="alternate" type="application/atom+xml" title="wistbean" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="/img/avatar.jpg">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">wistbean</h5>
+          <a href="mailto:wistbean.bb@gmail.com" title="wistbean.bb@gmail.com" class="mail">wistbean.bb@gmail.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/"  >
+                <i class="icon icon-lg icon-home"></i>
+                主页
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives"  >
+                <i class="icon icon-lg icon-archives"></i>
+                Archives
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/tags"  >
+                <i class="icon icon-lg icon-tags"></i>
+                Tags
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-th-list"></i>
+                Categories
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="https://github.com/wistbean" target="_blank" >
+                <i class="icon icon-lg icon-github"></i>
+                Github
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/findMe" target="_blank" >
+                <i class="icon icon-lg icon-weixin"></i>
+                find me
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">python3趣味教程</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">python3趣味教程</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2018-09-01T09:07:44.000Z" itemprop="datePublished" class="page-time">
+  2018-09-01
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/python/">python</a></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#pick-up-Python"><span class="post-toc-number">1.</span> <span class="post-toc-text">pick up Python</span></a></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-python-tutorial"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">python3趣味教程</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2018-09-01 17:07:44" datetime="2018-09-01T09:07:44.000Z"  itemprop="datePublished">2018-09-01</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/python/">python</a></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h1 id="pick-up-Python"><a href="#pick-up-Python" class="headerlink" title="pick up Python"></a>pick up Python</h1><p>给大家说一下，我要开始学习 Python 了， Python 最近很火嘛（小样，别太膨胀），不过还好我是个程序员，只不过之前玩的不是 Python 语言，所以接下来我要 pick up Python了。是的，没错，pick up，以后你告诉别人说你要学 python，你可以很装逼的告诉他：“老子要pick up Python了！”</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://mmbiz.qpic.cn/mmbiz_jpg/US10Gcd0tQEBNhn1uHVbVL9604SySChCibKa4RYCibDLqWtKUZV2qBZWejlmUBJPXChOicoDkKZpiaNIAONsHTeyXw/640" alt="人生苦短，我特么要pick up Python~~~" title="">
+                </div>
+                <div class="image-caption">人生苦短，我特么要pick up Python~~~</div>
+            </figure>
+<p>而这里呢，和其它的学习 Python 的号不一样，不会乱七八糟，我会形成一个体系，也就是 Python 从0到1的整个体系，而且我也不想严肃，我要让我的这个号呢，看起来好笑，好笑之中又能真正的学到Python的精髓，所以我会下功夫去学习，去消化，然后再转化成风趣幽默的文章，让大家看起来像看小黄文一样轻松，这是我想做的事情。</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://mmbiz.qpic.cn/mmbiz_png/US10Gcd0tQEBNhn1uHVbVL9604SySChCnyxCXnyvK24Sia478clqW8FRgScelQ7gJvrXYT337jpNQltVG6mcyvg/640" alt="听到小黄文，想想还有点鸡动呢 (你可别乱来啊！)" title="">
+                </div>
+                <div class="image-caption">听到小黄文，想想还有点鸡动呢 (你可别乱来啊！)</div>
+            </figure>
+<p>对了，还没告诉你为什么要学 Python 呢，我来说说这几点就已经足够：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://mmbiz.qpic.cn/mmbiz_png/jqUicDbXFcKiblwyflFvRickgYgIuGww9tZ9Picicu03AtdwHszN9IerL8ojnMTj3GDHL38fUnrw2UHch5lLqRVe0QA/640" alt="Python" title="">
+                </div>
+                <div class="image-caption">Python</div>
+            </figure>
+<ol>
+<li>现在 Python 已经成为世界上最流行的编程语言之一了，而且大部分的Linux系统，MacOS系统都直接内置了 Python ，就问你牛逼不？</li>
+</ol>
+<ol start="2">
+<li>现在连小学生都开始学习 Python 了，Python 已经纳入了某地区小学的教材了。Pyhon 已然成为了编程界的 “网红”，现在程序员们可能不知道Cobol，Basic，Pascal，Perl，Ruby，但没有一个程序员不知道Python的。</li>
+</ol>
+<ol start="3">
+<li>上手简单，现在很多从来没接触过编程的人都着手开始学习Python 了，我有一朋友，之前没有任何编程基础，学了半年多找到了份工作，工资12k妥妥的，不过不要去羡慕别人的数字，人家背后的努力你没看到而已，如果你现在也是没有任何基础或者想要从0学习 Python ，那么你来对地方了！因为人生苦短，我们一起搞 Python。</li>
+</ol>
+<ol start="4">
+<li>web开发，科学计算，3D建模，人工智能，嵌入式开发，云计算，大数据等等都特么能看到Python的身影，不知道你知不知道NASA（美国宇航局）使用Python来开发用于系统集成和卫星，火箭的测试自动化么？还有网易，腾讯，搜狐，金山，豆瓣，YouTube ，google，雅虎（太多，举例不完）都在用Python。所以这么牛逼，何不 pick up python 呢？</li>
+</ol>
+<ol start="5">
+<li>用 Python 可以做很多事情，可以爬取你想要的数据，可以做外挂，之前的微信跳一跳，12306抢票等都可以用Python实现，还有很多数据分析，项目系统，聊天系统，游戏等等多了去了。所以这么牛逼，何不 pick up Python 呢？</li>
+</ol>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://mmbiz.qpic.cn/mmbiz_jpg/US10Gcd0tQEBNhn1uHVbVL9604SySChCVzXPt5Mc7xIeKdF3Cnk2hYS7KycU47IlZ69WsMV0YD3Qywd0DWbbJA/640" alt="是不是真的啊？又想骗我学习~" title="">
+                </div>
+                <div class="image-caption">是不是真的啊？又想骗我学习~</div>
+            </figure>
+<p>不妨再来看下Python官网的介绍，<strong>他说这些是使用Python的人宁愿不使用其他任何东西的一些原因</strong>：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://mmbiz.qpic.cn/mmbiz_png/jqUicDbXFcKiblwyflFvRickgYgIuGww9tZ3O0deqPibQLlyUoWicS3LcUA7qypXEfhpJbIbngpS2jsbMpxj7K8a8Og/640" alt="python" title="">
+                </div>
+                <div class="image-caption">python</div>
+            </figure>
+<ol>
+<li><p>Pyhon很牛逼…而且很快；</p>
+</li>
+<li><p>可以和别人一起P；</p>
+</li>
+<li><p>在哪都可以搞；</p>
+</li>
+<li><p>非常友好&amp;学习简单；</p>
+</li>
+<li><p>开放。</p>
+</li>
+</ol>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://mmbiz.qpic.cn/mmbiz_jpg/US10Gcd0tQEBNhn1uHVbVL9604SySChCOcR4YHRhR4k7qBX6SicVkdicNzfGlS9XSkuWibeZTF5ubzvkqQkkf9giaQ/640" alt="好棒！我要pick up Python了，接下来将是学习python的正确势！" title="">
+                </div>
+                <div class="image-caption">好棒！我要pick up Python了，接下来将是学习python的正确势！</div>
+            </figure>
+<p>PS：虽然 Python 的中文意思是「蟒蛇」，但是 Python 语言的创造者 Guido van Rossum 是因为超喜欢英国广播公司的节目「蟒蛇飞行马戏」而命名这个语言的，所以你可别以为Python 创造者是个喜欢蟒蛇的怪叔叔。</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://mmbiz.qpic.cn/mmbiz_jpg/jqUicDbXFcKiblwyflFvRickgYgIuGww9tZP00G5xvYGLlGuMe1uhkEeiadwg3fzH7nagyjMAbJ91w3dibrrzR9ao8Q/640" alt="python 创始人" title="">
+                </div>
+                <div class="image-caption">python 创始人</div>
+            </figure>
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+        
+<span class="post-time">
+    最后更新时间：<time datetime="2018-09-01T09:19:36.158Z" itemprop="dateUpdated">2018-09-01 17:19:36</time>
+</span><br>
+
+
+        
+        可以关注我的微信公众号：「肯定会」, 发送「程序员」可以免费获取一份价值 399 元的程序员大礼包
+        
+    </div>
+    
+    <footer>
+        <a href="http://www.wistbean.com">
+            <img src="/img/avatar.jpg" alt="wistbean">
+            wistbean
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.wistbean.com/2018/09/01/python-tutorial/&title=《python3趣味教程》 — wistbean&pic=http://www.wistbean.com/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.wistbean.com/2018/09/01/python-tutorial/&title=《python3趣味教程》 — wistbean&source=wistbean的个人博客，主要涉及到编程（Java，Python，Linux等），个人提升学习，视频教程，《肯定会软件技术》电台节目" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.wistbean.com/2018/09/01/python-tutorial/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《python3趣味教程》 — wistbean&url=http://www.wistbean.com/2018/09/01/python-tutorial/&via=http://www.wistbean.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://www.wistbean.com/2018/09/01/python-tutorial/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/2018/09/01/make-money-on-the-internet/" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">通过互联网赚钱的 9 种渠道</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'false' == 'true',
+            verify: 'false' == 'true',
+            appId: "EwGBpz5cFF0t3WS9QYluuUPU-gzGzoHsz",
+            appKey: "k9IK8hrOleIsPWLjCdv9atgo",
+            avatar: "mm",
+            placeholder: "Just go go",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "10"
+        })
+    </script>
+    <!-- Valine Comments end -->
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        谢谢大爷~
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/wechat.png" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/wechat.png" data-alipay="/img/alipay.png">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        站点总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        站点总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>博客内容遵循 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>wistbean &copy; 2015 - 2018</span>
+            <span>
+                
+                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://www.wistbean.com/2018/09/01/python-tutorial/&title=《python3趣味教程》 — wistbean&pic=http://www.wistbean.com/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.wistbean.com/2018/09/01/python-tutorial/&title=《python3趣味教程》 — wistbean&source=wistbean的个人博客，主要涉及到编程（Java，Python，Linux等），个人提升学习，视频教程，《肯定会软件技术》电台节目" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.wistbean.com/2018/09/01/python-tutorial/" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《python3趣味教程》 — wistbean&url=http://www.wistbean.com/2018/09/01/python-tutorial/&via=http://www.wistbean.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://www.wistbean.com/2018/09/01/python-tutorial/" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACKElEQVR42u3aS26EMBAFwLn/pckBIpzX3UMk7PIqygCmWFj9+3zidf1ad9fk1693+TyxMDAwXsu4lqt3zZqXf6ZkXwwMjHMYyQGaX7PmVX9d74uBgYFxd81VXEnIuCZhYGBgVA/TKFwLEtT88MXAwMBIDspewln9EI/n4hgYGC9k5FX3///7kf4GBgbGqxi9RDQ/QPPG5DVYGBgYezPyA25eUJs3A/5IiTEwMI5h5BvkbYMk3Jw8BwMDY29GcjhWC3Pz8LE8wIGBgXEAY/6i3yqcNffFwMA4gJEEZNVBiiTcnIxZYGBgnMNIHjoZg6gmpXnI+OndjIGB8UJG7yXyUl3+KsmTb+/CwMDYmlFtT643TkpshVAvKMNhYGCcwKiWw/JWaHVUohpWlqdFMDAwtmDkaWrenlwfo80QsDctgoGB8XLGfOihN3bWG9eIWpgYGBgbMebbJCWz3ouWg1cMDIxNGXkgmMRjvVZB714MDIxzGNXW42SALA80q//BwMA4hzFPYnvFu3zs7I9QEgMD4wBGr6zfyyuriW4hF8fAwDiA0Ruq+FYC3PvoGBgYezOu4sq/zWTM65GgEAMD47WMedxVTXeTQHPyNAwMjF0ZefGrevDNm5eFUQwMDIwDGNWBrbwAV/1MzaoaBgYGxpdGMXpDGBEVAwMDo5VqVo/m/JC9TWIxMDC2ZuRDWvmrR9sP2qgYGBjnMKoDFpMAbt6eHDUyMTAw3sf4ATxvGQZqpXy8AAAAAElFTkSuQmCC" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
