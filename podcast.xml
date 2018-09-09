@@ -28,7 +28,7 @@
             <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="11528832" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/41.mp3"/>
             <guid>https://www.wistbean.com</guid>
-            <pubDate>2018-08-24T15:23:33+08:00</pubDate>
+            <pubDate>2018-09-7</pubDate>
             <itunes:duration>07:59</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
         </item>
@@ -42,7 +42,7 @@
             <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="12975462" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/40.mp3"/>
             <guid>https://www.wistbean.com</guid>
-            <pubDate>2018-08-24T15:23:33+08:00</pubDate>
+            <pubDate>2018-08-31</pubDate>
             <itunes:duration>09:00</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
         </item>
@@ -140,7 +140,7 @@
             <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="16568669" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/39.mp3"/>
             <guid>https://www.wistbean.com/blog/2018/08/24/podcast-39/</guid>
-            <pubDate>2018-08-24T15:23:33+08:00</pubDate>
+            <pubDate>2018-08-24</pubDate>
             <itunes:duration>11:29</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
         </item>
@@ -288,7 +288,7 @@
 
 
         <item>
-            <title>8年前有位小伙花了1w个比特币买了两披萨</title>
+            <title>35 8年前有位小伙花了1w个比特币买了两披萨</title>
             <itunes:author>wistbean</itunes:author>
             <itunes:subtitle>肯定会电台，让我们一起提升自己。</itunes:subtitle>
             <itunes:summary><![CDATA[<p>8年前，有个小伙子，花了 1w 个比特币，买了两个披萨，那一天是 2010年5月22号，是一个值得纪念的日子，被比特币爱好者们当做「比特币披萨节」。</p>
@@ -1205,7 +1205,7 @@ PM也不要说什么老子不管，你就要在下班前把结果给我弄出来
 <p>最后，如果你要源码，想玩玩，可以在我的公众号「肯定会」中发送「微信机器人」获取！</p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/robot-3197226_960_720.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="7080083" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/22.mp3"/>
             <guid>https://www.wistbean.com/blog/2018/03/11/make-your-wechat-a-robot/</guid>
             <pubDate>2018-03-11T13:51:58+08:00</pubDate>
@@ -1295,7 +1295,7 @@ NodeJS程序员简历模板、架构师简历模板以及通用程序员简历�
 <p><img src="http://owx1uvd7t.bkt.clouddn.com/github3.png" alt="github" /></p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/github3.png"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="9716704" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/21.mp3"/>
             <guid>https://www.wistbean.com/blog/2018/02/24/github/</guid>
             <pubDate>2018-02-24T21:32:15+08:00</pubDate>
@@ -1356,7 +1356,7 @@ Codelf 可以选择开发语言进行搜索，结果会把同个源码文件里�
 </blockquote>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/feedback-2849602_960_720.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="6499033" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/20.mp3"/>
             <guid>https://www.wistbean.com/blog/2018/02/03/how-to-name/</guid>
             <pubDate>2018-02-03T12:11:57+08:00</pubDate>
@@ -1486,7 +1486,7 @@ Codelf 可以选择开发语言进行搜索，结果会把同个源码文件里�
 (也就是我们现在所说的山寨币),然后去收割韭菜去了！</p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/0018.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="7636207" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/018.mp3"/>
             <guid>https://www.wistbean.com/blog/2018/01/13/blockchain/</guid>
             <pubDate>2018-01-13T11:44:29+08:00</pubDate>
@@ -1521,7 +1521,7 @@ Codelf 可以选择开发语言进行搜索，结果会把同个源码文件里�
 2018，就是干！</p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/design-3047520_960_720.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="3286529" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/17.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/12/31/2017-end/</guid>
             <pubDate>2017-12-31T09:43:17+08:00</pubDate>
@@ -1575,7 +1575,7 @@ Codelf 可以选择开发语言进行搜索，结果会把同个源码文件里�
 <p>想想人工智能还是未来吗？已经到来了，瑟瑟发抖！</p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cap-147417_960_720.png"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="5196498" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/16.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/12/24/put-on-a-hat/</guid>
             <pubDate>2017-12-24T11:44:29+08:00</pubDate>
@@ -1684,7 +1684,7 @@ Codelf 可以选择开发语言进行搜索，结果会把同个源码文件里�
 <p>所以，努力吧，只有不断的努力，才能让别人觉得你的人生看起来像开挂了一样，毫不费力 :)</p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/maxresdefault.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="11295044" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/15.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/12/17/cheat-plug-in/</guid>
             <pubDate>2017-12-17T00:00:00+08:00</pubDate>
@@ -1800,7 +1800,7 @@ Redis可以全局管理数据，可以设置key值的生存有效期，而且访
 </ul>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/stadium-2921657_960_720.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="9429545" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/14.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/12/10/what-is-the-sso/</guid>
             <pubDate>2017-12-10T01:29:42+08:00</pubDate>
@@ -2026,7 +2026,7 @@ git commit -m 'update .gitignore'
 -<a href="http://www.ruanyifeng.com/blog/2015/08/git-use-process.html">Git 使用规范流程</a></p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/branching-illustration@2x.png"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="12246625" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/13.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/12/03/use-my-git/</guid>
             <pubDate>2017-12-03T16:10:27+08:00</pubDate>
@@ -2104,7 +2104,7 @@ http://www.a.com/teacher/pic/boduoyejieyi?start=1&amp;end=10</li>
 </ol>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/12.png"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="9129020" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/12.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/11/26/uniform-resource-locator/</guid>
             <pubDate>2017-11-26T14:10:23+08:00</pubDate>
@@ -2166,7 +2166,7 @@ http://www.a.com/teacher/pic/boduoyejieyi?start=1&amp;end=10</li>
 
 <p>好了，以上就是本期的内容，希望分享的这些插件，对你有用。</p>
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/browser-773216_960_720.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="8019459" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/11.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/11/19/chrome-extensions/</guid>
             <pubDate>2017-11-19T14:56:54+08:00</pubDate>
@@ -2214,7 +2214,7 @@ http://www.a.com/teacher/pic/boduoyejieyi?start=1&amp;end=10</li>
 **</p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/season-1985856_960_720.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="7185396" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/10.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/11/12/what-is-the-internet/</guid>
             <pubDate>2017-11-12T16:56:29+08:00</pubDate>
@@ -2401,7 +2401,7 @@ cd /usr/local/nginx/sbin
 ./nginx -s reload</p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/1.png"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="4976691" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/09.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/11/05/nginx/</guid>
             <pubDate>2017-11-05T13:51:14+08:00</pubDate>
@@ -2561,7 +2561,7 @@ cd /usr/local/nginx/sbin
 <p>（哈哈，没有啦，开玩笑的，最后他们在一起了！）</p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/hanberger.png"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="9940781" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/008.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/10/29/distributed-system-architecture/</guid>
             <pubDate>2017-10-29T16:48:10+08:00</pubDate>
@@ -2627,7 +2627,7 @@ cd /usr/local/nginx/sbin
 <p>以上，便是我认为程序员应该具备的特质，观点如有雷同，纯属你爱我，当然欢迎补充！</p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/accountant-2252316_960_720.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="9347415" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/7.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/10/22/programmer/</guid>
             <pubDate>2017-10-22T15:58:17+08:00</pubDate>
@@ -2781,7 +2781,7 @@ X-Ua-Compatible:IE=Edge,chrome=1
 <p><a href="http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/">what-really-happens-when-you-navigate-to-a-url</a></p>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/06.png"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="5446225" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/06.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/10/14/what-happens-when-you-request-a-url/</guid>
             <pubDate>2017-10-14T16:48:10+08:00</pubDate>
@@ -3133,7 +3133,7 @@ public class Client {
 </ul>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/lost-places-1510592_960_720.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="7588954" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/05.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/10/07/factory-method-pattern/</guid>
             <pubDate>2017-10-07T13:39:32+08:00</pubDate>
@@ -3494,7 +3494,7 @@ public class IodhiSigleton {
 </ul>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/04.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="6590545" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/04.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/09/26/singleton-pattern/</guid>
             <pubDate>2017-09-26T21:45:10+08:00</pubDate>
@@ -3607,7 +3607,7 @@ public class IodhiSigleton {
 </ul>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/patterns.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="4421270" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/03.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/09/24/design-pattern/</guid>
             <pubDate>2017-09-24T22:02:02+08:00</pubDate>
@@ -3700,7 +3700,7 @@ public class IodhiSigleton {
 </ul>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/mvc.jpg"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="3990922" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/02.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/09/22/mvc/</guid>
             <pubDate>2017-09-22T13:08:32+08:00</pubDate>
@@ -3866,7 +3866,7 @@ public class Main {
 </ul>
 
 ]]></itunes:summary>
-            <itunes:image href="http://owh7v964r.bkt.clouddn.com/elephant-24732__340.png"/>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
             <enclosure length="8003879" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/MP31.mp3"/>
             <guid>https://www.wistbean.com/blog/2017/09/17/object-oriented-programming/</guid>
             <pubDate>2017-09-17T22:11:16+08:00</pubDate>
