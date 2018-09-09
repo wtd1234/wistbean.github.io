@@ -1,0 +1,3879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>wistbean|肯定会电台</title>
+        <link>https://www.wistbean.com</link>
+        <language>zh</language>
+        <copyright>&#8471; &amp; &#xA9; 2018 wistbean.com</copyright>
+        <itunes:subtitle>科技，编程，书籍精华分享，个人提升</itunes:subtitle>
+        <itunes:author>wistbean</itunes:author>
+        <itunes:summary>关注微信公众号：肯定会</itunes:summary>
+        <description>肯定会电台，让我们一起提升自己。</description>
+        <itunes:type>episodic</itunes:type>
+        <itunes:owner>
+            <itunes:name>wistbean|肯定会电台</itunes:name>
+            <itunes:email>wistbean.bb@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://owh7v964r.bkt.clouddn.com/coverImage.jpg"/>
+        <itunes:category text="Technology">
+        </itunes:category>
+        <itunes:explicit>no</itunes:explicit>
+
+        <item>
+            <title>41 为什么要搭建一个属于你自己的网站 </title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="11528832" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/41.mp3"/>
+            <guid>https://www.wistbean.com</guid>
+            <pubDate>2018-08-24T15:23:33+08:00</pubDate>
+            <itunes:duration>07:59</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>40 对于宅男来说，硬盘里的数据就是命 </title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="12975462" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/40.mp3"/>
+            <guid>https://www.wistbean.com</guid>
+            <pubDate>2018-08-24T15:23:33+08:00</pubDate>
+            <itunes:duration>09:00</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+        <item>
+            <title>39 为什么你的微博会无缘无故关注一堆垃圾账号？ </title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<h2 id="section">个人隐私泄露现象</h2>
+
+<h3 id="section-1">微博被自动关注了不认识的账号</h3>
+
+<h3 id="section-2">淘宝自动收藏了商品</h3>
+
+<h3 id="section-3">老是收到垃圾短信</h3>
+
+<h3 id="qq">QQ无缘无故进了陌生群</h3>
+
+<h2 id="section-4">事件</h2>
+
+<h3 id="section-5">北京瑞智华胜公司窃取 30 亿条个人信息，非法牟利千万元</h3>
+
+<h3 id="section-6">阿里巴巴安全部协助警方破获了一起数据窃取案件</h3>
+
+<h2 id="section-7">我们的信息怎么被泄露的呢？</h2>
+
+<h3 id="cookie-">这些公司和运营商们合作中，截取到了用户的 cookie 权限</h3>
+
+<h4 id="cookie">cookie</h4>
+
+<h5 id="cookie-1">用户上网过程中都会产生cookie</h5>
+
+<h6 id="section-8">网站辨别用户身份而存储在用户本地电脑的数据</h6>
+
+<h6 id="section-9"># 记录用户凭证</h6>
+
+<h6 id="section-10"># 记录用户上网行为</h6>
+
+<h3 id="section-11">数据</h3>
+
+<h4 id="section-12">上网行为</h4>
+
+<h4 id="section-13">在登录过的网站中的账号密码</h4>
+
+<h3 id="section-14">谋取利润</h3>
+
+<h4 id="section-15">导粉</h4>
+
+<h4 id="section-16">刷量</h4>
+
+<h4 id="section-17">恶意推广</h4>
+
+<h2 id="section-18">我们应该警惕</h2>
+
+<h3 id="section-19">账号被盗</h3>
+
+<h3 id="section-20">个人财产安全</h3>
+
+<h3 id="section-21">生活受到不必要的麻烦</h3>
+
+<h3 id="section-22">信息被卖</h3>
+
+<h2 id="section-23">我们应该怎么做？</h2>
+
+<h3 id="section-24">别以为网络是虚拟的你就很安全</h3>
+
+<h3 id="app">使用APP的时候非必要的权限不要开启</h3>
+
+<h3 id="section-25">开启的权限只在应用运行的时候授权</h3>
+
+<h3 id="section-26">密码不要都设置成一样的，也不要设置的过于简单,防止被人撞库和暴力破解</h3>
+
+<h4 id="lastpass">推荐使用密码管理器lastpass</h4>
+
+<h5 id="httpswwwlastpasscomzh">https://www.lastpass.com/zh</h5>
+
+<h5 id="section-27">安装插件</h5>
+
+<h5 id="section-28">设置主密码</h5>
+
+<h3 id="wifi">天下没有免费的午餐，免费的WIFI不要随便连</h3>
+
+<h3 id="section-29">在网上尽量用昵称，能不填真实信息就不填真实信息</h3>
+
+<h3 id="section-30">手机拍照关掉定位功能，因为你如果没关掉的话，发给别人看的照片人家能清楚的知道你是在哪里拍的</h3>
+
+<h4 id="iphone--------">iphone用户在设置–隐私–定位服务–相机–关闭</h4>
+
+<h3 id="section-31">对不太信任的软件使用虚拟机运行</h3>
+
+<h3 id="vpn">搭建个VPN代理访问</h3>
+
+<h3 id="section-32">不要贪小便宜，办理正规的宽带</h3>
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="16568669" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/39.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/08/24/podcast-39/</guid>
+            <pubDate>2018-08-24T15:23:33+08:00</pubDate>
+            <itunes:duration>689.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+        <item>
+            <title>38 通过互联网赚钱的9种方式，Google回归？</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p><a href="https://www.wistbean.com/blog/2018/08/05/make-money-on-the-internet/">通过互联网赚钱的 9 种方式</a></p>
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="14698979" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/38.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/08/10/podcast-38/</guid>
+            <pubDate>2018-08-10T17:58:29+08:00</pubDate>
+            <itunes:duration>1049.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>37 Google高级搜索技巧介绍，产品经理和程序员打架事件</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<h1 id="google">google搜索技巧教程：</h1>
+<p>搜索微信公众号：肯定会，点击头像获取历史文章即可找到。</p>
+
+<h2 id="section">拼多多</h2>
+
+<h3 id="section-1">假货</h3>
+
+<h4 id="lv--175">LV 包包 175元</h4>
+
+<h4 id="addidas49">addidas的裤子49元</h4>
+
+<h4 id="section-2">估价下跌</h4>
+
+<h5 id="section-3">最高跌幅超10%</h5>
+
+<h3 id="section-4">上市</h3>
+
+<h4 id="section-5">发行价压在 19 美元</h4>
+
+<h3 id="section-6">吸引用户</h3>
+
+<h4 id="section-7">主打低价</h4>
+
+<h5 id="section-8">走劣质产品的擦边球</h5>
+
+<h4 id="section-9">拼团</h4>
+
+<h4 id="section-10">砍价</h4>
+
+<h3 id="section-11">观点</h3>
+
+<h4 id="section-12">对于三四线城市的用户</h4>
+
+<h5 id="section-13">花更少的钱买到幸福感</h5>
+
+<h4 id="section-14">不过拼多多在两年半的时间内做到上市，市值300亿美金这是一条牛逼的数据。</h4>
+
+<h4 id="section-15">虽然我也很烦很多人在我微信推砍价的链接，但是不否认人家对目标用户的切入和需求把握的很好，对营销的裂变等模式做的很成功。</h4>
+
+<h2 id="skr">吴亦凡skr</h2>
+
+<h3 id="skr-">skr 纳入了词典</h3>
+
+<h3 id="hiphop">喜欢hiphop</h3>
+
+<h4 id="section-16">态度</h4>
+
+<h4 id="section-17">真实</h4>
+
+<h2 id="google-1">google阉割版</h2>
+
+<h2 id="app">根据手机壳颜色更换app主题颜色打起来了</h2>
+
+<h3 id="section-18">段子</h3>
+
+<h4 id="appapp">根据手机壳换APP主题颜色那么？这就打起来了？根据用户的内裤颜色换APP主题颜色才叫难</h4>
+
+<h4 id="section-19">解决方案</h4>
+
+<h5 id="section-20">强制启动手机前置摄像头，对用户眼角膜的手机倒影进行图像分析，得到手机的外壳颜色</h5>
+
+<h5 id="section-21">和内裤厂商合作，每条内裤有着唯一的编号，内裤中放置微型感应器，当内裤贴近皮肤时，</h5>
+<p>感应器自动将编号数据发送给手机，从而获取用户内裤信息，改变主题颜色</p>
+
+<h5 id="section-22">买个私人卫星实时监测用户手机可颜色</h5>
+
+<h3 id="section-23">观点</h3>
+
+<h4 id="nfc-google-earth">谷歌通过NFC触点实现。采用了 Google Earth的主题，可以每天从谷歌地球抓取新的地貌场景当做手机壁纸，同时还可以点击快捷键获取有关于这个地点的信息</h4>
+
+<h4 id="nfc-">我觉得除了 NFC 外，最简单的还是写个接口询问用户手机壳是什么颜色得了，用户没傻逼到那种程度。</h4>
+
+<h4 id="peace-and-love--skr">其实这是一个段子，但是这么多人在传这个视频，也说明了程序员和产品经理在沟通和信任上普遍存在的问题，希望能 peace and love 吧， skr</h4>
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="10969421" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/37.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/08/03/podcast-37/</guid>
+            <pubDate>2018-08-03T04:11:10+08:00</pubDate>
+            <itunes:duration>782.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>36 节目调整：科技，编程，产品思维，资源推荐，精华分享等</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<h2 id="section">调整声明</h2>
+<pre><code>	每周五更新
+	周五是整个星期最美好一天
+		因为周末了嘛
+	思维
+	资源推荐
+	书的精华
+	科技相关的电影 推荐
+	编程语言的知识点
+		编程语言的由来
+		故事 ## 公众号改版
+	信息流
+	个人品牌
+	肯定会公众号整理
+		个人提升
+		干货
+			Linux
+			Java
+			python
+			资源分享
+			区块链 ## 疫苗
+	很多文章被删了
+	黑客黑了官网
+微信添加我:wistbean 
+	反馈 ## FaceBook进入华
+</code></pre>
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="5981943" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/036.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/07/27/program-adjustment/</guid>
+            <pubDate>2018-07-27T18:43:13+08:00</pubDate>
+            <itunes:duration>426.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>8年前有位小伙花了1w个比特币买了两披萨</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>8年前，有个小伙子，花了 1w 个比特币，买了两个披萨，那一天是 2010年5月22号，是一个值得纪念的日子，被比特币爱好者们当做「比特币披萨节」。</p>
+
+<p>推特上有个叫 Bitcoin Pizza  的用户很无聊，每天都记录着：当时这两块披萨，以现在的价格来看，值多少钱。关注者居然有7k+，好吧，算我一个。</p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-01df7b7aeee2b230?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p>可以看到现在这两披萨价值 $63,441,375， 换算成人民币就是4亿+，妈的按现在的话这披萨舔一下都应该有好几万了。</p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-59a321df913e79d4?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p>这小伙是美国程序员来的，后来有人采访他，他谈起这件事的时候表示：<strong>这披萨吃起来不错，就是有点贵~</strong></p>
+
+<p>不过说起比特币，刚开始的时候谁也不知道比特币现在价值这么高，那时候每 10 分钟就会被挖出一个新的区块，最早奖励50个比特币，不过现在奖励比特币越来越少了，因为每四年会减半，也就是一开始最早奖励50个比特币，四年后奖励25个，再过四年就12.5个，以此类推，直到 2140 年，比特币会达到发行上限——2100w个。</p>
+
+<p>刚看了一下，现在已经发行了 1700w+ 个比特币了。</p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-8f5170bb606460a3?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p>之前我还纳闷，为什么每四年奖励的比特币减半，越往后奖励比特币越少，为什么还有人要挖呢？这不是亏么？</p>
+
+<p>后来我在 Youtube 看到搜狗CEO王小川对比特币的解说中明白了，也就是在记账过程中，记账的人可以从中获取交易费。</p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-61b266cf0cc24ea5?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-ef30fb82cb60646e?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-8a338ee00afa6848?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-c8871ba5c82deb8d?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-f4d6c06772fc2d29?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-7e7d6f784f2f9ec5?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-1e7b3f8a6db179d6?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-eb1c8b59cab8e7c5?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-d709019aa762b687?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-5fa41cebd7390ff8?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p>我们都知道比特币相对来说安全，并且可以进行匿名交易，所以之前那些黑客把别人电脑黑了，然后要别人交点比特币才能解锁，还有些灰色的产业比如做一些赌博网站，非法交易的黑市等等。</p>
+
+<p>然而对于比特币这样新的技术产物，本身不存在对错，还记得王欣那句话，技术本无罪。真正善恶在于人，而不在于技术本身，比特币也是如此。</p>
+
+<p>中国政策对比特币的态度是它是一种虚拟商品，不具备和货币一样的法律地位。不可以当做货币在市场上使用。但是比特币作为互联网上的商品进行买卖，只要个人在能够承担风险的前提下就可以自由的参与。</p>
+
+<p>每一个新生的事物不可能做到完美，比特币也是这样，比如现在每个区块的大小是 1M，所以比特币系统中每秒最大只能交易 7 笔数量，这是人们还在一直争论的扩容问题。</p>
+
+<p>因为比特币的影响太牛逼了，而且区块链的原理是公开的，所以有许多人在比特币原理的基础上，做出了许多其它的币种，比如和比特币一样使用工作量证明但是算法不同的莱特币，狗狗币。</p>
+
+<p>莱特币和比特币的不同除了刚说的算法不同之外（比特币用的是SHA-256算法而莱特币用的是scrypt算法），莱特币是每2.5分钟产生一个区块，总发行量是8400w个，是比特币的 4 倍之多。</p>
+
+<p>当然还有许多其它的比如：点点币，比特股，未来币，以太坊等等。</p>
+
+<p>不过比特币在市直上还是远超其它的币，现在处于第一的比特币就甩了第二名的以太坊好多条街：</p>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/2526850-c0b1f85326d1c1d8?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image" /></p>
+
+<p>虽然比特币包括其它的数字货币只是区块链的一个产物，但是比特币对人们的影响和价值，已经是不可磨灭的事实。</p>
+
+<p>如果哪天，你也卖披萨，记得叫上我。</p>
+
+<p>我的相关文章：</p>
+
+<p>1.<a href="http://mp.weixin.qq.com/s?__biz=MjM5NDIyNjEyOQ==&amp;mid=2247484078&amp;idx=1&amp;sn=34618791a6fbb32baa8f964b6b9dc7a2&amp;chksm=a68a481091fdc10612009380f4eb2e8fa84f850ff9b56d316c3bd8f2f5202962d368c93ea171&amp;scene=21#wechat_redirect">通过苍老师教程理解什么是区块链比特币挖矿</a></p>
+
+<p>2.<a href="http://mp.weixin.qq.com/s?__biz=MjM5NDIyNjEyOQ==&amp;mid=2247484266&amp;idx=1&amp;sn=b43321c4c1a165ab6261343d418d4a12&amp;chksm=a68a49d491fdc0c2cb337bea67ba33a0182e2612ecea9a6aae6c66a6cecdd159da7da5f82da0&amp;scene=21#wechat_redirect">谈谈文字和货币</a></p>
+
+<p>3.<a href="http://mp.weixin.qq.com/s?__biz=MjM5NDIyNjEyOQ==&amp;mid=2247484280&amp;idx=1&amp;sn=116e13ca9e61e6ab9566e9f49802dce3&amp;chksm=a68a49c691fdc0d03f3d8006d43837e9b75cbeb17c1585eafc741e6a5139f6bb4ce75c89dd18&amp;scene=21#wechat_redirect">真心希望区块链和智能交易越来越牛逼</a></p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="8042338" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/35.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/07/17/bitcoin-pizza/</guid>
+            <pubDate>2018-07-17T15:53:04+08:00</pubDate>
+            <itunes:duration>334.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>编程人生中的一些经验分享</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">1. 怎么让自己比别人牛逼一点点？</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">2.选择是很重要，但是要学会选择很难</a></li>
+</ul>
+
+<h2 id="section">1. 怎么让自己比别人牛逼一点点？</h2>
+
+<p>其实说实话，现在不管是培训出身还是院校出身，现在开始去互联网公司上班，相对来说起步有一点晚了，工作也没有以往那么好找了。</p>
+
+<p>不过你应该可以看到一个普遍的现象，就是现在大多的程序员在编程的时候，所借助的资源大部分来源于百度，CSDN博客，还有一些其它的论坛。 不是说这些不好，只是大部分质量参差不齐，有些博客抄来抄去，你很难去费很多时间精力去筛选，去辨别。</p>
+
+<p>那么这个时候应该怎么办呢？最好的方式就是走比别人相对难一点点的路，怎么说呢？就比如别人在百度的时候，你已经花了点钱自己搭了个vpn上google搜索第一手资料，别人在看国内的博客的时候，你已经一边翻译一边看着官方文档，虽然很多英语都不懂，但是如果坚持一点一点坑下去的话，其实差距慢慢就拉开了。当别人还在把遇到的报错截图发给别人问怎么办的时候，你已经学会试着看看源代码别人是怎么写的。你会去github上pull跟自己最近水平相当的项目进行学习了等。</p>
+
+<p>这以上举的例子要说明的就是：虽然起步比别人晚，但是不代表结果就是人家先到终点，别人在一小步一小步的走甚至停留在原地的时候，我们可以让自己的步伐跨的大一点，也就是提高自己的起点，当然刚开始很难，但是能够转变这种思维，一直坚持下去的话，到时候回头看的时候，才发现，原来你已经走了这么远了，而别人，还在原地。</p>
+
+<h2 id="section-1">2.选择是很重要，但是要学会选择很难</h2>
+
+<p>我们都知道，选择比努力重要，如果你一不小心选择错了方向，那么很可能就南辕北辙了，这是非常不值当的，如果能在对的方向努力下去，那么有一天才能收获你的果实。举个不恰当的例子：你去追一个女孩子，人家对你一点兴趣都没有，你一个劲的给对方自以为的感动，人家只会觉得很烦，离你越远越好。</p>
+
+<p>所以选择是很重要的，你需要要有辨别能力，需要对信息有足够的敏感度，比如现在新手，想要开始学编程，从事互联网的事业，那么选择什么方向呢? 是Android，还是iOS，还是java，还是 python？ 如果这时候你没有一个好的选择，真的不同的努力结果差别会很大。</p>
+
+<p>就拿 Android 和 python 来说，现在 Android 开发已经没有那么火了，为什么？市场已经很饱和了，而且现在Android对中高级的人才需要比较多，而如果你现在开始学Android，学个一两年，到时候可能你已经算是Android中级开发者了，可是人家不需要了。</p>
+
+<p>而现在的人工智能，数据分析，区块链等都是趋势，这时候 python 借势火了一把，很多公司都需要 python 的人才了， 所以从现在来说，一个学习 Android，一个学习 python，一年后，谁更容易找到工作，谁更被需要？ 答案肯定显而易见了。</p>
+
+<p>选择是很重要，但是要学会选择很难，因为你需要信息的敏感认知，而这些信息不是说你看书就能找到了，你需要有自己的圈子，有一个环境，有一个耳渲目染的地方，而这些，除了靠自己的人品之外，还需要自己多提升自己，打入更大的圈子，去学习，去交流。</p>
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="7424966" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/34.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/07/12/programming-ecperience/</guid>
+            <pubDate>2018-07-12T16:10:37+08:00</pubDate>
+            <itunes:duration>308.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>什么是区块链，真心希望区块链和智能交易越来越牛逼</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">1.中本聪的区块链</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">2.竞争记账</a></li>
+  <li><a href="#section-2" id="markdown-toc-section-2">3.工作量证明</a></li>
+  <li><a href="#section-3" id="markdown-toc-section-3">4.为什么那么多人都觉得区块链牛逼？</a></li>
+  <li><a href="#section-4" id="markdown-toc-section-4">5.智能合约</a></li>
+  <li><a href="#section-5" id="markdown-toc-section-5">5.相关文章</a></li>
+</ul>
+
+<p>身处互联网时代的我们已经对这么高效的信息传递司空见惯。以前要下载一部小黄片或者想听听周杰伦新出的歌都特么很心疼自己的 2g 手机流量。</p>
+
+<p>有些小黄片网上找不到，还得花点钱找手机店的老板帮忙下载。但是现在不一样了，互联网已经牛逼的把这些信息不对称给打破了。想要利用信息不对称赚点小钱越来越难了，所以现在的手机店老板还是乖乖的卖手机，修手机，忽悠一下大爷大妈比较实际一点。</p>
+
+<p>虽然互联网在一定程度上打破了信息不对称，也给我们的生活带来许许多多的便利。不过对于信息本身的价值，却很难得到保护，比如说前一阵子的差评洗稿，现在云盘上的一系列付费教程都被分享个精光等。许多版权都得不到很好的保护，虽然现在很多官方都在保护版权方面加强了力度，不过呢，问题多多少少还是有。</p>
+
+<p>信息与价值是密不可分的，然而互联网做不到将信息和价值一起传递。还有我们现在的数字电子货币，互联网也做不到不依赖第三方。</p>
+
+<p>在《谈谈文字和货币》中有说到我们现在依赖的第三方产生的一些信任问题，成本问题。</p>
+
+<h2 id="section">1.中本聪的区块链</h2>
+
+<p>所以中本聪大哥认为这样不对劲，如果有一种去中心化的系统来记账，不依赖第三方的情况下能够可靠没毛病就好了。</p>
+
+<p>但是要做成这样的系统是很复杂的，首先要确保以下两个问题：</p>
+
+<p>第一，账本的数据，每个参与的人都可以存储一份。不能够被第三方掌控着。</p>
+
+<p>第二，每个参与的人都有权利记账。不能够被第三方掌控着。</p>
+
+<p>对于第一点来说有点类似于我们的某一项目，项目里的数据库，用户产生的数据，在每一台服务器都放一份。也就是分布式。并不是很复杂，只要能保证参与的每个人都能保存到完整的账本就可以了。</p>
+
+<p>不过对于第二点来说就不是那么简单了，想想每个参与的人都可以记账，那岂不是乱了套？如果有人花了 100 块钱去爽了一把却在账本上记了 1000 元怎么办？且不说这种恶意乱来的，即使每一个人都本着善良诚实来记账，但是每个人所处的环境不一样，接收到的记账信息也会有偏差的，所以账本会出现不一致的情况！</p>
+
+<p>记账，账本都不一致。那还记个毛线？</p>
+
+<p>所以要同时满足以上两个条件，难！不过对于中本聪大哥来说，难，不代表不能。男人，总不能因为遇到一点难题就退缩吧？</p>
+
+<p>那么怎么办呢？</p>
+
+<h2 id="section-1">2.竞争记账</h2>
+
+<p>中本聪大哥构思了一个叫<a href="https://zh.wikipedia.org/zh-hans/%E5%8C%BA%E5%9D%97%E9%93%BE">区块链</a>的系统，这系统有个核心的东西叫「竞争记账」。正是因为这一关键才解决了上述的问题。</p>
+
+<p>那么是怎么解决的呢？</p>
+
+<p>竞争记账说白了就是让每个计算机的算力来竞争，谁的算力牛逼就拥有一次记账的权利。</p>
+
+<p>在比特币系统里面，大概每十分钟就会有一次比赛，比如你的计算机很是牛逼，通过算力跟别的计算机pk，最终你赢了，那么恭喜你，你拥有一次记账的权利。那么你就可以在这一轮中向账本记账，然后同步到其它人的账本中去。那么多只眼睛在看着你记账，所以由不得你乱来。</p>
+
+<p>不过你这时候可能会想，老子辛辛苦苦通过竞争赢得了比赛，还要去记账，这何必呢？</p>
+
+<p>中本聪大哥早就看出了你的心思，不给点动力刺激一下，怎么会有人去竞争记账呢？所以会给每一轮优胜者奖励比特币。</p>
+
+<p>而这一奖励过程实际上也解决了去中心化系统中比特币的发行难题。</p>
+
+<p>不过你可能会想，那有人作弊怎么办，怎么能保证大家的算力竞争都是平等公平参与的呢？</p>
+
+<h2 id="section-2">3.工作量证明</h2>
+
+<p><a href="https://zh.wikipedia.org/zh-hans/%E5%8C%BA%E5%9D%97%E9%93%BE">区块链</a>有个叫做「工作量证明」的机制，简单点说就是我扔给你一堆碎片，让你拼成一张图，虽然我没有一直盯着你在拼图，但是最后能看到一整张图被拼好了，那么就证明你确实做了这么多工作了。所以区块链也是这样，通过一个又一个特定的结果来确认每个参与者是不是完成了相应的工作量。</p>
+
+<p>不得不佩服中本聪大哥，搞这么一套「奖励  算力竞争  记账  奖励」循环系统，把去中心化记账难题给解决了。还不知道他本人是谁。可能中本聪是崔健的粉丝，假行僧听太多了：</p>
+
+<p>我要从南走到北, 我还要从白走到黑</p>
+
+<p>我要人们都看到我, 却不知我是谁</p>
+
+<p>我不愿相信真的有魔鬼, 也不愿与任何人作对</p>
+
+<p>你别想知道我到底是谁, 也别想看到我的虚伪</p>
+
+<h2 id="section-3">4.为什么那么多人都觉得区块链牛逼？</h2>
+
+<p>因为区块链这种「共识机制」使得去中心化成为可能，在区块链面前，中介什么的无法恶心我们。此外，本文提到的互联网不能同时传递信息和价值，而区块链可以通过脚本语言来转移价值，所以那些以数字形式进行价值传递的都可以用区块链实现。</p>
+
+<p>在需要信任的地方，就可以有区块链。</p>
+
+<p>传统的记账方式说白了就是记录，仅仅是记录一下，但是区块链就不一样了，它是可编程的，也就是说区块链不仅仅是记录，它可以通过程序自动进行交易。</p>
+
+<p>比特币的一个典型的例子就是「多重签名技术」，通过脚本实现智能交易，例如在一个多人共同管理的账户里，系统本身已经事先写好了脚本，如果达到了事先约定数量的人同意了，那么才能对账本的钱进行交易，这个过程完全是系统本身执行，完全不依赖于第三方。</p>
+
+<p>if(超过50%人同意){
+   可以动用账户的钱;
+}else{
+   滚蛋；
+}</p>
+
+<h2 id="section-4">5.智能合约</h2>
+
+<p>区块链上的智能合约也大概如此，系统把合同用代码的形式搬到区块链上来，这合同不需要任何人来监管，系统自动执行，只要符合条件，就执行合同的内容。比如说最近世界杯比赛，你赌阿根廷会赢，只要通过智能合约事先通过脚本规定好，你把钱扔进系统里，只要阿根廷赢了你就赚大钱，迎娶白富美，那么这时候系统等比赛完之后，会自行根据比赛结果判定，完全不需要第三方参与。当然了，结果阿根廷输了，梅西都不慌了，你还在凉凉。</p>
+
+<p>真心希望区块链和智能交易越来越牛逼，到时候我们的生活又是一种翻天覆地的变化。就像互联网越来越牛逼一样，我们再也不用花钱去买小黄片了。</p>
+
+<h2 id="section-5">5.相关文章</h2>
+
+<p><a href="https://www.wistbean.com/blog/2018/06/20/words-and-money/">聊区块链之前，先谈谈文字与货币</a></p>
+
+<p><a href="http://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html">区块链入门教程</a></p>
+
+<p><a href="区块链是什么，如何简单易懂地介绍区块链？">https://www.zhihu.com/question/37290469</a></p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="17978089" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/33.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/07/03/qukuailian/</guid>
+            <pubDate>2018-07-03T01:01:02+08:00</pubDate>
+            <itunes:duration>748.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>聊区块链之前，先谈谈文字与货币</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">文字承载着信息</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">货币与信任</a></li>
+</ul>
+
+<p>在聊什么是<a href="https://zh.wikipedia.org/zh-hans/%E5%8C%BA%E5%9D%97%E9%93%BE">区块链</a>之前，先谈谈文字与货币</p>
+
+<p>有这么一个故事，说的是一群只说一种语言的人在“大洪水”之后从东方来到了示拿地区，并且决定在这修建一座城市和一座「能够通天的」高塔；上帝见此情形，发现人类太特么牛逼了，如果他们一旦建立起来，那么人类一定吊炸天，所以上帝就把他们的语言打乱，让他们再也不能明白对方的意思，还把他们分散到了世界各地。</p>
+
+<p>他们要建的这个塔的名字叫做「巴别塔」，故事来自《希伯来圣经》。</p>
+
+<p>想想就牛逼，如果整个人类真的能够零障碍的交流起来的话，那真的能上天！</p>
+
+<h2 id="section">文字承载着信息</h2>
+
+<p>而人类交流过程中的载体就是文字和货币，文字语言承载的是信息，而货币承载的则是信用。</p>
+
+<p>文字在精神层面得到发展，货币在物质方面得到传承。文字出现之前人类的交流主要靠口授，他们的记忆也只能来自传说，到了文字的出现，人类开始有了深层次的记忆，有了思考，有了逻辑，有了思想等等。</p>
+
+<p>印刷术的出现更是让人类的知识传播得到了质的飞跃，再到第二次工业革命的电报，电话的出现，人们的信息时代出现了雏形。</p>
+
+<p>互联网的发明，标志着信息时代的到来，人们的信息竟然可以被互联网量化，将信息量化为一个又一个的「比特」。想想以前人们知道用「米」来量化距离，「克」来量化种类，「牛」来量化力。哪里还知道有个叫做「比特」的东西这么牛逼的存在。甚至还迎来了信息爆炸的时代。</p>
+
+<p>信息的不断演化，信息的革命已经深刻的改变了人们的精神层面的交流。</p>
+
+<h2 id="section-1">货币与信任</h2>
+
+<p>而货币和信用的关系是密不可分的，可以把货币当做是信任系统。</p>
+
+<p>不过货币在一开始的时候并没有建立信任，人们要求货币本身要有实际上的价值。比如说你需要拿「两根棒棒糖」才能换我的 one night stand。你拿一张画着数字的纸没用，老子不认。</p>
+
+<p>这是传统的货币理论，他们认为货币的本质就是商品，就是一般等价物。</p>
+
+<p>而现在呢，货币已经是信用的象征，货币不需要有什么实际上的价值，但是它具有一定的购买力，而这种购买力的背后就是人们都相信：「货币是具有价值的」。哪怕它实际上一文不值，但是只要人们都相信它有价值，它就是有价值的了。所以现在货币的最本质的属性就是信用。</p>
+
+<p>现在我们已经很少使用现金了，出门带个手机，手机已经绑定了银行卡，微信支付，支付宝支付现在国人用的最6，这些电子货币的产生本质上也是因为我们都相信，这些数字就是有价值，就是有购买的能力。</p>
+
+<p>不过现在的电子货币还是处于初级阶段，我们知道我们都依赖银行，依赖微信，依赖支付宝这些第三方的机构才能够顺畅的去买买买。这些第三方是不是值得信赖，传输成本是不是不利于我们，这些信用与价值的问题能否得到改善？</p>
+
+<p>相信你应该知道答案了！</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="6514774" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/32.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/06/20/words-and-money/</guid>
+            <pubDate>2018-06-20T22:11:18+08:00</pubDate>
+            <itunes:duration>270.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>为什么我会推荐新手从Python开始学习编程</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>人生苦短，为什么要学习python呢？</p>
+
+<p>1.现在 Python 已经成为世界上最流行的编程语言之一了，而且大部分的Linux系统，MacOS系统都直接内置了 Python ，就问你牛逼不？</p>
+
+<p>2.现在连小学生都开始学习 Python 了，Python 已经纳入了某地区小学的教材了。Pyhon 已然成为了编程界的 “网红”，现在程序员们可能不知道Cobol，Basic，Pascal，Perl，Ruby，但没有一个程序员不知道Python的。</p>
+
+<p>3.上手简单，现在很多从来没接触过编程的人都着手开始学习Python 了，我有一朋友，之前没有任何编程基础，学了半年多找到了份工作，工资12k妥妥的，不过不要去羡慕别人的数字，人家背后的努力你没看到而已，如果你现在也是没有任何基础或者想要从0学习 Python ，那么你来对地方了！因为人生苦短，我们一起搞 Python。</p>
+
+<p>4.web开发，科学计算，3D建模，人工智能，嵌入式开发，云计算，大数据等等都特么能看到Python的身影，不知道你知不知道NASA（美国宇航局）使用Python来开发用于系统集成和卫星，火箭的测试自动化么？还有网易，腾讯，搜狐，金山，豆瓣，YouTube ，google，雅虎（太多，举例不完）都在用Python。所以这么牛逼，何不 pick up python 呢？</p>
+
+<p>5.用 Python 可以做很多事情，可以爬取你想要的数据，可以做外挂，之前的微信跳一跳，12306抢票等都可以用Python实现，还有很多数据分析，项目系统，聊天系统，游戏等等多了去了。所以这么牛逼，何不 pick up Python 呢？</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="4711274" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/31.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/06/20/why-lean-python/</guid>
+            <pubDate>2018-06-20T01:40:53+08:00</pubDate>
+            <itunes:duration>195.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>GitHub把自己卖给微软50亿，对开发者未必是好事</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>今天看到新闻说微软收购 GitHub 已经完成了，就差最后的公布了！</p>
+
+<p>其实在 2016年 的时候，微软也有个开放源代码托管网站来的，名字叫做 CodePlex ，意在为工程师建立一个可供代码下载和共享的社区。</p>
+
+<p>不过在2年后 GitHub 诞生了，很多人都转移阵地，投向 GitHub 的怀抱。微软那时候不爽啊，那时候频繁对开发人员施压，让他们在CodePlex上做开源项目。</p>
+
+<p>不过没什么鸟用，因为全世界的开放源码几乎都已经汇集到GitHub。所以微软在2017年4月，宣布将其对抗 GitHub 的代码开源库 CodePlex 关闭。</p>
+
+<p>现在微软是 GitHub 的最大贡献者，有超过 1000 名员工积极地将代码推送到 GitHub 的存储库上。</p>
+
+<p>其实 GitHub 早就想把自家卖了，只不过一直找不到合适的人选！听说这次被收购的部分原因是微软的CEO 「Satya Nadella」。</p>
+
+<p>有趣的是今天 GitLab 连发两篇博客，一篇恭喜 GitHub 被微软收购，另一篇教大家怎么把代码迁移到 GitLab 上来。哈哈GitLab居心何在？</p>
+
+<p>但是很多人关心的是，微软收购了GitHub，以后国人使用GitHub会不会是个问题，比如是不是GitHub上的某些特殊项目访问不了，接下来有可能强制实名，绑上手机或者绑上微软的office365 ID，还是会像「必应」那样，搞个国内版和国际版，那就特么恶心了！</p>
+
+<p>可能这次对于 GitHub 来说是好事，但对于我们，未必是好事！</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="3797901" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/29.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/06/01/douyin-pk-tencent/</guid>
+            <pubDate>2018-06-01T17:55:04+08:00</pubDate>
+            <itunes:duration>157.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>我在b站讲了关于如何使用Git和GitHub</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<h2 id="git">Git</h2>
+
+<p>代码的版本控制管理系统</p>
+
+<h2 id="git-1">Git可以干什么呢？</h2>
+
+<ol>
+  <li>防止代码丢失</li>
+  <li>远程同步代码</li>
+  <li>团队合作利器</li>
+  <li>代码还原</li>
+  <li>记录代码版本</li>
+</ol>
+
+<h2 id="git-2">安装Git</h2>
+
+<h2 id="git-3">Git的常用的操作命令</h2>
+
+<ul>
+  <li>git init 初始化git仓库</li>
+  <li>git status 查看状态</li>
+  <li>git add 将文件添加到git仓库的暂存区</li>
+  <li>git commit 将添加到暂存区的文件提交到git仓库</li>
+  <li>git log 查看日志</li>
+  <li>git branch 查看当前的分支</li>
+  <li>git branch hi 创建一个叫做“hi”的分支</li>
+  <li>git checkout hi 切换分支到“hi”分支</li>
+  <li>git branch -d hi 删除“hi”分支</li>
+</ul>
+
+<h2 id="github">Github</h2>
+
+<p>全球最大的社交编程网站！</p>
+
+<h2 id="github-">Github 有什么用？</h2>
+
+<ol>
+  <li>代码托管</li>
+  <li>多人协作</li>
+  <li>个人博客</li>
+  <li>个人简历</li>
+</ol>
+
+<h2 id="github-1">使用Github</h2>
+
+<ul>
+  <li>star 收藏</li>
+  <li>fork “复制”</li>
+  <li>repository 仓库</li>
+  <li>watch 观察</li>
+  <li>Gist 代码片段</li>
+  <li>Pull Request 请求合并</li>
+  <li>
+    <p>Issue 提问题/bug</p>
+  </li>
+  <li>clone 克隆</li>
+  <li>git config 配置信息</li>
+  <li>git push 将本地代码推送到github上去</li>
+  <li>git pull 将远程的代码更新下来</li>
+  <li>git branch 分支</li>
+  <li>git merge 合并</li>
+</ul>
+
+<p>ssh授权</p>
+
+<pre><code>生成秘钥：ssh-keygen -t rsa
+验证是否授权成功： ssh -T git@github.com
+</code></pre>
+
+<p><code>Hi testWistbean! You've successfully authenticated, but GitHub does not provide shell access.</code></p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="40345016" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/28.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/05/19/git-and-github/</guid>
+            <pubDate>2018-05-19T15:50:45+08:00</pubDate>
+            <itunes:duration>1680.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>自学java的经验分享</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>我是大学的时候才开始接触编程的，不过我上的是一所三流的大学，高三的时候，因为我们班是重点班，所以有一些复读生也来我们班学习，
+高三开始不久我就和一个高四的学姐谈恋爱了，还是我的初恋，所以我高考就GG了… 偏题了，回来说说编程的事情吧，虽然说大学
+是个三流的学校，不过老师都是博士硕士级别的工程师，对于当时的我会觉得他们好像很厉害的样子，不过现在觉得有时候标签这种东西并
+不能说明什么吧。</p>
+
+<p>那时候老师说「移动应用开发」会火，到时毕业一定可以找到工作，所以我就想着主攻「移动应用开发」，也就是 Android ，因为
+Android 的应用层是用 Java 写的，所以一开始学的是「Java基础」。</p>
+
+<p>虽然说去上课，但是真正听老师讲课的人寥寥无几，我也不例外，电脑前演示着老师讲课的PPT，但是视线一直停留在自己手机里的美女上！
+不过有一次老师讲到一个「使用for循环打印星星的例子」，我觉得好好玩，这时候我才发现Java并非那么无聊，我可以通过代码写出打印多少颗星星，
+打印成正三角形的形状，倒三角形的形状，正方形形状等等。第一次有了一种「有想法可以被Java实现的感觉」，从那天起开始对编程产生了兴趣。
+那一天虽然知道了「for循环」怎么写（跟着老师的例子照猫画虎），但是对于Java环境变量怎么配置，二进制是什么，什么是Byte，Long都不懂，
+那时候可以说对于 Java 只知道怎么拼写而已。</p>
+
+<p>因为有些知识点之前没认真听，也发觉老师讲的很无聊，后来我决定自学，自我驱动的学习和被动的学习是两个完全不同的概念，
+我到现在依然认为：真正牛逼的人，都是自学能力极强的人！</p>
+
+<p>我开始上网查询学习「Java基础知识」的资料，无意间发现了某培训机构（是哪个机构就不说了，免得说我打广告）有免费的讲课视频资料，看了一下目录发现
+很全面，于是我下载下来试着看一下，没想到被讲师的幽默讲课方式深深吸引，感觉他不做相声演员都可惜了，于是边笑着看他的视频，边跟着他敲代码，自己
+也做一些笔记。那段时间有时候逃课其实是在宿舍里看他的视频哈哈！</p>
+
+<p>那个视频分为三十来天，不过我是除了跟着他敲代码外，我还会自己做一些笔记，所以我大概花了两个多月才把视频学完的，也就这几个月的时间我从如何打印Hello World，到常量，变量，注释，
+运算，逻辑语句，再到面向对象（可能比较笨，当时想了好几天才明白这一概念），数组，函数，继承，内部类，多态，GUI等，再到集合，多线程，IO流，反射等等有一个
+全面的了解了。</p>
+
+<p>感觉自己把 Java 比较基础的知识学的差不多了，就想着能不能做点好玩的东西出来，记得有一个情人节，那时候我还是有女朋友的人，想给女朋友做一个程序，作为礼物送给她，
+有那么一个夜晚，我突然想到能不能用 Java 做一款小游戏，游戏的主角就是她呢？</p>
+
+<p>想想还是有点激动的，后来我模仿了「坦克游戏」，不过玩家的坦克是我女票的头像，而很多敌方坦克就是我的头像，然后子弹被我改成❤️（爱心子弹，害羞）。
+用了几天的时间把它做出来觉得好有成就感，最后我把这个游戏打成jar包送给我女票当作礼物，然后看她玩的时候一直在互相发射爱心，不过敌方的“我”又多，射出的爱心子弹又快
+每次玩不久她就“挂”了，老是叫我去修改一下游戏速度，让她赢哈哈。不过现在的她已经不属于我了，哎，想想还是有点小伤感呢，我是不是又跑题了 - -</p>
+
+<p>因为我一开始就知道我学 Java基础 是为了去开发 Android 应用，那时候觉得能在手机上把玩自己开发的 APP 是一种牛逼的存在。所以我又去找了一些「Android入门教程」的视频
+来学习，因为自己有了一定的 Java基础知识 ，所以对「Android入门教程」视频学起来倒不觉得很难，反而是想着快点学完然后做个有意思的APP出来，所以那时候对Activity，Service的生命周期、
+一些诸如TextView，EditView基础的组件、诸如LinearLayout的容器组件、广播、Intent、内容提供者消费者、Sqlite等基础内容都学的比较认真。</p>
+
+<p>慢慢的我开始写了一些demo，但是发现很不满意，原因是我感觉自己写的东西很简单，几个界面跳来跳去，几个增删改查，好像就没什么了，感觉自己没有什么项目经验，而且停留在很基础的层面。
+于是我上网去搜索一些Android相关的资料，发现了CSDN上的郭霖大佬，发现他写的博客通俗易懂，那时候他每篇博客我都看，慢慢的我又认识到了老罗，他写的东西很深，有时候我看不懂 - -，
+发现了阮一峰的博客，再到后来我又发现在知乎上的 stormzhang ， 我这才发现当时自己有多low，这些大佬们经验满满，我从他们身上学到了自定义View，性能优化，网络编程，第三方框架等等比较进阶的东西，
+不过更加让我学习到的是他们的执行力，他们的认知，他们对信息的敏感。</p>
+
+<p>举个例子：记得 Android Studio 刚出来那会，我只是觉得 Android Studio 应该和 Eclipse 差不多吧，不就是个编辑器，而且Android Studio 刚出来的时候我下载体验了一下卡的要死，我二话不说就把它给卸载了，
+什么垃圾玩意。不过后来我发现大佬们都在用 Android Studio ，而且一直在建议更换为Android Studio，我记得之前大佬们还专门写了Android Studio的教程。受他们的影响，我把Android Studio下载回来，
+随着Android Studio的迭代，我才发现这编辑器简直了，这快捷键，这体验，简直完爆 Eclipse。现在还看到有些人还用Eclipse开发，没用过Android Studio或者InteliJ IDEA，说实话，我面试到这样的人一般会直接pass掉，
+并不是说Eclipse不好，而是认为，如果不拥抱新的事物，总是固步自封，那么很快会被淘汰！</p>
+
+<p>也是那个时候，我发现了原来还有一个叫做「GitHub」的东西，简直打开了新天地，上面有许多大牛分享代码，聚集了全世界的程序员，吓得我赶紧去学习了Git的操作命令，
+clone了几个觉得适合我当时学习的Android项目源码！</p>
+
+<p>后来和朋友参加软件杯比赛，能写出比较像样的APP了，看着APP从想法到实现，确实能带来很多成就感，也许对别人来说并不完美，但是自己亲手写出来的，自己debug出来的APP，就
+是有不一样的感觉，觉得像自己的孩子一样哈哈！</p>
+
+<p>在大学期间，自己用PS画UI，使用第三方的接口，琢磨着做了几个小众的APP，后来将这些APP都装在自己的手机上，面试的时候一边演示一边跟面试官吹吹牛逼，倒也拿了几个实习offer。
+后来自己选了初创公司，刚开始就让我接手一个比较大的项目，功能挺多的，商品上下架，第三方支付，商家入驻，到后来甚至还做了附近的人，聊天约炮交友，抽奖等功能，我和另一个小伙伴负责这个项目
+的Android端，虽然期间遇到了许多问题，如代码混淆打包闪退，不同手机兼容适配，支付配置不正确等等，也曾怀疑自己是不是能行过，但还是一一解决了，前前后后花了快一年时间也在应用市场上架了好几版，不过用户寥寥，
+可能你应该想到了，产品还没运营，就夭折了。现在回头想想，产品思维确实重要。</p>
+
+<p>接着也做了几款别的APP，表现也是平平 - -</p>
+
+<p>可能因为表现的还行，后来老大说有个公众号的小项目，后端让我来搞怎么样，当时自己也发现原生APP的开发趋势下降了，H5越来越火，
+然后跟老大说给我三天熟悉一下Java后端的，他说没问题，没想到这一决定让我开始转向后端开发了…</p>
+
+<p>其实这三天主要研究了下 JSP , Servlet ,还看了点 struts2 框架，然后也算按计划时间倒腾出来了那个小项目，也是因为这个小项目我对
+后端开发产生了些许兴趣，我觉得写逻辑接口提供给前端调用好像比较牛逼。</p>
+
+<p>那段时间开始研究 SSH2 框架，使用它做了一个电商项目，接着发现很少人用 SSH2 了，然后研究了 SpringMVC 框架，JDBCTemplate ，进一步学习
+Mysql的索引、视图，使用 PowerDesigner 设计数据库，Nginx ，Linux 操作系统环境搭建，操作命令，网络协议等等</p>
+
+<p>不过之前做的很少涉及到高并发，后来比较流行SSM框架了，也使用过它来做一些分布式的项目，慢慢的了解到了连接池、消息队列、定时、缓存、搜索引擎、
+渲染模板引擎等等。</p>
+
+<p>由于SSM配置繁琐，现在Spring Boot/Spring Cloud这样的高效框架也越来越多人开始使用了。</p>
+
+<p>越往后越发现基础的东西很重要，比如多线程的同步异步，各种集合的实现原理，面向对象，反射技术等！当然我非常不推崇那些对刚入门想学的同学
+推荐一堆诸如：各种设计模式，JVM调优，负载均衡，各种数据结构和算法，链表、排序树，分布式存储，对象池，连接池，网络三次握手过程等等。
+人家还没开始学，就给吓跑了 - -</p>
+
+<p>所以我建议Java自学入门先从基础开始，再进阶到会使用各种框架，再慢慢了解其原理，加以项目辅助练习，最后再回来补充自己的弱项例如操作系统，数据结构，算法，网络！</p>
+
+<p>列个大纲吧：</p>
+
+<p>初级入门知识点：
+- 基本的语法
+- 数组
+- 面向对象
+- IDEA工具使用，相信我，别用eclipse了！
+- 常见对象的使用
+- 集合框架
+- IO流
+- 多线程
+- GUI（可选）
+- Java网络编程
+- 反射
+- 《疯狂Java讲义》类似书籍或视频教程</p>
+
+<p>进阶知识点：
+- 《Effective Java》类似书籍
+- 数据序列化 JSON
+- 项目构建管理 Maven
+- 托管利器 Git
+- Spring 容器
+- Spring MVC框架
+- 安全框架 Shiro
+- ORM框架 MyBatis
+- 数据库连接池
+- 模板引擎
+- 分布式缓存数据库 Redis
+- 分布式全文搜索引擎 Solr
+- 任务调度框架 Quartz
+- 消息队列 MQ
+- 日志组件 Log4J
+- 分布式服务框架 Dubbo
+- 分布式协调服务 ZooKeeper
+- 微服务 Spring boot 、 Spring Clound</p>
+
+<p>完善知识点：
+- 《深入分析Java Web技术内幕》类似书籍
+- JVM
+- NIO
+- 设计模式
+- Linux操作系统
+- 数据结构
+- 算法
+- 计算机网络
+- 数据库优化</p>
+
+<p>我相信一个人去关注这一问题，或者看到这里，都是有一颗学习的心，不过很多人被所谓的过来人扔一堆「晦涩难懂的技术名词」吓到，
+我是非常讨厌这样的人的，自以为很牛逼，摧毁初学者的信心， 凸！</p>
+
+<p>建议入门的童鞋可以先看视频教程，因为有老师在演示会比较好理解，记得总结，总结很重要！
+还有一点就是不要加入所谓的Java开发讨论群，Java学习群，因为十个有九个是在里面瞎逼逼，开车的！
+还有一点就是使用Google，不要用百度！</p>
+
+<p>希望以上的内容能给你带来帮助，如果能，我会很开心，如果不能，当做有个傻逼瞎逼逼一顿就好了。</p>
+
+<p>对了，我有个公众号叫「肯定会」，如果你愿意的话，来一起玩！</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="20019491" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/27.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/05/14/lean-java/</guid>
+            <pubDate>2018-05-14T14:52:08+08:00</pubDate>
+            <itunes:duration>833.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>产品经理，你不懂技术还老是跟我BB</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>在互联网公司有这么一个角色，叫 产品经理，简称PM！</p>
+
+<p>话说程序员在上辈子就欠了PM五毛钱，所以你可以看到在很多地方的程序员都会吐槽PM：连技术都不懂，怎么当PM？
+这时候PM不仅要向你要回五毛钱，还怼你一句：“老子要是会技术，要你何用？”</p>
+
+<p>产品经理是不是一定要懂技术呢？</p>
+
+<p>一般情况下，产品经理在负责一个项目的时候，会通过这么几个阶段：</p>
+
+<p>1.需求收集，通过内部需求和对竞争对手的产品分析等进行数据收集。
+2.需求分析，通过收集到的数据进行头脑风暴。
+3.需求落地，画原型，和技术沟通需求，确认开发的时间。(也就是在这个时候，往往程序员和PM产生分歧)
+4.项目跟踪，项目进度跟进，项目测试，验收。(这个时候也往往程序员和PM产生分歧)
+5.项目上线。
+6.数据跟踪。</p>
+
+<p>这里还是我精简写到产品经理会涉及到的阶段，还有其他产品迭代，用户反馈，需求文档等等流程..
+所以你可以看到 「产品经理在需求落地与技术讨论开发周期」仅仅是产品经理需要做的一个阶段，产品经理
+还有很多事情要做。</p>
+
+<p>当然我并不是在替PM说话，只是认为PM需要知道的知识面应该要广，懂的技术会更好，
+但并不是说PM在技术方面懂的越深入越好，而是在整个行业的知识层面认知程度、行业深度的了解程度是否更高。</p>
+
+<p>所以程序员吐槽产品经理的最主要原因还是出现在沟通和相互信任上。
+如果抛开个人情绪不谈，那么程序员在与产品经理首先应该互相建立信任，因为信任是最高级的情感（哇哦，这句话怎么会从我口中说出？），
+在沟通过程中应该相互理解，尽量让对方懂！</p>
+
+<p>PM不懂你的算法实现，不懂你的SQL语句，不懂你的多线程，那么你就简单通俗的解释给PM听，我这么做是为了性能更稳定。
+PM也不要说什么老子不管，你就要在下班前把结果给我弄出来！最好的方式是面带微笑的说，如果这个做不了，我们可不可以用其它的方式？</p>
+
+<p>当然还有一种“假PM”，技术不懂不说，自己该懂的东西一知半解，那对于这种“假PM”来说我们不需要还他5毛钱！</p>
+
+<p>不过我相信这种“假PM”存活不久，所以珍惜你现在的PM，毕竟有些人或者事，错过了才后悔莫及！</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="5576402" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/26.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/04/28/product-manager/</guid>
+            <pubDate>2018-04-28T22:56:19+08:00</pubDate>
+            <itunes:duration>231.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>个人简历</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>我记得我小的时候，总有那么几个小伙伴跟我玩的很好，一起在田野里面玩泥巴，打稻草人，放风筝…
+到了饭点妈妈就会去喊我回家吃饭。愉快的跑回家，小小的手端着盛满饭菜的碗儿，坐在四合院门口边吃边
+把吃剩下的骨头丢给邻居家的狗儿。</p>
+
+<p>狗儿很听话，我吹个口哨，他就来了，我吃完饭，他就走了…</p>
+
+<p>我很庆幸小的时候没有在城市生活，而是在乡村，让我体验了太多太多儿童的快乐。又让我想起了沈复的《童趣》，</p>
+
+<p>“余忆童稚时，能张目对日，明察秋毫，见藐小之物必细察其纹理，故时有物外之趣。
+ 夏蚊成雷，私拟作群鹤舞于空中，心之所向，则或千或百，果然鹤也；昂首观之，项为之强。
+ 又留蚊于素帐中，徐喷以烟，使之冲烟而飞鸣，作青云白鹤观，果如鹤唳云端，为之怡然称快。”</p>
+
+<p>后来到了所谓的城里上了学，偶尔还成绩好点给老师夸一下，也叛逆过，逃了课，抽了烟，泡了妞，被老师叼…</p>
+
+<p>到了大学，各种部门社团，才发现我也要写简历，去面试..</p>
+
+<p>那是我第一次写简历，很认真的思考，自己会些什么。不过后来才发现，社团这种东西，
+简历不是主要的，主要还是要靠我的颜值，毕竟师兄师姐知道你才刚上大学，能有什么能耐？</p>
+
+<p>后来步入社会要开始找工作了，又要写简历了…</p>
+
+<p>那时候写简历很简单：就是打开word文档，然后想想自己做了什么项目，一股脑的写上去，在最后面说几句自己有多吃苦，多想为公司带来利益。
+然后在网上开始一顿投简历，结果找我去面试的人寥寥无几 - -</p>
+
+<p>我上次就看到一个国外的简历，简直刷新了我的三观，地址在这：http://rleonardi.com/interactive-resume/
+人家把简历弄得跟玩一样 - -</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/cv1.png" alt="wistbean简历" /></p>
+
+<p>所以我认为在写简历的时候呢，你应该站在面试官的角度去想，如果我是他，我想要看到的是什么，是项目经验？是工作年限？是简历上的照片？
+简历的格式排版？</p>
+
+<p>不管怎样，我认为你应该很想让他对你的简历留下深刻的印象，并且看完会迫不及待的找你面试的吧~</p>
+
+<p>不妨看看以下这样的简历，或许能给你带来一些思考:</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/b.gif" alt="wistbean简历" /></p>
+
+<p>做什么事情，比别人多花一点心思，就更容易脱颖而出!</p>
+
+<p>地址在这：https://www.wistbean.com/public/index.html</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="5265281" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/25.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/04/23/resume/</guid>
+            <pubDate>2018-04-23T22:12:05+08:00</pubDate>
+            <itunes:duration>218.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>我最近发现的两个问题</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>我最近发现两个问题。</p>
+
+<h2 id="section">第一，信任一个人</h2>
+
+<p>一个人看到的东西和他所处的位置以及观看的角度是有一定的关系的，你哪怕是上帝视角，也不会是所有东西都尽收眼底的，
+因为表面的只是一层外壳，有些外壳被装饰的很漂亮，差不多可以称得上是艺术品了，如果你对某一个物体进行细致的观察，
+也许会发现，这和你之前看到的有可能会有出入。</p>
+
+<p>举一个不恰当的例子，你看到你的朋友在电脑前看小视频，前前后后花了40分钟了，不过你并没有跟他坐在一起，从头到尾看他
+在做什么，或者说没有大部分时间看他在做什么，你只知道他在看视频，花了40分钟。但是殊不知，他是花了39分57秒钟在搜索
+好看的视频内容！</p>
+
+<p>所以我个人认为要去信任一个人，应该不是简单的签个协议，也不是嘴上说的很6，我们在一起干，然后一定会怎样怎样，而是应该
+把那层表面的东西掰开，站在同等的角度，观察一段时间，不管是为人方面，专业方面，发现靠谱了，才是值得信任的partner！</p>
+
+<h2 id="section-1">第二，认知</h2>
+
+<p>我以前认为认知就是我学习到的东西，比如我要开发到聊天的功能，那我就会去找相关的资料，使用websocket，websocket怎么去握手，
+握手之后怎么通信？什么是双工通信？怎么去存储信息？用到消息队列？怎么用？</p>
+
+<p>但是我后来才发现，这不是认知，这是「知识」。这些知识我都可以通过google搜索得到，我可以看到相关的demo，相关的文档。而认知
+应该是你在什么样的场景下可以使用什么样的框架，你在什么样的需求下使用什么样合适的解决方案！</p>
+
+<p>这应该就是思维方式的不同，而这种思维方式是google不到的，这需要经验，需要时间，需要环境，就好像几年前有人叫我去买比特币，
+有人告诉我python语言会火，移动原生的APP开发趋势会下降，人工智能和区块链接下来会是个机会等等。这些都是他们的认知，而比特币
+的技术原理，python语言怎么去编写等等这些是知识。</p>
+
+<p>so：知识很重要，认知提升更重要！</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="5102497" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/24.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/03/25/think-diff/</guid>
+            <pubDate>2018-03-25T17:47:33+08:00</pubDate>
+            <itunes:duration>211.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>一份程序员大礼包</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>精心的收集了一些我觉得很有用的开源书籍，相信看完绝对能大有所益，可以说简直是 「一份程序员大礼包」，废话不多说，进入真题：</p>
+
+<ol>
+  <li>
+    <p>《代码整洁之道》 让自己的代码看起来舒服，整洁。</p>
+  </li>
+  <li>
+    <p>《程序员的自我修养》 想要成为一个合格的程序员，扎实的基础是必不可少的。想要成为一个优秀的程序员，对计算机的发展需要有深入浅出的了解。那么不如我们说说其中某些方面的前世今生。</p>
+  </li>
+  <li>
+    <p>《Growth 全栈增长工程师指南》 这是一本不止于全栈工程师的学习手册，也包含了如何成为一个「Growth Hacker」。</p>
+  </li>
+  <li>
+    <p>《Pro Git》 团队合作利器Git，版本控制管理，这本书希望借助于你新学到的 Git 内部原理的知识，你可以实现自己的有趣的应用，并以更高级便利的方式使用 Git。</p>
+  </li>
+  <li>
+    <p>《Linux从入门到不放弃》 如果你从来没接触过Linux系统，正在找一份通俗易懂的入门教程，可能这正是你需要的。</p>
+  </li>
+  <li>
+    <p>《零基础学python》 python入门。</p>
+  </li>
+  <li>
+    <p>《Java数据结构和算法》 程序员必备，数据结构和算法的经典书籍。</p>
+  </li>
+  <li>
+    <p>《MySQL权威指南》 MySQL已经成为了最流行的开源数据库，Linux+MySQL算是标配了，这本书可以作为入门基础。</p>
+  </li>
+  <li>
+    <p>《IntelliJ IDEA 简体中文专题教程》 使用IDEA开发过的都知道，用了之后完全知道什么叫做编辑器，强大的插件和快捷操作，开发效率杠杠的。</p>
+  </li>
+  <li>
+    <p>《精通比特币》 从技术的角度去理解比特币。</p>
+  </li>
+  <li>
+    <p>《LeetCode题解》 面试遇到算法难题？要不在这里刷一刷。</p>
+  </li>
+  <li>
+    <p>《像IDE一样使用vim》 vim 是一款面向于程序员的编辑器，即使某些功能 vim 无法直接完成，借助其丰富的插件资源，必定可以达成目标。</p>
+  </li>
+</ol>
+
+<p>书不在多，在于精，以上12本书算是质量很高的了！</p>
+
+<p>以下是截图：</p>
+
+<p><strong>获取方式： 在公众号 「肯定会」 发送 「程序员」 就可以直接免费获取到以上这一份程序员大礼包了。</strong></p>
+
+<p>如果你觉得有用，点个赞，分享给身边的朋友，下次我再精选一些高质量的开源电子书籍，thanks！</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="5638951" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/23.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/03/16/programer-gift/</guid>
+            <pubDate>2018-03-16T22:26:05+08:00</pubDate>
+            <itunes:duration>234.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>让你的微信变成机器人</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>人，有七情六欲，有喜怒哀乐，有少壮不努力然后老大徒伤悲，有错过了然后才懂得珍惜。而机器人，在我们的印象里面，
+它是没有灵魂的，它只能学习人类的皮毛，然后装模作样，说几句蹩脚的话，走着不协调的步伐。起初机器人在模仿人，
+后来反而有人去模仿机器人。说几句蹩脚的话，走着不协调的步伐，跳着所谓的机械舞。是不是很有趣 :)</p>
+
+<p>张小龙说微信这个用完即走的东西，不止让你走，还会让你时常回来。他的产品理念就是用户至上，非常关心用户的行为和
+使用体验。这里的用户就是人，人们的使用行为以及心里变化似乎被他看透，为什么说是似乎？因为背后有大数据，有各种统计。</p>
+
+<p>有时候我在想，如果我的微信不是我在使用，而是一个机器人在使用，也就是我用着微信就不走了，赖在那里，谁给我发微信，
+我都能24小时回复，是不是很有趣 :)</p>
+
+<p>可能你应该知道，有个网页版的微信，使用手机扫描二维码就可以在网页上和你的朋友们聊天了，它的地址是 https://wx2.qq.com，
+那么我们就可以通过这个网页版的微信，拿到一些「请求规则」，然后接通「机器人的API」玩一玩了，是不是很有趣 :)</p>
+
+<p>ok…进入正题</p>
+
+<p>首先在chrome中打开 https://wx2.qq.com ，打开「开发者模式」，然后我们就可以看到：</p>
+
+<p>二维码登录：</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/we1.png" alt="wechat" /></p>
+
+<p>获取联系人：</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/we2.png" alt="wechat" /></p>
+
+<p>返回联系人信息：</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/we3.png" alt="wechat" /></p>
+
+<p>发送信息：</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/we5.png" alt="wechat" /></p>
+
+<p>数据同步：
+<img src="http://owx1uvd7t.bkt.clouddn.com/we4.png" alt="wechat" /></p>
+
+<p>通过观察我们可以发现微信网页版的大概流程是这样的：</p>
+
+<blockquote>
+  <p>1.打开首页，分配一个随机uuid</p>
+</blockquote>
+
+<blockquote>
+  <p>2.根据该uuid获取二维码图片。</p>
+</blockquote>
+
+<blockquote>
+  <p>3.微信客户端扫描该图片，在客户端确认登录。</p>
+</blockquote>
+
+<blockquote>
+  <p>4.浏览器不停的调用一个接口，如果返回登录成功，则调用登录接口。</p>
+</blockquote>
+
+<blockquote>
+  <p>5.此时可以获取联系人列表，可以发送消息。然后不断调用同步接口。</p>
+</blockquote>
+
+<blockquote>
+  <p>6.如果同步接口有返回，则可以获取新消息，然后继续调用同步接口。</p>
+</blockquote>
+
+<p>我们从开发者工具获取到微信的API之后，我们就可以用代码来调用这些API来使用了，接着我们再找一个
+机器人API（网上有许多机器人的免费API，申请一个KEY就可以使用了）。</p>
+
+<p>那么我们可以当接收到朋友发来的消息之后，将消息作为参数调用机器人API，然后将返回的回复内容，发送给
+对应的朋友就好了(这来截取部分代码)：</p>
+
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+</pre></td><td class="code"><pre><code class=""><span class="line"> if(msgType == 1){
+</span><span class="line">		if(SpecialUsers.contains(msg.getString("ToUserName"))){
+</span><span class="line">			continue;
+</span><span class="line">		} else if(msg.getString("FromUserName").equals(User.getString("UserName"))){
+</span><span class="line">			continue;
+</span><span class="line">		} else if (msg.getString("ToUserName").indexOf("@@") != -1) {
+</span><span class="line">			String[] peopleContent = content.split(":&lt;br/&gt;");
+</span><span class="line">			LOGGER.info("|" + name + "| " + peopleContent[0] + ":\n" + peopleContent[1].replace("&lt;br/&gt;", "\n"));
+</span><span class="line">		} else {
+</span><span class="line">			LOGGER.info(name + ": " + content);
+</span><span class="line">			    String ans = tulinresult(content);
+</span><span class="line">			    webwxsendmsg(ans, msg.getString("FromUserName"));
+</span><span class="line">				LOGGER.info("自动回复 " + ans);
+</span><span class="line">			}
+</span><span class="line">		}
+</span><span class="line">	}</span></code></pre></td></tr></table></div></figure>
+
+<p>效果：</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/222.png" alt="wechat" /></p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/333.png" alt="wechat" /></p>
+
+<p>当然你可以利用微信的API去做一些有意思的事情，比如收到用户的图片信息，然后去调用
+一些识别图片信息的API，然后将信息发送给朋友，或者朋友问你天气，你可以通过天气的API
+获取到天气信息发送给朋友等等。</p>
+
+<p>最后，如果你要源码，想玩玩，可以在我的公众号「肯定会」中发送「微信机器人」获取！</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/robot-3197226_960_720.jpg"/>
+            <enclosure length="7080083" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/22.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/03/11/make-your-wechat-a-robot/</guid>
+            <pubDate>2018-03-11T13:51:58+08:00</pubDate>
+            <itunes:duration>290.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>GitHub:全球最大的同性gaoji社区</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<h2 id="github">GitHub是什么？</h2>
+
+<p>我们总是喜欢美好的东西，如果你经常玩微博或者推特，你应该有关注你感兴趣的人，你喜欢的人，或者你暗恋的人，不过你不会去关注一个
+“二狗子”，因为他啥也不是，给你带不来任何价值。</p>
+
+<p>GitHub就有点像微博，我们可以在上面看一些牛逼的人物写着开源的牛逼代码，觉得喜欢的话就给他们点赞，关注他们，甚至可以直接把他们
+的源代码拉下来，看着他们的代码，忘了那个她！</p>
+
+<p>GitHub的首页有这样介绍：A better way to work together，也就是说我们除了去关注牛逼的人物还可以在上面一起合作写点东西出来，
+给我们提供一种更好的合作方式。</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/github1.png" alt="github" /></p>
+
+<p>GitHub简单来说就是基于git的版本托管服务系统，是全球最大的社交编程及代码托管网站，因为里面大多都是男的在玩，所以说是全球最大的同性gaoji社区，哈哈哈！</p>
+
+<h2 id="github-1">GitHub有什么用？</h2>
+<p>其实GitHub除了可以让我们代码托管和多人在上面一起协作完成项目之外呢，我们还可以在上面建立自己的博客网站，官方称为GitHub Pages，你可以在GitHub上面
+创建一个仓库，以github.io为后缀，可以托管你自己的博客网站，直接通过你的仓库名就能在线的访问你的网站了，而且完全免费，我自己搭了个网站托管在上面好久啦，
+感觉棒棒哒！地址在这：http://www.wistbean.com  (以前不知道听谁说，嫁人就要嫁给有自己网站的人，所以我就建了一个，嘿嘿嘿！)</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/github2.png" alt="github" /></p>
+
+<p>如果你有什么优秀的开源项目在上面被人点赞（star）或者folllow,那就很666的了，因为在github上面被人点赞要比你在朋友圈被人点赞要难的多的多。如果在上面
+托管你自己的比较有影响力的开源项目，在面试的时候提供给对方看，也是一个很不错的加分项！</p>
+
+<h2 id="github-2">GitHub的基本概念</h2>
+
+<h3 id="respository">Respository</h3>
+<p>我们通常说在GitHub上面新建一个项目，这个项目就会在Respository里，Respository也就是仓库的意思，可以通过git使我们本地的项目与远程仓库保持同步，这样妈妈就不用担心我们的
+代码消失不见了！</p>
+
+<h3 id="issue">Issue</h3>
+<p>随着我们的代码提交的越来越多，当有人发现你的开源项目不错，就把你的代码给拉（clone）到他们本地，他们运行后发现有bug或者觉得你的代码有问题，那么他就会给你提
+Issue，我们可以发现他们的Issue，然后我们解决完bug之后可以将其close掉，表示我们已经修复了这个bug！</p>
+
+<h3 id="star">Star</h3>
+<p>我们去github看别人的开源项目的时候，发现很是不错，那我们就可以给这个项目star一下，也就是点赞，同时也是收藏的意思，在我们自己的star列表可以看到我们star过的项目</p>
+
+<h3 id="fork">Fork</h3>
+<p>如果你对别人的项目感兴趣，或者对他感兴趣，你可以去fork他的项目，fork之后你就会发现，你自己的仓库里面竟然有一个和他一模一样的项目，更加爽的是，你竟然可以在他原有代码的
+基础上进行修改或者添加功能！</p>
+
+<h3 id="pull-request">Pull Request</h3>
+<p>你给他添加完功能之后你发现，哇靠，我简直就是天才啊，这时候你是不是想告诉他，你这样的功能有多牛逼，那么这时候你就可以给他Pull Request，这时候他就看到你的代码，
+如果他觉得不错，接收了你的Pull Request之后，他就可以合并起来，这样他的项目就有你的一部分了！</p>
+
+<h3 id="watch">Watch</h3>
+<p>Watch 就是观察，当你Watch了某个项目，就相当于你关注了它，那么这个项目有什么动态，你都可以实时的获取更新</p>
+
+<h3 id="gist">Gist</h3>
+<p>如果你想分享部分代码片段，可以使用Gist，专门来分享代码片段的！</p>
+
+<h2 id="github-3">GitHub上一些不错的开源项目</h2>
+
+<h3 id="free-programming-books">free-programming-books</h3>
+<p>这个项目被star了10w+，有我一份力量哈哈，这个项目之所以这么多star，是因为它含有许多免费的编程书籍，并且支持许多语言的版本！
+中文版地址在这：https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md#%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86</p>
+
+<h3 id="learningnotes">LearningNotes</h3>
+<p>这个项目含有许多android，java，设计模式，算法等面试相关的知识与经验，受益匪浅！
+地址：https://github.com/francistao/LearningNotes</p>
+
+<h3 id="resumesample">ResumeSample</h3>
+
+<p>这个项目是专门为程序员提供的简历模板，包括PHP程序员简历模板、iOS程序员简历模板、Android程序员简历模板、Web前端程序员简历模板、Java程序员简历模板、C/C++程序员简历模板、
+NodeJS程序员简历模板、架构师简历模板以及通用程序员简历模板 ！
+地址：https://github.com/geekcompany/ResumeSample</p>
+
+<p>当然了还有许多牛逼的（比如google,Apache等开源项目）项目在上面等着你去发现！</p>
+
+<h2 id="github-4">还可以在GitHub上买东西呢！</h2>
+
+<p>GitHub上有个shop，里面有许多含有github logo的杯子呀，衣服呀，电脑贴纸呀，真的很酷炫和可爱！</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/github3.png" alt="github" /></p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/github3.png"/>
+            <enclosure length="9716704" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/21.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/02/24/github/</guid>
+            <pubDate>2018-02-24T21:32:15+08:00</pubDate>
+            <itunes:duration>404.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>编程的时候发现给变量或方法命名词穷了怎么办？</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>我记得以前上学的时候，同学们都喜欢互相起外号，有时候也会偷偷的给老师起外号！
+比如：二狗子，大胸妹，装逼佬…</p>
+
+<p>当过去多年再回想起某位同学的模样时，已经记不得她的名字了，但是对于她的外号
+却牢牢记在心中，毕竟人家胸大嘛！</p>
+
+<p>所以有时候父母给我们起名的时候，他们想的太多，比如想要你成才，就让你的名字中
+有个“才”字，比如想要你有钱，就让你的名字有个“金”字，有些父母还去找那些带着黑色
+墨镜的老头算命，问问他们的孩子五行缺什么，比如五行缺金，那么他们的孩子的名字
+很有可能有个“鑫”字，如果五行缺水，那么他们的孩子的名字就很有可能有个“淼”字，当然
+有的人名字有个“晶”字，就不知道人家缺什么了！</p>
+
+<h2 id="section">为什么要有一个好的命名</h2>
+
+<p>话说回来，我们在编程的时候，给变量名或者方法起一个好的名字，还是很重要的，
+毕竟我们是人，要面子的嘛，代码还是要给人看的，不要让人看了你的变量名或方法
+名称时候cao声连连就不好了。</p>
+
+<p>再者，代码可能会经过多人，也就是二手代码，三手代码等，好的名字能让别人方便
+接你的锅，大家都是程序员，就别为难别人了。如果你打算自己搞一个开源项目丢到
+github上，也最好斟酌一下你的变量名或者方法名，不要丢脸啦！</p>
+
+<p>不好的命名，可能过了一两个月自己回来看自己的代码都是一脸懵逼的，在这名称中连
+自己都不知道什么意思，那这算什么意思呢？无意识的增加了代码的维护成本。</p>
+
+<h2 id="section-1">怎么起一个好的变量名或方法名</h2>
+
+<p>有些人很随意的给变量命名，例如 <code>int a</code> ,<code>String myData</code>,这样的命名方式
+一时爽,可是到后面就会发现，一个好的命名的重要性。</p>
+
+<p>而好的命名应该是顾名思义的，具有可读性，必须清晰，精确，比如我们有一个叫
+做当前时间的变量,我们应该怎么对其进行命名呢？</p>
+
+<p>首先我们可以查一下单词，当前就是current，时间就是Time，接着我们还可以比较
+英文单词的语义，然后结合代码上下文确定命名,比如我们把当前时间这个变量命名
+为 <code>currentTime</code>,相比于myTime，或者 cTime等就好很多！</p>
+
+<p>在这里推荐一个不错的开源网站，这个网站是专门为你的命名时词穷而建立的，它的名字
+叫做<code>CODELF</code>。</p>
+
+<blockquote>
+  <p>他支持直接搜索中文，当你查中文的时候，Codelf 会直接查好单词和单词的近义词给你，
+然后再搜索Github, Bitbucket, Google Code, Codeplex, Sourceforge, Fedora Project上的
+开源项目的源码匹配出与这些词汇相关的变量名和函数名。
+Codelf 可以选择开发语言进行搜索，结果会把同个源码文件里匹配的变量名排在一起</p>
+</blockquote>
+
+]]></itunes:summary>
+            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/feedback-2849602_960_720.jpg"/>
+            <enclosure length="6499033" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/20.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/02/03/how-to-name/</guid>
+            <pubDate>2018-02-03T12:11:57+08:00</pubDate>
+            <itunes:duration>270.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>如何在冲顶大会中答对12题,瓜分百万现金</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>有一天我在刷微博，看到王思聪发了一条微博，在推广冲顶大会这个app，我第一时间
+就下载下来体验了一把，确实不错，这是直播界的一股清流啊，答题，分享知识，关键
+是答对12道题目还有现金拿。所以这个app一下子就火了起来，以至于 百万英雄、
+芝士超人 等同类的app也纷至沓来，有点类似于以前的共享单车，什么小黄车，小蓝车，
+摩拜等等，竞争也是相当的激烈。</p>
+
+<p>有朋友问我，这个app一直分享知识，还每一期都投这么多钱，那它们怎么盈利啊？
+我想说，在互联网时代，有流量就能盈利，你可以看到，每一期至少都有60w用户
+参与，这么大的流量搞过来了，想要怎么盈利还难么？在直播中嵌入广告，在题目
+中嵌入广告，购买复活次数，购买vip会员等等。这些他们想做，都是可以盈利的！</p>
+
+<p>那怎么才能提高答题正确率，拿到钱呢？
+千万别指望在这答题app中赚什么大钱，你可以想像一下之前春节支付宝集五福瓜分现金
+就知道了，你辛苦收集到了五福，最后获得多少钱？
+反倒是在感到学习累了或者工作累了，和朋友一起拿来消遣一下，放松一下，而且还能从中
+学到一些冷门知识点，还是不错的！</p>
+
+<p>但是你还是想问有没有什么黑科技可以提高答题正确率是吧？答案是有的。
+实现思路是这样子的：
+1. ADB 获取手机截屏
+首先利用android手机的adb工具，每当题目出现的时候，就可以使用adb迅速截取含有题目的图片！
+2. OCR识别题目与选项文字
+我们已经拿到了题目的图片，那么就可以通过OCR接口来识别图中的文字，OCR的接口有很多，
+例如百度OCR。
+3. 搜索判断
+我们已经把题目和选项识别出来了，那么就可以通过爬虫把问题放到搜索引擎中搜索题目
+和选项，从网页代码中提取搜索结果计数，通过判断的数据就可以很清楚的知道哪个答案
+相对正确了！</p>
+
+<p>其实现在网上已经有人写了这样子的程序了。
+地址在这：https://github.com/Skyexu/TopSup
+有空就去玩玩吧！赚了钱分我一毛！</p>
+
+]]></itunes:summary>
+            <itunes:image
+                    href="http://owh7v964r.bkt.clouddn.com/%E5%AF%BC%E5%87%BA%E5%9B%BE%E7%89%87Sun%20Jan%2021%202018%2023_03_28%20GMT+0800%20%28%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4%29.png"/>
+            <enclosure length="5641458" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/19.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/01/21/win-answer/</guid>
+            <pubDate>2018-01-21T15:13:10+08:00</pubDate>
+            <itunes:duration>234.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>通过苍老师教程理解什么是区块链比特币挖矿</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>各位兄弟们从一个稚嫩的男生，到成长为一名成熟稳重的男人，都需要经历一些事情，当然也需要不断的学习，
+而苍老师，在我们的成长道路上，为我们指点迷津，用实践的方式，告诉我们，什么样才是对的，怎么样才是强大的。
+所以为了致敬我们可敬的苍老师，我们这次就通过苍老师的教程来理解什么是区块链，什么是比特币，什么是挖矿！</p>
+
+<h2 id="section">中心化</h2>
+
+<p>当你感到“知识”缺乏，渴望学习的时候，你会怎么做呢？</p>
+
+<p>首先你会打开你收藏已久的网站，这个网站充满了广告弹框，但是你并不厌烦，因为你知道苍老师的教程就躺在菜单栏里，等着你！</p>
+
+<p>其它成千上万的兄弟也和你一样，收藏着这个网站，每当渴望学习“知识”的时候，就会去网站中找苍老师的教程！</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/20160709121306410.jpg" alt="中心化" /></p>
+
+<p>不过你可能会遇到这样的问题：</p>
+
+<ul>
+  <li>如果这个网站的服务器挂了，你就看不到苍老师的教程了。</li>
+  <li>如果有人在这个网站上传病毒，你下载苍老师的视频后可能会中毒。</li>
+  <li>如果这个网站被封了，你又得频繁的去寻找新的资源了。</li>
+  <li>如果这个网站中的苍老师教程被他们移除了，怎么办？</li>
+</ul>
+
+<p><strong>这里指的网站就是中心化</strong>，要解决这些问题，我们应该深深的思考一下，
+是不是可以由我们自己来掌握苍老师教程这些资源，而不是让第三方网站掌握呢？</p>
+
+<h2 id="section-1">区块链去中心化</h2>
+
+<p>你为了万千兄弟在渴望“知识”的时候，随时随地都能获取到苍老师的教程，于是你创建了一个共享文件夹，
+名称叫做「苍老师教程」。
+你规定了这样的协议：“想要学习苍老师的知识，可以，不过你不能随意破坏「苍老师教程」文件夹中的视频，
+每个人在「苍老师教程」这个文件夹中操作的所有行为都会按时间戳记录！”
+凡是遵循这个协议的兄弟都可以获取这个文件夹！</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/0x400a0a0.jpg" alt="区块链去中心化" /></p>
+
+<p>例如：“小明在2018年1月13号的凌晨两点看了苍老师第50集的教程，看完后偷偷的把它给删了”</p>
+
+<p>这时候小明产生的行为会被记录起来，并且成千上万的兄弟们都会接收到一条广播，
+小明的电脑中的「苍老师教程」文件夹会同步成千上万的兄弟们的电脑里面的数据，并且
+小明的电脑会产生一条最新的记录。</p>
+
+<p>小明休想破坏「苍老师教程」文件夹里面的数据，一个人是干不过成千上万的人的。
+除非成千上万的兄弟的电脑都坏掉。</p>
+
+<p><strong>这就是区块链的去中心化，分布式存储。</strong></p>
+
+<p>所以以后兄弟们就不会担心苍老师的教程会消失，也不会被小广告弹窗，不怕电脑中毒了
+当渴望学习的时候，就可以去学习了！</p>
+
+<h2 id="section-2">挖矿和比特币</h2>
+
+<p>因为这些视频是唯一的，而且不会被破坏，所以它们可以产生价值，对它们进行估值，你可以发行“苍老师币”！
+接着你就规定：“兄弟们想发布苍老师的教程，就必须要满足多种条件（加密算法），视频的质量要很高才可以发布。并且每隔10分钟
+才可以发布一个视频！”</p>
+
+<p>只要兄弟们满足条件成功发布高质量的苍老师视频，就奖励给他“苍老师币”！</p>
+
+<p>拥有苍老师币的人越来越多，这些人就开始炒这种虚拟货币，
+不断扩大市场对苍老师币的需求，从而提高苍老师币的价值。</p>
+
+<p>你可以把兄弟们制作视频的过程理解为挖矿，把“苍老师币”理解为比特币！</p>
+
+<h2 id="section-3">区块链收割韭菜？</h2>
+
+<p>是的，有人发现这样子可以赚钱啊，挖槽，老子自己也来按照这个模式搞一套“波多野教程”,发行“波多币”，
+(也就是我们现在所说的山寨币),然后去收割韭菜去了！</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/0018.jpg"/>
+            <enclosure length="7636207" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/018.mp3"/>
+            <guid>https://www.wistbean.com/blog/2018/01/13/blockchain/</guid>
+            <pubDate>2018-01-13T11:44:29+08:00</pubDate>
+            <itunes:duration>320.0</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>2017最后一天</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>2017-1990=17，今天是2017的最后一天，过了今天，整个90后都成年了！</p>
+
+<p>不知道你2017年的计划，完成了没？
+不知道你2017年的愿望，实现了没？</p>
+
+<p>地球永不停息的自转着，昼夜更替着，四季变化着。</p>
+
+<p>当地球自转到某个点，我们踏上了旅途，带着些许的企图，希望地球再转到这个点的时候，能带回些许幸福。</p>
+
+<p>于是开始上了车，发现速度飞快，虽然知道老司机经验满满，但是还是有一点担心，万一车翻了，头破血流，如何继续？
+这一点点的焦虑，或许就是少了旁边有个互相扶持，互相鼓励，互相给予安全感的人。又或许是其它，每个人都不同。</p>
+
+<p>2017即将过去，将要翻开新的一章，那么就让一些遗憾随之翻去，接下来掌控好自己的方向盘，做自己的司机，什么时候
+停车，什么时候转弯，自己说了算！</p>
+
+<p>在牛逼的路上，有许多分叉口，有许多弯路，希望自己能在分叉口之前，稍微停下来思考一下，往哪边走，不管对错，
+走了弯路，也许不一样的风景。</p>
+
+<p>2018，来吧，让我们相见！
+2018，就是干！</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/design-3047520_960_720.jpg"/>
+            <enclosure length="3286529" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/17.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/12/31/2017-end/</guid>
+            <pubDate>2017-12-31T09:43:17+08:00</pubDate>
+            <itunes:duration>02:16</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>如何给你的微信头像戴上圣诞帽</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<h2 id="section">微信官方，请赐予我一顶圣诞帽</h2>
+
+<p>这两天我的朋友圈都纷纷在@微信官方，请求微信官方给他们的微信头像加上一顶圣诞帽！
+场面壮观，哈哈，朋友圈再一次被刷屏！</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/1.jpg" alt="微信官方，请赐予我一顶圣诞帽" /></p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/2.jpg" alt="微信官方，请赐予我一顶圣诞帽" /></p>
+
+<p>不过我就不一样了，野心比较大，我是@了官方，希望他们能帮我的朋友们戴上一顶绿色的圣诞帽！</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/3.jpg" alt="微信官方，请赐予我一顶圣诞帽" /></p>
+
+<p>“微信圣诞帽”的搜索指数直线上升，这要是股票就好了！</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/4.jpg" alt="微信圣诞帽" /></p>
+
+<p>有朋友发了朋友圈表示等了好久都没有圣诞帽，这是为什么呢？是不是微信系统出了问题了？
+这压根就是一场群体忽悠好吗？微信什么时候闲的蛋疼去给你戴帽子了？
+人家那些有帽子的都是自己P上去的好吗？哈哈</p>
+
+<p>知道真相的你是不是眼泪都掉下来了？</p>
+
+<h2 id="section-1">猜想实现方案</h2>
+
+<p>如果微信真的给用户戴上圣诞帽，我们来猜想一下是怎么实现的吧！</p>
+
+<p>首先可以从用户发的朋友圈中监听用户发送的文字中是否含有关键字：「请给我一个圣诞帽!@微信官方」。
+然后从识别到的用户获取用户的openID，将这些用户的ID添加到消息队列中来给他们添加圣诞帽子，
+怎么添加圣诞帽呢？</p>
+
+<p>首先准备一张圣诞帽的图片，接着通过用户的id获取用户当前的头像，然后利用人脸检测技术获取头像中人脸的位置，接着用
+图像处理功能，将圣诞帽按一定的比例合成到头像中，如果识别不到人脸那么就另做处理！最后将成功合成图片来update用户的
+头像！</p>
+
+<p>猜想起来好像挺easy的，不过那些人脸检测，图片处理中的背后算法是很复杂的！
+不过如果感兴趣，有时间可以自己写一个，调用一下第三方的API，还是可以玩玩的！</p>
+
+<p>想想人工智能还是未来吗？已经到来了，瑟瑟发抖！</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cap-147417_960_720.png"/>
+            <enclosure length="5196498" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/16.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/12/24/put-on-a-hat/</guid>
+            <pubDate>2017-12-24T11:44:29+08:00</pubDate>
+            <itunes:duration>03:35</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>游戏开的了挂，可是人生不能！</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">五五开开挂</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">外挂的基本原理</a></li>
+  <li><a href="#section-2" id="markdown-toc-section-2">如何看到使用外挂的人</a></li>
+</ul>
+
+<h2 id="section">五五开开挂</h2>
+
+<p>最近有个挺火的事件就是电竞圈网络主播卢本伟（五五开）被质疑在”吃鸡”游戏中使用游戏外挂，而卢本伟（五五开）的一个小号已经被封禁，但是卢本伟否认是自己使用外挂。
+可能有些不玩或比较少玩游戏的人不太清楚五五开直播游戏中开挂的事件，事情是这样的(<a href="https://zh.wikipedia.org/wiki/%E5%8D%A2%E6%9C%AC%E4%BC%9F%E5%A4%96%E6%8C%82%E7%BA%B7%E4%BA%89">wikipedia</a>)：</p>
+
+<blockquote>
+  <p>2017年11月28日，卢本伟在微博发出他在《绝地求生》中以29杀获得第一名的视频，
+而卢本伟此前从未出现过一个人杀29人的表现，因此被怀疑使用外挂。
+卢本伟的女朋友赵梦玥在微博上解释称卢本伟一开始实力不佳，但是他直播完后每天会练习到中午11点，
+除了上厕所和拿外卖以外其他时间都在练习并持续几个月。</p>
+</blockquote>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/12151.png" alt="五五开29杀" /></p>
+
+<blockquote>
+  <p>11月29日，哔哩哔哩UP主“松鼠打不过仓鼠”发表视频，通过逐帧分析称卢本伟使用外挂，
+依据是卢本伟八倍sks不屏息、自瞄及透视。其后卢本伟在直播间进行澄清，声称自己没有使用外挂并会送上律师函，
+如果他被查实使用外挂，愿意给对方500万人民币，否则赔他1块钱并当众道歉。</p>
+</blockquote>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/12152.png" alt="仓鼠实锤" />
+（仓鼠实锤）</p>
+
+<blockquote>
+  <p>12月3日，松鼠打不过仓鼠在斗鱼TV开启直播，称不畏惧官司，并想与卢本伟进行对质，但直播间被斗鱼封禁。其后全民TV主播帝师邀请松鼠打不过仓鼠前往全民与他进行联合直播，帝师在12月4日直播中使用外挂完成了松鼠打不过仓鼠视频中的卢本伟所有操作。</p>
+</blockquote>
+
+<blockquote>
+  <p>12月5日，卢本伟发表微博(否认开外挂)，表示约松鼠打不过仓鼠在线下展示操作，并会报销仓鼠的全部费用。</p>
+</blockquote>
+
+<blockquote>
+  <p>12月6日凌晨，卢本伟《绝地求生》小号“LuBenWeiWuDI55”被发现于2个月前已被steam反作弊系统封禁。卢本伟在直播中解释，是他的一个朋友用了他的账号给他演示外挂，并再次强调自己没有使用外挂。</p>
+</blockquote>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/12153.png" alt="LuBenWeiWuDI55" /></p>
+
+<blockquote>
+  <p>12月7日，松鼠打不过仓鼠发表发布了一个视频，称他被斗鱼直封禁的原因是因为他在直播中出现一些针对斗鱼平台的不当言论，所以斗鱼给他12小时的封禁和1分的处罚，他对斗鱼的封禁没有任何异议。松鼠打不过仓鼠还称在封禁后的第二天下午，斗鱼平台联系了他，详细解释封禁原因，并对他质疑的行为表示肯定，且愿意提供帮助与支持。</p>
+</blockquote>
+
+<p>…</p>
+
+<p>虽然五五开在直播期间对外挂进行了解析，并且否认自己开外挂，不过由于疑点实在太重:</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/12154.gif" alt="自瞄拉枪 " /></p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/12155.gif" alt="透视" /></p>
+
+<p>许多网友并不买账，认为他推脱给朋友，并且认为他的演技有待提高，争取早日登上《演员的诞生》这个舞台 :)</p>
+
+<p>这里暂且先不去评论开挂带来的不公平与欺骗，而先来谈谈开挂的基本原理是什么？</p>
+
+<h2 id="section-1">外挂的基本原理</h2>
+
+<p>一个复杂的游戏程序是背后的逻辑算法是相当复杂了，这里从简的说，<strong>其实游戏本质上就是一堆数据</strong>。这些数据显示到
+客户端的时候，通过UI界面的渲染最后呈现给用户。</p>
+
+<p>一般外挂也会被称为 “辅助” 、”作弊器”！</p>
+
+<p><strong>辅助</strong>就是用户可以实现的正常操作，只不过这些正常操作可以不需要用户自己手动去操作，举个例子：有些人安装了微信的抢红包外挂，那么
+当他的微信收到红包的时候，他就不需要去手动的点开红包，而让「辅助」去帮他实现这一操作，直接把钱收入囊中（简直可耻，想象一下你年会的时候红包为什么抢到的那么少）</p>
+
+<p><strong>作弊器</strong>是用户无法实现的正常操作，例如可以通过作弊器设置自己拥有无数子弹，对对面的敌人就是一阵射（雅蠛蝶~~）</p>
+
+<p>一般情况下用户是通过游戏客户端（游戏界面）操作指令，然后客户端会将指令发送给服务器，进而做出相关的操作，但是如果有外挂的话就可以直接绕过
+客户端，直接和服务器进行交互，前提是你掌握了对数据的交互请求格式：</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/12156.png" alt="外挂" /></p>
+
+<p>所以外挂的难点就在于你怎么去分析游戏的逻辑和抓包请求数据，对逻辑的把握等等。</p>
+
+<h2 id="section-2">如何看到使用外挂的人</h2>
+
+<p>分为两种人进行讨论：1.开发外挂的人 2.购买并使用外挂的人。</p>
+
+<p>相比较来说前者是有“价值”的，这里的“价值”并不是说他有多可贵，也不是鼓励别人去开发外挂，而是相对于技术来说，
+有专研能力和分析能力，如果一些单机游戏本身就存在缺陷，需要开发一个辅助来提高游戏的进度，这是无可厚非的，
+而且也觉得没什么可吐槽的，反而觉得是有“价值”的！当然为了利益而开发外挂就另当别论了。</p>
+
+<p>而相对于后者，一般都是在网络游戏中，这种人就是素质问题了，损坏了游戏的公平性，瞎几把寻找什么成就感，心里有缺陷！</p>
+
+<p>在游戏竞技中，需要付出时间，精力，需要思考策略，甚至金钱和智力！能够明白有些人缺乏这些东西，于是开外挂来满足自己需求，
+从而达到满满的成就感！</p>
+
+<p>但是！<strong>游戏开的了挂，可是人生不能！人生比游戏需要付出时间，精力，需要思考策略，智力，金钱等等要多的多</strong></p>
+
+<p>所以，努力吧，只有不断的努力，才能让别人觉得你的人生看起来像开挂了一样，毫不费力 :)</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/maxresdefault.jpg"/>
+            <enclosure length="11295044" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/15.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/12/17/cheat-plug-in/</guid>
+            <pubDate>2017-12-17T00:00:00+08:00</pubDate>
+            <itunes:duration>07:49</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>单点登录SSO的实现流程</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">传统的登录方式</a></li>
+  <li><a href="#sso" id="markdown-toc-sso">SSO单点登录</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">单点登录实现流程</a></li>
+  <li><a href="#section-2" id="markdown-toc-section-2">我的相关文章</a></li>
+  <li><a href="#section-3" id="markdown-toc-section-3">相关资料</a></li>
+</ul>
+
+<h2 id="section">传统的登录方式</h2>
+
+<p>kiri开发了一个项目，这个项目只有一个web工程，所以他在做系统登录的时候呢？是这样做的：</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/sequence.png" alt="UML sequence diagram" /></p>
+
+<p>“当用户进行登录的时候，他把登录请求交给LoginController，这时候就会去数据库中根据用户
+传来的用户名查询查询密码，判断密码是否正确，如果密码正确的话就会把用户信息放到session里，
+如果不正确就提示用户密码不正确。</p>
+
+<p>当用户在该系统中需要访问用户相关信息的时候，那么这个时候就可以直接到session中判断用户
+是否登录，如果从session获取到有该用户的信息，那么就直接展示就可以了，不需要再次登录了。”</p>
+
+<p>kiri突然觉得自己很是牛逼，就开始吭哧吭哧的写代码了…
+不到半个小时kiri就写完了，然后部署好了系统就出去happy了！</p>
+
+<p>后来，系统并发量大了起来，在一个Tomcat中已经无法支撑了，这时候kiri开始做起集群来，
+把web工程部署多了一台Tomcat，然后用nginx做负载均衡。</p>
+
+<p>不到半小时kiri就部署完了，然后又出去happy去了…</p>
+
+<p>但是正当kirihappy的时候，许多用户反映在这个系统里需要多次登录，有时候登录了还需要再次登录！
+kiri有点纳闷，怎么会这样，于是只能扫兴的回去打开电脑看看怎么回事！</p>
+
+<p>kiri看了5分钟后发现了问题：</p>
+
+<p>原来，把web部署在不同的Tomcat上，他们的session是不同的，也就是每个tomcat都有她自己独立的session。
+当用户登录系统的时候，nginx将用户请求代理到第一个tomcat进行登录，将用户信息存放到session中，当用户再次请求系统的时候，nginx可能会
+将用户的请求代理转发给第二个tomcat进行处理，这个时候第二个tomcat的session并没有该用户的信息，所以就需要用户去登录！</p>
+
+<p>于是kiri就开始配置tomcat，让它们之间的session进行共享，也就是当tomcat的session发生改变的时候，就会广播给配置好的另一个tomcat，让它们的
+session保持同步！</p>
+
+<p>这样子用户就不需要再进行多次登录了，kiri搞完之后又出去happy了…</p>
+
+<h2 id="sso">SSO单点登录</h2>
+
+<p>kiri团队后来做了个比之前大一点的系统，这个系统是采用分布式系统架构的，kiri这次负责的用户相关的功能模块。
+kiri发现系统被分成了多个子系统，这些子系统将来可能会被部署到多个不同的服务器上，如果采用之前的session
+共享进行用户登录的话，会非常占用系统资源，而且非常影响性能！</p>
+
+<p>于是kiri就发现了原来有个叫做单点登录的玩意，上Google搜了一下</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/sso1.png" alt="单点登录" /></p>
+
+<p>发现<a href="https://zh.wikipedia.org/wiki/%E5%96%AE%E4%B8%80%E7%99%BB%E5%85%A5">维基百科</a>对它的定义是这样的：</p>
+
+<p>单点登录（英语：Single sign-on，缩写为 SSO），又译为单一签入，一种对于许多相互关连，但是又是各自独立的软件系统，
+提供访问控制的属性。当拥有这项属性时，当用户登录时，就可以获取所有系统的访问权限，不用对每个单一系统都逐一登录。</p>
+
+<p>发现这正是他想要的！</p>
+
+<p>于是kiri就创建了一个子模块，叫做SSO，这个模块就是专门来管理用户的登录的，它将用户的session数据用Redis存放，因为
+Redis可以全局管理数据，可以设置key值的生存有效期，而且访问效率很快！</p>
+
+<h2 id="section-1">单点登录实现流程</h2>
+
+<p>kiri展开了思路：</p>
+
+<ol>
+  <li>
+    <p>用户在每个系统中对用户的登录请求会发送给SSO系统，SSO系统显示登录页面，在SSO系统中接收用户名和密码;</p>
+  </li>
+  <li>
+    <p>根据用户名密码去查询数据库是否存在，如果存在就会生成Token,这个Token对应的便是存放到Redis中的key，
+用户信息就是对应的Value，然后存放到Redis中，接着设置登录有效期;</p>
+  </li>
+  <li>
+    <p>接着返回登录成功,并将token写入cookie中，这个时候再判断是否有回调的URL，如果有就重定向到用户需要的页面，
+没有就跳转到门户首页；</p>
+  </li>
+  <li>
+    <p>当用户在另一个系统中需要请求到用户信息的时候，就会通过拦截器判断用户中的请求的cookie中的token是否在redis中有数据，
+如果不存在就会返回登录url，如果存在说明已经登录，那么就可以刷新登录有效期，并将用户信息进行返回！</p>
+  </li>
+</ol>
+
+<p>kiri搞完之后发现不错，Redis存取速度快，不会出现多个session共享影响性能问题。更加高效，所以认为
+创建一个SSO系统来做单点登录是很有必要的！</p>
+
+<h2 id="section-2">我的相关文章</h2>
+
+<ul>
+  <li><a href="https://www.wistbean.com/blog/2017/10/29/distributed-system-architecture/">kiri和小王因为分布式系统架构的事情，结果…</a></li>
+</ul>
+
+<h2 id="section-3">相关资料</h2>
+
+<ul>
+  <li><a href="https://www.cnblogs.com/ywlaker/p/6113927.html">单点登录原理与简单实现</a></li>
+  <li><a href="http://blog.csdn.net/cutesource/article/details/5838693">单点登录SSO的实现原理</a></li>
+  <li><a href="http://www.jianshu.com/p/c35344d15278">SSO单点登录原理和流程分析</a></li>
+</ul>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/stadium-2921657_960_720.jpg"/>
+            <enclosure length="9429545" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/14.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/12/10/what-is-the-sso/</guid>
+            <pubDate>2017-12-10T01:29:42+08:00</pubDate>
+            <itunes:duration>06:32</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>我在团队协作中基本上都会使用到的Git方法</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>接触编程的人应该都知道Git吧，一款分布式管理的工具，对于团队协作项目和项目的版本管理来说就是利器，这篇文章就说说我在团队协作中基本上都会使用到的Git方法。</p>
+
+<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">常用操作</a></li>
+  <li><a href="#git" id="markdown-toc-git">git分支使用</a>    <ul>
+      <li><a href="#section-1" id="markdown-toc-section-1">查看当前的分支</a></li>
+      <li><a href="#section-2" id="markdown-toc-section-2">分支的使用</a></li>
+    </ul>
+  </li>
+  <li><a href="#section-3" id="markdown-toc-section-3">冲突的解决</a></li>
+  <li><a href="#git-stash" id="markdown-toc-git-stash">git stash</a></li>
+  <li><a href="#git-ignore" id="markdown-toc-git-ignore">git ignore</a></li>
+  <li><a href="#section-4" id="markdown-toc-section-4">我的相关文章</a></li>
+  <li><a href="#section-5" id="markdown-toc-section-5">相关资料</a></li>
+</ul>
+
+<h2 id="section">常用操作</h2>
+
+<ul>
+  <li>初始化仓库：
+  git init</li>
+  <li>添加新增的代码或文件到暂存区中：
+  git add</li>
+  <li>提交我们添加的内容到仓库中：
+  git commit</li>
+  <li>从远程仓库拉去master分支的内容：
+  git pull origin master</li>
+  <li>从本地master分支的内容上传到远程仓库中：
+  git push origin master</li>
+  <li>查看git状态：
+  git status</li>
+</ul>
+
+<h2 id="git">git分支使用</h2>
+
+<p>在开发过程中，我们会有一个主分支master，这个分支是代码的主要内容，当不同的人负责不同模块功能开发的时候，就需要用到分支，比如有三个人分别负责A/B/C三个不同模块的功能，那么就可以各自创建分支：A分支，B分支，C分支，当他们各自完成了自己的功能后在合并到主分支上去。</p>
+
+<h3 id="section-1">查看当前的分支</h3>
+
+<pre><code>G:\test&gt;git branch
+  a
+* master
+</code></pre>
+
+<p>可以看到，当前有两个分支，一个是a分支，一个是master分支，master分支前有一个*号，代表此刻的内容正处于master分支上。</p>
+
+<h3 id="section-2">分支的使用</h3>
+
+<p>比如我需要负责B功能的模块，那么我会新建一个b分支，怎么新建呢，分两步：</p>
+
+<p>第一：切换到master分支
+第二：在master分支的基础上新建分支</p>
+
+<blockquote>
+  <p>切换到master分支上新建分支b，那么此刻b分支里的内容就和master一模一样！</p>
+</blockquote>
+
+<p>1.当我们的分支不在master上的时候，那么切换分支是这样的：</p>
+
+<pre><code>G:\test&gt;git checkout master
+M       m.md
+Switched to branch 'master'
+</code></pre>
+
+<blockquote>
+  <p>checkout 可以理解为切换的意思</p>
+</blockquote>
+
+<p>2.新建b分支：</p>
+
+<pre><code>G:\test&gt;git branch b
+</code></pre>
+
+<p>那么现在b分支上的内容就和master上的分支一样了，在b分支上完成B功能后合并到master分支上即可。</p>
+
+<p>3.合并b分支到master上</p>
+
+<p>首先切换到master：</p>
+
+<pre><code>git checkout master
+</code></pre>
+
+<p>接着合并：</p>
+
+<pre><code>G:\test&gt;git merge b
+Already up-to-date.
+</code></pre>
+
+<p>当合并完分之后，b分支可能不需要了，那么删掉b分支：</p>
+
+<pre><code>G:\test&gt;git branch -d b
+Deleted branch b (was 0095e88).
+</code></pre>
+
+<p>当然了，如果想要强行删除b分支的话可以git branch -D b。</p>
+
+<p>4.把b分支上传到远程仓库</p>
+
+<pre><code>git push origin b
+</code></pre>
+
+<p>5.删除远程b分支</p>
+
+<pre><code>git push origin : b
+</code></pre>
+
+<p>6.将远程的b分支迁到本地：</p>
+
+<pre><code>git chekcout b origin/b
+</code></pre>
+
+<h2 id="section-3">冲突的解决</h2>
+
+<p>可能在团队协作的时候，他们都不约而同的修改同一个代码的地方，这时候合并的时候会产生冲突提示，因为git并不知道要用哪个人写的才是对的，需要我们自己解决冲突才能合并。</p>
+
+<p>比如这样的冲突：</p>
+
+<pre><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+hahhahahahah  this is a master branch~~~
+=======
+
+hahhahahahah  this is a b branch~~~
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; b
+</code></pre>
+
+<p>「«««&lt; HEAD」 和 「=======」是原本的代码。
+「=======」和「»»»&gt; b」是分支的代码。</p>
+
+<p>可以看到masert被改成b了，这时候git不知道是master对，还是b对，所以就要自己解决，这里比如我们觉得是master对，那么就将</p>
+
+<pre><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+
+=======
+
+hahhahahahah  this is a b branch~~~
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; b
+</code></pre>
+
+<p>删掉，然后再add–&gt;commit–&gt;merge!</p>
+
+<h2 id="git-stash">git stash</h2>
+
+<p>如果当前的代码还没写好没有commit，又想切换到别的分支上进行操作，那么可以先将没commit的代码stash暂存起来：</p>
+
+<pre><code>git stash
+</code></pre>
+
+<p>在别的分支完成操作并发布之后，就可以切换到刚刚没有写好的代码进行：</p>
+
+<pre><code>git stash apply
+</code></pre>
+
+<p>这时候之前没commit的代码就回来了，就可以继续写完再commit了。</p>
+
+<p>此外，还可以通过git stash list 看看你stash的记录，可以使用git stash drop 删除记录！</p>
+
+<h2 id="git-ignore">git ignore</h2>
+
+<p>有时候自己电脑上的配置文件不需要上传上去，可以使用ignore文件：</p>
+
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">/src/main/webapp/WEB-INF/classes/
+</span><span class="line">/src/main/webapp/WEB-INF/lib/
+</span><span class="line">/src/main/webapp/META-INF/
+</span><span class="line">/src/main/webapp/logs/
+</span><span class="line">/src/main/webapp/node_modules/
+</span><span class="line">/src/main/webapp/.idea/
+</span><span class="line">/target/
+</span><span class="line">/build/
+</span><span class="line">/.settings/
+</span><span class="line">/.idea/
+</span><span class="line">.classpath
+</span><span class="line">.project
+</span><span class="line">.buildpath
+</span><span class="line">.gitignore
+</span></code></pre></td></tr></table></div></figure>
+
+<p>当遇到.gitingnore不生效的时候，可以执行以下命令：</p>
+
+<pre><code>git rm -r --cached .
+git add .
+git commit -m 'update .gitignore'
+</code></pre>
+
+<h1 id="section-4">我的相关文章</h1>
+
+<ul>
+  <li><a href="https://www.wistbean.com/blog/2017/11/19/chrome-extensions/">把我常使用的chrome插件推荐给你</a></li>
+  <li><a href="https://www.wistbean.com/blog/2017/09/22/mvc/">软件架构中的MVC模式</a></li>
+  <li><a href="https://www.wistbean.com/blog/2017/09/09/conf-tomcat/">配置tomcat使不同端口号不同域名访问不同项目位置</a></li>
+</ul>
+
+<h1 id="section-5">相关资料</h1>
+
+<p>-<a href="https://rogerdudler.github.io/git-guide/index.zh.html">git - 简明指南</a>
+-<a href="http://blog.jobbole.com/53573/">15 分钟学会使用 Git 和远程代码库</a>
+-<a href="http://www.cnblogs.com/tugenhua0707/p/4050072.html">Git使用教程</a>
+-<a href="http://www.ruanyifeng.com/blog/2015/08/git-use-process.html">Git 使用规范流程</a></p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/branching-illustration@2x.png"/>
+            <enclosure length="12246625" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/13.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/12/03/use-my-git/</guid>
+            <pubDate>2017-12-03T16:10:27+08:00</pubDate>
+            <itunes:duration>08:30</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>你真的了解URL是个啥么？</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<ul id="markdown-toc">
+  <li><a href="#url" id="markdown-toc-url">什么是URL</a></li>
+  <li><a href="#protocol" id="markdown-toc-protocol">Protocol协议和资源名称</a>    <ul>
+      <li><a href="#protocol-1" id="markdown-toc-protocol-1">为什么要用Protocol（协议）呢？</a></li>
+      <li><a href="#section" id="markdown-toc-section">资源名称</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="url">什么是URL</h2>
+
+<p>我们经常使用浏览器上网，在想要查询某些网站的时候，我们都会在浏览器的地址栏中输入一段字符串，
+也就是我们常说的“网址”，其实我们说的这个“网址”，指的就是URL，URL的全称是Uniform Resource Location，
+叫做  「统一资源定位」！</p>
+
+<h2 id="protocol">Protocol协议和资源名称</h2>
+
+<p>比如我们想要访问google，应该会在浏览器的地址栏中输入 ： http://www.google.com!</p>
+
+<p>这时候我们可以看到 URL 中两个比较重要的部分，一个是协议，一个是资源名称，它们被 「://」分隔开，
+左边的 http 就是协议，右边的 www.google.com 就是资源名称。</p>
+
+<p>我们这里用到的协议是HTTP协议，他的全称叫做超文本传输协议，网络上的请求协议要许多，例如我们比较熟悉
+的其它协议有ftp协议，https协议等等。</p>
+
+<h3 id="protocol-1">为什么要用Protocol（协议）呢？</h3>
+
+<p>因为没有规矩，不成方圆，我们在传输数据的时候，需要通过相应的规则才能获取相应的资源，比如你在家里，突然
+饿了，想要点外卖，那么你需要找到你想吃的，然后付钱，商家才给你做，外卖小哥哥才笑嘻嘻的给你送，
+如果你不遵循这一规则，你不给钱，你能吃到吗？外卖小哥会笑嘻嘻给你送吗？</p>
+
+<p>所以我们这里使用HTTP协议，可以给我们提供超文本文档。</p>
+
+<h3 id="section">资源名称</h3>
+
+<p>资源名称是一个完整的地址，它的格式是完全取决于协议而定，不过在大多数的协议里面，资源名称都
+包括以下几个东东：</p>
+
+<ol>
+  <li>
+    <p>Host Name ：主机名，也就是服务器的名称，一般是域名，也就是域名对应的这台服务器的ip地址,
+例如：http://www.google.com 中的 www.google.com 就是主机名。</p>
+  </li>
+  <li>
+    <p>FileName ： 文件名，也就是我门要访问服务器上某个位置上的文件，这个文件所在的路径名就是FileName，
+例如我们要访问a服务器上的 老师目录下的波多野结衣.jpg ,那么我们就可以这样访问：
+http://www.a.com/teacher/boduoyejieyi.jpg, 所以这里的teacher/boduoyejieyi.jpg就是FileName！</p>
+  </li>
+  <li>
+    <p>Port Number　: 端口号，这个是用于连接的端口，我们默认访问不需要输入端口，是因为80是默认的连接端口，
+一般服务器上有0-65535端口，他开放哪个端口给你访问，你就只能通过它给你的端口进行访问，就好比你要去开房，
+发现酒店有65536个房间，然后客服人员告诉你第8000个房间可以住，那么你就交完钱拿着房卡去8000号的房玩耍，
+总不会去65536个房间玩个遍吧！</p>
+  </li>
+</ol>
+
+<p>这个端口后一般是在尾部添加冒号，在冒号写上端口号。例如：http://www.google.com:80</p>
+
+<ol>
+  <li>Parameters :　请求参数，我们可以通过参数去访问特定的资源，一般在访问的地址后面添加key-value的相识
+的值去访问，例如我们要访问a这个网站的老师目录下第一到第十张波多野结衣的照片就可以这样呀访问：
+http://www.a.com/teacher/pic/boduoyejieyi?start=1&amp;end=10</li>
+</ol>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/12.png"/>
+            <enclosure length="9129020" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/12.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/11/26/uniform-resource-locator/</guid>
+            <pubDate>2017-11-26T14:10:23+08:00</pubDate>
+            <itunes:duration>06:19</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>把我常使用的chrome插件推荐给你</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>现在PC端的浏览器我只使用chrome，他支持各种插件的扩展，还有调试的Developer Tools，速度快，界面简洁大方等等。让我用了就爱不释手了。
+我猜80%的程序员都用chrome的吧。而我接下来推荐你的这些插件，是我用过后真心觉得不错的，如果你对这些插件使用熟悉了，那我觉得应该会对你的
+使用效率有很大的提升。</p>
+
+<p>可以通过访问 <a href="https://chrome.google.com/webstore/category/extensions?hl=zh-CN">chrome.google.com/webstore/category/extensions?hl=zh-CN</a>
+搜索添加插件，不过要科学上网哦！</p>
+
+<ul id="markdown-toc">
+  <li><a href="#vimium" id="markdown-toc-vimium">1. Vimium</a></li>
+  <li><a href="#googleoffice" id="markdown-toc-googleoffice">2. Google文档、表格及幻灯片的Office</a></li>
+  <li><a href="#get-postman" id="markdown-toc-get-postman">3. Get Postman</a></li>
+  <li><a href="#jsonview" id="markdown-toc-jsonview">4. jsonView</a></li>
+  <li><a href="#smart-toc" id="markdown-toc-smart-toc">5. Smart TOC</a></li>
+</ul>
+
+<h2 id="vimium">1. Vimium</h2>
+
+<p>这款插件的牛逼之处在于脱离鼠标，上网全程使用的是键盘，各种快捷键，可以通过快捷键上下移动网页，标签切换，快速定位链接，只要是你需要操作的，
+都能通过快捷键快速操作！</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/11.png" alt="Vimium" /></p>
+
+<h2 id="googleoffice">2. Google文档、表格及幻灯片的Office</h2>
+
+<p>你在网上看到word，ppt或者excel，你是不是第一步先下载到本地，然后打开相关的office软件查看呢？现在有他之后，你直接点击文件，就能直接在网页上查看，
+也可以从中下载！</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/unnamed.png" alt="google office" /></p>
+
+<h2 id="get-postman">3. Get Postman</h2>
+
+<p>这个插件我从下载后就一直使用，没有断过，因为它真的很不错，我的一些接口的调试，一些API的使用都是通过他来测试的，界面简洁，http的所有请求，以及返回的数据格式
+设置，用户体验都非常不错，所以这款我是极力推荐的！</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/postman.jpg" alt="postman" /></p>
+
+<h2 id="jsonview">4. jsonView</h2>
+<p>当你去调用API的时候，获取到json数据，是不是一团糟，那么这个插件就可以格式化json数据，你就可以很直观的使用这些数据去解析了！
+<img src="http://owx1uvd7t.bkt.clouddn.com/jsonview.jpg" alt="jsonView" /></p>
+
+<h2 id="smart-toc">5. Smart TOC</h2>
+
+<p>当你查看网页内容的时候，特别是一些文档，如果他没有设置菜单栏，那么去看这些内容的时候就会很麻烦，因为你可能只是需要观看某个API，
+难道每次都要去整个网页搜索吗？所以这个插件解决了这个问题，直接帮你生成菜单标题栏，点击后直接就可以跳到相应的位置！</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/toc.png" alt="Smart TOC" /></p>
+
+<p>好了，以上就是本期的内容，希望分享的这些插件，对你有用。</p>
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/browser-773216_960_720.jpg"/>
+            <enclosure length="8019459" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/11.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/11/19/chrome-extensions/</guid>
+            <pubDate>2017-11-19T14:56:54+08:00</pubDate>
+            <itunes:duration>09:32</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>什么是因特网?</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">什么是网络？</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">什么是互联网？</a></li>
+  <li><a href="#section-2" id="markdown-toc-section-2">什么是因特网？</a></li>
+</ul>
+
+<h2 id="section">什么是网络？</h2>
+
+<p>网络是由多个节点和链路组成的。 其中节点可以包括 计算机，集线器，路由器，交换机等。</p>
+
+<p><img src="http://img.blog.csdn.net/20161030105308206" alt="网络" /></p>
+
+<p>我们可以看到这是一个五个节点（4个计算机与1个集线器）与四条链路组成的网络，这就是网络！</p>
+
+<h2 id="section-1">什么是互联网？</h2>
+
+<p>我们已经知道什么是网络了，那么互联网顾名思义就是把网络与网络连接起来，就叫做互联网了！</p>
+
+<p><img src="http://img.blog.csdn.net/20161030110127047" alt="互联网" /></p>
+
+<p>将网络连接起来的是路由器，也就是说，互联网是由多个网络通过路由器连接而成的，互联网是网络的网络！</p>
+
+<h2 id="section-2">什么是因特网？</h2>
+
+<p>你已经知道了什么是互联网，那么我告诉你：世界上最大的互联网就是因特网！</p>
+
+<p><img src="http://img.blog.csdn.net/20161030110838816" alt="因特网" /></p>
+
+<p>可以看到，连接到因特网上的计算机，我们称为主机（host）！</p>
+
+<p>**
+所以我们可以这样理解：网络把计算机连接在一起，互联网把网络连接在一起，因特网是世界上最大的互联网！
+**</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/season-1985856_960_720.jpg"/>
+            <enclosure length="7185396" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/10.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/11/12/what-is-the-internet/</guid>
+            <pubDate>2017-11-12T16:56:29+08:00</pubDate>
+            <itunes:duration>08:32</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>说说我用Ngnix来做些什么</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>在<a href="https://www.wistbean.com/blog/2017/10/29/distributed-system-architecture/" title="小明和小王因为分布式系统架构的事情，结果...">小明和小王因为分布式系统架构的事情，结果…</a>中，提到了小明因为并发量太大用Nginx代理转发服务器，然后有小伙伴在我的公众号后台留言问我关于Nginx的东西，所以就索性写一篇关于我使用到Nginx的内容吧。</p>
+
+<h2 id="nginx">Nginx可以做什么呢？</h2>
+
+<p>1.<strong>Nginx可以做HTTP服务器</strong>，可以利用它来做一些静态资源的访问服务器，例如我们系统用到的图片，可以用Nginx服务器来专门访问我们的图片系统。</p>
+
+<p>例如，有一个电商的网站，当有商品在系统中上架时，可以将上架的商品图片存放到我们的图片服务器，当我们需要这个商品的详情的时候，就可以通过Nginx去访问相应的图片。nginx比apache占用的cpu资源少，在高并发的情况下能保持低资源低消耗高性能。</p>
+
+<p>2.<strong>Nginx可以做虚拟主机</strong>，可以在同一台服务器上运行多个网站，而且呢，这些不同网站是不会互相干扰的，在区分不同的网站我们可以通过不同的IP，不同的端口和不同的域名三种方式区分，但是一般使用的最多的就是使用域名来区分。例如通过www.a.com来访问a网站，通过www.b.com来访问b网站，并且a.com和b.com是基于同一个ip地址的。</p>
+
+<p>虚拟主机的配置可以在nginx的conf文件中进行配置，在配置文件中每个server节点就代表一个虚拟主机。例如我想要配置www.a.com来访问a网站，通过www.b.com来访问b网站就可以这样子：</p>
+
+<pre><code> server {
+        listen       80;
+        server_name  www.a.com;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+            root   a/html; //指向a.com的网站
+            index  index.html index.htm;
+        }
+
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+
+    }
+
+
+
+ server {
+	        listen       80;
+	        server_name  www.b.com;
+
+	        #charset koi8-r;
+
+	        #access_log  logs/host.access.log  main;
+
+	        location / {
+	            root   b/html; //指向b.com的网站
+	            index  index.html index.htm;
+	        }
+
+	        error_page   500 502 503 504  /50x.html;
+	        location = /50x.html {
+	            root   html;
+	        }
+
+	    }
+</code></pre>
+
+<p>配置好文件我们保存然后将Nginx reload一下之后，我们这时候访问www.a.com时Nginx就会去请求a网站给我们，同样访问www.b.com就会去请求b的网站，他们之间互不影响，且又绑定在同一个ip上。这种对于一些多个小的网站，绑定在同一个ip上是很好的实现方式。</p>
+
+<p>3.<strong>Nginx可以进行负载均衡的反向代理</strong>，反向代理就是当你的网站因为并发量太大，部署在了多个服务器上，那么当用户去访问你的网站的时候，不知道去访问哪个服务器，这时候Nginx就是来帮忙进行反向代理请求的，也就是用户访问Nginx，然后Nginx帮用户去请求某一个Nginx认为该访问的服务器。</p>
+
+<p>负载均衡反向代理的使用也是通过Nginx的文件进行配置的：</p>
+
+<p>在conf中通过upstream来配置要代理的服务器：</p>
+
+<pre><code>	upstream tomcatserver1{
+		server 192.168.88.61;
+		server 192.168.88.62;
+	}
+</code></pre>
+
+<p>其中还可以定义这些服务器的负载权重，是否参与负载等，可以在ip地址后面添加定义：</p>
+
+<blockquote>
+  <p>down 表示单前的server暂时不参与负载</p>
+</blockquote>
+
+<blockquote>
+  <p>weight 默认为1,weight越大，负载的权重就越大</p>
+</blockquote>
+
+<blockquote>
+  <p>backup 其它所有的非backup机器down或者忙的时候，就会请求backup机器。所以这台机器压力会是最轻的。</p>
+</blockquote>
+
+<blockquote>
+  <p>max_fails 允许请求失败的次数默认为1.当超过最大次时，返回proxy_next_upstream 模块定义的错误</p>
+</blockquote>
+
+<blockquote>
+  <p>fail_timeout: max_fails次失败后，暂停的时间。</p>
+</blockquote>
+
+<p>比如 server 192.168.88.61 weight=2; 就代表192.168.88.61这个服务器会被访问的权重更多。</p>
+
+<p>在server中配置域名和端口号，然后用proxy_pass去访问我们刚刚定义的upstream：</p>
+
+<pre><code>	server {
+    listen       80;
+    server_name  wistbean.server1.com;
+
+
+    location / {
+       proxy_pass http://tomcatserver1;
+        index  index.html index.htm;
+    }
+
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   html;
+    }
+
+}
+</code></pre>
+
+<h2 id="nginxlinux">　Nginx在Linux上安装</h2>
+
+<p>1.首先需要安装Nginx的依赖环境：</p>
+
+<p>yum install -y openssl openssl-devel
+&gt; OpenSSL 是一个强大的安全套接字层密码库，囊括主要的密码算法、常用的密钥和证书封装管理功能及SSL协议，并提供丰富的应用程序供测试或其它目的使用。
+&gt; nginx不仅支持http协议，还支持https（即在ssl协议上传输http），所以需要在linux安装openssl库。</p>
+
+<p>yum install -y zlib zlib-devel
+&gt; 多种压缩和解压缩的方式，nginx使用zlib对http包的内容进行gzip</p>
+
+<p>yum install -y pcre pcre-devel
+&gt; nginx的http模块使用pcre来解析正则表达式</p>
+
+<p>yum install gcc-c++
+&gt; 安装nginx需要先将官网下载的源码进行编译，编译依赖gcc环境</p>
+
+<p>2.下载Nginx：<a href="http://nginx.org/en/download.html">http://nginx.org/en/download.html</a> ，例如下载1.8.1版本可以
+wget http://nginx.org/download/nginx-1.8.1.tar.gz</p>
+
+<p>3.解压Nginx
+tar -zxvf nginx-1.8.0.tar.gz</p>
+
+<p>4.参数配置</p>
+
+<pre><code>	./configure \
+	--prefix=/usr/local/nginx \
+	--pid-path=/var/run/nginx/nginx.pid \
+	--lock-path=/var/lock/nginx.lock \
+	--error-log-path=/var/log/nginx/error.log \
+	--http-log-path=/var/log/nginx/access.log \
+	--with-http_gzip_static_module \
+	--http-client-body-temp-path=/var/temp/nginx/client \
+	--http-proxy-temp-path=/var/temp/nginx/proxy \
+	--http-fastcgi-temp-path=/var/temp/nginx/fastcgi \
+	--http-uwsgi-temp-path=/var/temp/nginx/uwsgi \
+	--http-scgi-temp-path=/var/temp/nginx/scgi
+</code></pre>
+
+<p>将以上复制到Linux执行一遍。然后需要到<strong>/var/temp/</strong>中创建nginx目录。</p>
+
+<p>mkdir nginx</p>
+
+<p>5.编译安装
+ make
+ make install</p>
+
+<p>6.启动</p>
+
+<p>进入nginx的sbin目录：
+cd /usr/local/nginx/sbin
+./nginx
+开始启动了…</p>
+
+<p>7.关闭
+./nginx -s stop</p>
+
+<p>8.重新加载配置文件
+./nginx -s reload</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/1.png"/>
+            <enclosure length="4976691" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/09.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/11/05/nginx/</guid>
+            <pubDate>2017-11-05T13:51:14+08:00</pubDate>
+            <itunes:duration>05:54</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>小明和小王因为分布式系统架构的事情，结果...</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">1.1024程序员节</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">2.麦当劳改名金拱门</a></li>
+  <li><a href="#section-2" id="markdown-toc-section-2">3.左右脑测试随机</a></li>
+  <li><a href="#section-3" id="markdown-toc-section-3">传统的架构与分布式架构</a></li>
+</ul>
+<p>在开始本文之前，先说说本周我被刷屏的三个玩意儿：</p>
+
+<h2 id="section">1.1024程序员节</h2>
+
+<p>在本周二，也就是10.24的时候，是程序员节！</p>
+
+<p>可能大多数人（老司机）知道的1024是从草榴社区来的…</p>
+
+<p>在计算机是以二进制的形式记录数据的，2的10次方就是1024，1G=1024M，1M=1024kb，1k=1024bit..</p>
+
+<p>所以在草榴社区评论1024的时候，可以认为是1024M=1GB，也就是“一级棒”！</p>
+
+<p>慢慢的1024就成了程序员节。虽然元宵节吃汤圆，中秋节吃月饼，但是不知道程序员节吃什么？</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/chengxuyuan.jpg" alt="1024程序员节" /></p>
+
+<p>虽然没有狂欢没有法律的支持也没有公司的特殊待遇，但是至少，这个世界上有这么一个群体存在，他们努力着，被世界关注着，也在影响着世界。</p>
+
+<h2 id="section-1">2.麦当劳改名金拱门</h2>
+
+<p>当我听到“金拱门”的时候，以为又有什么“门事件”发生，有什么福利可看了。
+后来才发现是麦当劳公司名改为“金拱门”，有点失望的同时我也和吃瓜群众一样：“挖槽！真尼玛的土！！”。
+不过在这里我不是要来吐槽这个名字的..</p>
+
+<p>当我们还在为“金拱（gǒng）门”这个名字讲段子说笑料的时候，有人已经第一时间就盯上了<a href="http://www.jingongmen.com">www.jingongmen.com</a>这个域名,然后先是9.8k元被交易,半小时被2.5w元易主，瞬间捞金1.5w+。然后现在竟然被抬价¥888,888。
+人家对这个域名的介绍是这样的：“此名由高人测八字看风水算出，庚金座三会金局，金气一支独旺。果然现在传遍全国。价格多一分不取，少一分不卖。 ”</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/000.png" alt="麦当劳改名金拱门" /></p>
+
+<p>哈哈，我想说的是：有时候想想，对聪明的人来说，赚钱一点都不难。</p>
+
+<h2 id="section-2">3.左右脑测试随机</h2>
+
+<p>我被下面这张图刷屏了…</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/Q666.png" alt="左右脑测试随机" /></p>
+
+<p>好多人转发，然后配上一句类似的话：“不靠谱，尼玛这代码随机的”！
+但是，图上的random并不是随机年龄啊，这个随机数是%2（是否被2整除），是的话就取one，不是就取two，至于result是怎么算的，这里没有体现出来！为毛很多程序员也在666？</p>
+
+<p>OK…进入正题：</p>
+
+<h2 id="section-3">传统的架构与分布式架构</h2>
+
+<p>有一天，隔壁小王睡前突然有一个大胆的插法，哦不~ 大胆的想法，他要做一个在线B2C的美女网站，突然发现接下来要发了，可以赢取白富美了，不过他又想到了一个问题：</p>
+
+<p>“想法都有了，就差一个程序员了”！</p>
+
+<p>翻了一会通讯录后发现了楼下的小明就是个程序员啊！于是也不管几点就直接从床上跳起来，穿着拖鞋跑到楼下猛敲小明的房门。</p>
+
+<p>小明这时候正在写代码，被连续的敲门声吓得写了一个bug后就去开门了。</p>
+
+<p>“什么事啊？”</p>
+
+<p>“呀，我是你楼上的小王啊，你还没睡啊？有事找你有事找你”</p>
+
+<p>小王不管不顾的走进去，小明一阵错愕！</p>
+
+<p>“小明”，小王放低了声音，“我有一个项目，绝对能发，现在就差开发了，听说你的技术很牛逼！”</p>
+
+<p>“什么项目？”，小明被小王的神秘语气和一种不知哪来的自信引起了兴趣！</p>
+
+<p>“一个B2C的美女网站，用户可以购买美女的时间，比如买11月15号的下午14：00-16：00，然后下订单，美女可以在这两个钟陪用户读书学习 :) ……” 小王绘声绘色，小明却一脸无奈。。</p>
+
+<p>小王知道小明的意思，就继续吹：“到时一定赚钱的，你就是我的合伙人啊，你拿30%”。</p>
+
+<p>小明不为所动…</p>
+
+<p>这时候小王冒出了些许冷汗，转念一想，做出了猥琐的表情说道：“我可是楼上小王哦！”</p>
+
+<p>…</p>
+
+<p>总之，在小王的威逼利诱下，小明勉强答应了！</p>
+
+<p>小明跟小王聊了5个晚上的需求，有时候聊着聊着就一起睡着了，慢慢理清了思路，就开始干了。</p>
+
+<p>他像以前的开发那样，建立一个web工程，不断往web里边添加功能，比如订单功能，用户管理功能，商品信息管理功能等都丢到web工程里边。</p>
+
+<p>在小王的催促和监督下，经过两个多月，小明终于搞完第一个初始版本！</p>
+
+<p>小明和小王都测试了一遍发现没什么问题，就打算弄个服务器，然后把web项目和数据库都扔到一个tomcat里去。</p>
+
+<p>上线了！！！</p>
+
+<p>小王很开心，看到了自己的想法实现了，并且已经在网上可以找到！</p>
+
+<p>过了好几天，网站的用户量是2，也就是只有他们2个。小王开始急了 - -</p>
+
+<p>小王发现推广很重要，于是去跟他爸爸拿了几百万投放广告，他爸爸刚开始不肯，说不懂互联网，于是小王把网站发给他爸看，他爸就同意了。</p>
+
+<p>小王有钱之后，就去找广告商了，于是慢慢的电视上的综艺节目有了他的美女网站的广告了！</p>
+
+<p>理所当然的用户量开始越来越高了，小明发现，服务器崩了！！</p>
+
+<p>并发量太大，小明觉得一个tomcat已经不行了，于是小明就告诉小王，咱们用户量越来越多了，一个服务器不行，买多两台服务器吧，小王听到用户量增加，开心的答应了。</p>
+
+<p>小明把项目在每个服务器里边都放了一份，然后用nginx代理转发。</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/01.png" alt="传统架构" /></p>
+
+<p>就这样可以顶了一段时间…</p>
+
+<p>最近小王在后台上架了一个非常漂亮的美女，导致太多用户访问，服务器又崩了…</p>
+
+<p>小明对小王说：“我们得加强一下服务器配置了，把带宽，内存和cpu都升级吧！”</p>
+
+<p>于是，又顶了一段时间…</p>
+
+<p>过不久又崩了！</p>
+
+<p>小王开始不爽了，对小明说：“怎么搞的？怎么服务器老是不行？？”</p>
+
+<p>小明说：“我他妈怎么知道你是个富二代？一开始以为你是闹着玩的，谁知道用户量会增多？”</p>
+
+<p>小王发现小明有点生气了，他想着不能得罪程序员，于是轻声说：“那怎么办？”</p>
+
+<p>“我得重构了！每个tomcat都放着整个web工程，后台访问也就我们两个，没有并发的问题，浪费资源了。模块之间耦合度太高了，其中一个功能升级其他的也都得升级，系统扩展性也差，不能够灵活的去部署”,小明如是说！</p>
+
+<p>小王有点似懂非懂的问：“那怎么重构呢？”</p>
+
+<p>“用分布式！我们把整个项目工程拆分成多个子项目，每个子项目负责自己的功能，例如订单这个功能就是一个单独的系统项目，会员系统也是一个单独的系统。” 小明边说边在纸上画了一张图：</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/02.png" alt="分布式系统" /></p>
+
+<p>小王依然似懂非懂的问：“这样比之前有多好？”</p>
+
+<p>“这样的话，我们把每个模块都拆分出来，可以灵活的部署了，比如美女商品信息这个模块被访问的量比较大，那么我们就可以单独对这个模块进行服务性能的提升，不用全部都一起提升。也降低了代码的耦合度，模块之间互不影响，这样如果以后有人加入开发，他只要负责他的模块去开发就可以了，合作也高效！” 小明说道。</p>
+
+<p>“那有什么缺点没？”</p>
+
+<p>“有吧，就是各个模块之间需要通信，这时候需要开发接口，增加了些工作量！不过这是值得，总比花钱去买更多服务器配置好吧！”</p>
+
+<p>“恩，有道理有道理！”</p>
+
+<p>于是小明就这样开始重构了他的项目，慢慢的项目的稳定性比之前的好多了。</p>
+
+<p>过了6个月，项目开始盈利了，于是小王开始招兵买马，把小明踢出去。</p>
+
+<p>（哈哈，没有啦，开玩笑的，最后他们在一起了！）</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/hanberger.png"/>
+            <enclosure length="9940781" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/008.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/10/29/distributed-system-architecture/</guid>
+            <pubDate>2017-10-29T16:48:10+08:00</pubDate>
+            <itunes:duration>11:49</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>程序员应该具备什么样的特质</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>程序员常常自嘲码农，或者说自己是搬砖的，对于大部分程序员来说<strong>事实如此</strong>，因为在工作上对业务的代码写的比较多，有些业务之间的代码存在<strong>共同性</strong>，完全没有再去造轮子的必要了，对现有的”轮子”拿来就用似乎成为了我们的习惯！但是在慢慢的成长中我们会发现，即使有一些框架可以供我们使用，但是对我们自己来说，如何才能将代码进行写的更好？如何去优化？性能怎么提升？设计模式为什么好？框架是怎么实现的？如何在拿到需求的时候能够高效实现等等，都需要我们具备以下特质：</p>
+
+<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">自学能力</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">获取资源</a></li>
+  <li><a href="#section-2" id="markdown-toc-section-2">总结思考</a></li>
+  <li><a href="#code-review" id="markdown-toc-code-review">Code Review</a></li>
+  <li><a href="#section-3" id="markdown-toc-section-3">英语</a></li>
+  <li><a href="#section-4" id="markdown-toc-section-4">耐心</a></li>
+  <li><a href="#section-5" id="markdown-toc-section-5">好身体</a></li>
+</ul>
+
+<h2 id="section">自学能力</h2>
+
+<p>我们经常听到别人说这个社会环境发展迅速，特别是科技这一块，我们也可以发现，新的语言新的特性新的工具不断在更新，比如Android开发，之前用的eclipse工具，java语言，现在工具都已经用上AndroidStudio，语言也在向Kotlin发展。再比如人工智能，大数据，深度学习等都是发展趋势，<strong>如果没有很强的自学能力来适应社会环境的发展，那么就很快会被淘汰</strong>。而且我也发现，很多牛人都有很强的自学能力。所以作为码农，没理由一直不去学会自学，这可以说是我们的生存技能了，其实不仅仅是码农，你说哪一个行业的优秀人员不是拥有超强的自学能力的呢？</p>
+
+<h2 id="section-1">获取资源</h2>
+
+<p>有时候我们要学习某一块知识点，或者遇到问题的时候，有些人可能会去问别人，有人会百度，有人也会google等去获取资源，对于好的资源对我们来说事半功倍，所以<strong>对资源的筛选和搜索技巧对于我们来说挺重要的</strong>，比如我想学习网络框架这一块的资源，那么我首先会去github上搜索「java http 」，然后根据最多的收藏数排序，就很明显看到比较流行的框架：</p>
+
+<p><img src="https://www.wistbean.com/images/2017-08-16-programmer/1.png =693x412" alt="获取资源" /></p>
+
+<p>可以看到retrofit和okhttp都有20+k的start，然后在google一下发现可以看到很多人在使用：
+<img src="https://www.wistbean.com/images/2017-08-16-programmer/2.png =693x412" alt="获取资源" /></p>
+
+<p>，那么就将他的源代码clone下来，然后在结合一些文章，看看如何使用，甚至对源码进行学习。当然了，这里只是提供我自己的获取资源的某一方法，获取途径有许多种，适合自己的才是最好的吧。推荐去学学Google搜索技巧。</p>
+
+<h2 id="section-2">总结思考</h2>
+
+<p>总结的好处是将自己对资源的整合和资料的学习过程有一个好的归纳和学习思考，就好像孔子爷爷说的学而时习之，不亦乐乎！学而不思则罔！所以我觉得建立自己的一个博客是一个非常好的东西，常常对自己的生活，代码，想法等等进行总结在自己的博客上，时不时看看，发现自己的不足之处，也对自己有很大的提升，而且也可以让别人少走一些弯路。</p>
+
+<h2 id="code-review">Code Review</h2>
+
+<p>经常听小伙伴说，看我过去写的代码就是一坨翔啊，是的！没错，大多数人都是这样，因为自己在成长学习，有了新的编程思想，或者自己对写代码的要求越来越高等，都会产生这样的心里，我们对代码进行审查，能发现自己的不足，也可能会发现之前不易发现的bug等，这都是可以提升软件质量和技术的。</p>
+
+<h2 id="section-3">英语</h2>
+<p>许多文档，第一手资料都是英文，我们的开发语言也是英文，学好英文也是关键！</p>
+
+<h2 id="section-4">耐心</h2>
+
+<p>当我们学习一些新的知识点，可能一开始接触会有点懵逼，也有抵触的心里，这时候我们需要点耐心去接收它。
+当我们发现程序bug时，也常常会不知道怎么解决，这时候我们需要点耐心，去搜索去咨询去解决它。
+当需求变更了，我们也需要点耐心，跟产品经理吵吵架，锻炼口才！</p>
+
+<h2 id="section-5">好身体</h2>
+
+<p>身体健康，懂的人自然懂！</p>
+
+<hr />
+
+<p>以上，便是我认为程序员应该具备的特质，观点如有雷同，纯属你爱我，当然欢迎补充！</p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/accountant-2252316_960_720.jpg"/>
+            <enclosure length="9347415" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/7.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/10/22/programmer/</guid>
+            <pubDate>2017-10-22T15:58:17+08:00</pubDate>
+            <itunes:duration>06:28</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>你在chrome浏览器地址栏中输入baidu.com回车后发生了什么</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<h2 id="section">本文目录</h2>
+
+<p><a href="#1">1.你在chrome的地址栏输入baidu.com</a></p>
+
+<p><a href="#2">2.chrome通过DNS去查找baidu.com这个域名对应的IP地址</a></p>
+
+<p><a href="#3">3.浏览器给baidu服务器发送一个HTTP请求</a></p>
+
+<p><a href="#4">4.baidu服务器301重定向响应</a></p>
+
+<p><a href="#5">5.chrome浏览器请求重定向来的地址</a></p>
+
+<p><a href="#6">6.baidu服务器处理请求</a></p>
+
+<p><a href="#7">7.baidu服务器返回HTML响应</a></p>
+
+<p><a href="#8">8.chrome浏览器显示baidu页面</a></p>
+
+<p>浏览器是我们上网必备的工具之一，每当我们需要查询资料的时候，我们就会通过浏览器去访问相应的网站，或者当你寂寞难耐的时候，也许会关上窗门，然后通过浏览器去访问你收藏已久的域名，打开他的在线网站…</p>
+
+<p><img src="https://www.wistbean.com/images/2017-10-14-what-happens-when-you-request-a-url/1.jpg" alt="url" /></p>
+
+<p>emmmmmm..</p>
+
+<p>回到正题，当你在chrome浏览器地址栏中输入baidu.com回车后会发生什么呢？</p>
+
+<h2 id="1">1.你在chrome的地址栏输入baidu.com</h2>
+
+<p><img src="https://www.wistbean.com/images/2017-10-14-what-happens-when-you-request-a-url/1.png" alt="chrome的地址栏输入baidu.com" /></p>
+
+<h2 id="2">2.chrome通过DNS去查找baidu.com这个域名对应的IP地址</h2>
+
+<p><img src="https://www.wistbean.com/images/2017-10-14-what-happens-when-you-request-a-url/2.png" alt="chrome通过DNS去查找baidu.com这个域名对应的IP地址" /></p>
+
+<p>DNS的查找过程是这样的：</p>
+
+<p>chrome浏览器会先查找有没有缓存的DNS记录，如果在浏览器缓存没有找到需要的记录，就会去做一个系统的调用，获取系统缓存的记录；</p>
+
+<p>如果没有记录请求会继续到路由器上，路由器上有自己的DNS缓存；</p>
+
+<p>如果没有记录就会到ISP的DNS缓存中查看记录；</p>
+
+<p>如果没有记录就会在ISP的DNS服务器从根服务器域名服务器开始递归搜索最后得到IP地址。</p>
+
+<h2 id="3">3.浏览器给baidu服务器发送一个HTTP请求</h2>
+
+<p><img src="https://www.wistbean.com/images/2017-10-14-what-happens-when-you-request-a-url/3.png" alt="浏览器给baidu服务器发送一个HTTP请求" /></p>
+
+<p>获取到baidu的ip地址之后，就可以给baidu这个服务器发送HTTP请求了，我们通过URL地址去发送的时候是一个GET的请求，这时候会向baidu服务器发送一个header信息：</p>
+
+<pre><code>Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.8
+Cache-Control:no-cache
+Connection:keep-alive
+Cookie:PSTM=1506157985; BIDUPSID=DA662DF344C147D17FB4828CCD795292; ...
+Host:www.baidu.com
+Pragma:no-cache
+Upgrade-Insecure-Requests:1
+User-Agent:Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+</code></pre>
+
+<p>其中</p>
+
+<ul>
+  <li>User-Agent是向baidu服务器提供浏览器的类型，操作系统版本，浏览插件，浏览器语言等信息。</li>
+  <li>Accept是告诉服务器说我们需要接收的类型是什么样子的</li>
+  <li>Connection:keep-alive 是为了后边请求不要关闭TCP连接</li>
+  <li>Cookie 是以文本形式存储，每次请求的时候就会发送给服务器，它可以存储用户的状态，用户名等信息</li>
+</ul>
+
+<h2 id="4">4.baidu服务器301重定向响应</h2>
+
+<p><img src="https://www.wistbean.com/images/2017-10-14-what-happens-when-you-request-a-url/4.png" alt="baidu服务器301重定向响应" /></p>
+
+<p>因为刚刚我们在chrome浏览器中输入的是baidu.com而不是www.baidu.com，这时候baidu服务器就会将我们的请求响应一个301永久重定向到www.baidu.com。</p>
+
+<h2 id="5">5.chrome浏览器请求重定向来的地址</h2>
+
+<p><img src="https://www.wistbean.com/images/2017-10-14-what-happens-when-you-request-a-url/3.png" alt="浏览器给baidu服务器发送一个HTTP请求" /></p>
+
+<p>这时候chrome浏览器知道www.baidu.com才是baidu希望访问的地址，那么这时候chrome浏览器就会给baidu服务器发送另一个请求。</p>
+
+<h2 id="6">6.baidu服务器处理请求</h2>
+
+<p>baidu服务器在这个时候接收到了请求，它会去查看请求它的参数还有cookie信息，然后会进行一些操作处理，例如对数据进行存储，从数据库中获取需要被请求的数据等。</p>
+
+<h2 id="7">7.baidu服务器返回HTML响应</h2>
+
+<p><img src="https://www.wistbean.com/images/2017-10-14-what-happens-when-you-request-a-url/5.png" alt="baidu服务器返回HTML响应" /></p>
+
+<p>当baidu服务器处理好之后，就会给浏览器返回数据了，这个时候会有一个Response Headers发送给浏览器：</p>
+
+<pre><code>Bdpagetype:1
+Bdqid:0xddf2be49000b5995
+Bduserid:0
+Cache-Control:private
+Connection:Keep-Alive
+Content-Encoding:gzip
+Content-Type:text/html; charset=utf-8
+Cxy_all:baidu+09720a4fa84e5493ae7506a57de6bc05
+Date:Sat, 14 Oct 2017 09:39:32 GMT
+Expires:Sat, 14 Oct 2017 09:39:32 GMT
+Server:BWS/1.1
+Set-Cookie:BDSVRTM=49; path=/
+Set-Cookie:BD_HOME=0; path=/
+Set-Cookie:H_PS_PSSID=1440_13551_21103_24658; path=/; domain=.baidu.com
+Strict-Transport-Security:max-age=172800
+Transfer-Encoding:chunked
+Vary:Accept-Encoding
+X-Powered-By:HPHP
+X-Ua-Compatible:IE=Edge,chrome=1
+</code></pre>
+
+<p>Response Headers说明了是否缓存这个页面，怎么去解释响应信息，cookie的设置，隐私信息等。
+其中</p>
+
+<ul>
+  <li>Content-Encoding:gzip告诉浏览器整个响应体是用gzip算法压缩的。</li>
+  <li>Content-Type:text/html; charset=utf-8 告诉浏览器将响应的内容以HTML的形式呈现出来，字符集是utf-8。</li>
+</ul>
+
+<h2 id="8">8.chrome浏览器显示baidu页面</h2>
+
+<p>这时候chrome浏览器获得了响应内容，就开始显示baidu的HTML页面了，浏览器在显示的时候，发现需要获取其他的标签内容，比如图片、css样式表、JavaScript文件，那么浏览器就会继续对baidu服务器去发送请求这些内容，这些静态的文件baidu会把它进行缓存，利用内容分发网络（CDN）进行分发，所以这些静态文件在很多CDN数据中心都有备份，所以浏览器很快就能获取到这些静态文件。</p>
+
+<p>从而进行页面吧的完整的显示:</p>
+
+<p><img src="https://www.wistbean.com/images/2017-10-14-what-happens-when-you-request-a-url/6.png" alt="baidu完整的显示" /></p>
+
+<h2 id="section-1">我的相关文章</h2>
+<ul>
+  <li><a href="https://www.wistbean.com/blog/2016/11/26/computer-system-structure/">计算机网路的体系结构概述</a></li>
+  <li><a href="http://localhost:4000/blog/2016/10/15/what-is-the-internet/">什么是因特网?</a></li>
+  <li><a href="https://www.wistbean.com/blog/2016/10/30/composition-of-internet/">因特网的组成</a></li>
+</ul>
+
+<h2 id="section-2">相关资料</h2>
+<p><a href="http://igoro.com/archive/what-really-happens-when-you-navigate-to-a-url/">what-really-happens-when-you-navigate-to-a-url</a></p>
+
+]]></itunes:summary>
+            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/06.png"/>
+            <enclosure length="5446225" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/06.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/10/14/what-happens-when-you-request-a-url/</guid>
+            <pubDate>2017-10-14T16:48:10+08:00</pubDate>
+            <itunes:duration>06:28</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>Java创建型设计模式：工厂方法模式</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<h2 id="section">本文目录</h2>
+
+<p><a href="#1">1.工厂方法模式的使用例子</a></p>
+
+<p><a href="#3">2.工厂方法模式的主要代码实现</a></p>
+
+<p><a href="#4">3.工厂方法模式的优点</a></p>
+
+<p><a href="#5">4.工厂方法模式的使用场景</a></p>
+
+<p><a href="#6">5.我的相关文章</a></p>
+
+<p><a href="#7">6.工厂方法模式的相关资料</a></p>
+
+<h2 id="1">工厂方法模式的使用例子</h2>
+
+<p>假设电脑由主机、键盘、显示器、鼠标组成，现在需要组装一台这样的电脑交给调用者去使用，那么可能我们会这样写代码：</p>
+
+<pre><code>public class Host {
+
+    public void describe()
+    {
+        System.out.println("这是电脑主机");
+    }
+
+}
+
+
+public class Monitor {
+
+    public void describe()
+    {
+        System.out.println("这是显示器");
+    }
+
+}
+
+
+public class Mouse {
+
+    public void describe()
+    {
+        System.out.println("这是鼠标");
+    }
+
+}
+
+public class _keyboard {
+
+    public void describe()
+    {
+        System.out.println("这是键盘");
+    }
+
+}
+
+
+public class Computer {
+
+    private Host host;
+    private _keyboard _keyboard;
+    private Monitor monitor;
+    private Mouse mouse;
+
+    public Computer(Host host,_keyboard _keyboard,Monitor monitor,Mouse mouse){
+        this.host = host;
+        this._keyboard = _keyboard;
+        this.monitor = monitor;
+        this.mouse = mouse;
+    }
+
+    public void show()
+    {
+        this.host.describe();
+        this._keyboard.describe();
+        this.monitor.describe();
+        this.mouse.describe();
+    }
+
+}
+
+
+调用者：
+
+ public static void main(String[] args)
+    {
+        Host host = new Host();
+        _keyboard keyboard = new _keyboard();
+        Monitor monitor = new Monitor();
+        Mouse mouse = new Mouse();
+
+        Computer computer = new Computer(host,keyboard,monitor,mouse);
+        computer.show();
+    }
+
+
+输出：
+
+	这是电脑主机
+	这是键盘
+	这是显示器
+	这是鼠标
+</code></pre>
+
+<p>我们可以看到，调用者为了搞一台电脑，还需要自己去创建主机，键盘，显示器，鼠标这些组件，但是这些组件是和调用者无关的，而且这些组件实际情况下可能是抽象的，调用者根本不知道如何去使用这些。</p>
+
+<p>另外假设调用者需要不同品牌的电脑，例如苹果电脑，联想电脑，三星电脑等等，这样对代码来说不仅耦合度太高了，而且很是不利于之后的优化扩展。</p>
+
+<p>调用者只希望有一个创建电脑的工厂，使用它直接造出一台电脑就好了。</p>
+
+<p>比如想要苹果电脑，那就直接告诉 「苹果工厂」 ： “给我造台电脑来” ，然后 「苹果工厂」 就屁颠屁颠的将<strong>苹果电脑</strong>送过来了。</p>
+
+<p>同样的，如果你想要联想电脑，那就直接告诉 「联想工厂」 ： “快，搞台出来给我” ，于是 「联想工厂」 就把崭新的<strong>联想电脑</strong>送到你手里了。</p>
+
+<p>想想是不是简直不要太爽？</p>
+
+<p>那这时候，我们就可以这样子，先画个类图：</p>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/factoryPatternExample.png" alt="工厂方法设计模式" /></p>
+
+<blockquote>
+  <p>如果对类图不太了解可以先看这：<a href="https://www.wistbean.com/blog/2017/10/03/uml-diagrams/">轻松理解UML用例图时序图类图的教程</a></p>
+</blockquote>
+
+<p>可以看到：</p>
+
+<ul>
+  <li>ComputerFactory 是一个抽象的工厂（接口），它有一个createComputer的方法，这个方法返回的是Computer这个接口类。</li>
+  <li>AppleFactory 和 LenovoFactory是具体的工厂类，分别实现了ComputerFactory，它们重写父类的createComputer方法，其中 AppleFactory的createComputer方法返回的是AppleComputer，LenovoFactory的createComputer方法返回的是LenovoComputer</li>
+  <li>Computer是一个抽象的产品类</li>
+  <li>AppleComputer和LenovoComputer是具体的产品类，分别实现了Computer。</li>
+</ul>
+
+<p>代码体现如下：</p>
+
+<pre><code> /**
+ * Created by wistbean on 2017/10/7.
+ * 抽象工厂
+ */
+public interface ComputerFactory {
+
+    public Computer createComputer();
+
+}
+
+/**
+ * Created by wistbean on 2017/10/7.
+ * 具体工厂
+ */
+public class AppleFactory implements ComputerFactory {
+    @Override
+    public Computer createComputer() {
+
+        //这里主要为了演示工厂方法模式，组装电脑的代码省略...
+
+        Computer appleComputer = new AppleComputer();
+
+        return appleComputer;
+    }
+}
+
+
+/**
+ * Created by wistbean on 2017/10/7.
+ * 具体工厂
+ */
+public class LenovoFactory implements ComputerFactory {
+    @Override
+    public Computer createComputer() {
+
+        //这里主要为了演示工厂方法模式，组装电脑的代码省略...
+
+        Computer lenovoComputer = new LenovoComputer();
+
+        return lenovoComputer;
+    }
+}
+
+
+/**
+ * Created by wistbean on 2017/10/7.
+ * 抽象产品
+ */
+public interface Computer {
+
+    public void describe();
+}
+
+
+/**
+ * Created by wistbean on 2017/10/7.
+ * 具体产品
+ */
+public class AppleComputer implements Computer {
+
+    @Override
+    public void describe() {
+        System.out.println("苹果电脑");
+    }
+}
+
+/**
+ * Created by wistbean on 2017/10/7.
+ * 具体产品
+ */
+public class LenovoComputer implements Computer {
+
+    @Override
+    public void describe() {
+        System.out.println("联想电脑");
+    }
+}
+
+
+/**
+ * Created by wistbean on 2017/10/7.
+ * 调用
+ */
+public class Client {
+
+    public static void main(String args[])
+    {
+        ComputerFactory computerFactory;
+        Computer computer;
+
+        //让工厂给我创建一台苹果电脑
+        computerFactory = new AppleFactory();
+        computer = computerFactory.createComputer();
+        computer.describe();
+
+        //让工厂给我创建一台联想电脑
+        computerFactory = new LenovoFactory();
+        computer = computerFactory.createComputer();
+        computer.describe();
+    }
+}
+
+
+输出：
+
+	苹果电脑
+	联想电脑
+</code></pre>
+
+<p>以上，便是一个<strong>工厂方法模式</strong>的实现过程，其中的：</p>
+
+<p>工厂抽象接口用来返回一个产品，所有创建对象的工厂类都必须实现它；</p>
+
+<p>抽象工厂的子类（具体工厂类）则实现了抽象工厂中定义的方法，在这里返回具体的对象，还可以做一些初始化操作，环境配置等等。</p>
+
+<p>抽象的产品类则是所有具体产品的父类，主要定义一些产品的规范。</p>
+
+<p>具体产品类与具体工厂类一一对应，决定了产品的具体行为。</p>
+
+<p>从列子中也可以看到，针对不同的产品提供了不同的工厂，例如苹果电脑对应于苹果工厂；我们定义了一个抽象的工厂，让实例化这个抽象工厂的具体工厂类来决定实例化哪个类，这样让类的实例化延迟到子类中进行了！</p>
+
+<h2 id="3">工厂方法模式的主要代码实现</h2>
+
+<pre><code>public interface IFactory {
+
+    public IProduct createProduct();
+}
+
+public class ProductFactory implements IFactory {
+    @Override
+    public IProduct createProduct() {
+        IProduct product = new Product();
+        return product;
+    }
+}
+
+
+public interface IProduct {
+
+    public void productMethod();
+
+}
+
+
+public class Product implements IProduct {
+    @Override
+    public void productMethod() {
+        System.out.println("产品行为");
+    }
+}
+
+
+public class Client {
+
+    public static void main(String args[])
+    {
+        IFactory factory;
+        IProduct product;
+
+        factory = new ProductFactory();
+        product = factory.createProduct();
+
+        product.productMethod();
+    }
+
+}
+</code></pre>
+
+<h2 id="4">工厂方法模式的优点</h2>
+
+<ol>
+  <li>
+    <p>使得代码结构清晰，降低了代码的耦合性，工厂方法模式把复杂的产品实现封装了起来，调用者无需关心产品实例的具体实现，直接通过工厂获取实例即可。</p>
+  </li>
+  <li>
+    <p>易于扩展，当我们需要新的产品的时候，只需要实现新的抽象产品类和实现抽象工厂类即可。</p>
+  </li>
+</ol>
+
+<h2 id="5">工厂方法模式的使用场景</h2>
+
+<ol>
+  <li>对于一些较为复杂的对象创建我们可以使用工厂方法模式。</li>
+  <li>调用者不知道子类的名称时，只知道对应的工厂，直接从工厂获取可以用工厂方法模式。</li>
+  <li>调用者需要组装产品的时候产生过多依赖的关系时，可以用工厂方法模式。</li>
+</ol>
+
+<h2 id="6">我的相关文章</h2>
+
+<ul>
+  <li><a href="https://www.wistbean.com/blog/2017/09/24/design-pattern/">软件工程中的GoF设计模式</a></li>
+  <li><a href="https://www.wistbean.com/blog/2017/09/26/singleton-pattern/">Java创建型单例设计模式：全局唯一对象</a></li>
+</ul>
+
+<h2 id="7">相关资料</h2>
+
+<ul>
+  <li><a href="http://wiki.jikexueyuan.com/project/java-design-pattern/factory-pattern.html">工厂方法模式</a></li>
+  <li><a href="https://design-patterns.readthedocs.io/zh_CN/latest/creational_patterns/factory_method.html">工厂方法模式(Factory Method Pattern)</a></li>
+  <li><a href="http://blog.csdn.net/jason0539/article/details/23020989">JAVA设计模式之工厂模式(简单工厂模式+工厂方法模式)</a></li>
+  <li><a href="https://quanke.gitbooks.io/design-pattern-java/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F-Factory%20Method%20Pattern.html">工厂方法模式-Factory Method Pattern</a></li>
+</ul>
+
+]]></itunes:summary>
+            <itunes:image href="http://owx1uvd7t.bkt.clouddn.com/lost-places-1510592_960_720.jpg"/>
+            <enclosure length="7588954" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/05.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/10/07/factory-method-pattern/</guid>
+            <pubDate>2017-10-07T13:39:32+08:00</pubDate>
+            <itunes:duration>09:01</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>java创建型单例设计模式：全局唯一对象</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">回收站的例子说明单例设计模式</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">单例设计模式的实现方式</a>    <ul>
+      <li><a href="#java" id="markdown-toc-java">java单例模式中的饿汉式</a></li>
+      <li><a href="#java-1" id="markdown-toc-java-1">java单例模式中的懒汉式</a></li>
+    </ul>
+  </li>
+  <li><a href="#java-2" id="markdown-toc-java-2">java单例模式中的饿汉式与懒汉式的比较</a></li>
+  <li><a href="#section-2" id="markdown-toc-section-2">更好的单例实现方式</a></li>
+  <li><a href="#section-3" id="markdown-toc-section-3">单例模式应用场景</a></li>
+  <li><a href="#section-4" id="markdown-toc-section-4">相关文章</a></li>
+  <li><a href="#section-5" id="markdown-toc-section-5">相关资料</a></li>
+</ul>
+
+<h2 id="section">回收站的例子说明单例设计模式</h2>
+
+<p>当你打开你桌面上的 「回收站」 时，你可以看到里面有你删除的文件，当你再次或者多次打开桌面的「回收站」时，你会发现无论你打开多少次，系统都只会有一个「回收站」ze的窗口存在，而不会出现多个，这是为什么呢？</p>
+
+<p>试想一下，如果每次打开都会有一个新的「回收站」窗口，那么当你在某一个窗口中清除了垃圾文件，那么另一个窗口依然存在这些文件，这样子的话：</p>
+
+<ul>
+  <li>一：用户体验不好，有一种删除了还存在文件的错觉，有歧义。</li>
+  <li>二：打开多个窗口，创建了多个对象，浪费了资源。</li>
+</ul>
+
+<p><img src="http://owx1uvd7t.bkt.clouddn.com/Full_Recycle_Bin.png" alt="单例设计模式" /></p>
+
+<p>所以这个时候整个系统就只允许一个「回收站」对象存在，让它具有唯一性，从而统一对它进行管理操作。</p>
+
+<p>那么如何做到确保整个系统只有一个对象，而且能让这个唯一的对象能够提供公共的访问方法呢？那么这时候就可以用到单例设计模式了。</p>
+
+<p>实现思路是这样的：</p>
+
+<ol>
+  <li>让该类的构造函数定义为私有（private），这样其它代码没办法去实例化（new）这个对象</li>
+  <li>让该类提供一个静态的方法，且让这个静态方法可以得到这个类的实例。</li>
+</ol>
+
+<p>我们来模拟回收站这个对象：</p>
+
+<pre><code>public class RecycleBin {
+
+    private final static RecycleBin instance = new RecycleBin();
+
+    //让该类的构造函数定义为私有（private），这样其它代码没办法去实例化（new）这个对象
+    private RecycleBin(){}
+
+    //让该类提供一个静态的方法，且让这个静态方法可以得到这个类的实例。
+    public static RecycleBin getInstance()
+    {
+        return instance;
+    }
+
+    public void showDeletedFile()
+    {
+        System.out.println("显示被删除的文件");
+    }
+
+    public void restoreFile()
+    {
+        System.out.println("还原被删除的文件");
+    }
+
+    public void deletFile()
+    {
+        System.out.println("彻底删除文件");
+    }
+
+
+}
+</code></pre>
+
+<p>在这里我们模拟创建了「回收站」这个对象，它拥有显示被删除的文件、还原被删除的文件、彻底删除文件这三个方法，当然这里只是模拟打印出一句话来，真正的程序是很复杂的。而这里以通俗的言语来描述，根据我们刚刚的思路，这里让该类的构造函数定义为私有（private），提供一个静态的方法，让这个静态方法可以得到这个类的实例。</p>
+
+<p>这时候我们调用的时候就是这样的：</p>
+
+<pre><code>public class Test {
+
+    public static void main(String args[])
+    {
+        RecycleBin recycleBin = RecycleBin.getInstance();
+        RecycleBin recycleBin1 = RecycleBin.getInstance();
+        RecycleBin recycleBin2 = RecycleBin.getInstance();
+
+        System.out.println("是否用一个实例：" + (recycleBin == recycleBin1 &amp;&amp; recycleBin1== recycleBin2));
+
+        recycleBin.showDeletedFile();
+        recycleBin.restoreFile();
+        recycleBin.deletFile();
+    }
+}
+</code></pre>
+
+<p>输出：</p>
+
+<pre><code>是否用一个实例：true
+显示被删除的文件
+还原被删除的文件
+彻底删除文件
+</code></pre>
+
+<p>我们通过判断可以知道每次getInstance()出来的实例都是同一个，也就是说这个recycleBin具有<strong>唯一性</strong>，接着便是调用recycleBin的方法了。</p>
+
+<p>这就是一个单例的简单具体实现了，可以说RecycleBin这个类是单例类。</p>
+
+<p>我们可以看到这个类的对象引用永远是同一个，而且这个类提供一个获得该实例的静态方法，通常情况下用的是<strong>getInstance()</strong>这个名称。</p>
+
+<p>刚刚我们的RecycleBin类是在类加载的时候便去初始化：</p>
+
+<pre><code> private final static RecycleBin instance = new RecycleBin();
+</code></pre>
+
+<p>有人也许会觉得这样类一加载就要去实例化对象，会耗费时间且一直占用资源，能不能在使用的时候才初始化呢？</p>
+
+<p>答案是肯定的，我们将我们的RecycleBin修改一下：</p>
+
+<pre><code>public class RecyleBin {
+
+    private volatile static RecyleBin instance;
+
+    //让该类的构造函数定义为私有（private），这样其它代码没办法去实例化（new）这个对象
+    private RecyleBin(){}
+
+    //需要的时候才去加载实例
+    public static RecyleBin getInstance()
+    {
+        if(instance==null)
+        {
+            instance = new RecyleBin();
+        }
+
+        return instance;
+    }
+
+    public void showDeletedFile()
+    {
+        System.out.println("显示被删除的文件");
+    }
+
+    public void restoreFile()
+    {
+        System.out.println("还原被删除的文件");
+    }
+
+    public void deletFile()
+    {
+        System.out.println("彻底删除文件");
+    }
+}
+</code></pre>
+
+<p>可以看到，这一次我们是先判断instance是否为空，空的话就实例对象再返回，不为空就直接返回对象了，类加载的时候不进行实例化，其实这种方式称为：<strong>延迟加载或者懒加载（lazy load）</strong>，也就是我们在需要的时候才去加载实例。</p>
+
+<p>但是这样会存在一个隐患，就是当多个线程去执行调用这个实例的时候，可能会产生多个实例，例如我这里创建一个MyThread，主要是调用RecyleBin的获取实例方法，然后打印出这个实例的哈希值：</p>
+
+<pre><code>public class MyThread implements Runnable {
+    @Override
+    public void run() {
+        RecyleBin instance = RecyleBin.getInstance();
+        System.out.println(instance.hashCode());
+    }
+}
+</code></pre>
+
+<p>接着我们在测试类中：</p>
+
+<pre><code>	public static void main(String args[])
+    {
+       while(true)
+       {
+           new Thread(new MyThread()).start();
+       }
+    }
+</code></pre>
+
+<p>从打印输出中可以看到：</p>
+
+<pre><code>...
+1780742980
+1780742980
+603764719
+1780742980
+1780742980
+1780742980
+...
+</code></pre>
+
+<p>发现哈希值有不一样的，这也是刚刚说的存在这样的隐患，假设当A、B两个线程进入：</p>
+
+<pre><code>	 if(instance==null)
+     {
+          instance = new RecyleBin();
+     }
+</code></pre>
+
+<p>A线程判断instance不为空的时候，开始进入实例化，不过在这个时候，A还没来得及实例化，B线程就进来判断了，这时候B线程发现instance是空的，于是它也进入实例化。那么这样就会出现多个实例了，违背了我们之前说的单例原则的唯一性了。</p>
+
+<p>解决方法：</p>
+
+<p>如果你看过<a href="https://www.wistbean.com/blog/2015/07/28/java-thread/" title="Java惹人爱的多线程">Java惹人爱的多线程</a>，那么应该会想到用锁来解决这一问题，没错！就是这样：</p>
+
+<pre><code> 	//需要的时候才去加载实例
+    public static RecyleBin getInstance()
+    {
+        if(instance==null)
+        {
+            synchronized (RecyleBin.class)
+            {
+                if(instance==null){
+
+                    instance = new RecyleBin();
+                }
+            }
+        }
+
+        return instance;
+    }
+</code></pre>
+
+<p>这里对instance进行了双重判断且加了一把锁，这样解决了线程安全问题：</p>
+
+<p>如果如果A、B线程同时进入getInstance(),当两者都判断为null的时候，这时候它们遇到了synchronized锁，如果A先进入锁里面的代码，那么B只能先在外面等待，当A执行完之后，instance也被实例化了，这时候锁被释放，B进去的时候判断instance不为null，于是不实例化对象，直接返回。这样就实现了单例原则了！</p>
+
+<h2 id="section-1">单例设计模式的实现方式</h2>
+
+<p>从上面的例子中，以两种方式实现，一种是在类加载的时候就对对象进行实例化，一种是在需要的时候才创建对象，其实这两种都有各自的名字，第一种叫做：<strong>饿汉式</strong>，第二种叫做<strong>懒汉式</strong>。</p>
+
+<p>以代码提现就是这样的：</p>
+
+<h3 id="java">java单例模式中的饿汉式</h3>
+
+<pre><code>/**
+ * Created by wistbean on 2017/9/27.
+ * 单例模式：饿汉式方式实现
+ */
+public class Singleton {
+
+    private static final Singleton INSTANCE = new Singleton();
+
+    private Singleton(){}
+
+    public static Singleton getInstance()
+    {
+        return INSTANCE;
+    }
+
+}
+</code></pre>
+
+<h3 id="java-1">java单例模式中的懒汉式</h3>
+
+<pre><code>/**
+ * Created by wistbean on 2017/9/27.
+ * 单例模式：懒汉式方式实现
+ */
+public class LazySingleton {
+
+    private volatile static LazySingleton instance = null;
+
+    private LazySingleton(){}
+
+    public static LazySingleton getInstance()
+    {
+        if(instance == null)
+        {
+            synchronized (LazySingleton.class)
+            {
+                if(instance==null)
+                {
+                    instance = new LazySingleton();
+                }
+            }
+        }
+
+        return instance;
+    }
+
+}
+</code></pre>
+
+<h2 id="java-2">java单例模式中的饿汉式与懒汉式的比较</h2>
+
+<p>饿汉式在类一加载就实例化了对象，这样就一直存在，比较占用资源，浪费时间，但是它不需要考虑线程安全问题就可以确保对象的唯一性，相对于懒汉式的方式来说获取速度稍微快一些。</p>
+
+<p>懒汉式是在需要的时候才创建对象，不会一直存在占用着资源，不过它对线程方面需要添加线程锁来保证对象的唯一性，相对于饿汉式的方式来说影响了性能。</p>
+
+<h2 id="section-2">更好的单例实现方式</h2>
+
+<p>饿汉式速度快，懒汉式不会一直占用资源，但是它们又都有缺点，能不能对他们“取其精华去其糟粕”呢？</p>
+
+<p>能！</p>
+
+<p>那就是以<strong>静态内部类</strong>的方式，他有个名称叫：<a href="https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom" title="Initialization-on-demand holder idiom">Initialization-on-demand holder idiom</a>，它的实现方式是这样的：</p>
+
+<pre><code>/**
+ * Created by wistbean on 2017/9/27.
+ * 单例模式 以内部类的形式实现
+ */
+public class IodhiSigleton {
+
+    private IodhiSigleton(){}
+
+    private static class LazyHolder
+    {
+        private final static IodhiSigleton INSTANCE = new IodhiSigleton();
+    }
+
+    public static IodhiSigleton getInstance()
+    {
+        return LazyHolder.INSTANCE;
+    }
+
+}
+</code></pre>
+
+<p>当JVM加载IodhiSigleton的时候，内部类一开始不会被初始化，只有当java虚拟机（JVM）执行才会初始化，也就是当执行getInstance()的时候，jvm才会去执行LazyHolder并且初始化，初始化的时候会实例化一个外部的IodhiSigleton类。</p>
+
+<p>因为这样的初始化阶段是依赖于java虚拟机（JVM）的语言规范 Java Language Specification (JLS)，它确保的是类的初始化阶段是串行的，不是并发的。所以不需要线程锁synchronized。</p>
+
+<p>这样的话它就不需要像饿汉式那样一开始就去实例对象占用资源，又做到了懒加载的方式，并且不需要添加线程锁就能确保线程安全，提高了性能。可以算是有了饿汉式和懒汉式的精华，但是去除了它们的缺点，so cool！</p>
+
+<h2 id="section-3">单例模式应用场景</h2>
+
+<ol>
+  <li>
+    <p>对共享资源进行统一管理的时候，如系统的配置文件，系统的日志管理等。</p>
+  </li>
+  <li>
+    <p>当我们只允许一个对象实例来使用的时候，例如系统需要唯一的对象来管理资源，系统需要唯一的对象来生成序列单号。</p>
+  </li>
+</ol>
+
+<h1 id="section-4">相关文章</h1>
+<ul>
+  <li><a href="https://www.wistbean.com/blog/2017/09/24/design-pattern/">软件工程中的GoF设计模式</a></li>
+  <li><a href="https://www.wistbean.com/blog/2017/10/03/uml-diagrams/">轻松理解UML用例图时序图类图的教程</a></li>
+</ul>
+
+<h1 id="section-5">相关资料</h1>
+
+<ul>
+  <li><a href="https://zh.wikipedia.org/wiki/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F">维基百科 单例模式</a></li>
+  <li><a href="http://blog.csdn.net/haoel/article/details/4028232">深入浅出单实例Singleton设计模式</a></li>
+  <li><a href="https://www.ibm.com/developerworks/cn/java/j-lo-Singleton/index.html">Java编程设计模式，第1部分单例模式</a></li>
+  <li><a href="http://wuchong.me/blog/2014/08/28/how-to-correctly-write-singleton-pattern/">如何正确地写出单例模式</a></li>
+</ul>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/04.jpg"/>
+            <enclosure length="6590545" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/04.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/09/26/singleton-pattern/</guid>
+            <pubDate>2017-09-26T21:45:10+08:00</pubDate>
+            <itunes:duration>07:50</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>软件工程中的GoF设计模式</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<p>今天来谈谈<a href="https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F#.E5.88.86.E7.B1.BB" title="设计模式">设计模式</a>，软件模式和数据结构，算法，操作系统，网络，编程思想等可以算是程序员的“内功”，因为这些内容和编程语言无关，它们有点“道”感觉，就像老子说的那样：“道可道，非常道；名可名，非常名”。</p>
+
+<ul id="markdown-toc">
+  <li><a href="#section" id="markdown-toc-section">设计模式</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">设计模式的由来</a></li>
+  <li><a href="#gof" id="markdown-toc-gof">Gof设计模式</a>    <ul>
+      <li><a href="#section-2" id="markdown-toc-section-2">其中创建型有5个：</a></li>
+      <li><a href="#section-3" id="markdown-toc-section-3">结构型有7个：</a></li>
+      <li><a href="#section-4" id="markdown-toc-section-4">行为型有11个：</a></li>
+    </ul>
+  </li>
+  <li><a href="#section-5" id="markdown-toc-section-5">花些时间学习设计模式</a></li>
+  <li><a href="#section-6" id="markdown-toc-section-6">相关文章</a></li>
+  <li><a href="#section-7" id="markdown-toc-section-7">相关资料</a></li>
+</ul>
+
+<h2 id="section">设计模式</h2>
+
+<p>设计模式可以说是前人走过的路，走的多了，就有了他们总结出来的“套路”，也就是他们总结出了的一些设计方案，使我们可以写出更优雅的代码，灵活的代码，可重用的代码，可扩展的代码…</p>
+
+<h2 id="section-1">设计模式的由来</h2>
+
+<p>其实一开始，设计模式并不是从软件设计中研发出来的，而是在建筑中借鉴过来的！在79年的时候，有一位很牛逼的建筑师<a href="https://baike.baidu.com/item/%E5%85%8B%E9%87%8C%E6%96%AF%E6%89%98%E4%BD%9B%C2%B7%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7/8776972?fr=aladdin" title="克里斯托佛·亚历山大">克里斯托佛·亚历山大（Christopher Alexander)</a>编著了设计模式的一本书。</p>
+
+<p>在87年的时候 <a href="https://zh.wikipedia.org/wiki/%E8%82%AF%E7%89%B9%C2%B7%E8%B2%9D%E5%85%8B" title="肯特·貝克">肯特·贝克</a> 和 <a href="https://zh.wikipedia.org/wiki/%E6%B2%83%E5%BE%B7%C2%B7%E5%9D%8E%E5%AE%81%E5%AE%89" title="沃德·坎宁安">沃德·坎宁安 </a>从<a href="https://baike.baidu.com/item/%E5%85%8B%E9%87%8C%E6%96%AF%E6%89%98%E4%BD%9B%C2%B7%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7/8776972?fr=aladdin" title="克里斯托佛·亚历山大">克里斯托佛·亚历山大（Christopher Alexander)</a>的建筑领域的设计模式思想应用在了<a href="https://baike.baidu.com/item/smalltalk/1379989?fr=aladdin" title="Smalltalk">Smalltalk</a>的图形应用接口(GUI)里边。</p>
+
+<p>88年<a href="https://zh.wikipedia.org/wiki/%E5%9F%83%E9%87%8C%E5%B8%8C%C2%B7%E4%BC%BD%E7%91%AA" title="埃里希·伽玛">埃里希·伽玛</a>把这种设计模式思想写为使用于软件开发的论文中。</p>
+
+<p>89-91年James Coplien 利用相同的思想在C++中开发。</p>
+
+<p>差不多在这个时候出现了<a href="https://baike.baidu.com/item/GoF/6406151?fr=aladdin">“四人帮”（Gang of Four，简称GoF）</a>，他们分别是Erich Gamma ，Richard Helm，Ralph Johnson ，John Vlissides 。他们用23种设计模式合作出版了《设计模式：可复用面向对象软件的基础》，从而闻名整个软件领域，突破了软件的设计模式，所以现在Gof也会代指为他们出版的这本书。</p>
+
+<h2 id="gof">Gof设计模式</h2>
+
+<p>Gof设计模式有23个，分为三类：<strong>创建型</strong>（如何创建对象），<strong>结构型</strong>（如何实现对象的组合），<strong>行为型</strong>（对象如何交互以及怎么分配职责）。</p>
+
+<h3 id="section-2">其中创建型有5个：</h3>
+
+<ul>
+  <li><a href="https://www.wistbean.com/blog/2017/09/26/singleton-pattern/">单例模式 Singleton Pattern</a></li>
+  <li>工厂方法模式 Factory Method Pattern</li>
+  <li>抽象工厂模式 Abstract Factory Pattern</li>
+  <li>原型模式 Prototype Pattern</li>
+  <li>建造者模式 Builder Pattern</li>
+</ul>
+
+<h3 id="section-3">结构型有7个：</h3>
+
+<ul>
+  <li>适配器模式 Adapter Pattern</li>
+  <li>桥接模式 Bridge Pattern</li>
+  <li>组合模式 Composite Pattern</li>
+  <li>装饰模式 Decorator Pattern</li>
+  <li>外观模式 Façade Pattern</li>
+  <li>享元模式 Flyweight Pattern</li>
+  <li>代理模式 Proxy Pattern</li>
+</ul>
+
+<h3 id="section-4">行为型有11个：</h3>
+
+<ul>
+  <li>职责链模式 Chain of Responsibility Pattern</li>
+  <li>命令模式 Command Pattern</li>
+  <li>解释器模式 Interpreter Pattern</li>
+  <li>迭代器模式 Iterator Pattern</li>
+  <li>中介者模式 Mediator Pattern</li>
+  <li>备忘录模式 Memento Pattern</li>
+  <li>观察者模式 Observer Pattern</li>
+  <li>状态模式 State Pattern</li>
+  <li>策略模式 Strategy Pattern</li>
+  <li>模板方法模式 Template Method Pattern</li>
+  <li>访问者模式 Visitor Pattern</li>
+</ul>
+
+<h2 id="section-5">花些时间学习设计模式</h2>
+
+<p>拓宽自己的视野，站的更高，才会看得更远。
+不管你是使用哪种面向对象的语言，如果一点设计模式都不懂的话，那么就有点low了。
+设计模式也不是很神秘，揭开它的面纱，摸摸他的底，理解它的套路，到一种“阅片无数，心中自然无码”的感觉，灵活应用于我们的项目代码中，也许会有一种格外的爽，当然这需要一些时间去理解设计模式是什么，在什么时候应用什么模式，什么情况要使用，以及它的优缺点，能够应用它的实例，记住其中的关键代码。</p>
+
+<p>接下来..</p>
+
+<p>就从<a href="https://www.wistbean.com/blog/2017/09/26/singleton-pattern/">单例模式</a>开始。</p>
+
+<h1 id="section-6">相关文章</h1>
+<ul>
+  <li><a href="https://www.wistbean.com/blog/2017/09/26/singleton-pattern/">java创建型单例设计模式：全局唯一对象</a></li>
+  <li><a href="https://www.wistbean.com/blog/2017/10/03/uml-diagrams/">轻松理解UML用例图时序图类图的教程</a></li>
+</ul>
+
+<h1 id="section-7">相关资料</h1>
+
+<ul>
+  <li><a href="https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F">维基百科 设计模式</a></li>
+  <li><a href="https://baike.baidu.com/item/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F">百度百科 软件设计模式</a></li>
+  <li><a href="https://zhuanlan.zhihu.com/p/29874252">我的知乎专栏 软件工程中的GoF设计模式</a></li>
+  <li><a href="https://book.douban.com/review/5035769/">GoF —— 一本被误解很深的书</a></li>
+</ul>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/patterns.jpg"/>
+            <enclosure length="4421270" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/03.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/09/24/design-pattern/</guid>
+            <pubDate>2017-09-24T22:02:02+08:00</pubDate>
+            <itunes:duration>05:14</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>软件架构中的MVC模式</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<ul id="markdown-toc">
+  <li><a href="#mvc-" id="markdown-toc-mvc-">MVC 模式</a></li>
+  <li><a href="#section" id="markdown-toc-section">相关文章</a></li>
+  <li><a href="#section-1" id="markdown-toc-section-1">相关资料</a></li>
+</ul>
+
+<h2 id="mvc-">MVC 模式</h2>
+<ol>
+  <li></li>
+</ol>
+
+<p>MVC是一种软件的架构模式，也就是分成了三层，</p>
+
+<ul>
+  <li>M 模型层 （Model）</li>
+  <li>V 视图层 （View）</li>
+  <li>C 控制层 （Controller）</li>
+</ul>
+
+<p>想象一下这样的一个场景，你发现今天非常热，室外的温度达到30好几，于是你拿起空调的遥控，按了一下 开/关 按钮，这个时候空调开启，你选择了 制冷 功能，这时候空调开始往室内运送冷气，不过你觉得温度还不够给力，于是你调到了16度，你觉得很爽，开始美美的睡上一觉！</p>
+
+<p>那么，说这个和软件架构中的MVC模式有什么关系呢？</p>
+
+<p>其实…</p>
+
+<p>我们可以从这个场景中解释什么是MVC模式，当你拿起空调遥控的时候，看到遥控上有按钮供你选择，比如 「开/关」 ，「制冷」 ，「左右扫风」等， 还有温度，风力等的显示。 我们可以把遥控的这些直观的东西看成是<strong>View（视图）</strong>层。</p>
+
+<p>而空调内部的机制，比如产生冷气的装置， 我们就可以看成是<strong>Model（模型）层</strong>。</p>
+
+<p>当你 按了一下 开/关 按钮来开启空调，你选择了 制冷 功能，调到了16度 这些输入信息转化成空调产生冷气的操作，可以用 <strong>控制层（Controller）</strong>来实现。</p>
+
+<ol>
+  <li></li>
+</ol>
+
+<p><img src="https://www.wistbean.com/images/2017-09-22-mvc/1.png" alt="MVC" /></p>
+
+<p>所谓视图（View）就是我们可以直观看到的，一个操作界面的样子，我们可以直观感受得到，看的见的。我们上网看到的网页里面的内容，app的界面，这都是视图（View）。</p>
+
+<p>而模型（Model）是程序里面应有的功能，里面实现了算法，还有数据库的管理以及实现了具体数据操作等功能。</p>
+
+<p>控制（Controller）则是负责转发请求，对请求进行处理，控制应用程序的流程，处理用户的行为和数据的改变，并作出响应。</p>
+
+<p>它们三者之间互相独立，是一种模块化的架构思想。这样做的目的是使后续对程序的修改和扩展得到了简化，使程序的某一部分代码的重复利用成为一种可能。</p>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>这样的好处在于：</p>
+
+<p>低耦合，MVC模式使得这三个模块互相独立，我们改变其中一个模块都不会影响到其它两个，使程序的复杂度得到了简化，程序结构更加直观易懂。</p>
+
+<p>可复用，多个View可以共享一个Model，比如你在PC端上某网站看视频，看到一半想用手机看，这时候你会下载它对应的app进行观看视频，这就要求他们能够提供PC端的视频网站的界面和手机app上的界面给你使用。这时候他们只需要改变View层上的界面而已，对于Model层的响应用户请求和返回数据一点影响也没有。View只是负责将Model传来的数据格式化然后渲染到响应的界面即可。这样就能让业务逻辑和表示层分离，同一个Model可以给N个不同的View重用。大大的提高了代码的重用！</p>
+
+<ol>
+  <li></li>
+</ol>
+
+<p>这种MVC的架构思想不仅可以用于软件架构上，生活上许多方面其实也可以用MVC模块化的方式去管理，肯定会大大的提高效率，只要你细心发现，从MVC的角度去架构，然后针对不同的层去优化，相信能有一个美好的未来，再也不用从快递员的手中接过你的“女朋友”了！</p>
+
+<p>TAG：<a href="https://www.wistbean.com/mvc">MVC模式</a>、<a href="https://baike.baidu.com/item/%E9%AB%98%E5%86%85%E8%81%9A%E4%BD%8E%E8%80%A6%E5%90%88/5227009?fr=aladdin">低耦合</a>、<a href="https://baike.baidu.com/item/%E5%8F%AF%E5%A4%8D%E7%94%A8%E6%80%A7/7157193?fr=aladdin">可复用</a>、<a href="https://www.wistbean.com/blog/2017/09/22/mvc/">模型层Model</a>、<a href="https://www.wistbean.com/blog/2017/09/22/mvc/">View视图</a>、<a href="https://www.wistbean.com/blog/2017/09/22/mvc/">控制层Controller</a></p>
+
+<h1 id="section">相关文章</h1>
+<ul>
+  <li><a href="https://www.wistbean.com/blog/2017/09/26/singleton-pattern/">java创建型单例设计模式：全局唯一对象</a></li>
+  <li><a href="https://www.wistbean.com/blog/2017/10/03/uml-diagrams/">轻松理解UML用例图时序图类图的教程</a></li>
+  <li><a href="https://www.wistbean.com/blog/2017/09/24/design-pattern/">软件工程中的GoF设计模式</a></li>
+</ul>
+
+<h1 id="section-1">相关资料</h1>
+
+<ul>
+  <li><a href="https://zh.wikipedia.org/wiki/MVC">维基百科 MVC</a></li>
+  <li><a href="http://www.ruanyifeng.com/blog/2007/11/mvc.html">谈谈MVC模式</a></li>
+  <li><a href="https://zhuanlan.zhihu.com/p/29588114">我的知乎专栏 软件架构中的MVC模式</a></li>
+  <li><a href="http://www.runoob.com/design-pattern/mvc-pattern.html">MVC 模式</a></li>
+</ul>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/mvc.jpg"/>
+            <enclosure length="3990922" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/02.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/09/22/mvc/</guid>
+            <pubDate>2017-09-22T13:08:32+08:00</pubDate>
+            <itunes:duration>04:43</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+        <item>
+            <title>谈谈java中的面向对象编程思想</title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>答应自己的事情就要做到！</itunes:subtitle>
+            <itunes:summary><![CDATA[<ul id="markdown-toc">
+  <li><a href="#java" id="markdown-toc-java">java对象</a>    <ul>
+      <li><a href="#java-1" id="markdown-toc-java-1">java面向对象的服务提供者</a></li>
+      <li><a href="#java-2" id="markdown-toc-java-2">java面向对象的封装</a></li>
+      <li><a href="#java-3" id="markdown-toc-java-3">java对象组合</a></li>
+      <li><a href="#java-4" id="markdown-toc-java-4">java面向对象的继承</a></li>
+      <li><a href="#java-5" id="markdown-toc-java-5">java面向对象的多态</a></li>
+      <li><a href="#section" id="markdown-toc-section">对象存储</a></li>
+      <li><a href="#section-1" id="markdown-toc-section-1">对象生命周期</a></li>
+    </ul>
+  </li>
+  <li><a href="#section-2" id="markdown-toc-section-2">我的相关文章</a></li>
+  <li><a href="#section-3" id="markdown-toc-section-3">相关资料</a></li>
+</ul>
+
+<h1 id="java">java对象</h1>
+
+<p>英语：Object-oriented programming，缩写：OOP；</p>
+
+<p>我们开发的程序是给用户使用的，而我们的程序是使用对象来完成产生的。对象可以看成是对问题的描述的一种解决方案，它与问题空间之间一一映射。也就是<strong>将问题抽取成为对象集合</strong>。</p>
+
+<p>在java中以class关键字来定义类的对象，类包含了元素和功能，是一种<strong>引用类型</strong>，和Int、Float等类型是一样的道理，只不过Int、Float等这些基本类型是java内置了的，所以我们可以拿来即用，而我们自定义的对象需要我们进行实例化后使用。</p>
+
+<h2 id="java-1">java面向对象的服务提供者</h2>
+
+<p>我们可以将对象看作服务提供者，比如手机这个对象，我们可以用它来聊天，打开闪光灯，砸核桃等。</p>
+
+<p><img src="https://www.wistbean.com/images/2017-09-17-object-oriented-programming/1.png" alt="OOP 面向对象" /></p>
+
+<p>当每个对象都有各自独特的服务的时候，我们在使用的时候就很方便高效了，我们知道要实现什么功能，就拿什么对象来使用，如果我们对多个对象的各个方面都“组合”的很好的话，那么对代码来说是<strong>高内聚</strong>的，我们都约定俗成开发程序高内聚是我们追求你之一。</p>
+
+<h2 id="java-2">java面向对象的封装</h2>
+
+<p>假设在合作开发的时候，有人负责创建类来提供服务，有人收集使用类来快速实现程序开发，我们把第一种人暂且叫类（服务）创建者，第二种人叫做使用服务（类）者。</p>
+
+<p>那么在这种情况下，创建者对自己的类只需要暴露必需的功能给使用者就可以了，使用者无需关心创建者是怎么样实现类的细节，拿来用就好了。这样创建者会对比较“脆弱”的代码进行封装，使用者无法触及，防止使用者随意修改，减少了bug的产生，还有就是创建者对封装的这些代码修改不会对使用者造成影响，比如类创建者在一开始创建类的时候某功能写的简单了，后来为了提高性能，那么修改这部分代码，实际上对使用者是毫无影响的。</p>
+
+<p>java用private关键字来限定只有类创建者和类内部方法可以使用，其它人都无法使用。</p>
+
+<p>如果是使用public修饰的话就相当于完全暴露了，任何人都可以使用。</p>
+
+<p>还有protected是让继承的子类可以使用，但是不能使用父类被private修饰的属性。</p>
+
+<p>默认不指定修饰的时候，同一包下的其它成员都可以访问。</p>
+
+<p>所以封装是有必要的，在这种分离的情况下，提高了安全性。</p>
+
+<h2 id="java-3">java对象组合</h2>
+
+<p>一个对象含有另一个对象，这就是组合。 比如手机这个对象含有相机对象，我们创建了相机对象，可以内置于手机对象中，这样做的好处是使用对象间灵活高效的。</p>
+
+<p><img src="https://www.wistbean.com/images/2017-09-17-object-oriented-programming/2.png" alt="OOP" /></p>
+
+<p>代码提现：</p>
+
+<pre><code>public class Phone {
+
+    private Camera camera;
+
+}
+</code></pre>
+
+<h2 id="java-4">java面向对象的继承</h2>
+
+<p>当你发现对象之间存在诸多相似性的时候，并不需要每个都创建独立的对象，可以找出他们的相同点作为基类（父类），进而在衍生出差异的类（子类），这样子父类就包含子类所有共享的行为特性了，子类就以不同的实现方式存在。</p>
+
+<p>关于继承可以在<a href="https://www.wistbean.com/blog/2015/07/21/java-extends/" title="Java 继承是什么龟">Java 继承是什么龟</a>查看。</p>
+
+<h2 id="java-5">java面向对象的多态</h2>
+
+<p>狗可以称为动物，猫可以称为动物。多态在于你可以不在意具体对象类型而使用它们共同的属性：</p>
+
+<p>代码提现：</p>
+
+<pre><code>public class Animal {
+
+    public void eat()
+    {
+        System.out.print("吃东西。。");
+    }
+}
+
+
+public class Dog extends Animal {
+
+    @Override
+    public void eat() {
+        System.out.println("吃骨头");
+    }
+}
+
+
+public class Cat extends Animal {
+
+    @Override
+    public void eat() {
+        System.out.println("吃鱼");
+    }
+}
+
+
+public class Main {
+
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        Cat cat = new Cat();
+        eatSome(dog);
+        eatSome(cat);
+    }
+
+    static void eatSome(Animal animal)
+    {
+        animal.eat();
+    }
+}
+</code></pre>
+
+<p>输出：</p>
+
+<pre><code>吃骨头
+吃鱼
+</code></pre>
+
+<p>在这里可以看到dog和cat向上转型为Animal。<strong>向上转型是安全的，向下转型却是危险的</strong>，例如将Animal转为它的子类，因为此刻Animal既不知道是Dog还是Cat，所以向下转型还需要专门指定对象，即<strong>强制转换</strong>。</p>
+
+<p>更多关于多态可以参考：<a href="https://www.wistbean.com/blog/2015/07/22/java-polymorphic/" title="Java 多态可以吃吗？">Java 多态可以吃吗？</a></p>
+
+<h2 id="section">对象存储</h2>
+
+<p>因为java是在运行时才能确定对象的多少，所以有了动态存储对象的<strong>集合</strong>，集合提供了不同的接口和行为，它们之间效率不同，应用场景不同：<a href="https://www.wistbean.com/blog/2015/07/26/java-collection/" title="Java 细数各种常见的集合">Java 细数各种常见的集合</a></p>
+
+<h2 id="section-1">对象生命周期</h2>
+
+<p>对象的生成会占用内存资源的，所以需要销毁来释放内存资源，对象是在堆的内存池中动态创建的，java有一个专门的垃圾回收器，它知道对象在什么时候可以销毁，会自动的销毁从而释放资源且不会影响程序的正常运行。</p>
+
+<h1 id="section-2">我的相关文章</h1>
+<ul>
+  <li><a href="https://www.wistbean.com/blog/2015/07/21/java-extends/">Java 面向对象编程中的继承</a></li>
+  <li><a href="https://www.wistbean.com/blog/2015/07/22/java-polymorphic/">Java 面向对象编程中的多态</a></li>
+  <li><a href="https://www.wistbean.com/blog/2015/07/26/java-collection/">细数各种java面向对象中常见的集合</a></li>
+</ul>
+
+<h1 id="section-3">相关资料</h1>
+
+<ul>
+  <li><a href="http://www.cnblogs.com/hellojava/archive/2013/02/27/2935450.html">Java面向对象详解</a></li>
+  <li><a href="https://zhuanlan.zhihu.com/p/29422384">我的专栏 谈谈java的面向对象</a></li>
+  <li><a href="http://wiki.jikexueyuan.com/project/java-interview-bible/OOP.html">面向对象编程</a></li>
+  <li><a href="https://zh.wikipedia.org/zh-hans/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1">面向对象程序设计</a></li>
+  <li><a href="https://www.zhihu.com/question/31021366">什么是面向对象编程思想？</a></li>
+</ul>
+
+]]></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/elephant-24732__340.png"/>
+            <enclosure length="8003879" type="audio/mpeg" url="http://owh7v964r.bkt.clouddn.com/MP31.mp3"/>
+            <guid>https://www.wistbean.com/blog/2017/09/17/object-oriented-programming/</guid>
+            <pubDate>2017-09-17T22:11:16+08:00</pubDate>
+            <itunes:duration>09:30</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+
+    </channel>
+</rss>
