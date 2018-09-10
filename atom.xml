@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wistbean.com/"/>
-  <updated>2018-09-09T06:24:56.384Z</updated>
+  <updated>2018-09-10T08:01:53.115Z</updated>
   <id>http://www.wistbean.com/</id>
   
   <author>
@@ -15,6 +15,80 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java进阶SSM分布式项目实战视频教程</title>
+    <link href="http://www.wistbean.com/2018/09/10/java-ssm-video/"/>
+    <id>http://www.wistbean.com/2018/09/10/java-ssm-video/</id>
+    <published>2018-09-10T07:42:30.000Z</published>
+    <updated>2018-09-10T08:01:53.115Z</updated>
+    
+    <content type="html"><![CDATA[<p>Java SSM视频实战教程，从0到1，打造一个电商的分布式高并发项目。</p><h1 id="SSM视频教程面向的人群"><a href="#SSM视频教程面向的人群" class="headerlink" title="SSM视频教程面向的人群"></a>SSM视频教程面向的人群</h1><ol><li>具备有一定的java基础</li><li>初级Java开发者 -&gt; 中高级Java开发者</li><li>具备一定的自学能力和执行能力</li></ol><h1 id="SSM视频教程的技术选型"><a href="#SSM视频教程的技术选型" class="headerlink" title="SSM视频教程的技术选型"></a>SSM视频教程的技术选型</h1><ol><li>Spring</li><li>Spring MVC</li><li>Mybatis</li><li>redis</li><li>solor</li><li>EasyUI</li><li>UEditor</li><li>JQuery</li><li>Freemark</li><li>activMQ</li><li>httpClient</li><li>MySQL</li></ol><h1 id="SSM视频教程的开发环境"><a href="#SSM视频教程的开发环境" class="headerlink" title="SSM视频教程的开发环境"></a>SSM视频教程的开发环境</h1><ol><li>InteliJ IDEA</li><li>Maven</li><li>Tomcat7</li><li>JDK</li><li>Nginx</li><li>Git</li><li>postman</li><li>sqlyog</li><li>win7</li></ol><h1 id="SSM视频教程的学习计划"><a href="#SSM视频教程的学习计划" class="headerlink" title="SSM视频教程的学习计划"></a>SSM视频教程的学习计划</h1><ul><li>技术架构 （集群和分布式架构的区别）</li><li>工程搭建 （maven）</li><li>SSM框架的整合</li><li>Mybatis逆向工程以及使用</li><li>日志的添加与使用</li><li>拦截器</li><li>后端功能 （系统的开发，图片系统，数据等等）</li><li>前端功能 （商品浏览，下订单，购物车等等。。）</li><li>redis使用以及集群搭建</li><li>solor使用和集群搭建</li><li>JMS 消息队列 （activMQ）</li><li>sso单点登录</li><li>restful服务</li><li>在Linux上部署</li></ul><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><h2 id="Java进阶SSM第一期"><a href="#Java进阶SSM第一期" class="headerlink" title="Java进阶SSM第一期"></a>Java进阶SSM第一期</h2><ul><li><a href="https://www.wistbean.com/2018/08/29/java-ssm-1-1/">1.分布式高并发java web项目实战视频教程介绍</a></li><li><a href="https://www.wistbean.com/2018/08/29/java-ssm-1-2/">2.Java传统的集群架构和分布式架构区别</a></li><li><a href="https://www.wistbean.com/2018/08/29/java-ssm-1-3/">3.代码托管Git的使用</a></li><li><a href="https://www.wistbean.com/2018/08/29/java-ssm-1-4/">4.GitHub完全使用指南</a></li></ul><h2 id="Java进阶SSM第二期"><a href="#Java进阶SSM第二期" class="headerlink" title="Java进阶SSM第二期"></a>Java进阶SSM第二期</h2><ul><li><a href="https://www.wistbean.com/2018/08/29/java-ssm-2-1/">1.什么是Maven，Maven的配置</a></li><li><a href="https://www.wistbean.com/2018/08/29/java-ssm-2-2/">2.码农商城 SSM 系统所需的 Maven 模块简介</a></li><li><a href="https://www.wistbean.com/2018/08/29/java-ssm-2-3/">3.使用 InteliJ IDEA 创建 Maven 项目与相关配置</a></li><li><a href="https://www.wistbean.com/2018/08/29/java-ssm-2-4/">4.使用InteliJ IDEA 创建分布式多模块 Maven 项目</a></li><li><a href="https://www.wistbean.com/2018/08/29/java-ssm-2-5/">5.使用InteliJ IDEA 创建 Maven 聚合工程</a></li><li><a href="https://www.wistbean.com/2018/08/29/java-ssm-2-6/">6.ava SSM框架的整合与Mybatis逆向工程</a></li></ul><blockquote><p>持续更新中</p></blockquote><h1 id="相关阅读"><a href="#相关阅读" class="headerlink" title="相关阅读"></a>相关阅读</h1><ul><li><a href="https://www.wistbean.com/2018/09/04/lean-java/">Java初学者的学习路线</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Java SSM视频实战教程，从0到1，打造一个电商的分布式高并发项目。&lt;/p&gt;
+&lt;h1 id=&quot;SSM视频教程面向的人群&quot;&gt;&lt;a href=&quot;#SSM视频教程面向的人群&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程面向的人群&quot;&gt;&lt;/a&gt;SSM视频教
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="http://www.wistbean.com/categories/Java/"/>
+    
+      <category term="Java SSM视频教程" scheme="http://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="Java" scheme="http://www.wistbean.com/tags/Java/"/>
+    
+      <category term="项目实战" scheme="http://www.wistbean.com/tags/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/"/>
+    
+      <category term="分布式" scheme="http://www.wistbean.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+    
+      <category term="Git" scheme="http://www.wistbean.com/tags/Git/"/>
+    
+      <category term="Maven" scheme="http://www.wistbean.com/tags/Maven/"/>
+    
+      <category term="InteliJ IDEA" scheme="http://www.wistbean.com/tags/InteliJ-IDEA/"/>
+    
+      <category term="Spring" scheme="http://www.wistbean.com/tags/Spring/"/>
+    
+      <category term="Spring MVC" scheme="http://www.wistbean.com/tags/Spring-MVC/"/>
+    
+      <category term="Mybatis" scheme="http://www.wistbean.com/tags/Mybatis/"/>
+    
+      <category term="SSM视频教程" scheme="http://www.wistbean.com/tags/SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="redis" scheme="http://www.wistbean.com/tags/redis/"/>
+    
+      <category term="solor" scheme="http://www.wistbean.com/tags/solor/"/>
+    
+      <category term="EasyUI" scheme="http://www.wistbean.com/tags/EasyUI/"/>
+    
+      <category term="UEditor" scheme="http://www.wistbean.com/tags/UEditor/"/>
+    
+      <category term="JQuery" scheme="http://www.wistbean.com/tags/JQuery/"/>
+    
+      <category term="Freemark" scheme="http://www.wistbean.com/tags/Freemark/"/>
+    
+      <category term="activMQ" scheme="http://www.wistbean.com/tags/activMQ/"/>
+    
+      <category term="httpClient" scheme="http://www.wistbean.com/tags/httpClient/"/>
+    
+      <category term="MySQL" scheme="http://www.wistbean.com/tags/MySQL/"/>
+    
+      <category term="Tomcat7" scheme="http://www.wistbean.com/tags/Tomcat7/"/>
+    
+      <category term="JDK" scheme="http://www.wistbean.com/tags/JDK/"/>
+    
+      <category term="Nginx" scheme="http://www.wistbean.com/tags/Nginx/"/>
+    
+      <category term="postman" scheme="http://www.wistbean.com/tags/postman/"/>
+    
+      <category term="sqlyog" scheme="http://www.wistbean.com/tags/sqlyog/"/>
+    
+  </entry>
   
   <entry>
     <title>现在已经不像父母那个年代了,花钱也是一种学问</title>
@@ -95,15 +169,15 @@
       <category term="互联网" scheme="http://www.wistbean.com/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
     
-      <category term="互联网" scheme="http://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
-    
-      <category term="个人理财" scheme="http://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
-    
-      <category term="赚钱" scheme="http://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
-    
       <category term="Paypal" scheme="http://www.wistbean.com/tags/Paypal/"/>
     
       <category term="Payoneer" scheme="http://www.wistbean.com/tags/Payoneer/"/>
+    
+      <category term="互联网" scheme="http://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+      <category term="赚钱" scheme="http://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
+    
+      <category term="个人理财" scheme="http://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
     
   </entry>
   
@@ -161,9 +235,9 @@
     
       <category term="互联网" scheme="http://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
-      <category term="个人理财" scheme="http://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
-    
       <category term="赚钱" scheme="http://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
+    
+      <category term="个人理财" scheme="http://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
     
   </entry>
   
@@ -203,15 +277,15 @@
     <link href="http://www.wistbean.com/2018/08/29/java-ssm-2-6/"/>
     <id>http://www.wistbean.com/2018/08/29/java-ssm-2-6/</id>
     <published>2018-08-29T09:25:26.000Z</published>
-    <updated>2018-09-07T13:45:27.184Z</updated>
+    <updated>2018-09-10T08:32:43.651Z</updated>
     
-    <content type="html"><![CDATA[<video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-6%20SSM%E6%A1%86%E6%9E%B6%E7%9A%84%E6%95%B4%E5%90%88%E4%B8%8EMybatis%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B.mp4" width="100%"></video>]]></content>
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第2-6节-SSM框架的整合与Mybatis逆向工程"><a href="#SSM视频教程第2-6节-SSM框架的整合与Mybatis逆向工程" class="headerlink" title="SSM视频教程第2-6节:SSM框架的整合与Mybatis逆向工程"></a>SSM视频教程第2-6节:SSM框架的整合与Mybatis逆向工程</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-6%20SSM%E6%A1%86%E6%9E%B6%E7%9A%84%E6%95%B4%E5%90%88%E4%B8%8EMybatis%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B.mp4" width="100%"></video><h1 id="SSM视频教程第2-6节课程概要"><a href="#SSM视频教程第2-6节课程概要" class="headerlink" title="SSM视频教程第2-6节课程概要"></a>SSM视频教程第2-6节课程概要</h1><h2 id="SSM-的整合"><a href="#SSM-的整合" class="headerlink" title="SSM 的整合"></a>SSM 的整合</h2><p>Spring –&gt; Service</p><p>Spring MVC –&gt; 表现层</p><p>Mybatis –&gt; Dao</p><h2 id="Spring-事务管理XML配置"><a href="#Spring-事务管理XML配置" class="headerlink" title="Spring 事务管理XML配置"></a>Spring 事务管理XML配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">&lt;bean id=&quot;transactionManager&quot;</span><br><span class="line">class=&quot;org.springframework.jdbc.datasource.DataSourceTransactionManager&quot;&gt;</span><br><span class="line">&lt;property name=&quot;dataSource&quot; ref=&quot;dataSource&quot; /&gt;</span><br><span class="line">&lt;/bean&gt;</span><br><span class="line">&lt;tx:advice id=&quot;txAdvice&quot; transaction-manager=&quot;transactionManager&quot;&gt;</span><br><span class="line">&lt;tx:attributes&gt;</span><br><span class="line">&lt;tx:method name=&quot;save*&quot; propagation=&quot;REQUIRED&quot; /&gt;</span><br><span class="line">&lt;tx:method name=&quot;insert*&quot; propagation=&quot;REQUIRED&quot; /&gt;</span><br><span class="line">&lt;tx:method name=&quot;add*&quot; propagation=&quot;REQUIRED&quot; /&gt;</span><br><span class="line">&lt;tx:method name=&quot;create*&quot; propagation=&quot;REQUIRED&quot; /&gt;</span><br><span class="line">&lt;tx:method name=&quot;delete*&quot; propagation=&quot;REQUIRED&quot; /&gt;</span><br><span class="line">&lt;tx:method name=&quot;update*&quot; propagation=&quot;REQUIRED&quot; /&gt;</span><br><span class="line">&lt;tx:method name=&quot;find*&quot; propagation=&quot;SUPPORTS&quot; read-only=&quot;true&quot; /&gt;</span><br><span class="line">&lt;tx:method name=&quot;select*&quot; propagation=&quot;SUPPORTS&quot; read-only=&quot;true&quot; /&gt;</span><br><span class="line">&lt;tx:method name=&quot;get*&quot; propagation=&quot;SUPPORTS&quot; read-only=&quot;true&quot; /&gt;</span><br><span class="line">&lt;/tx:attributes&gt;</span><br><span class="line">&lt;/tx:advice&gt;</span><br><span class="line">&lt;aop:config&gt;</span><br><span class="line">&lt;aop:advisor advice-ref=&quot;txAdvice&quot;</span><br><span class="line">pointcut=&quot;execution(* com.manong.service.*.*(..))&quot; /&gt;</span><br><span class="line">&lt;/aop:config&gt;</span><br></pre></td></tr></table></figure><h2 id="web-xml配置"><a href="#web-xml配置" class="headerlink" title="web.xml配置"></a>web.xml配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span><br><span class="line">&lt;web-app xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span><br><span class="line">         xmlns=&quot;http://java.sun.com/xml/ns/javaee&quot; xmlns:web=&quot;http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd&quot;</span><br><span class="line">         xsi:schemaLocation=&quot;http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd&quot;</span><br><span class="line">         id=&quot;manong&quot; version=&quot;2.5&quot;&gt;</span><br><span class="line">    &lt;display-name&gt;manong-manager&lt;/display-name&gt;</span><br><span class="line">    &lt;welcome-file-list&gt;</span><br><span class="line">        &lt;welcome-file&gt;index.html&lt;/welcome-file&gt;</span><br><span class="line">        &lt;welcome-file&gt;index.htm&lt;/welcome-file&gt;</span><br><span class="line">        &lt;welcome-file&gt;index.jsp&lt;/welcome-file&gt;</span><br><span class="line"></span><br><span class="line">    &lt;/welcome-file-list&gt;</span><br><span class="line">    &lt;!-- 加载spring容器 --&gt;</span><br><span class="line">    &lt;context-param&gt;</span><br><span class="line">        &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;</span><br><span class="line">        &lt;param-value&gt;classpath:spring/applicationContext-*.xml&lt;/param-value&gt;</span><br><span class="line">    &lt;/context-param&gt;</span><br><span class="line">    &lt;listener&gt;</span><br><span class="line">        &lt;listener-class&gt;org.springframework.web.context.ContextLoaderListener&lt;/listener-class&gt;</span><br><span class="line">    &lt;/listener&gt;</span><br><span class="line">    &lt;!-- 解决post乱码 --&gt;</span><br><span class="line">    &lt;filter&gt;</span><br><span class="line">        &lt;filter-name&gt;CharacterEncodingFilter&lt;/filter-name&gt;</span><br><span class="line">        &lt;filter-class&gt;org.springframework.web.filter.CharacterEncodingFilter&lt;/filter-class&gt;</span><br><span class="line">        &lt;init-param&gt;</span><br><span class="line">            &lt;param-name&gt;encoding&lt;/param-name&gt;</span><br><span class="line">            &lt;param-value&gt;utf-8&lt;/param-value&gt;</span><br><span class="line">        &lt;/init-param&gt;</span><br><span class="line">    &lt;/filter&gt;</span><br><span class="line">    &lt;filter-mapping&gt;</span><br><span class="line">        &lt;filter-name&gt;CharacterEncodingFilter&lt;/filter-name&gt;</span><br><span class="line">        &lt;url-pattern&gt;/*&lt;/url-pattern&gt;</span><br><span class="line">    &lt;/filter-mapping&gt;</span><br><span class="line">    &lt;!-- springmvc的前端控制器 --&gt;</span><br><span class="line">    &lt;servlet&gt;</span><br><span class="line">        &lt;servlet-name&gt;manong-manager&lt;/servlet-name&gt;</span><br><span class="line">        &lt;servlet-class&gt;org.springframework.web.servlet.DispatcherServlet&lt;/servlet-class&gt;</span><br><span class="line"></span><br><span class="line">        &lt;init-param&gt;</span><br><span class="line">            &lt;param-name&gt;contextConfigLocation&lt;/param-name&gt;</span><br><span class="line">            &lt;param-value&gt;classpath:spring/springmvc.xml&lt;/param-value&gt;</span><br><span class="line">        &lt;/init-param&gt;</span><br><span class="line">        &lt;load-on-startup&gt;1&lt;/load-on-startup&gt;</span><br><span class="line">    &lt;/servlet&gt;</span><br><span class="line">    &lt;servlet-mapping&gt;</span><br><span class="line">        &lt;servlet-name&gt;manong-manager&lt;/servlet-name&gt;</span><br><span class="line">        &lt;url-pattern&gt;/&lt;/url-pattern&gt;</span><br><span class="line">    &lt;/servlet-mapping&gt;</span><br><span class="line">&lt;/web-app&gt;</span><br></pre></td></tr></table></figure><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;video controls=&quot;controls&quot; src=&quot;http://owx1uvd7t.bkt.clouddn.com/2-6%20SSM%E6%A1%86%E6%9E%B6%E7%9A%84%E6%95%B4%E5%90%88%E4%B8%8EMybatis%E9%8
+        &lt;h1 id=&quot;SSM视频教程第2-6节-SSM框架的整合与Mybatis逆向工程&quot;&gt;&lt;a href=&quot;#SSM视频教程第2-6节-SSM框架的整合与Mybatis逆向工程&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第2-6节:SSM框架的整合与Myba
       
     
     </summary>
@@ -252,15 +326,15 @@
     <link href="http://www.wistbean.com/2018/08/29/java-ssm-2-5/"/>
     <id>http://www.wistbean.com/2018/08/29/java-ssm-2-5/</id>
     <published>2018-08-29T09:25:26.000Z</published>
-    <updated>2018-08-30T08:01:39.904Z</updated>
+    <updated>2018-09-10T08:32:43.892Z</updated>
     
-    <content type="html"><![CDATA[<video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-5%20%E6%90%AD%E5%BB%BAjava%20ssm%E6%A1%86%E6%9E%B6%E5%89%8D%EF%BC%8C%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%20Maven%20%E8%81%9A%E5%90%88%E5%B7%A5%E7%A8%8B.mp4" width="100%"></video>]]></content>
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第2-5节-Maven-聚合工程"><a href="#SSM视频教程第2-5节-Maven-聚合工程" class="headerlink" title="SSM视频教程第2-5节:Maven 聚合工程"></a>SSM视频教程第2-5节:Maven 聚合工程</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-5%20%E6%90%AD%E5%BB%BAjava%20ssm%E6%A1%86%E6%9E%B6%E5%89%8D%EF%BC%8C%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%20Maven%20%E8%81%9A%E5%90%88%E5%B7%A5%E7%A8%8B.mp4" width="100%"></video><h1 id="SSM视频教程第2-5节课程概要"><a href="#SSM视频教程第2-5节课程概要" class="headerlink" title="SSM视频教程第2-5节课程概要"></a>SSM视频教程第2-5节课程概要</h1><h2 id="使用-maven-的聚合工程"><a href="#使用-maven-的聚合工程" class="headerlink" title="使用 maven 的聚合工程"></a>使用 maven 的聚合工程</h2><p>manager 模块的聚合：</p><ul><li>pojo</li><li>mapper</li><li>service</li></ul><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;video controls=&quot;controls&quot; src=&quot;http://owx1uvd7t.bkt.clouddn.com/2-5%20%E6%90%AD%E5%BB%BAjava%20ssm%E6%A1%86%E6%9E%B6%E5%89%8D%EF%BC%8C%E4%B
+        &lt;h1 id=&quot;SSM视频教程第2-5节-Maven-聚合工程&quot;&gt;&lt;a href=&quot;#SSM视频教程第2-5节-Maven-聚合工程&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第2-5节:Maven 聚合工程&quot;&gt;&lt;/a&gt;SSM视频教程第2-5节:Mave
       
     
     </summary>
@@ -293,15 +367,15 @@
     <link href="http://www.wistbean.com/2018/08/29/java-ssm-2-4/"/>
     <id>http://www.wistbean.com/2018/08/29/java-ssm-2-4/</id>
     <published>2018-08-29T09:25:25.000Z</published>
-    <updated>2018-08-30T08:01:39.685Z</updated>
+    <updated>2018-09-10T08:32:43.735Z</updated>
     
-    <content type="html"><![CDATA[<video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-4%20%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%E5%88%86%E5%B8%83%E5%BC%8F%E5%A4%9A%E6%A8%A1%E5%9D%97Maven%E9%A1%B9%E7%9B%AE.mp4" width="100%"></video>]]></content>
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第2-4节-分布式多模块-Maven-项目"><a href="#SSM视频教程第2-4节-分布式多模块-Maven-项目" class="headerlink" title="SSM视频教程第2-4节:分布式多模块 Maven 项目"></a>SSM视频教程第2-4节:分布式多模块 Maven 项目</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-4%20%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%E5%88%86%E5%B8%83%E5%BC%8F%E5%A4%9A%E6%A8%A1%E5%9D%97Maven%E9%A1%B9%E7%9B%AE.mp4" width="100%"></video><h1 id="SSM视频教程第2-4节课程概要"><a href="#SSM视频教程第2-4节课程概要" class="headerlink" title="SSM视频教程第2-4节课程概要"></a>SSM视频教程第2-4节课程概要</h1><p>使用 InteliJ IDEA 创建分布式多模块 Maven 项目</p><ul><li>parent 父模块</li><li>common 通用模块</li><li>manager 管理模块</li><li>sso 单点登录模块</li><li>rest restful模块</li><li>search 搜索模块</li><li>…</li></ul><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;video controls=&quot;controls&quot; src=&quot;http://owx1uvd7t.bkt.clouddn.com/2-4%20%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%E5%88%86%E5%B8%
+        &lt;h1 id=&quot;SSM视频教程第2-4节-分布式多模块-Maven-项目&quot;&gt;&lt;a href=&quot;#SSM视频教程第2-4节-分布式多模块-Maven-项目&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第2-4节:分布式多模块 Maven 项目&quot;&gt;&lt;/a&gt;SS
       
     
     </summary>
@@ -334,15 +408,15 @@
     <link href="http://www.wistbean.com/2018/08/29/java-ssm-2-3/"/>
     <id>http://www.wistbean.com/2018/08/29/java-ssm-2-3/</id>
     <published>2018-08-29T09:25:24.000Z</published>
-    <updated>2018-08-30T08:01:39.857Z</updated>
+    <updated>2018-09-10T08:32:43.939Z</updated>
     
-    <content type="html"><![CDATA[<video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-3%20%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%20Maven%20%E9%A1%B9%E7%9B%AE%E4%B8%8E%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE.mp4" width="100%"></video>]]></content>
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第2-3节-使用-InteliJ-IDEA-创建-Maven-项目与相关配置"><a href="#SSM视频教程第2-3节-使用-InteliJ-IDEA-创建-Maven-项目与相关配置" class="headerlink" title="SSM视频教程第2-3节:使用 InteliJ IDEA 创建 Maven 项目与相关配置"></a>SSM视频教程第2-3节:使用 InteliJ IDEA 创建 Maven 项目与相关配置</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-3%20%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%20Maven%20%E9%A1%B9%E7%9B%AE%E4%B8%8E%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE.mp4" width="100%"></video><h1 id="SSM视频教程第2-3节课程概要"><a href="#SSM视频教程第2-3节课程概要" class="headerlink" title="SSM视频教程第2-3节课程概要"></a>SSM视频教程第2-3节课程概要</h1><p>使用 Intelij IDEA 创建 Maven 工程并配置</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span><br><span class="line">&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;</span><br><span class="line">         xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span><br><span class="line">         xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;</span><br><span class="line">    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;</span><br><span class="line">    &lt;groupId&gt;com.kendinghui&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;manong_parent&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!--子模块--&gt;</span><br><span class="line">    &lt;modules&gt;</span><br><span class="line">    &lt;/modules&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!--集中地定义版本号--&gt;</span><br><span class="line">    &lt;properties&gt;</span><br><span class="line">        &lt;junit.version&gt;4.12&lt;/junit.version&gt;</span><br><span class="line">        &lt;maven-resources-plugin&gt;3.1.0&lt;/maven-resources-plugin&gt;</span><br><span class="line">        &lt;maven-compiler-plugin&gt;3.2&lt;/maven-compiler-plugin&gt;</span><br><span class="line">    &lt;/properties&gt;</span><br><span class="line"></span><br><span class="line">    &lt;dependencyManagement&gt;</span><br><span class="line">        &lt;dependencies&gt;</span><br><span class="line">            &lt;dependency&gt;</span><br><span class="line">                &lt;groupId&gt;junit&lt;/groupId&gt;</span><br><span class="line">                &lt;artifactId&gt;junit&lt;/artifactId&gt;</span><br><span class="line">                &lt;version&gt;$&#123;junit.version&#125;&lt;/version&gt;</span><br><span class="line">            &lt;/dependency&gt;</span><br><span class="line">        &lt;/dependencies&gt;</span><br><span class="line">    &lt;/dependencyManagement&gt;</span><br><span class="line"></span><br><span class="line">    &lt;build&gt;</span><br><span class="line">        &lt;plugins&gt;</span><br><span class="line">            &lt;plugin&gt;</span><br><span class="line">                &lt;!--定义一个资源拷贝的插件--&gt;</span><br><span class="line">                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;</span><br><span class="line">                &lt;artifactId&gt;maven-resources-plugin&lt;/artifactId&gt;</span><br><span class="line">                &lt;version&gt;$&#123;maven-resources-plugin&#125;&lt;/version&gt;</span><br><span class="line">                &lt;configuration&gt;</span><br><span class="line">                    &lt;encoding&gt;UTF-8&lt;/encoding&gt;</span><br><span class="line">                &lt;/configuration&gt;</span><br><span class="line">            &lt;/plugin&gt;</span><br><span class="line"></span><br><span class="line">            &lt;plugin&gt;</span><br><span class="line">                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;</span><br><span class="line">                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;</span><br><span class="line">                &lt;version&gt;$&#123;maven-compiler-plugin&#125;&lt;/version&gt;</span><br><span class="line">                &lt;configuration&gt;</span><br><span class="line">                    &lt;compilerVersion&gt;1.8&lt;/compilerVersion&gt;</span><br><span class="line">                    &lt;source&gt;1.8&lt;/source&gt;</span><br><span class="line">                    &lt;target&gt;1.8&lt;/target&gt;</span><br><span class="line">                    &lt;encoding&gt;UTF-8&lt;/encoding&gt;</span><br><span class="line">                &lt;/configuration&gt;</span><br><span class="line">            &lt;/plugin&gt;</span><br><span class="line">        &lt;/plugins&gt;</span><br><span class="line">    &lt;/build&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;/project&gt;</span><br></pre></td></tr></table></figure><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;video controls=&quot;controls&quot; src=&quot;http://owx1uvd7t.bkt.clouddn.com/2-3%20%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%20Maven%20%E9%A
+        &lt;h1 id=&quot;SSM视频教程第2-3节-使用-InteliJ-IDEA-创建-Maven-项目与相关配置&quot;&gt;&lt;a href=&quot;#SSM视频教程第2-3节-使用-InteliJ-IDEA-创建-Maven-项目与相关配置&quot; class=&quot;headerlink&quot; title=&quot;SS
       
     
     </summary>
@@ -375,15 +449,15 @@
     <link href="http://www.wistbean.com/2018/08/29/java-ssm-2-2/"/>
     <id>http://www.wistbean.com/2018/08/29/java-ssm-2-2/</id>
     <published>2018-08-29T09:25:23.000Z</published>
-    <updated>2018-08-30T08:01:40.018Z</updated>
+    <updated>2018-09-10T08:32:44.033Z</updated>
     
-    <content type="html"><![CDATA[<video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-2%20%E7%A0%81%E5%86%9C%E5%95%86%E5%9F%8Essm%E7%B3%BB%E7%BB%9F%E6%89%80%E9%9C%80%E7%9A%84%E6%A8%A1%E5%9D%97%E7%AE%80%E4%BB%8B.mp4" width="100%"></video>]]></content>
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第2-2节-Maven-模块简介"><a href="#SSM视频教程第2-2节-Maven-模块简介" class="headerlink" title="SSM视频教程第2-2节:Maven 模块简介"></a>SSM视频教程第2-2节:Maven 模块简介</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-2%20%E7%A0%81%E5%86%9C%E5%95%86%E5%9F%8Essm%E7%B3%BB%E7%BB%9F%E6%89%80%E9%9C%80%E7%9A%84%E6%A8%A1%E5%9D%97%E7%AE%80%E4%BB%8B.mp4" width="100%"></video><h1 id="SSM视频教程第2-2节课程概要"><a href="#SSM视频教程第2-2节课程概要" class="headerlink" title="SSM视频教程第2-2节课程概要"></a>SSM视频教程第2-2节课程概要</h1><p>了解码农商城所需要的一些模块</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/parent.png" alt="码农商城 SSM 系统所需的 Maven 模块简介" title="">                </div>                <div class="image-caption">码农商城 SSM 系统所需的 Maven 模块简介</div>            </figure><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;video controls=&quot;controls&quot; src=&quot;http://owx1uvd7t.bkt.clouddn.com/2-2%20%E7%A0%81%E5%86%9C%E5%95%86%E5%9F%8Essm%E7%B3%BB%E7%BB%9F%E6%89%80%E9
+        &lt;h1 id=&quot;SSM视频教程第2-2节-Maven-模块简介&quot;&gt;&lt;a href=&quot;#SSM视频教程第2-2节-Maven-模块简介&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第2-2节:Maven 模块简介&quot;&gt;&lt;/a&gt;SSM视频教程第2-2节:Mave
       
     
     </summary>
@@ -414,15 +488,15 @@
     <link href="http://www.wistbean.com/2018/08/29/java-ssm-2-1/"/>
     <id>http://www.wistbean.com/2018/08/29/java-ssm-2-1/</id>
     <published>2018-08-29T09:25:22.000Z</published>
-    <updated>2018-08-30T08:01:39.953Z</updated>
+    <updated>2018-09-10T08:32:43.986Z</updated>
     
-    <content type="html"><![CDATA[<video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-1%20%E4%BB%80%E4%B9%88%E6%98%AFmaven%EF%BC%8Cmaven%E7%9A%84%E9%85%8D%E7%BD%AE.mp4" width="100%"></video>]]></content>
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第2-1节-Maven的概念，Maven的配置"><a href="#SSM视频教程第2-1节-Maven的概念，Maven的配置" class="headerlink" title="SSM视频教程第2-1节:Maven的概念，Maven的配置"></a>SSM视频教程第2-1节:Maven的概念，Maven的配置</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-1%20%E4%BB%80%E4%B9%88%E6%98%AFmaven%EF%BC%8Cmaven%E7%9A%84%E9%85%8D%E7%BD%AE.mp4" width="100%"></video><h1 id="SSM视频教程第2-1节课程概要"><a href="#SSM视频教程第2-1节课程概要" class="headerlink" title="SSM视频教程第2-1节课程概要"></a>SSM视频教程第2-1节课程概要</h1><h2 id="maven"><a href="#maven" class="headerlink" title="maven"></a>maven</h2><ol><li><p>项目管理<br>提供了一套完整的构建生命周期的框架</p></li><li><p>整合工具<br>自动的完成一些工程的基础构建配置</p></li></ol><h2 id="maven安装"><a href="#maven安装" class="headerlink" title="maven安装"></a>maven安装</h2><ol><li>配置好jdk的环境变量的</li><li>可以在<a href="http://maven.apache.org/下载maven" target="_blank" rel="noopener">http://maven.apache.org/下载maven</a></li><li>配置一下maven的环境变量</li><li>运行 mvn –version 校验是否安装成功。</li></ol><h2 id="maven配置文件"><a href="#maven配置文件" class="headerlink" title="maven配置文件"></a>maven配置文件</h2><ol><li>配置镜像：</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;mirror&gt;</span><br><span class="line">    &lt;id&gt;alimaven&lt;/id&gt;</span><br><span class="line">    &lt;mirrorOf&gt;central&lt;/mirrorOf&gt;</span><br><span class="line">    &lt;name&gt;aliyun maven mirror&lt;/name&gt;</span><br><span class="line">    &lt;url&gt;http://maven.aliyun.com/nexus/content/groups/public/&lt;/url&gt;</span><br><span class="line">  &lt;/mirror&gt;</span><br></pre></td></tr></table></figure><ol start="2"><li>配置本地仓库</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;localRepository&gt;E:/mavenrepository&lt;/localRepository&gt;</span><br></pre></td></tr></table></figure><h2 id="maven特性"><a href="#maven特性" class="headerlink" title="maven特性"></a>maven特性</h2><ol><li>依赖管理</li></ol><ul><li>jar包依赖</li><li>工程间的依赖</li><li>继承</li><li>聚合</li></ul><ol start="2"><li><p>工程类型</p><ul><li>war包的项目</li><li>jar包的项目</li><li>pom工程</li></ul></li></ol><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;video controls=&quot;controls&quot; src=&quot;http://owx1uvd7t.bkt.clouddn.com/2-1%20%E4%BB%80%E4%B9%88%E6%98%AFmaven%EF%BC%8Cmaven%E7%9A%84%E9%85%8D%E7%B
+        &lt;h1 id=&quot;SSM视频教程第2-1节-Maven的概念，Maven的配置&quot;&gt;&lt;a href=&quot;#SSM视频教程第2-1节-Maven的概念，Maven的配置&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第2-1节:Maven的概念，Maven的配置&quot;&gt;
       
     
     </summary>
@@ -453,15 +527,15 @@
     <link href="http://www.wistbean.com/2018/08/29/java-ssm-1-4/"/>
     <id>http://www.wistbean.com/2018/08/29/java-ssm-1-4/</id>
     <published>2018-08-29T09:25:21.000Z</published>
-    <updated>2018-08-30T08:01:39.080Z</updated>
+    <updated>2018-09-10T08:24:45.360Z</updated>
     
-    <content type="html"><![CDATA[<video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/1-4.mp4" width="100%"></video>]]></content>
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第1-4节-GitHub完全使用指南"><a href="#SSM视频教程第1-4节-GitHub完全使用指南" class="headerlink" title="SSM视频教程第1-4节:GitHub完全使用指南"></a>SSM视频教程第1-4节:GitHub完全使用指南</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/1-4.mp4" width="100%"></video><h1 id="SSM视频教程第1-4节课程概要"><a href="#SSM视频教程第1-4节课程概要" class="headerlink" title="SSM视频教程第1-4节课程概要"></a>SSM视频教程第1-4节课程概要</h1><h1 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h1><p>全球最大的社交编程网站！</p><h2 id="Github-有什么用？"><a href="#Github-有什么用？" class="headerlink" title="Github 有什么用？"></a>Github 有什么用？</h2><ol><li>代码托管</li><li>多人协作</li><li>个人博客</li><li>个人简历</li></ol><h2 id="使用Github"><a href="#使用Github" class="headerlink" title="使用Github"></a>使用Github</h2><ul><li>star 收藏</li><li>fork “复制”</li><li>repository 仓库</li><li>watch 观察</li><li>Gist 代码片段</li><li>Pull Request 请求合并</li><li>Issue 提问题/bug</li><li>clone 克隆</li><li>git config 配置信息</li><li>git push 将本地代码推送到github上去</li><li>git pull 将远程的代码更新下来</li><li>git branch 分支</li><li><p>git merge 合并</p><h2 id="ssh授权"><a href="#ssh授权" class="headerlink" title="ssh授权"></a>ssh授权</h2><p> 生成秘钥：ssh-keygen -t rsa<br> 验证是否授权成功： ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a></p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Hi testWistbean! You&apos;ve successfully authenticated,</span><br><span class="line">but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure></li></ul><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;video controls=&quot;controls&quot; src=&quot;http://owx1uvd7t.bkt.clouddn.com/1-4.mp4&quot; width=&quot;100%&quot;&gt;&lt;/video&gt;
+        &lt;h1 id=&quot;SSM视频教程第1-4节-GitHub完全使用指南&quot;&gt;&lt;a href=&quot;#SSM视频教程第1-4节-GitHub完全使用指南&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第1-4节:GitHub完全使用指南&quot;&gt;&lt;/a&gt;SSM视频教程第1-4
       
     
     </summary>
@@ -494,15 +568,15 @@
     <link href="http://www.wistbean.com/2018/08/29/java-ssm-1-3/"/>
     <id>http://www.wistbean.com/2018/08/29/java-ssm-1-3/</id>
     <published>2018-08-29T09:25:20.000Z</published>
-    <updated>2018-08-30T08:01:40.065Z</updated>
+    <updated>2018-09-10T08:24:45.163Z</updated>
     
-    <content type="html"><![CDATA[<video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/1-3.mp4" width="100%"></video>]]></content>
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第1-3节-代码托管Git的使用"><a href="#SSM视频教程第1-3节-代码托管Git的使用" class="headerlink" title="SSM视频教程第1-3节:代码托管Git的使用"></a>SSM视频教程第1-3节:代码托管Git的使用</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/1-3.mp4" width="100%"></video><h1 id="SSM视频教程第1-3节课程概要"><a href="#SSM视频教程第1-3节课程概要" class="headerlink" title="SSM视频教程第1-3节课程概要"></a>SSM视频教程第1-3节课程概要</h1><h2 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h2><p>代码的版本控制管理系统</p><h3 id="Git可以干什么呢？"><a href="#Git可以干什么呢？" class="headerlink" title="Git可以干什么呢？"></a>Git可以干什么呢？</h3><ol><li>防止代码丢失</li><li>远程同步代码</li><li>团队合作利器</li><li>代码还原</li><li>记录代码版本</li></ol><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><h3 id="Git的常用的操作命令"><a href="#Git的常用的操作命令" class="headerlink" title="Git的常用的操作命令"></a>Git的常用的操作命令</h3><ul><li>git init 初始化git仓库</li><li>git status 查看状态</li><li>git add 将文件添加到git仓库的暂存区</li><li>git commit 将添加到暂存区的文件提交到git仓库</li><li>git log 查看日志</li><li>git branch 查看当前的分支</li><li>git branch hi 创建一个叫做“hi”的分支</li><li>git checkout hi 切换分支到“hi”分支</li><li>git branch -d hi 删除“hi”分支</li></ul><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;video controls=&quot;controls&quot; src=&quot;http://owx1uvd7t.bkt.clouddn.com/1-3.mp4&quot; width=&quot;100%&quot;&gt;&lt;/video&gt;
+        &lt;h1 id=&quot;SSM视频教程第1-3节-代码托管Git的使用&quot;&gt;&lt;a href=&quot;#SSM视频教程第1-3节-代码托管Git的使用&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第1-3节:代码托管Git的使用&quot;&gt;&lt;/a&gt;SSM视频教程第1-3节:代码托管
       
     
     </summary>
@@ -533,15 +607,15 @@
     <link href="http://www.wistbean.com/2018/08/29/java-ssm-1-2/"/>
     <id>http://www.wistbean.com/2018/08/29/java-ssm-1-2/</id>
     <published>2018-08-29T09:25:19.000Z</published>
-    <updated>2018-08-30T08:01:39.810Z</updated>
+    <updated>2018-09-10T08:24:45.254Z</updated>
     
-    <content type="html"><![CDATA[<video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/1-2%28new%29.mp4" width="100%"></video>]]></content>
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第1-2节-传统的集群架构和分布式架构区别"><a href="#SSM视频教程第1-2节-传统的集群架构和分布式架构区别" class="headerlink" title="SSM视频教程第1-2节:传统的集群架构和分布式架构区别"></a>SSM视频教程第1-2节:传统的集群架构和分布式架构区别</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/1-2%28new%29.mp4" width="100%"></video><h1 id="SSM视频教程第1-2节课程概要"><a href="#SSM视频教程第1-2节课程概要" class="headerlink" title="SSM视频教程第1-2节课程概要"></a>SSM视频教程第1-2节课程概要</h1><h2 id="第二节-架构"><a href="#第二节-架构" class="headerlink" title="第二节 架构"></a>第二节 架构</h2><h3 id="集群架构"><a href="#集群架构" class="headerlink" title="集群架构"></a>集群架构</h3><p>缺点：</p><ul><li>耦合度太高了</li><li>增加了团队的合作成本</li><li>不能够去灵活的部署</li></ul><h3 id="分布式架构"><a href="#分布式架构" class="headerlink" title="分布式架构"></a>分布式架构</h3><p>优点：</p><ul><li>项目拆分成多个模块，耦合度降低</li><li>单点运行，团队合作效率高了</li><li>可以灵活部署</li></ul><p>缺点：</p><ul><li>需要去额外的开发，让各个模块之间能够通信！</li></ul><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;video controls=&quot;controls&quot; src=&quot;http://owx1uvd7t.bkt.clouddn.com/1-2%28new%29.mp4&quot; width=&quot;100%&quot;&gt;&lt;/video&gt;
+        &lt;h1 id=&quot;SSM视频教程第1-2节-传统的集群架构和分布式架构区别&quot;&gt;&lt;a href=&quot;#SSM视频教程第1-2节-传统的集群架构和分布式架构区别&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第1-2节:传统的集群架构和分布式架构区别&quot;&gt;&lt;/a&gt;SS
       
     
     </summary>
@@ -570,15 +644,15 @@
     <link href="http://www.wistbean.com/2018/08/29/java-ssm-1-1/"/>
     <id>http://www.wistbean.com/2018/08/29/java-ssm-1-1/</id>
     <published>2018-08-29T09:25:18.000Z</published>
-    <updated>2018-08-30T07:52:43.489Z</updated>
+    <updated>2018-09-10T08:24:45.410Z</updated>
     
-    <content type="html"><![CDATA[<video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/1-1%28new%29.mp4" width="100%"></video>]]></content>
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第一节-项目实战视频教程介绍"><a href="#SSM视频教程第一节-项目实战视频教程介绍" class="headerlink" title="SSM视频教程第一节:项目实战视频教程介绍"></a>SSM视频教程第一节:项目实战视频教程介绍</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/1-1%28new%29.mp4" width="100%"></video><h1 id="SSM视频教程第一节课程概要"><a href="#SSM视频教程第一节课程概要" class="headerlink" title="SSM视频教程第一节课程概要"></a>SSM视频教程第一节课程概要</h1><h3 id="面向的学习人群"><a href="#面向的学习人群" class="headerlink" title="面向的学习人群"></a>面向的学习人群</h3><ol><li>具备有一定的java基础</li><li>初级开发者 -&gt; 中高级开发者</li><li>具备一定的自学能力和执行能力！</li></ol><h3 id="技术选型"><a href="#技术选型" class="headerlink" title="技术选型"></a>技术选型</h3><ol><li>Spring</li><li>Spring MVC</li><li>Mybatis</li><li>redis</li><li>solor</li><li>EasyUI</li><li>UEditor</li><li>JQuery</li><li>Freemark</li><li>activMQ</li><li>httpClient</li><li>MySQL</li></ol><h3 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h3><ol><li>InteliJ IDEA</li><li>Maven</li><li>Tomcat7</li><li>JDK</li><li>Nginx</li><li>Git</li><li>postman</li><li>sqlyog</li><li>win7</li></ol><h3 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h3><ul><li>技术架构 （集群和分布式架构的区别）</li><li>工程搭建 （maven）</li><li>SSM框架的整合</li><li>Mybatis逆向工程以及使用</li><li>日志的添加与使用</li><li>拦截器</li><li>后端功能 （系统的开发，图片系统，数据等等）</li><li>前端功能 （商品浏览，下订单，购物车等等。。）</li><li>redis使用以及集群搭建</li><li>solor使用和集群搭建</li><li>JMS 消息队列 （activMQ）</li><li>sso单点登录</li><li>restful服务</li><li>在Linux上部署</li></ul><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;video controls=&quot;controls&quot; src=&quot;http://owx1uvd7t.bkt.clouddn.com/1-1%28new%29.mp4&quot; width=&quot;100%&quot;&gt;&lt;/video&gt;
+        &lt;h1 id=&quot;SSM视频教程第一节-项目实战视频教程介绍&quot;&gt;&lt;a href=&quot;#SSM视频教程第一节-项目实战视频教程介绍&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第一节:项目实战视频教程介绍&quot;&gt;&lt;/a&gt;SSM视频教程第一节:项目实战视频教程介绍&lt;/
       
     
     </summary>
@@ -605,7 +679,7 @@
     <link href="http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/"/>
     <id>http://www.wistbean.com/2018/08/29/ipsec,l2tp_vpn/</id>
     <published>2018-08-29T09:16:04.000Z</published>
-    <updated>2018-09-09T10:56:19.270Z</updated>
+    <updated>2018-09-09T16:38:44.222Z</updated>
     
     <content type="html"><![CDATA[<h1 id="搭建IPsec-L2TP-VPN的准备"><a href="#搭建IPsec-L2TP-VPN的准备" class="headerlink" title="搭建IPsec/L2TP VPN的准备"></a>搭建IPsec/L2TP VPN的准备</h1><ul><li>一台云服务器VPS</li><li>远程连接VPS工具</li></ul><p>1.我使用的云服务器是<a href="https://bwh1.net/aff.php?aff=32874" target="_blank">搬瓦工官网</a>，<br>因为性价比高，一年也就十几刀，速度快。</p><p>如何拿到搬瓦工优惠码之前说过，可以看这里：<a href="/2018/06/10/banwagong-vpn/#3-2拿到搬瓦工优惠码">拿到搬瓦工优惠码</a></p><p>2.远程连接工具我一直用的是 <a href="https://www.vandyke.com/products/securecrt/" target="_blank" rel="noopener">SecureCRT</a> , 当然你也可以使用其它的 SSH 工具。</p><h1 id="开始搭建-IPsec-L2TP-VPN"><a href="#开始搭建-IPsec-L2TP-VPN" class="headerlink" title="开始搭建 IPsec/L2TP VPN"></a>开始搭建 IPsec/L2TP VPN</h1><h2 id="获取搬瓦工服务器的ip，端口，账号密码"><a href="#获取搬瓦工服务器的ip，端口，账号密码" class="headerlink" title="获取搬瓦工服务器的ip，端口，账号密码"></a>获取搬瓦工服务器的ip，端口，账号密码</h2><p>有了<a href="https://bwh1.net/aff.php?aff=32874" target="_blank">搬瓦工</a>服务器的IP地址和端口<br>我们就可以连接了：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pic1.png" alt="搭建 IPsec/L2TP VPN" title="">                </div>                <div class="image-caption">搭建 IPsec/L2TP VPN</div>            </figure><p>账号是root，密码可以在这里获取：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pic2.png" alt="搭建 IPsec/L2TP VPN" title="">                </div>                <div class="image-caption">搭建 IPsec/L2TP VPN</div>            </figure><h2 id="使用-SSH-工具连接到服务器"><a href="#使用-SSH-工具连接到服务器" class="headerlink" title="使用 SSH 工具连接到服务器"></a>使用 SSH 工具连接到服务器</h2><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pic3.png" alt="搭建 IPsec/L2TP VPN" title="">                </div>                <div class="image-caption">搭建 IPsec/L2TP VPN</div>            </figure><h2 id="使用-IPsec-L2TP-脚本搭建"><a href="#使用-IPsec-L2TP-脚本搭建" class="headerlink" title="使用 IPsec/L2TP 脚本搭建"></a>使用 IPsec/L2TP 脚本搭建</h2><p>在这里感谢<a href="https://github.com/hwdsl2" target="_blank" rel="noopener">hwdsl2</a>提供的脚本，我们在连接到服务器后使用如下命令：</p><p>安装 wget ：</p><pre><code>yum install wget</code></pre><p>使用脚本：</p><pre><code>wget https://git.io/vpnsetup-centos -O vpnsetup.sh &amp;&amp; sudo sh vpnsetup.sh</code></pre><p>稍等一会安装成功会提供一个 VPN 需要的信息：</p><pre><code>Server IP: xxx.xx.xx.xxIPsec PSK: xxxxUsername: xxxxPassword: xxxx</code></pre><p>这时候就搭建成功了，快吧？</p><h1 id="windowns-7-使用IPsec-L2TP-VPN"><a href="#windowns-7-使用IPsec-L2TP-VPN" class="headerlink" title="windowns 7 使用IPsec/L2TP VPN"></a>windowns 7 使用IPsec/L2TP VPN</h1><h2 id="设置VPN连接"><a href="#设置VPN连接" class="headerlink" title="设置VPN连接"></a>设置VPN连接</h2><pre><code>单击开始菜单，选择控制面板。进入 网络和Internet 部分。单击 网络与共享中心。单击 设置新的连接或网络。选择 连接到工作区，然后单击 下一步。单击 使用我的Internet连接 (VPN)。在 Internet地址 字段中输入你的 VPN 服务器 IP。在 目标名称 字段中输入任意内容。选中 现在不连接；仅进行设置以便稍后连接 复选框。单击 下一步。在 用户名 字段中输入你的 VPN 用户名。在 密码 字段中输入你的 VPN 密码。选中 记住此密码 复选框。单击 创建，然后单击 关闭 按钮。返回 网络与共享中心。单击左侧的 更改适配器设置。右键单击新创建的 VPN 连接，并选择 属性。单击 选项 选项卡，取消选中 包括Windows登录域 复选框。单击 安全 选项卡，从 VPN 类型 下拉菜单中选择 &quot;使用 IPsec 的第 2 层隧道协议 (L2TP/IPSec)&quot;。单击 允许使用这些协议。确保选中 &quot;质询握手身份验证协议 (CHAP)&quot; 复选框。单击 高级设置 按钮。单击 使用预共享密钥作身份验证 并在 密钥 字段中输入你的 VPN IPsec PSK。单击 确定 关闭 高级设置。单击 确定 保存 VPN 连接的详细信息。</code></pre><h2 id="添加注册表"><a href="#添加注册表" class="headerlink" title="添加注册表"></a>添加注册表</h2><p>新建一个TXT文件，输入以下内容：</p><pre><code>Windows Registry Editor Version 5.00[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\RasMan\Parameters]&quot;ProhibitIpSec&quot;=dword:00000000[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent]&quot;AssumeUDPEncapsulationContextOnSendRule&quot;=dword:00000002</code></pre><p>另存为.reg格式的文件，然后双击。</p><h2 id="启动服务"><a href="#启动服务" class="headerlink" title="启动服务"></a>启动服务</h2><p>将以下服务全部设置为自动启用，要不然会连接不成功：</p><pre><code>IPsec Policy AgentRouting and Remote AccessRemote Access Auto Connection ManagerRemote Access Connection ManagerSecure Socket Tunneling Protocol Service</code></pre><h2 id="重启电脑后连接"><a href="#重启电脑后连接" class="headerlink" title="重启电脑后连接"></a>重启电脑后连接</h2><p>重启电脑后，点击右下角的网络连接，双击VPN连接，即可成功连接：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pic5.png" alt="搭建 IPsec/L2TP VPN" title="">                </div>                <div class="image-caption">搭建 IPsec/L2TP VPN</div>            </figure><h2 id="连接效果"><a href="#连接效果" class="headerlink" title="连接效果"></a>连接效果</h2><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pic6.png" alt="搭建 IPsec/L2TP VPN" title="">                </div>                <div class="image-caption">搭建 IPsec/L2TP VPN</div>            </figure><h2 id="iPhone-iPad-使用IPsec-L2TP-VPN"><a href="#iPhone-iPad-使用IPsec-L2TP-VPN" class="headerlink" title="iPhone/iPad 使用IPsec/L2TP VPN"></a>iPhone/iPad 使用IPsec/L2TP VPN</h2><pre><code>进入设置 -&gt; 通用 -&gt; VPN。单击 添加VPN配置...。单击 类型 。选择 L2TP 并返回。在 描述 字段中输入任意内容。在 服务器 字段中输入你的 VPN 服务器 IP。在 帐户 字段中输入你的 VPN 用户名。在 密码 字段中输入你的 VPN 密码。在 密钥 字段中输入你的 VPN IPsec PSK。启用 发送所有流量 选项。单击右上角的 存储。启用 VPN 连接。</code></pre><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pic7.jpg" alt="搭建 IPsec/L2TP VPN" title="">                </div>                <div class="image-caption">搭建 IPsec/L2TP VPN</div>            </figure><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pic8.png" alt="搭建 IPsec/L2TP VPN" title="">                </div>                <div class="image-caption">搭建 IPsec/L2TP VPN</div>            </figure><p>其它客户端连接方式请参考：<a href="https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/docs/clients-zh.md" target="_blank" rel="noopener">配置 IPsec/L2TP VPN 客户端</a></p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://github.com/hwdsl2/setup-ipsec-vpn" target="_blank" rel="noopener">IPsec VPN 服务器一键安装脚本</a></p><p><a href="https://moshuqi.github.io/2017/07/20/%E8%87%AA%E5%B7%B1%E6%90%AD%E5%BB%BAVPN%E6%9C%8D%E5%8A%A1%E5%99%A8/" target="_blank" rel="noopener">自己搭建VPN服务器</a></p><p><a href="https://www.wistbean.com/2018/06/10/banwagong-vpn">使用搬瓦工快速搭建自己的VPN</a></p>]]></content>
     
@@ -620,6 +694,8 @@
     </summary>
     
       <category term="vpn" scheme="http://www.wistbean.com/categories/vpn/"/>
+    
+      <category term="搬瓦工" scheme="http://www.wistbean.com/categories/vpn/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
     
     
       <category term="vpn搭建" scheme="http://www.wistbean.com/tags/vpn%E6%90%AD%E5%BB%BA/"/>
@@ -664,7 +740,7 @@
     <link href="http://www.wistbean.com/2018/06/10/banwagong-vpn/"/>
     <id>http://www.wistbean.com/2018/06/10/banwagong-vpn/</id>
     <published>2018-06-10T09:06:26.000Z</published>
-    <updated>2018-09-09T06:59:18.022Z</updated>
+    <updated>2018-09-09T16:38:44.176Z</updated>
     
     <content type="html"><![CDATA[<h2 id="1-使用搬瓦工搭建自己的VPN"><a href="#1-使用搬瓦工搭建自己的VPN" class="headerlink" title="1.使用搬瓦工搭建自己的VPN"></a>1.使用搬瓦工搭建自己的VPN</h2><p>很多人想要使用 VPN ，不过去购买第三方的「VPN账号」除了不稳定外还怕不安全，有些第三方 VPN 会获取用户的数据做一些坏事，还特么限制网速，不能忍！</p><p>所以想要自己买一台服务器，然后搭建一个完全属于自己的 VPN ，稳定快速又安全！</p><p>那么就在这里教大家使用<a href="https://bwh1.net/aff.php?aff=32874" target="_blank">搬瓦工官网</a>（性价比很高的云服务器提供商）来快速的搭建自己的VPN。而且我还<br>会告诉大家<strong>怎么花比别人少的钱购买服务器</strong>，下文将会提到怎么获取优惠码，一般人很少知道的！</p><h2 id="2-使用搬瓦工搭建VPN前的准备"><a href="#2-使用搬瓦工搭建VPN前的准备" class="headerlink" title="2.使用搬瓦工搭建VPN前的准备"></a>2.使用搬瓦工搭建VPN前的准备</h2><ol><li><p>一台可以上网的电脑。</p></li><li><p>支付宝或者PayPal账号， 搬瓦工支持支付宝付款。</p></li></ol><h2 id="3-购买搬瓦工VPS云服务器"><a href="#3-购买搬瓦工VPS云服务器" class="headerlink" title="3.购买搬瓦工VPS云服务器"></a>3.购买搬瓦工VPS云服务器</h2><h3 id="3-1选择搬瓦工VPS服务器"><a href="#3-1选择搬瓦工VPS服务器" class="headerlink" title="3.1选择搬瓦工VPS服务器"></a>3.1选择搬瓦工VPS服务器</h3><p>点击<a href="https://bwh1.net/aff.php?aff=32874" target="_blank">搬瓦工官网</a>进入搬瓦工官网（待会在这里可以从中拿到优惠码）。进入之后可以看到可以购买的VPS云服务器，个人使用的话购买最便宜的就好了，<br>比如这里有个19.99刀一年就不错:</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn1.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>不过便宜的很抢手，很快就会被人买光，比如这里 no stock 就说明被人买光了：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn2.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><h3 id="3-2拿到搬瓦工优惠码"><a href="#3-2拿到搬瓦工优惠码" class="headerlink" title="3.2拿到搬瓦工优惠码"></a>3.2拿到搬瓦工优惠码</h3><p>ok，我们点击「Order KVM」:</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn3.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>当你进到这个页面的时候呢，别急着点击「Add to Cart」添加到购物车，这里面暗藏着一个优惠码，很多人不知道，使用浏览器查看源代码，<br>chrome浏览器的话按F12，然后搜索「code」，你会发现有一个 「Try this promo code: xxxx 」，这个xxxx就是优惠码，你把他复制下来，待会有用。</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn4.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>页面的 Location 就是选择服务器的地址，到时访问谷歌的时候会显示你当前访问的地址。好了，我们点击「Add to Cart」。</p><p>接下来，进入结算页面，我们刚才复制的优惠码就派上用场了，将你刚刚复制的优惠码复制进去然后点击 「Validate Code」，看！是不是优惠了！一般人不知道这种操作:</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn5.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>接着点击「CheckOut」完成付款即可。付款的时候选择 Alipay 就可以使用支付宝付款。</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn8.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><h2 id="4-快速搭建搬瓦工VPN"><a href="#4-快速搭建搬瓦工VPN" class="headerlink" title="4.快速搭建搬瓦工VPN"></a>4.快速搭建搬瓦工VPN</h2><p>购买完毕后你就拥有一台你自己的服务器了，接着点击Services下的MyServices，可以看到你的服务器：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn6.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>我们点击「KiwiVM Control Panel」进入管理界面：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn7.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>可以看到你服务器的信息:</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn9.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>接着我们点击 「OpenVPN Server」：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn10.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>接着点击：「Install and configer OpenVPN Server」，搬瓦工会自动帮我们在服务器安装和配置，不需要自己手动敲命令了：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn11.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>等一会就搭建好VPN了，就问你快不？</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn12.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><h2 id="5-使用搬瓦工openVPN"><a href="#5-使用搬瓦工openVPN" class="headerlink" title="5.使用搬瓦工openVPN"></a>5.使用搬瓦工openVPN</h2><h3 id="PC端使用搬瓦工VPN"><a href="#PC端使用搬瓦工VPN" class="headerlink" title="PC端使用搬瓦工VPN"></a>PC端使用搬瓦工VPN</h3><p>首先我们下载我们的VPN文件所需的配置文件，点击「Download key Files」下载，然后再下载openVPN的客户端：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn13.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>接着将配置文件解压到openVPN客户端的config文件夹下：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn14.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn15.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>接着再openvpn目录下的bin目录双击打开openvpn-gui，然后Connect连接，连接完成右下角的openVPN会成为绿色状态，然后就可以访问外网了，速度很快：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn16.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn17.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn18.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><h3 id="iPhone端使用搬瓦工VPN"><a href="#iPhone端使用搬瓦工VPN" class="headerlink" title="iPhone端使用搬瓦工VPN"></a>iPhone端使用搬瓦工VPN</h3><p>同样，手机也需要安装一个openVPN的客户端，不过你在中国区的 AppleStore 下载不到 openVPN 的，你需要注册一个美区的苹果账号，然后搜索 openVPN 下载：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn20.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>接着电脑端下载 iTunes ，打开 iTunes ，手机用数据线连接电脑，点击文件共享：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn21.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>将刚刚下载的vpn文件解压，然后添加到OpenVPN客户端：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn22.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>手机打开OpenVPN APP， 点击 + 这个按钮：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn23.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>然后就可以连接了：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn24.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><p>访问速度杠杠的：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn25.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn26.png" alt="使用搬瓦工搭建VPN" title="">                </div>                <div class="image-caption">使用搬瓦工搭建VPN</div>            </figure><h3 id="Android端使用搬瓦工VPN"><a href="#Android端使用搬瓦工VPN" class="headerlink" title="Android端使用搬瓦工VPN"></a>Android端使用搬瓦工VPN</h3><p>Android手机使用搬瓦工openVpn同上，下载openVpn App ，然后把配置文件传上去就行了。</p><h2 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h2><ul><li><a href="/2018/08/29/ipsec,l2tp_vpn/">CentOS快速搭建一个属于自己的IPsec/L2TP VPN</a></li><li><a href="https://www.yfmingo.cn/2016/11/05/bandwagonhost_vpn/" target="_blank" rel="noopener">利用搬瓦工VPS自建高速丝滑VPN</a></li><li><a href="http://www.gengzhibo.com/2017/02/05/vpn/" target="_blank" rel="noopener">在搬瓦工中搭建个人vpn</a></li></ul>]]></content>
     
@@ -678,6 +754,8 @@
     </summary>
     
       <category term="vpn" scheme="http://www.wistbean.com/categories/vpn/"/>
+    
+      <category term="搬瓦工" scheme="http://www.wistbean.com/categories/vpn/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
     
     
       <category term="vpn搭建" scheme="http://www.wistbean.com/tags/vpn%E6%90%AD%E5%BB%BA/"/>
