@@ -169,15 +169,15 @@
       <category term="互联网" scheme="http://www.wistbean.com/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
     
-      <category term="Paypal" scheme="http://www.wistbean.com/tags/Paypal/"/>
-    
-      <category term="Payoneer" scheme="http://www.wistbean.com/tags/Payoneer/"/>
-    
       <category term="互联网" scheme="http://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+      <category term="个人理财" scheme="http://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
     
       <category term="赚钱" scheme="http://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
     
-      <category term="个人理财" scheme="http://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
+      <category term="Paypal" scheme="http://www.wistbean.com/tags/Paypal/"/>
+    
+      <category term="Payoneer" scheme="http://www.wistbean.com/tags/Payoneer/"/>
     
   </entry>
   
@@ -235,9 +235,9 @@
     
       <category term="互联网" scheme="http://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
-      <category term="赚钱" scheme="http://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
-    
       <category term="个人理财" scheme="http://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
+    
+      <category term="赚钱" scheme="http://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
     
   </entry>
   
@@ -633,9 +633,9 @@
     
       <category term="分布式" scheme="http://www.wistbean.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
     
-      <category term="SSM" scheme="http://www.wistbean.com/tags/SSM/"/>
-    
       <category term="架构" scheme="http://www.wistbean.com/tags/%E6%9E%B6%E6%9E%84/"/>
+    
+      <category term="SSM" scheme="http://www.wistbean.com/tags/SSM/"/>
     
   </entry>
   
@@ -703,6 +703,41 @@
       <category term="搬瓦工" scheme="http://www.wistbean.com/tags/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
     
       <category term="IPsec/L2TP" scheme="http://www.wistbean.com/tags/IPsec-L2TP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>肯定会电台：科技，产品思维，编程，资源推荐，精华分享等</title>
+    <link href="http://www.wistbean.com/2018/07/27/podcast-36/"/>
+    <id>http://www.wistbean.com/2018/07/27/podcast-36/</id>
+    <published>2018-07-27T15:40:07.000Z</published>
+    <updated>2018-09-10T15:49:44.656Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="肯定会电台35期"><a href="#肯定会电台35期" class="headerlink" title="肯定会电台35期"></a>肯定会电台35期</h1><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=3&id=1370342959&auto=1&height=66"></iframe><h1 id="技术改变社会"><a href="#技术改变社会" class="headerlink" title="技术改变社会"></a>技术改变社会</h1><p>最近看了些文章，有点感慨，越来越发现，在接下来的日子，会发生许多变化，而这些变化，都将会是由技术引起的。</p><p>很庆幸能够活在这个互联网的时代，能够感知技术带来的变化，就在自己的身边，在自己的眼前，看着一个个产品的兴起，一个个产品的衰败。看着自己喜欢的科技公司上市等等。</p><p>未来会变成什么样子，谁也不知道，但是大趋势一定是技术带来机会。只有去拥抱技术，了解技术，才能够应对接下来的变化。</p><p>所以我的愚见是不管做什么都好，多往技术那边靠，会是一个明智的选择。</p><p>看着那些高考完申报专业的准大学生们，有一些报翻译专业的，一些报中医专业的，一些报会计专业的等等，我都挺替他们感到可惜的。</p><p>如果他们学完这四年，然后毕业了，然后发现原来他们的专业都被人工智能代替了，到时候不就扑街了么？</p><p>可能以后有些人想要努力，都找不到个地方努力了吧，以前我一直认为努力一定会成功，后来发现错了，我看到那些流水线的人特么努力，一天上班十几个钟，看起来比我们努力多了，但是做的这些事情，除了那点微博的工资之外，就是浪费生命。可怕的是，将来可能连这种浪费生命的机会都不给了。</p><p>如果 Google 的无人驾驶技术成功了，到时候推上市场，驾校只能去开碰碰车娱乐场了吧？</p><p>也不知道到时候那些保安，服务员，售货员等的劳动者们，会有什么机会做什么事情呢？</p><p>也不知道再过二三十年，技术会让社会变成什么样？</p><h1 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h1><p><a href="https://www.wistbean.com/categories/肯定会电台节目/">肯定会电台节目</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;肯定会电台35期&quot;&gt;&lt;a href=&quot;#肯定会电台35期&quot; class=&quot;headerlink&quot; title=&quot;肯定会电台35期&quot;&gt;&lt;/a&gt;肯定会电台35期&lt;/h1&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;
+      
+    
+    </summary>
+    
+      <category term="肯定会电台" scheme="http://www.wistbean.com/categories/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
+    
+    
+      <category term="电台节目" scheme="http://www.wistbean.com/tags/%E7%94%B5%E5%8F%B0%E8%8A%82%E7%9B%AE/"/>
+    
+      <category term="科技" scheme="http://www.wistbean.com/tags/%E7%A7%91%E6%8A%80/"/>
+    
+      <category term="产品思维" scheme="http://www.wistbean.com/tags/%E4%BA%A7%E5%93%81%E6%80%9D%E7%BB%B4/"/>
+    
+      <category term="编程" scheme="http://www.wistbean.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="资源推荐" scheme="http://www.wistbean.com/tags/%E8%B5%84%E6%BA%90%E6%8E%A8%E8%8D%90/"/>
+    
+      <category term="精华分享" scheme="http://www.wistbean.com/tags/%E7%B2%BE%E5%8D%8E%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
