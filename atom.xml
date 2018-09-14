@@ -310,47 +310,6 @@
   </entry>
   
   <entry>
-    <title>「2-5」使用InteliJ IDEA 创建 Maven 聚合工程</title>
-    <link href="http://www.wistbean.com/2018/08/29/java-ssm-2-5/"/>
-    <id>http://www.wistbean.com/2018/08/29/java-ssm-2-5/</id>
-    <published>2018-08-29T09:25:26.000Z</published>
-    <updated>2018-09-10T08:32:43.892Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="SSM视频教程第2-5节-Maven-聚合工程"><a href="#SSM视频教程第2-5节-Maven-聚合工程" class="headerlink" title="SSM视频教程第2-5节:Maven 聚合工程"></a>SSM视频教程第2-5节:Maven 聚合工程</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-5%20%E6%90%AD%E5%BB%BAjava%20ssm%E6%A1%86%E6%9E%B6%E5%89%8D%EF%BC%8C%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%20Maven%20%E8%81%9A%E5%90%88%E5%B7%A5%E7%A8%8B.mp4" width="100%"></video><h1 id="SSM视频教程第2-5节课程概要"><a href="#SSM视频教程第2-5节课程概要" class="headerlink" title="SSM视频教程第2-5节课程概要"></a>SSM视频教程第2-5节课程概要</h1><h2 id="使用-maven-的聚合工程"><a href="#使用-maven-的聚合工程" class="headerlink" title="使用 maven 的聚合工程"></a>使用 maven 的聚合工程</h2><p>manager 模块的聚合：</p><ul><li>pojo</li><li>mapper</li><li>service</li></ul><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;SSM视频教程第2-5节-Maven-聚合工程&quot;&gt;&lt;a href=&quot;#SSM视频教程第2-5节-Maven-聚合工程&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第2-5节:Maven 聚合工程&quot;&gt;&lt;/a&gt;SSM视频教程第2-5节:Mave
-      
-    
-    </summary>
-    
-      <category term="Java" scheme="http://www.wistbean.com/categories/Java/"/>
-    
-      <category term="Maven" scheme="http://www.wistbean.com/categories/Java/Maven/"/>
-    
-    
-      <category term="教程" scheme="http://www.wistbean.com/tags/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="Java" scheme="http://www.wistbean.com/tags/Java/"/>
-    
-      <category term="Java视频教程" scheme="http://www.wistbean.com/tags/Java%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="项目实战" scheme="http://www.wistbean.com/tags/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/"/>
-    
-      <category term="分布式" scheme="http://www.wistbean.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
-    
-      <category term="SSM" scheme="http://www.wistbean.com/tags/SSM/"/>
-    
-      <category term="Maven" scheme="http://www.wistbean.com/tags/Maven/"/>
-    
-      <category term="InteliJ IDEA" scheme="http://www.wistbean.com/tags/InteliJ-IDEA/"/>
-    
-  </entry>
-  
-  <entry>
     <title>「2-6」Java SSM框架的整合与Mybatis逆向工程</title>
     <link href="http://www.wistbean.com/2018/08/29/java-ssm-2-6/"/>
     <id>http://www.wistbean.com/2018/08/29/java-ssm-2-6/</id>
@@ -396,6 +355,47 @@
       <category term="Mybatis" scheme="http://www.wistbean.com/tags/Mybatis/"/>
     
       <category term="逆向工程" scheme="http://www.wistbean.com/tags/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>「2-5」使用InteliJ IDEA 创建 Maven 聚合工程</title>
+    <link href="http://www.wistbean.com/2018/08/29/java-ssm-2-5/"/>
+    <id>http://www.wistbean.com/2018/08/29/java-ssm-2-5/</id>
+    <published>2018-08-29T09:25:26.000Z</published>
+    <updated>2018-09-10T08:32:43.892Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第2-5节-Maven-聚合工程"><a href="#SSM视频教程第2-5节-Maven-聚合工程" class="headerlink" title="SSM视频教程第2-5节:Maven 聚合工程"></a>SSM视频教程第2-5节:Maven 聚合工程</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-5%20%E6%90%AD%E5%BB%BAjava%20ssm%E6%A1%86%E6%9E%B6%E5%89%8D%EF%BC%8C%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%20Maven%20%E8%81%9A%E5%90%88%E5%B7%A5%E7%A8%8B.mp4" width="100%"></video><h1 id="SSM视频教程第2-5节课程概要"><a href="#SSM视频教程第2-5节课程概要" class="headerlink" title="SSM视频教程第2-5节课程概要"></a>SSM视频教程第2-5节课程概要</h1><h2 id="使用-maven-的聚合工程"><a href="#使用-maven-的聚合工程" class="headerlink" title="使用 maven 的聚合工程"></a>使用 maven 的聚合工程</h2><p>manager 模块的聚合：</p><ul><li>pojo</li><li>mapper</li><li>service</li></ul><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/2018/09/10/java-ssm-video/#SSM视频教程目录">SSM视频教程目录</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;SSM视频教程第2-5节-Maven-聚合工程&quot;&gt;&lt;a href=&quot;#SSM视频教程第2-5节-Maven-聚合工程&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第2-5节:Maven 聚合工程&quot;&gt;&lt;/a&gt;SSM视频教程第2-5节:Mave
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="http://www.wistbean.com/categories/Java/"/>
+    
+      <category term="Maven" scheme="http://www.wistbean.com/categories/Java/Maven/"/>
+    
+    
+      <category term="教程" scheme="http://www.wistbean.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Java" scheme="http://www.wistbean.com/tags/Java/"/>
+    
+      <category term="Java视频教程" scheme="http://www.wistbean.com/tags/Java%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="项目实战" scheme="http://www.wistbean.com/tags/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/"/>
+    
+      <category term="分布式" scheme="http://www.wistbean.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+    
+      <category term="SSM" scheme="http://www.wistbean.com/tags/SSM/"/>
+    
+      <category term="Maven" scheme="http://www.wistbean.com/tags/Maven/"/>
+    
+      <category term="InteliJ IDEA" scheme="http://www.wistbean.com/tags/InteliJ-IDEA/"/>
     
   </entry>
   
