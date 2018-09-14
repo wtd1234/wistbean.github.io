@@ -36,8 +36,6 @@
         <title>「2-3」使用 InteliJ IDEA 创建 Maven 项目与相关配置</title>
         <pubTime>2018-08-29T09:25:24.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -45,6 +43,8 @@
         <tag>项目实战</tag>
          
         <tag>分布式</tag>
+         
+        <tag>教程</tag>
          
         <tag>SSM</tag>
          
@@ -73,8 +73,6 @@
         <title>「2-5」使用InteliJ IDEA 创建 Maven 聚合工程</title>
         <pubTime>2018-08-29T09:25:26.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -82,6 +80,8 @@
         <tag>项目实战</tag>
          
         <tag>分布式</tag>
+         
+        <tag>教程</tag>
          
         <tag>SSM</tag>
          
@@ -110,8 +110,6 @@
         <title>「2-6」Java SSM框架的整合与Mybatis逆向工程</title>
         <pubTime>2018-08-29T09:25:26.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -119,6 +117,8 @@
         <tag>项目实战</tag>
          
         <tag>分布式</tag>
+         
+        <tag>教程</tag>
          
         <tag>SSM</tag>
          
@@ -155,8 +155,6 @@
         <title>「2-4」使用InteliJ IDEA 创建分布式多模块 Maven 项目</title>
         <pubTime>2018-08-29T09:25:25.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -164,6 +162,8 @@
         <tag>项目实战</tag>
          
         <tag>分布式</tag>
+         
+        <tag>教程</tag>
          
         <tag>SSM</tag>
          
@@ -192,10 +192,6 @@
         <title>「1-3」代码托管Git的使用</title>
         <pubTime>2018-08-29T09:25:20.000Z</pubTime>
         
-        <tag>教程</tag>
-         
-        <tag>Git</tag>
-         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -204,7 +200,11 @@
          
         <tag>分布式</tag>
          
+        <tag>教程</tag>
+         
         <tag>SSM</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -227,10 +227,6 @@
         <title>「1-4」GitHub完全使用指南</title>
         <pubTime>2018-08-29T09:25:21.000Z</pubTime>
         
-        <tag>教程</tag>
-         
-        <tag>Git</tag>
-         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -239,7 +235,11 @@
          
         <tag>分布式</tag>
          
+        <tag>教程</tag>
+         
         <tag>SSM</tag>
+         
+        <tag>Git</tag>
          
         <tag>GitHub</tag>
          
@@ -264,8 +264,6 @@
         <title>「2-1」什么是Maven，Maven的配置</title>
         <pubTime>2018-08-29T09:25:22.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -273,6 +271,8 @@
         <tag>项目实战</tag>
          
         <tag>分布式</tag>
+         
+        <tag>教程</tag>
          
         <tag>SSM</tag>
          
@@ -329,10 +329,6 @@
         <title>Java进阶SSM分布式项目实战视频教程</title>
         <pubTime>2018-09-10T07:42:30.000Z</pubTime>
         
-        <tag>Git</tag>
-         
-        <tag>Nginx</tag>
-         
         <tag>Java</tag>
          
         <tag>项目实战</tag>
@@ -340,6 +336,8 @@
         <tag>分布式</tag>
          
         <tag>Maven</tag>
+         
+        <tag>Git</tag>
          
         <tag>InteliJ IDEA</tag>
          
@@ -373,6 +371,8 @@
          
         <tag>JDK</tag>
          
+        <tag>Nginx</tag>
+         
         <tag>postman</tag>
          
         <tag>sqlyog</tag>
@@ -398,8 +398,6 @@
         <title>「1-1」分布式高并发java web项目实战视频教程介绍</title>
         <pubTime>2018-08-29T09:25:18.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -407,6 +405,8 @@
         <tag>项目实战</tag>
          
         <tag>分布式</tag>
+         
+        <tag>教程</tag>
          
         <tag>SSM</tag>
          
@@ -428,8 +428,6 @@
         <title>「2-2」码农商城 SSM 系统所需的 Maven 模块简介</title>
         <pubTime>2018-08-29T09:25:23.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -437,6 +435,8 @@
         <tag>项目实战</tag>
          
         <tag>分布式</tag>
+         
+        <tag>教程</tag>
          
         <tag>SSM</tag>
          
@@ -490,8 +490,6 @@
         <title>「1-2」传统的集群架构和分布式架构区别</title>
         <pubTime>2018-08-29T09:25:19.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -499,6 +497,8 @@
         <tag>项目实战</tag>
          
         <tag>分布式</tag>
+         
+        <tag>教程</tag>
          
         <tag>SSM</tag>
          
@@ -522,19 +522,19 @@
         <title>hexo搭建个人网站博客完全教程</title>
         <pubTime>2018-08-30T11:38:13.000Z</pubTime>
         
-        <tag>个人网站</tag>
-         
         <tag>教程</tag>
+         
+        <tag>Git</tag>
+         
+        <tag>Nginx</tag>
+         
+        <tag>个人网站</tag>
          
         <tag>hexo</tag>
          
         <tag>blog</tag>
          
         <tag>搬瓦工</tag>
-         
-        <tag>Git</tag>
-         
-        <tag>Nginx</tag>
          
          
            
