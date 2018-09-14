@@ -21,6 +21,19 @@
         <itunes:explicit>no</itunes:explicit>
 
         <item>
+            <title>42 读书-一个年轻人和老人的故事 </title>
+            <itunes:author>wistbean</itunes:author>
+            <itunes:subtitle>肯定会电台，让我们一起提升自己。</itunes:subtitle>
+            <itunes:summary></itunes:summary>
+            <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg"/>
+            <enclosure length="24229754" type="audio/mpeg" url="http://owx1uvd7t.bkt.clouddn.com/42.mp3"/>
+            <guid>https://www.wistbean.com</guid>
+            <pubDate>2018-09-14</pubDate>
+            <itunes:duration>16:49</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
+        <item>
             <title>41 为什么要搭建一个属于你自己的网站 </title>
             <itunes:author>wistbean</itunes:author>
             <itunes:subtitle>肯定会电台，让我们一起提升自己。</itunes:subtitle>
