@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wistbean.com/"/>
-  <updated>2018-09-15T06:36:13.905Z</updated>
+  <updated>2018-09-15T12:04:13.676Z</updated>
   <id>https://www.wistbean.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GitHub是什么？如何使用？</title>
+    <link href="https://www.wistbean.com/github.html"/>
+    <id>https://www.wistbean.com/github.html</id>
+    <published>2018-09-15T11:53:09.000Z</published>
+    <updated>2018-09-15T12:04:13.676Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="GitHub是什么？"><a href="#GitHub是什么？" class="headerlink" title="GitHub是什么？"></a>GitHub是什么？</h1><p>GitHub就有点像微博，我们可以在上面看一些牛逼的人物写着开源的牛逼代码，觉得喜欢的话就给他们点赞，关注他们，甚至可以直接把他们<br>的源代码拉下来，看着他们的代码，忘了那个她！</p><p>GitHub的首页有这样介绍：A better way to work together，也就是说我们除了去关注牛逼的人物还可以在上面一起合作写点东西出来，<br>给我们提供一种更好的合作方式。</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/github1.png" alt="github" title="">                </div>                <div class="image-caption">github</div>            </figure><p>GitHub简单来说就是基于 Git 的版本托管服务系统，是全球最大的社交编程及代码托管网站，因为里面大多都是男的在玩，所以说是全球最大的同性搞基社区，哈哈哈！</p><h1 id="GitHub有什么用？"><a href="#GitHub有什么用？" class="headerlink" title="GitHub有什么用？"></a>GitHub有什么用？</h1><p>其实GitHub除了可以让我们代码托管和多人在上面一起协作完成项目之外呢，我们还可以在上面建立自己的博客网站，官方称为GitHub Pages，你可以在GitHub上面<br>创建一个仓库，以github.io为后缀，可以托管你自己的博客网站，直接通过你的仓库名就能在线的访问你的网站了，而且完全免费，我自己搭了个网站托管在上面好久啦，<br>感觉棒棒哒！地址在这：<a href="http://www.wistbean.com">http://www.wistbean.com</a>  (以前不知道听谁说，嫁人就要嫁给有自己网站的人，所以我就建了一个，嘿嘿嘿！)</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/github2.png" alt="github" title="">                </div>                <div class="image-caption">github</div>            </figure><p>如果你有什么优秀的开源项目在上面被人点赞（star）或者 Folllow,那就很 666 的了，因为在 Github 上面被人点赞要比你在朋友圈被人点赞要难的多的多。如果在上面<br>托管你自己的比较有影响力的开源项目，在面试的时候提供给对方看，也是一个很不错的加分项！</p><h2 id="Respository"><a href="#Respository" class="headerlink" title="Respository"></a>Respository</h2><p>我们通常说在GitHub上面新建一个项目，这个项目就会在Respository里，Respository也就是仓库的意思，可以通过git使我们本地的项目与远程仓库保持同步，这样妈妈就不用担心我们的<br>代码消失不见了！</p><h2 id="Issue"><a href="#Issue" class="headerlink" title="Issue"></a>Issue</h2><p>随着我们的代码提交的越来越多，当有人发现你的开源项目不错，就把你的代码给拉（clone）到他们本地，他们运行后发现有bug或者觉得你的代码有问题，那么他就会给你提<br>Issue，我们可以发现他们的Issue，然后我们解决完bug之后可以将其 close 掉，表示我们已经修复了这个bug！</p><h2 id="Star"><a href="#Star" class="headerlink" title="Star"></a>Star</h2><p>我们去github看别人的开源项目的时候，发现很是不错，那我们就可以给这个项目 star 一下，也就是点赞，同时也是收藏的意思，在我们自己的star列表可以看到我们star过的项目</p><h2 id="Fork"><a href="#Fork" class="headerlink" title="Fork"></a>Fork</h2><p>如果你对别人的项目感兴趣，或者对他感兴趣，你可以去fork他的项目，fork 之后你就会发现，你自己的仓库里面竟然有一个和他一模一样的项目，更加爽的是，你竟然可以在他原有代码的<br>基础上进行修改或者添加功能！</p><h2 id="Pull-Request"><a href="#Pull-Request" class="headerlink" title="Pull Request"></a>Pull Request</h2><p>你给他添加完功能之后你发现，哇靠，我简直就是天才啊，这时候你是不是想告诉他，你这样的功能有多牛逼，那么这时候你就可以给他 Pull Request ，这时候他就看到你的代码，<br>如果他觉得不错，接收了你的 Pull Request 之后，他就可以合并起来，这样他的项目就有你的一部分了！</p><h2 id="Watch"><a href="#Watch" class="headerlink" title="Watch"></a>Watch</h2><p>Watch 就是观察，当你 Watch 了某个项目，就相当于你关注了它，那么这个项目有什么动态，你都可以实时的获取更新</p><h2 id="Gist"><a href="#Gist" class="headerlink" title="Gist"></a>Gist</h2><p>如果你想分享部分代码片段，可以使用 Gist，专门来分享代码片段的！</p><h1 id="GitHub上一些不错的开源项目"><a href="#GitHub上一些不错的开源项目" class="headerlink" title="GitHub上一些不错的开源项目"></a>GitHub上一些不错的开源项目</h1><h2 id="free-programming-books"><a href="#free-programming-books" class="headerlink" title="free-programming-books"></a>free-programming-books</h2><p>这个项目被 star 了10w+，有我一份力量哈哈，这个项目之所以这么多star，是因为它含有许多免费的编程书籍，并且支持许多语言的版本！<br>中文版地址在这：<a href="https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md#%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86" target="_blank" rel="noopener">https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md#%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86</a></p><h2 id="LearningNotes"><a href="#LearningNotes" class="headerlink" title="LearningNotes"></a>LearningNotes</h2><p>这个项目含有许多android，java，设计模式，算法等面试相关的知识与经验，受益匪浅！<br>地址：<a href="https://github.com/francistao/LearningNotes" target="_blank" rel="noopener">https://github.com/francistao/LearningNotes</a></p><h2 id="ResumeSample"><a href="#ResumeSample" class="headerlink" title="ResumeSample"></a>ResumeSample</h2><p>这个项目是专门为程序员提供的简历模板，包括PHP程序员简历模板、iOS程序员简历模板、Android程序员简历模板、Web前端程序员简历模板、Java程序员简历模板、C/C++程序员简历模板、<br>NodeJS程序员简历模板、架构师简历模板以及通用程序员简历模板 ！<br>地址：<a href="https://github.com/geekcompany/ResumeSample" target="_blank" rel="noopener">https://github.com/geekcompany/ResumeSample</a></p><p>当然了还有许多牛逼的（比如google,Apache等开源项目）项目在上面等着你去发现！</p><h1 id="还可以在GitHub上买东西呢！"><a href="#还可以在GitHub上买东西呢！" class="headerlink" title="还可以在GitHub上买东西呢！"></a>还可以在GitHub上买东西呢！</h1><p>GitHub上有个shop，里面有许多含有github logo的杯子呀，衣服呀，电脑贴纸呀，真的很酷炫和可爱！</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/github3.png" alt="github" title="">                </div>                <div class="image-caption">github</div>            </figure><h1 id="GitHub的视频教程"><a href="#GitHub的视频教程" class="headerlink" title="GitHub的视频教程"></a>GitHub的视频教程</h1><p>我录了一个GitHub的视频教程，专门讲 Git 和 GitHub 的使用的，你可以在这里观看：</p><ul><li><a href="https://www.wistbean.com/java-ssm-1-3.html">代码托管Git的使用</a></li><li><a href="https://www.wistbean.com/java-ssm-1-4.html">GitHub完全使用指南</a></li></ul><h1 id="GitHub参考文章"><a href="#GitHub参考文章" class="headerlink" title="GitHub参考文章"></a>GitHub参考文章</h1><ul><li><a href="https://zh.wikipedia.org/zh-sg/GitHub" target="_blank" rel="noopener">GitHub - 维基百科，自由的百科全书</a></li><li><a href="http://www.runoob.com/w3cnote/git-guide.html" target="_blank" rel="noopener">Github 简明教程</a></li><li><a href="https://github.com/xirong/my-git/blob/master/how-to-use-github.md" target="_blank" rel="noopener">Github全程指南-如何高效使用？</a></li><li><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137628548491051ccfaef0ccb470894c858999603fedf000" target="_blank" rel="noopener">使用GitHub</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;GitHub是什么？&quot;&gt;&lt;a href=&quot;#GitHub是什么？&quot; class=&quot;headerlink&quot; title=&quot;GitHub是什么？&quot;&gt;&lt;/a&gt;GitHub是什么？&lt;/h1&gt;&lt;p&gt;GitHub就有点像微博，我们可以在上面看一些牛逼的人物写着开源的牛逼代码，
+      
+    
+    </summary>
+    
+      <category term="Git" scheme="https://www.wistbean.com/categories/Git/"/>
+    
+    
+      <category term="Git" scheme="https://www.wistbean.com/tags/Git/"/>
+    
+      <category term="GitHub" scheme="https://www.wistbean.com/tags/GitHub/"/>
+    
+  </entry>
   
   <entry>
     <title>轻松理解UML用例图时序图类图的教程</title>
@@ -74,11 +101,11 @@
       <category term="个人提升" scheme="https://www.wistbean.com/categories/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E4%B8%AA%E4%BA%BA%E6%8F%90%E5%8D%87/"/>
     
     
-      <category term="个人提升" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E6%8F%90%E5%8D%87/"/>
-    
       <category term="电台节目" scheme="https://www.wistbean.com/tags/%E7%94%B5%E5%8F%B0%E8%8A%82%E7%9B%AE/"/>
     
       <category term="精华分享" scheme="https://www.wistbean.com/tags/%E7%B2%BE%E5%8D%8E%E5%88%86%E4%BA%AB/"/>
+    
+      <category term="个人提升" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E6%8F%90%E5%8D%87/"/>
     
   </entry>
   
@@ -120,13 +147,13 @@
     
       <category term="InteliJ IDEA" scheme="https://www.wistbean.com/tags/InteliJ-IDEA/"/>
     
-      <category term="SSM视频教程" scheme="https://www.wistbean.com/tags/SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-    
       <category term="Spring" scheme="https://www.wistbean.com/tags/Spring/"/>
     
       <category term="Spring MVC" scheme="https://www.wistbean.com/tags/Spring-MVC/"/>
     
       <category term="Mybatis" scheme="https://www.wistbean.com/tags/Mybatis/"/>
+    
+      <category term="SSM视频教程" scheme="https://www.wistbean.com/tags/SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
     
       <category term="redis" scheme="https://www.wistbean.com/tags/redis/"/>
     
@@ -235,15 +262,15 @@
       <category term="互联网" scheme="https://www.wistbean.com/categories/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
     
-      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
-    
-      <category term="个人理财" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
-    
-      <category term="赚钱" scheme="https://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
-    
       <category term="Paypal" scheme="https://www.wistbean.com/tags/Paypal/"/>
     
       <category term="Payoneer" scheme="https://www.wistbean.com/tags/Payoneer/"/>
+    
+      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+      <category term="赚钱" scheme="https://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
+    
+      <category term="个人理财" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
     
   </entry>
   
@@ -301,9 +328,9 @@
     
       <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
-      <category term="个人理财" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
-    
       <category term="赚钱" scheme="https://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
+    
+      <category term="个人理财" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
     
   </entry>
   
@@ -341,6 +368,47 @@
       <category term="Git" scheme="https://www.wistbean.com/tags/Git/"/>
     
       <category term="Nginx" scheme="https://www.wistbean.com/tags/Nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>「2-5」使用InteliJ IDEA 创建 Maven 聚合工程</title>
+    <link href="https://www.wistbean.com/java-ssm-2-5.html"/>
+    <id>https://www.wistbean.com/java-ssm-2-5.html</id>
+    <published>2018-08-29T09:25:26.000Z</published>
+    <updated>2018-09-14T15:24:03.336Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="SSM视频教程第2-5节-Maven-聚合工程"><a href="#SSM视频教程第2-5节-Maven-聚合工程" class="headerlink" title="SSM视频教程第2-5节:Maven 聚合工程"></a>SSM视频教程第2-5节:Maven 聚合工程</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-5%20%E6%90%AD%E5%BB%BAjava%20ssm%E6%A1%86%E6%9E%B6%E5%89%8D%EF%BC%8C%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%20Maven%20%E8%81%9A%E5%90%88%E5%B7%A5%E7%A8%8B.mp4" width="100%"></video><h1 id="SSM视频教程第2-5节课程概要"><a href="#SSM视频教程第2-5节课程概要" class="headerlink" title="SSM视频教程第2-5节课程概要"></a>SSM视频教程第2-5节课程概要</h1><h2 id="使用-maven-的聚合工程"><a href="#使用-maven-的聚合工程" class="headerlink" title="使用 maven 的聚合工程"></a>使用 maven 的聚合工程</h2><p>manager 模块的聚合：</p><ul><li>pojo</li><li>mapper</li><li>service</li></ul><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/java-ssm-video.html#SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B%E7%9B%AE%E5%BD%95">SSM视频教程目录</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;SSM视频教程第2-5节-Maven-聚合工程&quot;&gt;&lt;a href=&quot;#SSM视频教程第2-5节-Maven-聚合工程&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第2-5节:Maven 聚合工程&quot;&gt;&lt;/a&gt;SSM视频教程第2-5节:Mave
+      
+    
+    </summary>
+    
+      <category term="Java" scheme="https://www.wistbean.com/categories/Java/"/>
+    
+      <category term="Maven" scheme="https://www.wistbean.com/categories/Java/Maven/"/>
+    
+    
+      <category term="教程" scheme="https://www.wistbean.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Java" scheme="https://www.wistbean.com/tags/Java/"/>
+    
+      <category term="Java视频教程" scheme="https://www.wistbean.com/tags/Java%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="项目实战" scheme="https://www.wistbean.com/tags/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/"/>
+    
+      <category term="分布式" scheme="https://www.wistbean.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+    
+      <category term="SSM" scheme="https://www.wistbean.com/tags/SSM/"/>
+    
+      <category term="Maven" scheme="https://www.wistbean.com/tags/Maven/"/>
+    
+      <category term="InteliJ IDEA" scheme="https://www.wistbean.com/tags/InteliJ-IDEA/"/>
     
   </entry>
   
@@ -390,47 +458,6 @@
       <category term="Mybatis" scheme="https://www.wistbean.com/tags/Mybatis/"/>
     
       <category term="逆向工程" scheme="https://www.wistbean.com/tags/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>「2-5」使用InteliJ IDEA 创建 Maven 聚合工程</title>
-    <link href="https://www.wistbean.com/java-ssm-2-5.html"/>
-    <id>https://www.wistbean.com/java-ssm-2-5.html</id>
-    <published>2018-08-29T09:25:26.000Z</published>
-    <updated>2018-09-14T15:24:03.336Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="SSM视频教程第2-5节-Maven-聚合工程"><a href="#SSM视频教程第2-5节-Maven-聚合工程" class="headerlink" title="SSM视频教程第2-5节:Maven 聚合工程"></a>SSM视频教程第2-5节:Maven 聚合工程</h1><video controls="controls" src="http://owx1uvd7t.bkt.clouddn.com/2-5%20%E6%90%AD%E5%BB%BAjava%20ssm%E6%A1%86%E6%9E%B6%E5%89%8D%EF%BC%8C%E4%BD%BF%E7%94%A8InteliJ%20IDEA%20%E5%88%9B%E5%BB%BA%20Maven%20%E8%81%9A%E5%90%88%E5%B7%A5%E7%A8%8B.mp4" width="100%"></video><h1 id="SSM视频教程第2-5节课程概要"><a href="#SSM视频教程第2-5节课程概要" class="headerlink" title="SSM视频教程第2-5节课程概要"></a>SSM视频教程第2-5节课程概要</h1><h2 id="使用-maven-的聚合工程"><a href="#使用-maven-的聚合工程" class="headerlink" title="使用 maven 的聚合工程"></a>使用 maven 的聚合工程</h2><p>manager 模块的聚合：</p><ul><li>pojo</li><li>mapper</li><li>service</li></ul><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul><li><a href="https://www.wistbean.com/java-ssm-video.html#SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B%E7%9B%AE%E5%BD%95">SSM视频教程目录</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;SSM视频教程第2-5节-Maven-聚合工程&quot;&gt;&lt;a href=&quot;#SSM视频教程第2-5节-Maven-聚合工程&quot; class=&quot;headerlink&quot; title=&quot;SSM视频教程第2-5节:Maven 聚合工程&quot;&gt;&lt;/a&gt;SSM视频教程第2-5节:Mave
-      
-    
-    </summary>
-    
-      <category term="Java" scheme="https://www.wistbean.com/categories/Java/"/>
-    
-      <category term="Maven" scheme="https://www.wistbean.com/categories/Java/Maven/"/>
-    
-    
-      <category term="教程" scheme="https://www.wistbean.com/tags/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="Java" scheme="https://www.wistbean.com/tags/Java/"/>
-    
-      <category term="Java视频教程" scheme="https://www.wistbean.com/tags/Java%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="项目实战" scheme="https://www.wistbean.com/tags/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/"/>
-    
-      <category term="分布式" scheme="https://www.wistbean.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
-    
-      <category term="SSM" scheme="https://www.wistbean.com/tags/SSM/"/>
-    
-      <category term="Maven" scheme="https://www.wistbean.com/tags/Maven/"/>
-    
-      <category term="InteliJ IDEA" scheme="https://www.wistbean.com/tags/InteliJ-IDEA/"/>
     
   </entry>
   
@@ -621,6 +648,8 @@
     
       <category term="Git" scheme="https://www.wistbean.com/tags/Git/"/>
     
+      <category term="GitHub" scheme="https://www.wistbean.com/tags/GitHub/"/>
+    
       <category term="Java" scheme="https://www.wistbean.com/tags/Java/"/>
     
       <category term="Java视频教程" scheme="https://www.wistbean.com/tags/Java%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
@@ -630,8 +659,6 @@
       <category term="分布式" scheme="https://www.wistbean.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
     
       <category term="SSM" scheme="https://www.wistbean.com/tags/SSM/"/>
-    
-      <category term="GitHub" scheme="https://www.wistbean.com/tags/GitHub/"/>
     
   </entry>
   
@@ -801,8 +828,6 @@
     
       <category term="电台节目" scheme="https://www.wistbean.com/tags/%E7%94%B5%E5%8F%B0%E8%8A%82%E7%9B%AE/"/>
     
-      <category term="精华分享" scheme="https://www.wistbean.com/tags/%E7%B2%BE%E5%8D%8E%E5%88%86%E4%BA%AB/"/>
-    
       <category term="科技" scheme="https://www.wistbean.com/tags/%E7%A7%91%E6%8A%80/"/>
     
       <category term="产品思维" scheme="https://www.wistbean.com/tags/%E4%BA%A7%E5%93%81%E6%80%9D%E7%BB%B4/"/>
@@ -810,6 +835,8 @@
       <category term="编程" scheme="https://www.wistbean.com/tags/%E7%BC%96%E7%A8%8B/"/>
     
       <category term="资源推荐" scheme="https://www.wistbean.com/tags/%E8%B5%84%E6%BA%90%E6%8E%A8%E8%8D%90/"/>
+    
+      <category term="精华分享" scheme="https://www.wistbean.com/tags/%E7%B2%BE%E5%8D%8E%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
@@ -834,9 +861,9 @@
       <category term="经验分享" scheme="https://www.wistbean.com/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"/>
     
     
-      <category term="个人提升" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E6%8F%90%E5%8D%87/"/>
-    
       <category term="编程" scheme="https://www.wistbean.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="个人提升" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E6%8F%90%E5%8D%87/"/>
     
       <category term="关于wistbean" scheme="https://www.wistbean.com/tags/%E5%85%B3%E4%BA%8Ewistbean/"/>
     

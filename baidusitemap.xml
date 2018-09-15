@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/github.html</loc>
+    <lastmod>2018-09-15T12:04:13.676Z</lastmod>
+    <data>
+        <display>
+        <title>GitHub是什么？如何使用？</title>
+        <pubTime>2018-09-15T11:53:09.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+        <tag>GitHub</tag>
+         
+         
+           
+             
+              <breadCrumb title="Git" url="https://www.wistbean.com/categories/Git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/uml.html</loc>
     <lastmod>2018-09-15T06:36:13.905Z</lastmod>
     <data>
@@ -261,6 +283,8 @@
          
         <tag>Git</tag>
          
+        <tag>GitHub</tag>
+         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -270,8 +294,6 @@
         <tag>分布式</tag>
          
         <tag>SSM</tag>
-         
-        <tag>GitHub</tag>
          
          
            
@@ -331,8 +353,6 @@
         
         <tag>电台节目</tag>
          
-        <tag>精华分享</tag>
-         
         <tag>科技</tag>
          
         <tag>产品思维</tag>
@@ -340,6 +360,8 @@
         <tag>编程</tag>
          
         <tag>资源推荐</tag>
+         
+        <tag>精华分享</tag>
          
          
            
@@ -373,13 +395,13 @@
          
         <tag>InteliJ IDEA</tag>
          
-        <tag>SSM视频教程</tag>
-         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
+         
+        <tag>SSM视频教程</tag>
          
         <tag>redis</tag>
          
@@ -493,11 +515,11 @@
         <title>一个年轻人和老人的故事</title>
         <pubTime>2018-09-10T17:45:26.000Z</pubTime>
         
-        <tag>个人提升</tag>
-         
         <tag>电台节目</tag>
          
         <tag>精华分享</tag>
+         
+        <tag>个人提升</tag>
          
          
            
@@ -636,15 +658,15 @@
         <title>使用Payoneer将Paypal金额提现人民币到银行卡</title>
         <pubTime>2018-09-02T06:39:37.000Z</pubTime>
         
-        <tag>互联网</tag>
-         
-        <tag>个人理财</tag>
-         
-        <tag>赚钱</tag>
-         
         <tag>Paypal</tag>
          
         <tag>Payoneer</tag>
+         
+        <tag>互联网</tag>
+         
+        <tag>赚钱</tag>
+         
+        <tag>个人理财</tag>
          
          
            
@@ -688,9 +710,9 @@
         <title>编程人生中的两个小经验</title>
         <pubTime>2018-07-12T13:55:11.000Z</pubTime>
         
-        <tag>个人提升</tag>
-         
         <tag>编程</tag>
+         
+        <tag>个人提升</tag>
          
         <tag>关于wistbean</tag>
          
@@ -738,9 +760,9 @@
         
         <tag>互联网</tag>
          
-        <tag>个人理财</tag>
-         
         <tag>赚钱</tag>
+         
+        <tag>个人理财</tag>
          
          
            
