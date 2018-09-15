@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://www.wistbean.com/uml.html</loc>
-    <lastmod>2018-09-15T06:27:12.555Z</lastmod>
+    <lastmod>2018-09-15T06:36:13.905Z</lastmod>
     <data>
         <display>
         <title>轻松理解UML用例图时序图类图的教程</title>
@@ -331,6 +331,8 @@
         
         <tag>电台节目</tag>
          
+        <tag>精华分享</tag>
+         
         <tag>科技</tag>
          
         <tag>产品思维</tag>
@@ -338,8 +340,6 @@
         <tag>编程</tag>
          
         <tag>资源推荐</tag>
-         
-        <tag>精华分享</tag>
          
          
            
@@ -373,13 +373,13 @@
          
         <tag>InteliJ IDEA</tag>
          
+        <tag>SSM视频教程</tag>
+         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
-         
-        <tag>SSM视频教程</tag>
          
         <tag>redis</tag>
          
@@ -493,11 +493,11 @@
         <title>一个年轻人和老人的故事</title>
         <pubTime>2018-09-10T17:45:26.000Z</pubTime>
         
+        <tag>个人提升</tag>
+         
         <tag>电台节目</tag>
          
         <tag>精华分享</tag>
-         
-        <tag>个人提升</tag>
          
          
            
@@ -688,9 +688,9 @@
         <title>编程人生中的两个小经验</title>
         <pubTime>2018-07-12T13:55:11.000Z</pubTime>
         
-        <tag>编程</tag>
-         
         <tag>个人提升</tag>
+         
+        <tag>编程</tag>
          
         <tag>关于wistbean</tag>
          
