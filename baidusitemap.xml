@@ -339,9 +339,9 @@
         <title>「1-3」代码托管Git的使用</title>
         <pubTime>2018-08-29T09:25:20.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Git</tag>
+         
+        <tag>教程</tag>
          
         <tag>Java</tag>
          
@@ -417,11 +417,11 @@
         <title>「1-4」GitHub完全使用指南</title>
         <pubTime>2018-08-29T09:25:21.000Z</pubTime>
         
-        <tag>教程</tag>
+        <tag>GitHub</tag>
          
         <tag>Git</tag>
          
-        <tag>GitHub</tag>
+        <tag>教程</tag>
          
         <tag>Java</tag>
          
@@ -608,9 +608,9 @@
         <title>GitHub是什么？如何使用？</title>
         <pubTime>2018-09-15T11:53:09.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>GitHub</tag>
+         
+        <tag>Git</tag>
          
          
            
@@ -699,13 +699,13 @@
          
         <tag>InteliJ IDEA</tag>
          
+        <tag>SSM视频教程</tag>
+         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
-         
-        <tag>SSM视频教程</tag>
          
         <tag>redis</tag>
          
@@ -754,6 +754,8 @@
         <title>hexo搭建个人网站博客完全教程</title>
         <pubTime>2018-08-30T11:38:13.000Z</pubTime>
         
+        <tag>Git</tag>
+         
         <tag>个人网站</tag>
          
         <tag>教程</tag>
@@ -763,8 +765,6 @@
         <tag>blog</tag>
          
         <tag>搬瓦工</tag>
-         
-        <tag>Git</tag>
          
         <tag>Nginx</tag>
          
