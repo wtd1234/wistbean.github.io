@@ -4,6 +4,36 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/present.html</loc>
+    <lastmod>2018-09-16T14:17:58.187Z</lastmod>
+    <data>
+        <display>
+        <title>读书:一个年轻人和老人的故事</title>
+        <pubTime>2018-09-10T17:45:26.000Z</pubTime>
+        
+        <tag>电台节目</tag>
+         
+        <tag>精华分享</tag>
+         
+        <tag>个人提升</tag>
+         
+         
+           
+             
+              <breadCrumb title="podcast" url="https://www.wistbean.com/categories/podcast/"/>
+          
+             
+              <breadCrumb title="肯定会电台" url="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
+          
+             
+              <breadCrumb title="个人提升" url="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E4%B8%AA%E4%BA%BA%E6%8F%90%E5%8D%87/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/python-tutorial.html</loc>
     <lastmod>2018-09-15T14:54:10.147Z</lastmod>
     <data>
@@ -590,33 +620,6 @@
           
              
               <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/present.html</loc>
-    <lastmod>2018-09-14T15:13:15.567Z</lastmod>
-    <data>
-        <display>
-        <title>一个年轻人和老人的故事</title>
-        <pubTime>2018-09-10T17:45:26.000Z</pubTime>
-        
-        <tag>电台节目</tag>
-         
-        <tag>精华分享</tag>
-         
-        <tag>个人提升</tag>
-         
-         
-           
-             
-              <breadCrumb title="肯定会电台" url="https://www.wistbean.com/categories/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
-          
-             
-              <breadCrumb title="个人提升" url="https://www.wistbean.com/categories/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E4%B8%AA%E4%BA%BA%E6%8F%90%E5%8D%87/"/>
           
         </display>
     </data>

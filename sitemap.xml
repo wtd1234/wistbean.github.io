@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wistbean.com/present.html</loc>
+    
+    <lastmod>2018-09-16T14:17:58.187Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.wistbean.com/python-tutorial.html</loc>
     
     <lastmod>2018-09-15T14:54:10.147Z</lastmod>
@@ -110,13 +117,6 @@
     <loc>https://www.wistbean.com/java-ssm-video.html</loc>
     
     <lastmod>2018-09-14T15:19:11.317Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wistbean.com/present.html</loc>
-    
-    <lastmod>2018-09-14T15:13:15.567Z</lastmod>
     
   </url>
   
