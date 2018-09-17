@@ -149,24 +149,6 @@
     </item>
     
     <item>
-      <title>通过互联网赚取你的第一桶金</title>
-      <description> 内容通过互联网赚钱的 9 种渠道
-肯定会电台相关肯定会电台肯定会电台RSS订阅
- </description>
-      <itunes:author> wistbean</itunes:author>
-      <itunes:subtitle> </itunes:subtitle>
-      <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/38.mp3" length="14698979" type=""/>
-      <guid></guid>
-      <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
-      <itunes:duration>00:17:29</itunes:duration>
-      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
-        
-      </psc:chapters>
-    </item>
-    
-    <item>
       <title>你的个人隐私被泄露了，咋办？</title>
       <description> 内容概要个人隐私泄露现象微博被自动关注了不认识的账号淘宝自动收藏了商品老是收到垃圾短信QQ无缘无故进了陌生群事件北京瑞智华胜公司窃取 30 亿条个人信息，非法牟利千万元阿里巴巴安全部协助警方破获了一起数据窃取案件我们的信息怎么被泄露的呢？这些公司和运营商们合作中，截取到了用户的 cookie 权限cookie用户上网过程中都会产生cookie网站辨别用户身份而存储在用户本地电脑的数据####### 记录用户凭证
 ####### 记录用户上网行为
@@ -180,6 +162,24 @@
       <guid></guid>
       <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:11:29</itunes:duration>
+      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+        
+      </psc:chapters>
+    </item>
+    
+    <item>
+      <title>通过互联网赚取你的第一桶金</title>
+      <description> 内容通过互联网赚钱的 9 种渠道
+肯定会电台相关肯定会电台肯定会电台RSS订阅
+ </description>
+      <itunes:author> wistbean</itunes:author>
+      <itunes:subtitle> </itunes:subtitle>
+      <itunes:summary>  </itunes:summary>
+      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
+      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/38.mp3" length="14698979" type=""/>
+      <guid></guid>
+      <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
+      <itunes:duration>00:17:29</itunes:duration>
       <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
         
       </psc:chapters>
