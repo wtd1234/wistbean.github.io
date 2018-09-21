@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wistbean.com/"/>
-  <updated>2018-09-21T11:44:05.393Z</updated>
+  <updated>2018-09-21T14:24:30.112Z</updated>
   <id>https://www.wistbean.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>product-thinking</title>
+    <title>为了不跟产品经理干起来，我决定学点产品思维</title>
     <link href="https://www.wistbean.com/product-thinking.html"/>
     <id>https://www.wistbean.com/product-thinking.html</id>
     <published>2018-09-21T11:04:39.000Z</published>
-    <updated>2018-09-21T11:44:05.393Z</updated>
+    <updated>2018-09-21T14:24:30.112Z</updated>
     
     <content type="html"><![CDATA[<p>以前我在跟产品经理讨论的时候，常常发现我们聊的不在同一个点上。我想的更多的是这个功能能不能实现？怎么实现？需要多少时间？怎么写代码好点？而产品经理想的更多的是用户的需求，用户喜欢怎么样的操作，怎么样才能让用户更方便的使用等。</p><p>可以看得出来，我和产品经理的思维方式是不同的，那会我只是局限于这个功能本身所需要的技术，而产品经理考虑的更多的是用户本身的需求。</p><p>我也经常发现有许多程序员和产品经理互怼，其实他们都希望这个产品更好，但是思维方式不同，考虑的地方不一样，所以经常说着说着就吵起来，甚至动手。我想如果程序员能够有点产品思维，那么应该会有更多的同理心，这样沟通起来应该会更加高效。<br>所以后来我就去了解学习产品方面的知识，在这过程中我发现，其实产品涉及到的东西很多。并不是仅仅局限于交互，用户的需求。</p><p>以前在学编程的时候，有一个叫做「面向对象」的概念，那会人们都说「万物皆对象」，说的是每个事物本身就是对象，它有自己的属性，有自己的功能，可以提供服务。后来我发现，其实对象就是产品，也就是说「万物皆产品」。</p><p>最近我就在想，如果是我自己做一款产品，我会怎么做呢？是想到做什么就做什么？还是由着自己的喜好来？</p><p>其实都不对，首先应该要做的是面向用户，是面向大部分的用户还是面向小部分用户，如果你去看早期的互联网产品大多都是面向大部分用户的，到了后来许多产品就主攻部分用户。我想应该是刚开始的时候红利期，所以面向大部分用户是个大机会，而到了后来<br>市场需求基本满了，这时候更多人愿意做的是 「1cm宽，100m深」的事情了。也就是所谓的垂直化。</p><p>做一款产品确定方向只是开始，接着还需要了解调查目标用户的需求，挖掘用户的需求点通常都是通过用户的人性，比如刚需的衣食住行，人性的一些弱点（贪婪，虚荣，攀比，装逼，好色，懒惰等等），看下现在的拼多多，饿了么，滴滴打车，1024论坛等都无不体现出来。</p><p>一般来说，发现用户的需求有<strong>痛点，痒点，爽点</strong>。</p><p>痛点说的是用户的刚需，就是用户本身有需求，而且这种需求是极度渴望被满足的。比如你在沙漠里面没水喝，这时候给你一瓶矿泉水，那么矿泉水就是产品，解决了你的痛点。</p><p>而痒点说的使用户有这需求，但是不一定要被满足，比如说你肚子饿了，你是选择吃方便面还是吃一顿海底捞？我想你应该内心肯定选的是海底捞，而这里的海底捞就是你更深层次的需求，但是，不是你的刚需，这就是你的痒点。</p><p>再说说爽点，这是用户更高一层的需求了，精神上的愉悦需求，吃饱喝足，干点啥？刷抖音？玩游戏？这些产品就是满足了你的爽点，顾名思义，就是让你用起来感到爽。</p><p>挖掘了到了需求然后呢？</p><p>需要紧跟趋势找到自家产品的解决方案，紧跟趋势是关键，可以看到从PC到移动，有多少产品死在了PC时代，又爆发出多少移动端的产品。假如有两个人有着共同的idea，也明确了需求，一个人去做PC网站，一个人去做小程序，你说，哪个会更好？<br>答案显而易见了吧。</p><p>当然了，产品涉及的还有很多，比如怎么去做差异化的竞争，怎么利用现有的资源去创造价值，怎么写文案，怎么推广，怎么营销，怎么打造品牌，怎么做数据分析，怎么拓展业务等等都是产品。</p><p>所以我认为不要把思维局限于本身的专业领域，学点产品思维是对自己很有帮助的，如果在生活中能够以产品的思维去看待事物，或许能提高我们的思维认知能力。</p>]]></content>
     
@@ -40,9 +40,9 @@
       <category term="肯定会电台" scheme="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
     
     
-      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
-    
       <category term="肯定会电台" scheme="https://www.wistbean.com/tags/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
+    
+      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
   </entry>
   
@@ -308,11 +308,11 @@
       <category term="个人网站" scheme="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
     
     
-      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+      <category term="个人网站" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
     
       <category term="肯定会电台" scheme="https://www.wistbean.com/tags/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
     
-      <category term="个人网站" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/"/>
+      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
   </entry>
   
@@ -368,13 +368,13 @@
     
       <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
-      <category term="Paypal" scheme="https://www.wistbean.com/tags/Paypal/"/>
-    
-      <category term="Payoneer" scheme="https://www.wistbean.com/tags/Payoneer/"/>
+      <category term="个人理财" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
     
       <category term="赚钱" scheme="https://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
     
-      <category term="个人理财" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
+      <category term="Paypal" scheme="https://www.wistbean.com/tags/Paypal/"/>
+    
+      <category term="Payoneer" scheme="https://www.wistbean.com/tags/Payoneer/"/>
     
   </entry>
   
@@ -432,9 +432,9 @@
     
       <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
-      <category term="赚钱" scheme="https://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
-    
       <category term="个人理财" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/"/>
+    
+      <category term="赚钱" scheme="https://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
     
   </entry>
   
@@ -463,9 +463,9 @@
       <category term="互联网" scheme="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
     
-      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
-    
       <category term="肯定会电台" scheme="https://www.wistbean.com/tags/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
+    
+      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
       <category term="数据备份" scheme="https://www.wistbean.com/tags/%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/"/>
     
@@ -963,39 +963,6 @@
   </entry>
   
   <entry>
-    <title>通过互联网赚取你的第一桶金</title>
-    <link href="https://www.wistbean.com/make-money.html"/>
-    <id>https://www.wistbean.com/make-money.html</id>
-    <published>2018-08-09T17:45:26.000Z</published>
-    <updated>2018-09-16T15:09:18.807Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><p><a href="https://www.wistbean.com/make-money-on-the-internet.html">通过互联网赚钱的 9 种渠道</a></p><h1 id="肯定会电台相关"><a href="#肯定会电台相关" class="headerlink" title="肯定会电台相关"></a>肯定会电台相关</h1><p><a href="https://www.wistbean.com/categories/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/">肯定会电台</a><br><a href="https://www.wistbean.com/podcast.xml">肯定会电台RSS订阅</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;内容&quot;&gt;&lt;a href=&quot;#内容&quot; class=&quot;headerlink&quot; title=&quot;内容&quot;&gt;&lt;/a&gt;内容&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.wistbean.com/make-money-on-the-internet.html&quot;&gt;通过互
-      
-    
-    </summary>
-    
-      <category term="podcast" scheme="https://www.wistbean.com/categories/podcast/"/>
-    
-      <category term="肯定会电台" scheme="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
-    
-      <category term="互联网" scheme="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E4%BA%92%E8%81%94%E7%BD%91/"/>
-    
-    
-      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
-    
-      <category term="肯定会电台" scheme="https://www.wistbean.com/tags/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
-    
-      <category term="赚钱" scheme="https://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
-    
-  </entry>
-  
-  <entry>
     <title>你的个人隐私被泄露了，咋办？</title>
     <link href="https://www.wistbean.com/personal-data.html"/>
     <id>https://www.wistbean.com/personal-data.html</id>
@@ -1020,11 +987,44 @@
       <category term="互联网" scheme="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
     
+      <category term="肯定会电台" scheme="https://www.wistbean.com/tags/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
+    
       <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+      <category term="个人隐私" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E9%9A%90%E7%A7%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>通过互联网赚取你的第一桶金</title>
+    <link href="https://www.wistbean.com/make-money.html"/>
+    <id>https://www.wistbean.com/make-money.html</id>
+    <published>2018-08-09T17:45:26.000Z</published>
+    <updated>2018-09-16T15:09:18.807Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h1><p><a href="https://www.wistbean.com/make-money-on-the-internet.html">通过互联网赚钱的 9 种渠道</a></p><h1 id="肯定会电台相关"><a href="#肯定会电台相关" class="headerlink" title="肯定会电台相关"></a>肯定会电台相关</h1><p><a href="https://www.wistbean.com/categories/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/">肯定会电台</a><br><a href="https://www.wistbean.com/podcast.xml">肯定会电台RSS订阅</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;内容&quot;&gt;&lt;a href=&quot;#内容&quot; class=&quot;headerlink&quot; title=&quot;内容&quot;&gt;&lt;/a&gt;内容&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.wistbean.com/make-money-on-the-internet.html&quot;&gt;通过互
+      
+    
+    </summary>
+    
+      <category term="podcast" scheme="https://www.wistbean.com/categories/podcast/"/>
+    
+      <category term="肯定会电台" scheme="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
+    
+      <category term="互联网" scheme="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
     
       <category term="肯定会电台" scheme="https://www.wistbean.com/tags/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
     
-      <category term="个人隐私" scheme="https://www.wistbean.com/tags/%E4%B8%AA%E4%BA%BA%E9%9A%90%E7%A7%81/"/>
+      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+    
+      <category term="赚钱" scheme="https://www.wistbean.com/tags/%E8%B5%9A%E9%92%B1/"/>
     
   </entry>
   
@@ -1053,11 +1053,11 @@
       <category term="互联网" scheme="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
     
-      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
+      <category term="Google" scheme="https://www.wistbean.com/tags/Google/"/>
     
       <category term="肯定会电台" scheme="https://www.wistbean.com/tags/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
     
-      <category term="Google" scheme="https://www.wistbean.com/tags/Google/"/>
+      <category term="互联网" scheme="https://www.wistbean.com/tags/%E4%BA%92%E8%81%94%E7%BD%91/"/>
     
   </entry>
   
