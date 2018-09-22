@@ -4,6 +4,31 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/product-thinking.html</loc>
+    <lastmod>2018-09-22T15:16:45.404Z</lastmod>
+    <data>
+        <display>
+        <title>为了不跟产品经理干起来，我决定学点产品思维</title>
+        <pubTime>2018-09-21T11:04:39.000Z</pubTime>
+        
+        <tag>互联网</tag>
+         
+        <tag>肯定会电台</tag>
+         
+         
+           
+             
+              <breadCrumb title="podcast" url="https://www.wistbean.com/categories/podcast/"/>
+          
+             
+              <breadCrumb title="肯定会电台" url="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/python-tutorial.html</loc>
     <lastmod>2018-09-22T12:15:11.608Z</lastmod>
     <data>
@@ -21,31 +46,6 @@
            
              
               <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/product-thinking.html</loc>
-    <lastmod>2018-09-21T14:24:30.112Z</lastmod>
-    <data>
-        <display>
-        <title>为了不跟产品经理干起来，我决定学点产品思维</title>
-        <pubTime>2018-09-21T11:04:39.000Z</pubTime>
-        
-        <tag>互联网</tag>
-         
-        <tag>肯定会电台</tag>
-         
-         
-           
-             
-              <breadCrumb title="podcast" url="https://www.wistbean.com/categories/podcast/"/>
-          
-             
-              <breadCrumb title="肯定会电台" url="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
           
         </display>
     </data>
