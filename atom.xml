@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.wistbean.com/"/>
-  <updated>2018-09-25T07:20:08.676Z</updated>
+  <updated>2018-09-26T07:24:36.348Z</updated>
   <id>https://www.wistbean.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PyCharm 使用教程：02 完全定制属于你自己的PyCharm编辑器</title>
+    <link href="https://www.wistbean.com/pycharm-02.html"/>
+    <id>https://www.wistbean.com/pycharm-02.html</id>
+    <published>2018-09-25T14:06:14.000Z</published>
+    <updated>2018-09-26T07:24:36.348Z</updated>
+    
+    <content type="html"><![CDATA[<p>可以根据你自己的喜好，把 Pycharm 定制成你自己喜欢的样子，接下来说说怎么去定制你的 Pycharm 编辑器。</p><h2 id="定制-IDE-颜色"><a href="#定制-IDE-颜色" class="headerlink" title="定制 IDE 颜色"></a>定制 IDE 颜色</h2><p>根据你的喜好，你可以把 IDE 中的错误信息，面板，代码等颜色进行定制。</p><p>使用快捷键 <code>Ctrl+Alt+S</code> 打开 PyCharm 的设置面板，在<code>Editor | Color Scheme | General</code>选择你喜欢的颜色主题，我这里选择的就是 Darcula，喜欢这种黑色的极客范。</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pycharm_scheme.png" alt="PyCharm颜色主题设置" title="">                </div>                <div class="image-caption">PyCharm颜色主题设置</div>            </figure><h2 id="修改界面中默认的字体"><a href="#修改界面中默认的字体" class="headerlink" title="修改界面中默认的字体"></a>修改界面中默认的字体</h2><p>想要修改 Pycharm 中默认的字体，可以使用快捷键 <code>Ctrl+Alt+S</code> 打开设置面板，然后进入 <code>Appearance &amp; Behavior | Appearance.</code> ,选择<code>Override default fonts by (not recommended)</code>，接着你就可以更改字体和大小了，我个人认为默认的就挺好看了。</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pycharm_uifont.png" alt="PyCharm颜色主题设置" title="">                </div>                <div class="image-caption">PyCharm颜色主题设置</div>            </figure><h2 id="快速调整窗口大小"><a href="#快速调整窗口大小" class="headerlink" title="快速调整窗口大小"></a>快速调整窗口大小</h2><p>处于垂直方向的窗口可以使用 <code>Ctrl+Shift+上</code> 或者 <code>Ctrl+Shift+下</code> 调整窗口的大小。<br>处于水平方向的窗口可以使用 <code>Ctrl+Shift+左</code> 或者 <code>Ctrl+Shift+右</code> 调整窗口的大小。</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pycharm_resize.gif" alt="PyCharm颜色主题设置" title="">                </div>                <div class="image-caption">PyCharm颜色主题设置</div>            </figure><h2 id="改变你的代码字体大小"><a href="#改变你的代码字体大小" class="headerlink" title="改变你的代码字体大小"></a>改变你的代码字体大小</h2><p>使用快捷键 <code>Ctrl+Alt+S</code> 打开 PyCharm 的设置面板，进入 <code>Editor | General</code>,把<code>Change font size (Zoom) with Ctrl+Mouse Wheel</code>给选上，然后<br>可以到你的打代码的面板进行骚操作了。 按住 Ctrl 键，然后滚动你的鼠标滑轮，可以看到字体可以根据你的需要变大变小了。</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pycharm_textsize.gif" alt="PyCharm颜色主题设置" title="">                </div>                <div class="image-caption">PyCharm颜色主题设置</div>            </figure><h2 id="设置你的快捷键"><a href="#设置你的快捷键" class="headerlink" title="设置你的快捷键"></a>设置你的快捷键</h2><p>Pycharm 的爽点之一就是可以使用各种快捷键，让你的快的飞起。使用快捷键 <code>Ctrl+Alt+S</code> 打开 PyCharm 的设置面板，进入 <code>Keymap</code>。<br>在这里你可以设置快捷方式，如果你之前使用过其他的编辑器，完全可以选择它们，Pycharm可以延用这些编辑器的快捷键使用。</p><p>另外，如果你想对个别的快捷键设置，只需要 右键–&gt;<code>Add keyboard shortcut</code> 进行设置就可以了。</p><p>往后有时间介绍一些常用的快捷键吧，让你的编辑器飞起来。</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pycharm_keymap.png" alt="PyCharm颜色主题设置" title="">                </div>                <div class="image-caption">PyCharm颜色主题设置</div>            </figure><h2 id="设置你的代码风格"><a href="#设置你的代码风格" class="headerlink" title="设置你的代码风格"></a>设置你的代码风格</h2><p>进入设置面板，然后进入<code>Editor | Code Style | Python</code> ,可以设置你的代码风格，比如 tab 有几个空格，其实我觉得默认就挺好了。</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="http://owx1uvd7t.bkt.clouddn.com/pycharm_codestyle.png" alt="PyCharm颜色主题设置" title="">                </div>                <div class="image-caption">PyCharm颜色主题设置</div>            </figure><p>ok，以上就是PyCharm常用的定制方式。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;可以根据你自己的喜好，把 Pycharm 定制成你自己喜欢的样子，接下来说说怎么去定制你的 Pycharm 编辑器。&lt;/p&gt;
+&lt;h2 id=&quot;定制-IDE-颜色&quot;&gt;&lt;a href=&quot;#定制-IDE-颜色&quot; class=&quot;headerlink&quot; title=&quot;定制 IDE 颜
+      
+    
+    </summary>
+    
+      <category term="python" scheme="https://www.wistbean.com/categories/python/"/>
+    
+      <category term="PyCharm" scheme="https://www.wistbean.com/categories/python/PyCharm/"/>
+    
+    
+      <category term="教程" scheme="https://www.wistbean.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="PyCharm" scheme="https://www.wistbean.com/tags/PyCharm/"/>
+    
+      <category term="python" scheme="https://www.wistbean.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>购买搬瓦工VPS省钱攻略：获取搬瓦工优惠码</title>
@@ -895,8 +927,6 @@
     
       <category term="Git" scheme="https://www.wistbean.com/tags/Git/"/>
     
-      <category term="GitHub" scheme="https://www.wistbean.com/tags/GitHub/"/>
-    
       <category term="Java" scheme="https://www.wistbean.com/tags/Java/"/>
     
       <category term="Java视频教程" scheme="https://www.wistbean.com/tags/Java%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
@@ -906,6 +936,8 @@
       <category term="分布式" scheme="https://www.wistbean.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
     
       <category term="SSM" scheme="https://www.wistbean.com/tags/SSM/"/>
+    
+      <category term="GitHub" scheme="https://www.wistbean.com/tags/GitHub/"/>
     
   </entry>
   
