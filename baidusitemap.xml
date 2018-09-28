@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/python-tutorial.html</loc>
+    <lastmod>2018-09-28T13:31:47.160Z</lastmod>
+    <data>
+        <display>
+        <title>python3入门基础有趣的教程</title>
+        <pubTime>2018-09-01T09:07:44.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>python</tag>
+         
+        <tag>python基础</tag>
+         
+         
+           
+             
+              <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/jiucai.html</loc>
     <lastmod>2018-09-28T07:40:11.722Z</lastmod>
     <data>
@@ -523,30 +547,6 @@
 
     
   <url>
-    <loc>https://www.wistbean.com/python-tutorial.html</loc>
-    <lastmod>2018-09-22T12:15:11.608Z</lastmod>
-    <data>
-        <display>
-        <title>python3入门基础有趣的教程</title>
-        <pubTime>2018-09-01T09:07:44.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>python</tag>
-         
-        <tag>python基础</tag>
-         
-         
-           
-             
-              <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.wistbean.com/java-ssm-3-1.html</loc>
     <lastmod>2018-09-20T12:38:51.627Z</lastmod>
     <data>
@@ -868,9 +868,9 @@
          
         <tag>分布式</tag>
          
-        <tag>架构</tag>
-         
         <tag>SSM</tag>
+         
+        <tag>架构</tag>
          
          
            
