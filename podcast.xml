@@ -26,7 +26,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-ZlMxVtHF&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-fwpjxSCx&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -87,19 +87,9 @@
 周期的构成是一个上升的趋势加上一个下降的趋势，而真正的趋势，是要多个周期之后才能展现出来的。
 韭菜没有这概念，所以没办法降低交易频率。快入快出，痿了吧？
 相关文章
-                
-                    
-                    
-                
-                通过互联网赚钱的 9 种渠道
-            
+通过互联网赚钱的 9 种渠道
+使用Payoneer将Paypal金额提现人民币到银行卡
 
-                
-                    
-                    
-                
-                使用Payoneer将Paypal金额提现人民币到银行卡
-            
  </description>
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
