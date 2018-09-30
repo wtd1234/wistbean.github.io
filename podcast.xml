@@ -26,7 +26,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-PCRkmFZr&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-qGWFZEQO&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -294,7 +294,26 @@
     <item>
       <title>你的个人隐私被泄露了，咋办？</title>
       <description> 
-
+        
+            
+        
+        
+          var ap = new APlayer({
+            element: document.getElementById(&amp;quot;aplayer-KdmCgaFc&amp;quot;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &amp;quot;你的个人隐私被泄露了，咋办？&amp;quot;,
+              author: &amp;quot;wistbean&amp;quot;,
+              url: &amp;quot;http://owh7v964r.bkt.clouddn.com/39.mp3&amp;quot;,
+              pic: &amp;quot;&amp;quot;,
+              lrc: &amp;quot;&amp;quot;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        
 内容概要个人隐私泄露现象微博被自动关注了不认识的账号淘宝自动收藏了商品老是收到垃圾短信QQ无缘无故进了陌生群事件北京瑞智华胜公司窃取 30 亿条个人信息，非法牟利千万元阿里巴巴安全部协助警方破获了一起数据窃取案件我们的信息怎么被泄露的呢？这些公司和运营商们合作中，截取到了用户的 cookie 权限cookie用户上网过程中都会产生cookie网站辨别用户身份而存储在用户本地电脑的数据####### 记录用户凭证
 ####### 记录用户上网行为
 数据上网行为在登录过的网站中的账号密码谋取利润导粉刷量恶意推广我们应该警惕账号被盗个人财产安全生活受到不必要的麻烦信息被卖我们应该怎么做？别以为网络是虚拟的你就很安全使用APP的时候非必要的权限不要开启开启的权限只在应用运行的时候授权密码不要都设置成一样的，也不要设置的过于简单,防止被人撞库和暴力破解推荐使用密码管理器lastpasshttps://www.lastpass.com/zh安装插件设置主密码天下没有免费的午餐，免费的WIFI不要随便连在网上尽量用昵称，能不填真实信息就不填真实信息手机拍照关掉定位功能，因为你如果没关掉的话，发给别人看的照片人家能清楚的知道你是在哪里拍的iphone用户在设置–隐私–定位服务–相机–关闭对不太信任的软件使用虚拟机运行搭建个VPN代理访问不要贪小便宜，办理正规的宽带肯定会电台相关肯定会电台肯定会电台RSS订阅
@@ -314,7 +333,28 @@
     
     <item>
       <title>找到你要的资源，Google高级搜索技巧</title>
-      <description> 我发现有些朋友在使用 Google 的时候直接在搜索引擎输入关键词然后回车，这很方便，不过 Google 这个强大的搜索引擎有许多搜索技巧可以帮助我们精准的找到我们想要的资料。
+      <description> 
+        
+            
+        
+        
+          var ap = new APlayer({
+            element: document.getElementById(&amp;quot;aplayer-ujKspZWT&amp;quot;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &amp;quot;找到你要的资源，Google高级搜索技巧&amp;quot;,
+              author: &amp;quot;wistbean&amp;quot;,
+              url: &amp;quot;http://owh7v964r.bkt.clouddn.com/37.mp3&amp;quot;,
+              pic: &amp;quot;&amp;quot;,
+              lrc: &amp;quot;&amp;quot;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        
+我发现有些朋友在使用 Google 的时候直接在搜索引擎输入关键词然后回车，这很方便，不过 Google 这个强大的搜索引擎有许多搜索技巧可以帮助我们精准的找到我们想要的资料。
 给你一个同样的工具，有些人能搜索到想要的东西，有的人怎么搜索也搜索不到，就是因为他们不知道这其中的奥秘。
 在我的知识星球里有球友问我有些资料是怎么样挖掘的？
 我跟他说了下，一方面是环境原因，因为我经常分享一下文章啥的，就认识了些能人，有群，谈谈技术，分享些资料，这很正常的事。其实加入我的知识星球也是这个道理。另一方面就是获取信息的能力了，而 Google 的搜索技巧就是我获取想要知识的来源之一。
@@ -369,6 +409,7 @@
 当然filetype的用处不是让你搜索这些，你可以搜索一些 pdf 资源，有时候我就是通过这个搜索到一些不错的电子书。
 Google的以图搜图也是很牛逼的，你可以去体验一下。
 还有其它的比如 inurl 、 intile命令我就用的比较少。因为以上五个搜索技巧已经足够我搜索到我想要的内容了。
+相关文章最新常用的Google 高级搜索技巧
  </description>
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
