@@ -26,7 +26,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-qGWFZEQO&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-XqlCCIRq&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -299,7 +299,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-KdmCgaFc&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-KFiBdTTe&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -339,7 +339,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-ujKspZWT&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-ahyHdzKa&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
