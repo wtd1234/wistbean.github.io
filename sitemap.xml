@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wistbean.com/python-tutorial.html</loc>
+    
+    <lastmod>2018-10-03T11:16:41.270Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.wistbean.com/pycharm-02.html</loc>
+    
+    <lastmod>2018-10-03T10:24:16.477Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-video.html</loc>
+    
+    <lastmod>2018-10-03T10:22:31.910Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.wistbean.com/java-ssm-3-3.html</loc>
     
-    <lastmod>2018-10-02T16:22:57.237Z</lastmod>
+    <lastmod>2018-10-03T10:22:31.832Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.wistbean.com/chrome-extensions.html</loc>
+    
+    <lastmod>2018-10-03T10:21:17.980Z</lastmod>
     
   </url>
   
@@ -121,13 +149,6 @@
   </url>
   
   <url>
-    <loc>https://www.wistbean.com/chrome-extensions.html</loc>
-    
-    <lastmod>2018-10-01T17:05:13.600Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.wistbean.com/google-search.html</loc>
     
     <lastmod>2018-09-30T13:26:45.068Z</lastmod>
@@ -138,13 +159,6 @@
     <loc>https://www.wistbean.com/personal-data.html</loc>
     
     <lastmod>2018-09-30T13:26:44.943Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wistbean.com/python-tutorial.html</loc>
-    
-    <lastmod>2018-09-29T08:20:42.964Z</lastmod>
     
   </url>
   
@@ -177,23 +191,9 @@
   </url>
   
   <url>
-    <loc>https://www.wistbean.com/pycharm-02.html</loc>
-    
-    <lastmod>2018-09-26T07:24:36.348Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.wistbean.com/ipsec,l2tp_vpn.html</loc>
     
     <lastmod>2018-09-25T07:28:19.542Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-video.html</loc>
-    
-    <lastmod>2018-09-24T14:58:41.973Z</lastmod>
     
   </url>
   
