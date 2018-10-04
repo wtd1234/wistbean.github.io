@@ -4,59 +4,8 @@
 
     
   <url>
-    <loc>https://www.wistbean.com/python-tutorial.html</loc>
-    <lastmod>2018-10-03T11:16:41.270Z</lastmod>
-    <data>
-        <display>
-        <title>python3入门基础有趣的教程</title>
-        <pubTime>2018-09-01T09:07:44.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>python</tag>
-         
-        <tag>python基础</tag>
-         
-         
-           
-             
-              <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/pycharm-02.html</loc>
-    <lastmod>2018-10-03T10:24:16.477Z</lastmod>
-    <data>
-        <display>
-        <title>PyCharm 使用教程：02 完全定制属于你自己的PyCharm编辑器</title>
-        <pubTime>2018-09-25T14:06:14.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>PyCharm</tag>
-         
-        <tag>python</tag>
-         
-         
-           
-             
-              <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
-          
-             
-              <breadCrumb title="PyCharm" url="https://www.wistbean.com/categories/python/PyCharm/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.wistbean.com/java-ssm-video.html</loc>
-    <lastmod>2018-10-03T10:22:31.910Z</lastmod>
+    <lastmod>2018-10-04T13:46:07.610Z</lastmod>
     <data>
         <display>
         <title>Java进阶SSM分布式项目实战视频教程</title>
@@ -117,6 +66,57 @@
           
              
               <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/python-tutorial.html</loc>
+    <lastmod>2018-10-03T11:16:41.270Z</lastmod>
+    <data>
+        <display>
+        <title>python3入门基础有趣的教程</title>
+        <pubTime>2018-09-01T09:07:44.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>python</tag>
+         
+        <tag>python基础</tag>
+         
+         
+           
+             
+              <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/pycharm-02.html</loc>
+    <lastmod>2018-10-03T10:24:16.477Z</lastmod>
+    <data>
+        <display>
+        <title>PyCharm 使用教程：02 完全定制属于你自己的PyCharm编辑器</title>
+        <pubTime>2018-09-25T14:06:14.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>PyCharm</tag>
+         
+        <tag>python</tag>
+         
+         
+           
+             
+              <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
+          
+             
+              <breadCrumb title="PyCharm" url="https://www.wistbean.com/categories/python/PyCharm/"/>
           
         </display>
     </data>
@@ -516,6 +516,8 @@
          
         <tag>Git</tag>
          
+        <tag>GitHub</tag>
+         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -527,8 +529,6 @@
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
-         
-        <tag>GitHub</tag>
          
          
            
@@ -1178,6 +1178,8 @@
         <title>hexo搭建个人网站博客完全教程</title>
         <pubTime>2018-08-30T11:38:13.000Z</pubTime>
         
+        <tag>搬瓦工</tag>
+         
         <tag>个人网站</tag>
          
         <tag>教程</tag>
@@ -1185,8 +1187,6 @@
         <tag>hexo</tag>
          
         <tag>blog</tag>
-         
-        <tag>搬瓦工</tag>
          
         <tag>Git</tag>
          
@@ -1213,9 +1213,9 @@
         
         <tag>个人提升</tag>
          
-        <tag>认知</tag>
-         
         <tag>关于wistbean</tag>
+         
+        <tag>认知</tag>
          
          
            
@@ -1237,9 +1237,9 @@
         
         <tag>个人提升</tag>
          
-        <tag>关于wistbean</tag>
-         
         <tag>编程</tag>
+         
+        <tag>关于wistbean</tag>
          
          
            
