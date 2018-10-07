@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+<!-- Baidu Push -->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!-- End Baidu Push -->
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    
+    <title>搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程 | 肯定会 | wistbean</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="搬瓦工,vpn搭建,搬瓦工搭建vpn,搬瓦工搭建ss,Shadowsocks">
+    <meta name="description" content="优惠购买搬瓦工搬瓦工VPS相对其它的云服务产商来说，性价比高，使用起来速度快。通过优惠码购买还能再降低最多 %6 的一些费用。目前搬瓦工官网最低的有 $19.99 / 年，在这基础上使用优惠码可以少一些费用，根据你对配置的需要进行选择服务器，对于个人来说，19刀的服务器就够用了，以下是可以获取优惠码的链接：    搬瓦工配置 搬瓦工费用 优惠链接     10G KVM – PROMO   SSD">
+<meta name="keywords" content="搬瓦工,vpn搭建,搬瓦工搭建vpn,搬瓦工搭建ss,Shadowsocks">
+<meta property="og:type" content="article">
+<meta property="og:title" content="搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程">
+<meta property="og:url" content="https://www.wistbean.com/banwagong-ss.html">
+<meta property="og:site_name" content="肯定会">
+<meta property="og:description" content="优惠购买搬瓦工搬瓦工VPS相对其它的云服务产商来说，性价比高，使用起来速度快。通过优惠码购买还能再降低最多 %6 的一些费用。目前搬瓦工官网最低的有 $19.99 / 年，在这基础上使用优惠码可以少一些费用，根据你对配置的需要进行选择服务器，对于个人来说，19刀的服务器就够用了，以下是可以获取优惠码的链接：    搬瓦工配置 搬瓦工费用 优惠链接     10G KVM – PROMO   SSD">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/banwagong04.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/vpn5.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/vpn8.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/vpn6.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/vpn7.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/vpn9.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pic1.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pic2.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pic3.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/ss1.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/ss2.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/ss3.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/ss4.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/ss5.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/ss6.png">
+<meta property="og:updated_time" content="2018-10-07T10:44:33.384Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程">
+<meta name="twitter:description" content="优惠购买搬瓦工搬瓦工VPS相对其它的云服务产商来说，性价比高，使用起来速度快。通过优惠码购买还能再降低最多 %6 的一些费用。目前搬瓦工官网最低的有 $19.99 / 年，在这基础上使用优惠码可以少一些费用，根据你对配置的需要进行选择服务器，对于个人来说，19刀的服务器就够用了，以下是可以获取优惠码的链接：    搬瓦工配置 搬瓦工费用 优惠链接     10G KVM – PROMO   SSD">
+<meta name="twitter:image" content="http://owx1uvd7t.bkt.clouddn.com/banwagong04.png">
+    
+        <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(http://owx1uvd7t.bkt.clouddn.com/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="http://owx1uvd7t.bkt.clouddn.com/avatar.jpg" alt="wistbean|肯定会">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">wistbean</h5>
+          <a href="mailto:wistbean.bb@gmail.com" title="wistbean.bb@gmail.com" class="mail">wistbean.bb@gmail.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/podcast/"  >
+                <i class="icon icon-lg icon-podcast"></i>
+                肯定会电台
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/Java/Java-SSM视频教程/"  >
+                <i class="icon icon-lg icon-coffee"></i>
+                Java SSM视频教程
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/搬瓦工/"  >
+                <i class="icon icon-lg icon-google"></i>
+                搬瓦工搭建VPN
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/python/"  >
+                <i class="icon icon-lg icon-bug"></i>
+                python3教程
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives/"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/aboutMe/" target="_blank" >
+                <i class="icon icon-lg icon-user"></i>
+                关于
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2018-10-07T08:27:43.000Z" itemprop="datePublished" class="page-time">
+  2018-10-07
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/搬瓦工/">搬瓦工</a><ul class="article-category-list-child"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/搬瓦工/vpn/">vpn</a></li></ul></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#优惠购买搬瓦工"><span class="post-toc-number">1.</span> <span class="post-toc-text">优惠购买搬瓦工</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#获取搬瓦工服务器的ip，端口，账号密码"><span class="post-toc-number">2.</span> <span class="post-toc-text">获取搬瓦工服务器的ip，端口，账号密码</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#使用-SSH-工具连接到搬瓦工服务器"><span class="post-toc-number">3.</span> <span class="post-toc-text">使用 SSH 工具连接到搬瓦工服务器</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#开始快读搭建ss服务器"><span class="post-toc-number">4.</span> <span class="post-toc-text">开始快读搭建ss服务器</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装-wget-："><span class="post-toc-number">4.1.</span> <span class="post-toc-text">安装 wget ：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#执行安装ss："><span class="post-toc-number">4.2.</span> <span class="post-toc-text">执行安装ss：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#获取shadowsocks-sh读取权限"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">获取shadowsocks.sh读取权限</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#设置ss密码端口和加密方式"><span class="post-toc-number">4.4.</span> <span class="post-toc-text">设置ss密码端口和加密方式</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装ss完成"><span class="post-toc-number">4.5.</span> <span class="post-toc-text">安装ss完成</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#使用Shadowsocks"><span class="post-toc-number">5.</span> <span class="post-toc-text">使用Shadowsocks</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#相关文章"><span class="post-toc-number">6.</span> <span class="post-toc-text">相关文章</span></a></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-banwagong-ss"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2018-10-07 16:27:43" datetime="2018-10-07T08:27:43.000Z"  itemprop="datePublished">2018-10-07</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/搬瓦工/">搬瓦工</a><ul class="article-category-list-child"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/搬瓦工/vpn/">vpn</a></li></ul></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h1 id="优惠购买搬瓦工"><a href="#优惠购买搬瓦工" class="headerlink" title="优惠购买搬瓦工"></a>优惠购买搬瓦工</h1><p>搬瓦工VPS相对其它的云服务产商来说，性价比高，使用起来速度快。通过优惠码购买还能再降低最多 %6 的一些费用。目前<a href="https://bwh1.net/aff.php?aff=32874" target="_blank" rel="noopener">搬瓦工官网</a>最低的有 $19.99 / 年，在这基础上使用优惠码可以少一些费用，根据你对配置的需要进行选择服务器，对于个人来说，19刀的服务器就够用了，以下是可以获取优惠码的链接：</p>
+<table>
+<thead>
+<tr>
+<th>搬瓦工配置</th>
+<th>搬瓦工费用</th>
+<th>优惠链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>10G KVM – PROMO</em> <br>  SSD硬盘: 10 GB RAID-10 <br> RAM内存: 512 MB <br> CPU处理器: 1x Intel Xeon <br> Transfer流量: 500 GB/月 <br> 连接速度: 1 Gigabit <br> Multiple locations</td>
+<td>$19.99/年</td>
+<td><a href="https://www.bwh1.net/aff.php?aff=32874&amp;pid=43" target="_blank" rel="noopener">点击进入</a></td>
+</tr>
+<tr>
+<td><em>20G KVM – PROMO</em> <br> SSD硬盘: 20 GB RAID-10 <br>RAM内存: 1024 MB <br>CPU处理器: 2x Intel Xeon <br>Transfer流量: 1 TB/mo <br>连接速度: 1 Gigabit <br>Multiple locations</td>
+<td>$49.99/年</td>
+<td><a href="https://www.bwh1.net/aff.php?aff=32874&amp;pid=44" target="_blank" rel="noopener">点击进入</a></td>
+</tr>
+<tr>
+<td><em>40G KVM – PROMO</em> <br> SSD硬盘: 40 GB RAID-10 <br>RAM内存: 2 GB <br>CPU处理器: 3x Intel Xeon <br>Transfer流量: 2 TB/mo <br>连接速度: 1 Gigabit <br>Multiple locations</td>
+<td>$99.99/年</td>
+<td><a href="https://www.bwh1.net/aff.php?aff=32874&amp;pid=45" target="_blank" rel="noopener">点击进入</a></td>
+</tr>
+<tr>
+<td><em>80G KVM – PROMO</em> <br> SSD硬盘: 80 GB RAID-10<br>RAM内存: 4 GB<br>CPU处理器: 4x Intel Xeon<br>Transfer流量: 3 TB/mo<br>连接速度: 1 Gigabit<br>Multiple locations</td>
+<td>$19.99/月</td>
+<td><a href="https://www.bwh1.net/aff.php?aff=32874&amp;pid=46" target="_blank" rel="noopener">点击进入</a></td>
+</tr>
+<tr>
+<td><em>160G KVM – PROMO</em> <br> SSD硬盘: 160 GB RAID-10<br>RAM内存: 8 GB<br>CPU处理器: 5x Intel Xeon<br>Transfer流量: 4 TB/mo<br>连接速度: 1 Gigabit<br>Multiple locations</td>
+<td>$39.99/月</td>
+<td><a href="https://www.bwh1.net/aff.php?aff=32874&amp;pid=47" target="_blank" rel="noopener">点击进入</a></td>
+</tr>
+<tr>
+<td><em>3200G KVM – PROMO</em> <br> SSD硬盘: 320 GB RAID-10<br>RAM内存: 16 GB<br>CPU处理器: 6x Intel Xeon<br>Transfer流量: 5 TB/mo<br>连接速度: 1 Gigabit<br>Multiple locations</td>
+<td>$79.99/月</td>
+<td><a href="https://www.bwh1.net/aff.php?aff=32874&amp;pid=48" target="_blank" rel="noopener">点击进入</a></td>
+</tr>
+</tbody>
+</table>
+<p>进入之后就可以获取优惠码了，选择完之后<strong>不要急着点击 「Add to Cart」</strong>。</p>
+<p>这时候就可以获取隐藏的优惠码了，我们对着这个网页：<code>鼠标右击--&gt;查看网页源代码</code>。</p>
+<p>接着 <code>Ctrl + F</code> 搜索 <code>code</code> ，这时候你就会看到 <code>Try this promo code: xxxx</code>，这里的<code>xxxx</code>就是优惠吗，把它复制下来。</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/banwagong04.png" alt="搬瓦工vps" title="">
+                </div>
+                <div class="image-caption">搬瓦工vps</div>
+            </figure>
+<p>页面的 Location 就是选择服务器的地址，到时访问谷歌的时候会显示你当前访问的地址。好了，我们点击「Add to Cart」。</p>
+<p>接下来，进入结算页面，我们刚才复制的优惠码就派上用场了，将你刚刚复制的优惠码复制进去然后点击 「Validate Code」，看！是不是优惠了！一般人不知道这种操作:</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn5.png" alt="搬瓦工优惠码" title="">
+                </div>
+                <div class="image-caption">搬瓦工优惠码</div>
+            </figure>
+<p>接着点击「CheckOut」完成付款即可。付款的时候选择 Alipay 就可以使用支付宝付款。</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn8.png" alt="搬瓦工支付宝支付" title="">
+                </div>
+                <div class="image-caption">搬瓦工支付宝支付</div>
+            </figure>
+<h1 id="获取搬瓦工服务器的ip，端口，账号密码"><a href="#获取搬瓦工服务器的ip，端口，账号密码" class="headerlink" title="获取搬瓦工服务器的ip，端口，账号密码"></a>获取搬瓦工服务器的ip，端口，账号密码</h1><p>购买完毕后你就拥有一台你自己的服务器了，接着点击Services下的MyServices，可以看到你的服务器：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn6.png" alt="搬瓦工搭建ss" title="">
+                </div>
+                <div class="image-caption">搬瓦工搭建ss</div>
+            </figure>
+<p>我们点击「KiwiVM Control Panel」进入管理界面：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn7.png" alt="搬瓦工搭建ss" title="">
+                </div>
+                <div class="image-caption">搬瓦工搭建ss</div>
+            </figure>
+<p>可以看到你服务器的信息:</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/vpn9.png" alt="搬瓦工搭建ss" title="">
+                </div>
+                <div class="image-caption">搬瓦工搭建ss</div>
+            </figure>
+<p>有了<a href="https://bwh1.net/aff.php?aff=32874" target="_blank">搬瓦工</a>服务器的IP地址和端口,我们就可以连接了：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/pic1.png" alt="搬瓦工搭建ss" title="">
+                </div>
+                <div class="image-caption">搬瓦工搭建ss</div>
+            </figure>
+<p>账号是root，密码可以在这里获取：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/pic2.png" alt="搬瓦工搭建ss" title="">
+                </div>
+                <div class="image-caption">搬瓦工搭建ss</div>
+            </figure>
+<h1 id="使用-SSH-工具连接到搬瓦工服务器"><a href="#使用-SSH-工具连接到搬瓦工服务器" class="headerlink" title="使用 SSH 工具连接到搬瓦工服务器"></a>使用 SSH 工具连接到搬瓦工服务器</h1><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/pic3.png" alt="搬瓦工搭建ss" title="">
+                </div>
+                <div class="image-caption">搬瓦工搭建ss</div>
+            </figure>
+<p>远程连接工具我一直用的是 <a href="https://www.vandyke.com/products/securecrt/" target="_blank" rel="noopener">SecureCRT</a> , 当然你也可以使用其它的 SSH 工具。<br>破解版的SecureCRT可以在百度网盘这里获取：</p>
+<ul>
+<li>链接: <a href="https://pan.baidu.com/s/11W4WHjCjmiNw6einQNrcPg" target="_blank" rel="noopener">https://pan.baidu.com/s/11W4WHjCjmiNw6einQNrcPg</a></li>
+<li>提取码: tyux</li>
+</ul>
+<h1 id="开始快读搭建ss服务器"><a href="#开始快读搭建ss服务器" class="headerlink" title="开始快读搭建ss服务器"></a>开始快读搭建ss服务器</h1><h2 id="安装-wget-："><a href="#安装-wget-：" class="headerlink" title="安装 wget ："></a>安装 wget ：</h2><pre><code>yum install wget
+</code></pre><h2 id="执行安装ss："><a href="#执行安装ss：" class="headerlink" title="执行安装ss："></a>执行安装ss：</h2><pre><code>wget –no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+</code></pre><h2 id="获取shadowsocks-sh读取权限"><a href="#获取shadowsocks-sh读取权限" class="headerlink" title="获取shadowsocks.sh读取权限"></a>获取shadowsocks.sh读取权限</h2><pre><code>chmod +x shadowsocks.sh
+</code></pre><h2 id="设置ss密码端口和加密方式"><a href="#设置ss密码端口和加密方式" class="headerlink" title="设置ss密码端口和加密方式"></a>设置ss密码端口和加密方式</h2><p>当你输入<code>chmod +x shadowsocks.sh</code>后就可以设置密码和端口号了：<br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/ss1.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure><br>设置完密码和端口号之后，我们选择加密方式，这里选择 7：<br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/ss2.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure><br>接着按任意键进行安装。</p>
+<h2 id="安装ss完成"><a href="#安装ss完成" class="headerlink" title="安装ss完成"></a>安装ss完成</h2><p>等一会之后，就安装完成了，它会给你显示你需要连接vpn的信息：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/ss3.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p>可以看到需要连接ss的ip地址，密码，端口，和加密方式。</p>
+<p>那么这时候你就可以使用它们来科学上网啦。</p>
+<h1 id="使用Shadowsocks"><a href="#使用Shadowsocks" class="headerlink" title="使用Shadowsocks"></a>使用Shadowsocks</h1><p>打开 Shadowsocks 客户端，输入ip地址，密码，端口，和加密方式。接着点击确定，右下角会有个小飞机按钮，右键–&gt;启动代理。</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/ss4.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p>这时候就可以科学上网了。</p>
+<p>访问以下 Youtube 和 Google 试试看，速度挺快的：<br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/ss5.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure><br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/ss6.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure></p>
+<h1 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h1><ul>
+<li><a href="https://www.wistbean.com/banwagong-coupon.html">购买搬瓦工VPS省钱攻略：获取搬瓦工优惠码</a></li>
+<li><a href="https://www.wistbean.com/banwagong-vpn.html">使用搬瓦工快速搭建自己的VPN</a></li>
+<li><a href="https://www.wistbean.com/ipsec,l2tp_vpn.html">CentOS快速搭建一个属于自己的IPsec/L2TP VPN</a></li>
+<li><a href="https://segmentfault.com/a/1190000015558387" target="_blank" rel="noopener">超详细 Vultr（VPS）搭建 SS / 新手图文指导教程</a></li>
+<li><a href="https://www.freeluffy.com/bandwagonhost-ss/" target="_blank" rel="noopener">搬瓦工搭建SS服务器</a></li>
+</ul>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+      <!--  
+<span class="post-time">
+    最后更新时间：<time datetime="2018-10-07T10:44:33.384Z" itemprop="dateUpdated">2018-10-07 18:44:33</time>
+</span><br>
+
+
+        
+        本站所有文章均为原创，转载请注明出处：url_for(page.permalink)
+        
+        -->
+
+        本站所有文章均为原创，转载请注明出处：
+        <a href="https://www.wistbean.com/banwagong-ss.html">
+                   wistbean|肯定会
+         </a>
+         关注公众号「肯定会」并发送「程序员」直接免费获取 12 本精华电子书
+    </div>
+    
+    <footer>
+        <a href="https://www.wistbean.com">
+            <img src="http://owx1uvd7t.bkt.clouddn.com/avatar.jpg" alt="wistbean|肯定会">
+            wistbean
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Shadowsocks/">Shadowsocks</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vpn搭建/">vpn搭建</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/搬瓦工/">搬瓦工</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/搬瓦工搭建ss/">搬瓦工搭建ss</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/搬瓦工搭建vpn/">搬瓦工搭建vpn</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/banwagong-ss.html&title=《搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/banwagong-ss.html&title=《搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程》 — 肯定会&source=wistbean的个人博客，《肯定会电台》博客节目主播，《Java项目实战视频教程》up主，博客主要涉及到编程（Java，Python，Linux等），个..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/banwagong-ss.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程》 — 肯定会&url=https://www.wistbean.com/banwagong-ss.html&via=https://www.wistbean.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/banwagong-ss.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/ai.html" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">AI即将夺走人们的主控权和决策能力</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'false' == 'true',
+            verify: 'false' == 'true',
+            appId: "EwGBpz5cFF0t3WS9QYluuUPU-gzGzoHsz",
+            appKey: "k9IK8hrOleIsPWLjCdv9atgo",
+            avatar: "mm",
+            placeholder: "Just go go",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "10"
+        })
+    </script>
+    <!-- Valine Comments end -->
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        请作者叫个鸡
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/wechat.png" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/wechat.png" data-alipay="/img/alipay.png">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        本站总读者数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        本站总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>本站已加入 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-知识 4.0  (CC BY-NC-SA 4.0)国际协议 | 转载请注明链接出处</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>wistbean &copy; 2015 - 2018</span>
+            <span>
+                
+                Power by <a href="https://www.wistbean.com/">wistbean</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/banwagong-ss.html&title=《搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/banwagong-ss.html&title=《搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程》 — 肯定会&source=wistbean的个人博客，《肯定会电台》博客节目主播，《Java项目实战视频教程》up主，博客主要涉及到编程（Java，Python，Linux等），个..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/banwagong-ss.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程》 — 肯定会&url=https://www.wistbean.com/banwagong-ss.html&via=https://www.wistbean.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/banwagong-ss.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAAByUlEQVR42u3aS46DMBAFwNz/0sw20gjyno0dIpVXIwKomEWrf69XfI63k9/5/6mz6zcfXFzcae5xed7vST4gv379GaefhIuLu5F7FjHGXp3/mhtwcXF/hZunREkgw8XF/UVujsjLJFxc3CdzZ1KW9lPz9+Pi4n6Lm3cp1/29pL+Li4s7xD3K0z6Vt1Cjt+Hi4m7hjo1S2lFrUtIU9+Pi4i7mXpcZ7dh1Pnn6cAUXF3cLNx+T5OsU18Fo5uDi4u7h5iGsbYbm6UsxvMHFxf0SN4e2QTBJkoqGCC4u7mJu/vANPZiZxS9cXNyN3Pkh6FjgqxupuLi4G7ljA5WxAclYCTS17YWLizvEbZuebXo08+8o2iK4uLg3cdtXJ4VKm9bkxRIuLu5Obt4oabsTM4tZ0QAGFxd3GTcfjhY7HfHINl/UwMXF3c9Nxid5+jIYR/OMDBcXdxn3KE8xEC3XNaIRLy4u7hZu26qYaX8k9Hx8i4uLu5qbB6+x9ay2KPoQwnBxcTdy7y2K5mNntDOCi4v7GG7b+EiKnCJtwsXFfTx3rHxqQ9ttgQwXF7fk5sVPPo5toUUgw8XFXcytQ0ncBJlZ3rqhv4uLizvC/QPaQ3GwDeQwNwAAAABJRU5ErkJggg==" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
