@@ -61,7 +61,8 @@
 <meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/ss4.png">
 <meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/ss5.png">
 <meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/ss6.png">
-<meta property="og:updated_time" content="2018-10-07T10:51:56.723Z">
+<meta property="og:image" content="http://owh7v964r.bkt.clouddn.com/ss7.png">
+<meta property="og:updated_time" content="2018-10-07T14:15:18.955Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程">
 <meta name="twitter:description" content="优惠购买搬瓦工搬瓦工VPS相对其它的云服务产商来说，性价比高，使用起来速度快。通过优惠码购买还能再降低最多 %6 的一些费用。目前搬瓦工官网最低的有 $19.99 / 年，在这基础上使用优惠码可以少一些费用，根据你对配置的需要进行选择服务器，对于个人来说，19刀的服务器就够用了，以下是可以获取优惠码的链接：    搬瓦工配置 搬瓦工费用 优惠链接     10G KVM – PROMO   SSD">
@@ -200,7 +201,7 @@
     <aside class="post-widget">
         <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
             <h4>TOC</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#优惠购买搬瓦工"><span class="post-toc-number">1.</span> <span class="post-toc-text">优惠购买搬瓦工</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#获取搬瓦工服务器的ip，端口，账号密码"><span class="post-toc-number">2.</span> <span class="post-toc-text">获取搬瓦工服务器的ip，端口，账号密码</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#使用-SSH-工具连接到搬瓦工服务器"><span class="post-toc-number">3.</span> <span class="post-toc-text">使用 SSH 工具连接到搬瓦工服务器</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#开始快读搭建ss服务器"><span class="post-toc-number">4.</span> <span class="post-toc-text">开始快读搭建ss服务器</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装-wget-："><span class="post-toc-number">4.1.</span> <span class="post-toc-text">安装 wget ：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#执行安装ss："><span class="post-toc-number">4.2.</span> <span class="post-toc-text">执行安装ss：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#获取shadowsocks-sh读取权限"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">获取shadowsocks.sh读取权限</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#设置ss密码端口和加密方式"><span class="post-toc-number">4.4.</span> <span class="post-toc-text">设置ss密码端口和加密方式</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装ss完成"><span class="post-toc-number">4.5.</span> <span class="post-toc-text">安装ss完成</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#使用Shadowsocks"><span class="post-toc-number">5.</span> <span class="post-toc-text">使用Shadowsocks</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#相关文章"><span class="post-toc-number">6.</span> <span class="post-toc-text">相关文章</span></a></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#优惠购买搬瓦工"><span class="post-toc-number">1.</span> <span class="post-toc-text">优惠购买搬瓦工</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#获取搬瓦工服务器的ip，端口，账号密码"><span class="post-toc-number">2.</span> <span class="post-toc-text">获取搬瓦工服务器的ip，端口，账号密码</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#使用-SSH-工具连接到搬瓦工服务器"><span class="post-toc-number">3.</span> <span class="post-toc-text">使用 SSH 工具连接到搬瓦工服务器</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#开始快读搭建ss服务器"><span class="post-toc-number">4.</span> <span class="post-toc-text">开始快读搭建ss服务器</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装-wget-："><span class="post-toc-number">4.1.</span> <span class="post-toc-text">安装 wget ：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#执行安装ss："><span class="post-toc-number">4.2.</span> <span class="post-toc-text">执行安装ss：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#获取shadowsocks-sh读取权限"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">获取shadowsocks.sh读取权限</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#设置ss密码端口和加密方式"><span class="post-toc-number">4.4.</span> <span class="post-toc-text">设置ss密码端口和加密方式</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装ss完成"><span class="post-toc-number">4.5.</span> <span class="post-toc-text">安装ss完成</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#使用Shadowsocks"><span class="post-toc-number">5.</span> <span class="post-toc-text">使用Shadowsocks</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#使用BBR加速器"><span class="post-toc-number">6.</span> <span class="post-toc-text">使用BBR加速器</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装-BBR"><span class="post-toc-number">6.1.</span> <span class="post-toc-text">安装 BBR</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#获取读写权限"><span class="post-toc-number">6.2.</span> <span class="post-toc-text">获取读写权限</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#启动BBR安装"><span class="post-toc-number">6.3.</span> <span class="post-toc-text">启动BBR安装</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#相关文章"><span class="post-toc-number">7.</span> <span class="post-toc-text">相关文章</span></a></li></ol>
         </nav>
     </aside>
 
@@ -382,7 +383,7 @@
                 <div class="image-caption"></div>
             </figure>
 <p>这时候就可以科学上网了。</p>
-<p>访问以下 Youtube 和 Google 试试看，速度挺快的：<br><figure class="image-bubble">
+<p>访问以下 Youtube 和 Google 试试看，速度还可以的：<br><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
                     <img src="http://owx1uvd7t.bkt.clouddn.com/ss5.png" alt="" title="">
@@ -395,6 +396,20 @@
                 </div>
                 <div class="image-caption"></div>
             </figure></p>
+<h1 id="使用BBR加速器"><a href="#使用BBR加速器" class="headerlink" title="使用BBR加速器"></a>使用BBR加速器</h1><p>让访问速度加速，飞起来！使用 BBR 加速工具。</p>
+<h2 id="安装-BBR"><a href="#安装-BBR" class="headerlink" title="安装 BBR"></a>安装 BBR</h2><pre><code>wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+</code></pre><h2 id="获取读写权限"><a href="#获取读写权限" class="headerlink" title="获取读写权限"></a>获取读写权限</h2><pre><code>chmod +x bbr.sh
+</code></pre><h2 id="启动BBR安装"><a href="#启动BBR安装" class="headerlink" title="启动BBR安装"></a>启动BBR安装</h2><pre><code>./bbr.sh
+</code></pre><p>接着按任意键，开始安装，坐等一会。安装完成一会之后它会提示我们是否重新启动vps，我们输入 y 确定重启服务器。</p>
+<p>重新启动之后，输入 <code>lsmod | grep bbr</code> 如果看到 tcp_bbr 就说明 BBR 已经启动了。</p>
+<p>再访问一下 Youtube，1080p 超高清，很顺畅不卡顿！</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owh7v964r.bkt.clouddn.com/ss7.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <h1 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h1><ul>
 <li><a href="https://www.wistbean.com/banwagong-coupon.html">购买搬瓦工VPS省钱攻略：获取搬瓦工优惠码</a></li>
 <li><a href="https://www.wistbean.com/banwagong-vpn.html">使用搬瓦工快速搭建自己的VPN</a></li>
@@ -410,7 +425,7 @@
     <div class="content">
       <!--  
 <span class="post-time">
-    最后更新时间：<time datetime="2018-10-07T10:51:56.723Z" itemprop="dateUpdated">2018-10-07 18:51:56</time>
+    最后更新时间：<time datetime="2018-10-07T14:15:18.955Z" itemprop="dateUpdated">2018-10-07 22:15:18</time>
 </span><br>
 
 
