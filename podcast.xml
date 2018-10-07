@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>wistbean</title>
+    <title>肯定会</title>
     <link>https://www.wistbean.com/</link>
     <copyright></copyright>
     <itunes:subtitle></itunes:subtitle>
@@ -29,7 +29,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-qmSPpDUN&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-aipRidXt&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -87,7 +87,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-cmJgSxhH&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-lemXBBTh&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -360,7 +360,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-USNtBimu&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-nqLchPyI&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -400,7 +400,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-ILiiHznK&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-OajhGOvP&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
