@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+<!-- Baidu Push -->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!-- End Baidu Push -->
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    
+    <title>PyCharm 使用教程：03 PyCharm常用技巧指南 | 肯定会 | wistbean</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="教程,PyCharm,python">
+    <meta name="description" content="打开项目在 PyCharm 中，打开已有的项目有 3 种方式。   欢迎界面中选择open 菜单栏中选择 File-&amp;gt;open 打开远程 Git 的项目    在 PyCharm 中，打开已有的项目可以在第一次打开的欢迎界面中选择open来打开你电脑中已经创建过的项目：">
+<meta name="keywords" content="教程,PyCharm,python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PyCharm 使用教程：03 PyCharm常用技巧指南">
+<meta property="og:url" content="https://www.wistbean.com/pycharm-03.html">
+<meta property="og:site_name" content="肯定会">
+<meta property="og:description" content="打开项目在 PyCharm 中，打开已有的项目有 3 种方式。   欢迎界面中选择open 菜单栏中选择 File-&amp;gt;open 打开远程 Git 的项目    在 PyCharm 中，打开已有的项目可以在第一次打开的欢迎界面中选择open来打开你电脑中已经创建过的项目：">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_WelcomeScreen.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pycharm3-1.png">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_openProject.png">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_cloneRepGithub.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pycharm3-1.png">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_lookAroundThumb.png">
+<meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/pycharm3-3.png">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/show_hide_tool_window_bars.png">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/py_ToolWindowQuickAccess.png">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_smartCodeCompletion.png">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_intentionAction.png">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_impl_over.png">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_surround_with_1.png">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_surround_with_2.png">
+<meta property="og:image" content="https://www.jetbrains.com/help/img/idea/2018.2/cl_QST_findAction.png">
+<meta property="og:updated_time" content="2018-10-08T11:57:11.517Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PyCharm 使用教程：03 PyCharm常用技巧指南">
+<meta name="twitter:description" content="打开项目在 PyCharm 中，打开已有的项目有 3 种方式。   欢迎界面中选择open 菜单栏中选择 File-&amp;gt;open 打开远程 Git 的项目    在 PyCharm 中，打开已有的项目可以在第一次打开的欢迎界面中选择open来打开你电脑中已经创建过的项目：">
+<meta name="twitter:image" content="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_WelcomeScreen.png">
+    
+        <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide" >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(http://owx1uvd7t.bkt.clouddn.com/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="http://owx1uvd7t.bkt.clouddn.com/avatar.jpg" alt="wistbean|肯定会">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">wistbean</h5>
+          <a href="mailto:wistbean.bb@gmail.com" title="wistbean.bb@gmail.com" class="mail">wistbean.bb@gmail.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/podcast/"  >
+                <i class="icon icon-lg icon-podcast"></i>
+                肯定会电台
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/Java/Java-SSM视频教程/"  >
+                <i class="icon icon-lg icon-coffee"></i>
+                Java SSM视频教程
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/搬瓦工/"  >
+                <i class="icon icon-lg icon-google"></i>
+                搬瓦工搭建VPN
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/python/"  >
+                <i class="icon icon-lg icon-bug"></i>
+                python3教程
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives/"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/aboutMe/" target="_blank" >
+                <i class="icon icon-lg icon-user"></i>
+                关于
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">PyCharm 使用教程：03 PyCharm常用技巧指南</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">PyCharm 使用教程：03 PyCharm常用技巧指南</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2018-10-08T08:21:17.000Z" itemprop="datePublished" class="page-time">
+  2018-10-08
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/python/">python</a><ul class="article-category-list-child"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/python/PyCharm/">PyCharm</a></li></ul></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>TOC</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#打开项目"><span class="post-toc-number">1.</span> <span class="post-toc-text">打开项目</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#创建项目"><span class="post-toc-number">2.</span> <span class="post-toc-text">创建项目</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Pycharm-界面"><span class="post-toc-number">3.</span> <span class="post-toc-text">Pycharm 界面</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#代码补全"><span class="post-toc-number">4.</span> <span class="post-toc-text">代码补全</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#生成一些代码"><span class="post-toc-number">5.</span> <span class="post-toc-text">生成一些代码</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#常用的搜索"><span class="post-toc-number">6.</span> <span class="post-toc-text">常用的搜索</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#基本搜索"><span class="post-toc-number">6.1.</span> <span class="post-toc-text">基本搜索</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#查找在哪里被使用到了"><span class="post-toc-number">6.2.</span> <span class="post-toc-text">查找在哪里被使用到了</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#查找最近打开的文件"><span class="post-toc-number">6.3.</span> <span class="post-toc-text">查找最近打开的文件</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#搜索快捷键"><span class="post-toc-number">6.4.</span> <span class="post-toc-text">搜索快捷键</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#在所有地方查找"><span class="post-toc-number">6.5.</span> <span class="post-toc-text">在所有地方查找</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#相关文章"><span class="post-toc-number">7.</span> <span class="post-toc-text">相关文章</span></a></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-pycharm-03"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">PyCharm 使用教程：03 PyCharm常用技巧指南</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2018-10-08 16:21:17" datetime="2018-10-08T08:21:17.000Z"  itemprop="datePublished">2018-10-08</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/python/">python</a><ul class="article-category-list-child"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/python/PyCharm/">PyCharm</a></li></ul></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h1 id="打开项目"><a href="#打开项目" class="headerlink" title="打开项目"></a>打开项目</h1><p>在 PyCharm 中，打开已有的项目有 3 种方式。</p>
+<blockquote>
+<ol>
+<li>欢迎界面中选择<code>open</code></li>
+<li>菜单栏中选择 File-&gt;open</li>
+<li>打开远程 Git 的项目</li>
+</ol>
+</blockquote>
+<ol>
+<li>在 PyCharm 中，打开已有的项目可以在第一次打开的欢迎界面中选择<code>open</code>来打开你电脑中已经创建过的项目：</li>
+</ol>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_WelcomeScreen.png" alt="PyCharm" title="">
+                </div>
+                <div class="image-caption">PyCharm</div>
+            </figure>
+<ol start="2">
+<li>菜单栏中选择 File-&gt;open</li>
+</ol>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/pycharm3-1.png" alt="PyCharm" title="">
+                </div>
+                <div class="image-caption">PyCharm</div>
+            </figure>
+<p>选择已有的项目</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_openProject.png" alt="PyCharm" title="">
+                </div>
+                <div class="image-caption">PyCharm</div>
+            </figure>
+<ol start="3">
+<li>获取仓库地址中的项目并克隆下来到本地</li>
+</ol>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_cloneRepGithub.png" alt="PyCharm" title="">
+                </div>
+                <div class="image-caption">PyCharm</div>
+            </figure>
+<h1 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h1><p>当你第一次打开PyCharm的时候，你可以点击 <code>Create New Project</code>来创建项目，也可以通过菜单栏<code>File-&gt;new Project</code>创建</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/pycharm3-1.png" alt="PyCharm" title="">
+                </div>
+                <div class="image-caption">PyCharm</div>
+            </figure>
+<h1 id="Pycharm-界面"><a href="#Pycharm-界面" class="headerlink" title="Pycharm 界面"></a>Pycharm 界面</h1><p>当你打开或者创建完一个项目之后，你就可以看到你的界面张这个样子：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_lookAroundThumb.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p>我们逐一来了解一下这些窗口都代表啥意思吧。</p>
+<ol>
+<li><p><a href="https://www.jetbrains.com/help/pycharm/project-tool-window.html" target="_blank" rel="noopener">Project view </a>:项目视图窗口，在这里列出了你的项目文件。</p>
+</li>
+<li><p><a href="https://www.jetbrains.com/help/pycharm/editor-guided-tour.html" target="_blank" rel="noopener">Editor</a>:这里就是敲代码的地方啦。上面有个 Tab 标签，主要是让你清楚的知道你在哪个文件里面敲代码。</p>
+</li>
+<li><p><a href="https://www.jetbrains.com/help/pycharm/navigation-bar.html" target="_blank" rel="noopener">Navigation bar </a>:这里是导航栏，你可以点击左键快速定位到文件相应的位置，点击右键对其进行操作，比如运行，debug操作等。</p>
+</li>
+<li><p>Left gutter：代码左边的东东，你可以在这里打断点，显示代码行号，隐藏显示代码块等操作。</p>
+</li>
+<li><p>Right gutter：代码右边的东东，可以看到又不同的颜色块，它们分别表示代码的提示，例如错误，警告等信息。点击它可以快速定位到代码指定地方。</p>
+</li>
+</ol>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://owx1uvd7t.bkt.clouddn.com/pycharm3-3.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<ol start="6">
+<li><p><a href="https://www.jetbrains.com/help/pycharm/tool-windows.html" target="_blank" rel="noopener">Tool windows</a>:在底下的工具窗口，你可以在这里打开终端，项目管理，代码搜索等。</p>
+</li>
+<li><p><a href="https://www.jetbrains.com/help/pycharm/status-bar.html" target="_blank" rel="noopener">The status bar</a>:显示你文件项目的信息，比如文件编码，当前的行数等。</p>
+</li>
+</ol>
+<p>在左下角有一个<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/show_hide_tool_window_bars.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>按钮，你可以点击它会展示出一些窗口选项，你可以在这里快速的选择要打开的窗口：<br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/py_ToolWindowQuickAccess.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure></p>
+<h1 id="代码补全"><a href="#代码补全" class="headerlink" title="代码补全"></a>代码补全</h1><p>当你在敲代码的时候，PyCharm可能会知道你接下来你先要操作什么，会给你提供一些建议，你可以直接选择它们来补全你的代码。会节省你很多时间。<br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_smartCodeCompletion.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure><br>有时候你代码写错了或者有什么需要进行额外的操作，你可以使用快捷键 <code>Alt+Enter</code> 来选择你要的操作：<br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_intentionAction.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure></p>
+<h1 id="生成一些代码"><a href="#生成一些代码" class="headerlink" title="生成一些代码"></a>生成一些代码</h1><p>你可以通过快捷键<code>Alt+Insert</code>来快速创建一些方法：<br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_impl_over.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure></p>
+<p>还可以使用快捷键<code>Ctrl+Alt+T</code>来对已有的代码进行操作，比如添加if语句，异常等。<br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_surround_with_1.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure><br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/py_QST_surround_with_2.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure></p>
+<h1 id="常用的搜索"><a href="#常用的搜索" class="headerlink" title="常用的搜索"></a>常用的搜索</h1><p>PyCharm有个非常强大的功能之一就是搜索，假如你的项目很大，或者你接手别人的项目，想要快速找到你需要的代码，那么PyCharm的搜索功能可以帮到你。</p>
+<h2 id="基本搜索"><a href="#基本搜索" class="headerlink" title="基本搜索"></a>基本搜索</h2><p>你可以在当前文件中搜索相关内容，可以使用快捷键<code>Ctrl+F</code>,想在整个项目搜索相关内容可以使用<code>Ctrl+Shift+F</code>。</p>
+<h2 id="查找在哪里被使用到了"><a href="#查找在哪里被使用到了" class="headerlink" title="查找在哪里被使用到了"></a>查找在哪里被使用到了</h2><p>可以使用快捷键<code>Alt+F7</code>,PyCharm会将被使用到的地方列出来。</p>
+<h2 id="查找最近打开的文件"><a href="#查找最近打开的文件" class="headerlink" title="查找最近打开的文件"></a>查找最近打开的文件</h2><p>可以使用快捷键<code>Ctrl+E</code>将会调出最近文件的窗口，可以快速选择你要切换的文件。</p>
+<h2 id="搜索快捷键"><a href="#搜索快捷键" class="headerlink" title="搜索快捷键"></a>搜索快捷键</h2><p>有些快捷键忘记了怎么办？可以使用<code>Ctrl+Shift+A</code>,然后搜索快捷键的名称，就可以知道使用什么快捷键了。<br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.jetbrains.com/help/img/idea/2018.2/cl_QST_findAction.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure></p>
+<h2 id="在所有地方查找"><a href="#在所有地方查找" class="headerlink" title="在所有地方查找"></a>在所有地方查找</h2><p>双击 shift 键就可以查找所有地方的文件了，非常好用！</p>
+<h1 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h1><ul>
+<li><a href="https://www.wistbean.com/pycharm-01.html">PyCharm 使用教程：01 安装PyCharm</a></li>
+<li><a href="https://www.wistbean.com/pycharm-02.html">PyCharm 使用教程：02 完全定制属于你自己的PyCharm编辑器</a></li>
+</ul>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+      <!--  
+<span class="post-time">
+    最后更新时间：<time datetime="2018-10-08T11:57:11.517Z" itemprop="dateUpdated">2018-10-08 19:57:11</time>
+</span><br>
+
+
+        
+        本站所有文章均为原创，转载请注明出处：url_for(page.permalink)
+        
+        -->
+
+        本站所有文章均为原创，转载请注明出处：
+        <a href="https://www.wistbean.com/pycharm-03.html">
+                   wistbean|肯定会
+         </a>
+         关注公众号「肯定会」并发送「程序员」直接免费获取 12 本精华电子书
+    </div>
+    
+    <footer>
+        <a href="https://www.wistbean.com">
+            <img src="http://owx1uvd7t.bkt.clouddn.com/avatar.jpg" alt="wistbean|肯定会">
+            wistbean
+        </a>
+    </footer>
+</blockquote>
+
+        
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
+</div>
+
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/PyCharm/">PyCharm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/pycharm-03.html&title=《PyCharm 使用教程：03 PyCharm常用技巧指南》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/pycharm-03.html&title=《PyCharm 使用教程：03 PyCharm常用技巧指南》 — 肯定会&source=wistbean的个人博客，《肯定会电台》博客节目主播，《Java项目实战视频教程》up主，博客主要涉及到编程（Java，Python，Linux等），个..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/pycharm-03.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《PyCharm 使用教程：03 PyCharm常用技巧指南》 — 肯定会&url=https://www.wistbean.com/pycharm-03.html&via=https://www.wistbean.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/pycharm-03.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/banwagong-ss.html" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">搬瓦工快速搭建SS(Shadowsocks)服务器简明详细教程</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'false' == 'true',
+            verify: 'false' == 'true',
+            appId: "EwGBpz5cFF0t3WS9QYluuUPU-gzGzoHsz",
+            appKey: "k9IK8hrOleIsPWLjCdv9atgo",
+            avatar: "mm",
+            placeholder: "Just go go",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "10"
+        })
+    </script>
+    <!-- Valine Comments end -->
+
+
+
+
+
+
+
+</article>
+
+<div id="reward" class="page-modal reward-lay">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <h3 class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        请作者叫个鸡
+        <i class="icon icon-quote-right"></i>
+    </h3>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/img/wechat.png" alt="打赏二维码">
+        </div>
+        
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/img/wechat.png" data-alipay="/img/alipay.png">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        本站总读者数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        本站总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>本站已加入 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-知识 4.0  (CC BY-NC-SA 4.0)国际协议 | 转载请注明链接出处</a></span>
+        </p>
+    </div>
+    <div class="bottom">
+        <p><span>wistbean &copy; 2015 - 2018</span>
+            <span>
+                
+                Power by <a href="https://www.wistbean.com/">wistbean</a>
+            </span>
+        </p>
+    </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/pycharm-03.html&title=《PyCharm 使用教程：03 PyCharm常用技巧指南》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/pycharm-03.html&title=《PyCharm 使用教程：03 PyCharm常用技巧指南》 — 肯定会&source=wistbean的个人博客，《肯定会电台》博客节目主播，《Java项目实战视频教程》up主，博客主要涉及到编程（Java，Python，Linux等），个..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/pycharm-03.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《PyCharm 使用教程：03 PyCharm常用技巧指南》 — 肯定会&url=https://www.wistbean.com/pycharm-03.html&via=https://www.wistbean.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/pycharm-03.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABt0lEQVR42u3aMW7DMAwF0Nz/0unqJe4nKRNp8TQZsSI/LQRJ6fWKx/syrr98er7+cr/m64mBi4s75r5vR8LNt5S8/WTAxcXd594HmnxOvtXq+ri4uN/MnQS1+y3h4uL+J26vBMLFxf1+bh5okrRmUlwdq9VwcXEH3LxL+dzzI/1dXFzcFvddHPN1Rl/HxcVd4eYBJfnw5Mi2MBMXF3edO2pltsqh8gq4uLgPc09dqKq2UHsDFxd3k5unL/kFi15i9EsDBRcXd4U7L0Xysqd3cPIx0cHFxX2MezgFGRyXRge3uLi4i9wkZclxvQtYUVmFi4u7zj3VQu01R6JEChcXd4WbFz+TixTVOQdqNVxc3DE3SWLyoFalNFMiXFzch7l5w7R6zSL5fF504eLi7nPzP+SHo9XQVih+cHFxF7nz4qcQkuK2aeU1Li7ulDs/Rk3aoEkpFSVYuLi4K9x5qVNtgFa7Nc3N4OLijrmTQ45eaOvds8LFxd3nnmp0ziNos1bDxcX9Mm41Zclbsbi4uH+LO9lGtQI7kOLg4uK2uJMmaS9UVVuruLi4m9xyKIlnzimj/i4uLm6H+wNM3AEv/A2B6AAAAABJRU5ErkJggg==" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
