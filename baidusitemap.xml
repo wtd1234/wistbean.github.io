@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://www.wistbean.com/pycharm-03.html</loc>
-    <lastmod>2018-10-08T11:57:11.517Z</lastmod>
+    <lastmod>2018-10-08T12:09:58.037Z</lastmod>
     <data>
         <display>
         <title>PyCharm 使用教程：03 PyCharm常用技巧指南</title>
@@ -154,13 +154,13 @@
          
         <tag>Maven</tag>
          
-        <tag>EasyUI</tag>
-         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
+         
+        <tag>EasyUI</tag>
          
         <tag>SSM视频教程</tag>
          
@@ -770,11 +770,11 @@
          
         <tag>分布式</tag>
          
-        <tag>架构</tag>
-         
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
+         
+        <tag>架构</tag>
          
          
            
