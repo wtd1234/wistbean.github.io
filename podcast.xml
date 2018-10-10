@@ -19,6 +19,22 @@
     <language>zh-CN</language>
     
     <item>
+      <title>别让思维毁了自己</title>
+      <description>  </description>
+      <itunes:author> wistbean</itunes:author>
+      <itunes:subtitle> </itunes:subtitle>
+      <itunes:summary>  </itunes:summary>
+      <itunes:image href="" />
+      <enclosure url="" length="" type=""/>
+      <guid></guid>
+      <pubDate>Fri, 12 Oct 2018 11:25:30 GMT</pubDate>
+      <itunes:duration></itunes:duration>
+      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+        
+      </psc:chapters>
+    </item>
+    
+    <item>
       <title>AI即将夺走人们的主控权和决策能力</title>
       <description> 大家都知道当下两个大趋势就是人工智能（AI）和区块链，有些人觉得人工智能听起来有点危言耸听，感觉离自己的生活还很远。不以为然。
 我觉得不然，科技日新月异的改变着，凡事都要有点敬畏之心。
@@ -29,7 +45,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-cgTfJOKm&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-jHnKHyjf&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -87,7 +103,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-SWzOggov&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-nCjNRGuR&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -360,7 +376,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-glxKdgle&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-TFqLdHbT&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -400,7 +416,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-IaYfeoGi&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-VVrJiWZx&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
