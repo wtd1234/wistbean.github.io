@@ -4,19 +4,73 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/python-tutorial.html</loc>
+    <lastmod>2018-10-13T17:52:31.465Z</lastmod>
+    <data>
+        <display>
+        <title>python3入门基础有趣的教程</title>
+        <pubTime>2018-09-01T09:07:44.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>python</tag>
+         
+        <tag>python基础</tag>
+         
+         
+           
+             
+              <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/use-Fiddler.html</loc>
-    <lastmod>2018-10-13T08:54:29.588Z</lastmod>
+    <lastmod>2018-10-13T17:50:04.288Z</lastmod>
     <data>
         <display>
         <title>Fiddler 抓包工具完全使用教程</title>
         <pubTime>2018-10-11T11:49:27.000Z</pubTime>
         
+        <tag>python</tag>
+         
         <tag>Fiddler</tag>
+         
+        <tag>工具使用</tag>
          
          
            
              
               <breadCrumb title="教程" url="https://www.wistbean.com/categories/%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/python-apider-meizi.html</loc>
+    <lastmod>2018-10-13T17:47:28.333Z</lastmod>
+    <data>
+        <display>
+        <title>Python爬虫基础：爬取妹子图片并保存到本地</title>
+        <pubTime>2018-10-13T17:27:16.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>python</tag>
+         
+        <tag>python爬虫</tag>
+         
+        <tag>python基础</tag>
+         
+         
+           
+             
+              <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
           
         </display>
     </data>
@@ -260,30 +314,6 @@
           
              
               <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/python-tutorial.html</loc>
-    <lastmod>2018-10-03T11:16:41.270Z</lastmod>
-    <data>
-        <display>
-        <title>python3入门基础有趣的教程</title>
-        <pubTime>2018-09-01T09:07:44.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>python</tag>
-         
-        <tag>python基础</tag>
-         
-         
-           
-             
-              <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
           
         </display>
     </data>
