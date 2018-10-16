@@ -26,7 +26,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-BnsncRkV&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-SuhovFyS&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -100,7 +100,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-aUzPFxUy&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-ssvRiXTU&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -163,7 +163,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-MTOVGTWa&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-hxcmJvgb&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -436,7 +436,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-XOEcNNhL&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-PBrrkjvV&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -476,7 +476,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-nPThQaMq&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-RnMNOPgI&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
