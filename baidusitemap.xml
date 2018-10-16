@@ -23,13 +23,13 @@
          
         <tag>Maven</tag>
          
-        <tag>EasyUI</tag>
-         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
+         
+        <tag>EasyUI</tag>
          
         <tag>SSM视频教程</tag>
          
@@ -105,32 +105,6 @@
           
              
               <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/python-spider-man.html</loc>
-    <lastmod>2018-10-14T08:39:31.212Z</lastmod>
-    <data>
-        <display>
-        <title>python爬虫:这次爬取性感男人</title>
-        <pubTime>2018-10-14T08:22:24.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>python</tag>
-         
-        <tag>python爬虫</tag>
-         
-        <tag>python基础</tag>
-         
-         
-           
-             
-              <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
           
         </display>
     </data>
@@ -334,9 +308,9 @@
         <title>AI即将夺走人们的主控权和决策能力</title>
         <pubTime>2018-10-05T08:23:43.000Z</pubTime>
         
-        <tag>互联网</tag>
-         
         <tag>肯定会电台</tag>
+         
+        <tag>互联网</tag>
          
         <tag>个人网站</tag>
          
@@ -823,6 +797,8 @@
          
         <tag>Git</tag>
          
+        <tag>GitHub</tag>
+         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -834,8 +810,6 @@
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
-         
-        <tag>GitHub</tag>
          
          
            
@@ -1042,9 +1016,9 @@
         <title>找到你要的资源，Google高级搜索技巧</title>
         <pubTime>2018-08-02T17:45:26.000Z</pubTime>
         
-        <tag>互联网</tag>
-         
         <tag>肯定会电台</tag>
+         
+        <tag>互联网</tag>
          
         <tag>Google</tag>
          
@@ -1072,9 +1046,9 @@
         <title>你的个人隐私被泄露了，咋办？</title>
         <pubTime>2018-08-09T17:45:26.000Z</pubTime>
         
-        <tag>互联网</tag>
-         
         <tag>肯定会电台</tag>
+         
+        <tag>互联网</tag>
          
         <tag>个人隐私</tag>
          
@@ -1238,9 +1212,9 @@
         <title>对于宅男来说，硬盘里的数据就是命</title>
         <pubTime>2018-08-30T17:45:26.000Z</pubTime>
         
-        <tag>互联网</tag>
-         
         <tag>肯定会电台</tag>
+         
+        <tag>互联网</tag>
          
         <tag>数据备份</tag>
          
@@ -1268,9 +1242,9 @@
         <title>通过互联网赚取你的第一桶金</title>
         <pubTime>2018-08-09T17:45:26.000Z</pubTime>
         
-        <tag>互联网</tag>
-         
         <tag>肯定会电台</tag>
+         
+        <tag>互联网</tag>
          
         <tag>赚钱</tag>
          
@@ -1298,9 +1272,9 @@
         <title>为什么要搭建一个属于自己的个人网站</title>
         <pubTime>2018-09-06T17:45:26.000Z</pubTime>
         
-        <tag>互联网</tag>
-         
         <tag>肯定会电台</tag>
+         
+        <tag>互联网</tag>
          
         <tag>个人网站</tag>
          
@@ -1328,9 +1302,9 @@
         <title>为了不跟产品经理干起来，我决定学点产品思维</title>
         <pubTime>2018-09-21T11:04:39.000Z</pubTime>
         
-        <tag>互联网</tag>
-         
         <tag>肯定会电台</tag>
+         
+        <tag>互联网</tag>
          
          
            
@@ -1356,9 +1330,9 @@
         <title>读书:一个年轻人和老人的故事</title>
         <pubTime>2018-09-13T17:45:26.000Z</pubTime>
         
-        <tag>个人提升</tag>
-         
         <tag>肯定会电台</tag>
+         
+        <tag>个人提升</tag>
          
         <tag>精华分享</tag>
          
@@ -1438,9 +1412,9 @@
         <title>hexo搭建个人网站博客完全教程</title>
         <pubTime>2018-08-30T11:38:13.000Z</pubTime>
         
-        <tag>搬瓦工</tag>
-         
         <tag>个人网站</tag>
+         
+        <tag>搬瓦工</tag>
          
         <tag>教程</tag>
          
