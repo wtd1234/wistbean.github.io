@@ -19,6 +19,61 @@
     <language>zh-CN</language>
     
     <item>
+      <title>python 爬虫应该学习什么知识点？</title>
+      <description> 什么是爬虫如果说把互联网比喻成蜘蛛网，那么爬虫就是在这张网上的蜘蛛，它可以在上面爬来爬去。在互联网中，爬虫就是机器人，你应该对百度和 Google 很熟悉吧，为什么我们可以很快的从它们的搜索引擎中获取到资料呢？
+原因就是它们都有自己的爬虫，在整个互联网上，24小时不间断的爬取那些愿意让它们爬取的网站内容，爬虫将这些内容的索引保存下来，放到百度自己的数据库里面，所以用户搜索的时候，就能很快的搜到你要的网站。
+
+                
+                    
+                    
+                
+                爬虫
+            
+永远对这个世界充满好奇心，也许会让我们更愿意学习，我觉得最好的学习动力来源于好奇，好奇产生兴趣，兴趣促进学习，学习使人快乐。
+那么 python 爬虫应该学习什么知识点呢？
+学习 python 爬虫的路线除了好奇心之外，有个学习方向能够少走点弯路，就像在实习的时候，能够遇到一个好老大，给你稍微指一下方向，比你自己瞎jb琢磨的结果肯定结果相差很大。毕竟人家认知比你高上一截。
+
+                
+                    
+                    
+                
+                方向
+            
+基本的 Python 语法要用 Python 来写爬虫，当然是需要 Python 的基本语法了。Python的基本语法不难，之前我就写了一个小教程，讲的是 Python3 的一些基本使用，可以看看这里：python3入门基础有趣的教程
+抓包工具爬虫要去抓取网页上的内容，一些请求参数和返回数据信息，需要去分析和抓取，熟悉一下抓包工具的使用还是很有必要的，这不，我也写了一个关于 Fiddler 的使用：Fiddler抓包工具完全使用教程，还顺便装了个逼！
+爬虫常用到的模块Python 有一些内置的库，专门对一些网页数据的请求和解析使用的，比如urllib，http。
+正则表达式抓包获取到的数据，有很多数据是你不想要的，我们只需要拿到我们想要的数据就可以了，那么这个时候呢，正则表达式就派上用场了，常用的有：re，Xpath，BeautifulSoup。
+反爬机制有些网站被爬取怕了，做了一些爬虫的限制，要学点反爬机制才行，header，robot，时间间隔，ip代理，UA限制，Cookie限制等。
+数据存储爬取到的数据要存储下来吧，那么就要会数据库的操作，比如mysql。还要会数据去重操作。
+爬虫效率提高爬取数据的效率，就需要使用多线程，分布式。
+爬虫的框架站在巨人的肩膀上尿尿，那么就需要知道框架怎么使用，比如Scrapy，PySpider，简直牛逼。
+为什么学习 Python 爬虫对于每个人来说可能都有自己的想法，有些人想要自己的工资涨点，无可厚非，有些人就是感兴趣，想玩玩，有些人单纯为了泡妞，有些人喜欢走出自己舒适圈，多学点。
+但是有一点肯定的是，技多不压身，牛逼的人总是在学习，傻逼的人总是在抬杠和叫人别学。
+如果你具备了 Python 的基础知识了，那就可以根据以上的知识点进行 Python 爬虫的学习。最主要是多动手，多练，熟能生巧是亘古不变的道理。
+Python之禅说过这样的话：
+
+爬虫涉及的技术包括但不限于熟练一门编程语言（这里以 Python 为例） HTML 知识、HTTP 协议的基本知识、正则表达式、数据库知识，常用抓包工具的使用、爬虫框架的使用、涉及到大规模爬虫，还需要了解分布式的概念、消息队列、常用的数据结构和算法、缓存，甚至还包括机器学习的应用，大规模的系统背后都是靠很多技术来支撑的。数据分析、挖掘、甚至是机器学习都离不开数据，而数据很多时候需要通过爬虫来获取，因此，作为一门专业爬虫工程师都是有很大的前途的。
+
+说的真好，共勉！
+相关文章
+Python爬虫基础：爬取妹子图片并保存到本地
+PyCharm编辑器的使用
+
+ </description>
+      <itunes:author> wistbean</itunes:author>
+      <itunes:subtitle> </itunes:subtitle>
+      <itunes:summary>  </itunes:summary>
+      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
+      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/47.mp3" length="11702967" type=""/>
+      <guid></guid>
+      <pubDate>Thu, 18 Oct 2018 17:51:03 GMT</pubDate>
+      <itunes:duration>00:08:09</itunes:duration>
+      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+        
+      </psc:chapters>
+    </item>
+    
+    <item>
       <title>终身成长:别让思维毁了自己</title>
       <description> 
         
@@ -26,7 +81,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-gqeHYZoW&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-YNDxgtgh&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -100,7 +155,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-NPTuxbWU&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-SadCLfTd&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -163,7 +218,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-vGTLmgWg&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-RPNRuaHU&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -436,7 +491,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-FMUestjx&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-wHlLGGnU&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -476,7 +531,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-WYhOITxj&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-YPWKAMin&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
