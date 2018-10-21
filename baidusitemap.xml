@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://www.wistbean.com/use-banwagong.html</loc>
-    <lastmod>2018-10-21T21:01:05.508Z</lastmod>
+    <lastmod>2018-10-21T21:04:56.138Z</lastmod>
     <data>
         <display>
         <title>优惠购买搬瓦工搭建自己的VPN并开启BBR加速访问</title>
@@ -17,6 +17,12 @@
          
          
            
+             
+              <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
+          
+             
+              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/%E6%90%AC%E7%93%A6%E5%B7%A5/vpn/"/>
+          
         </display>
     </data>
     </url>
@@ -207,15 +213,15 @@
          
         <tag>Maven</tag>
          
-        <tag>EasyUI</tag>
-         
-        <tag>SSM视频教程</tag>
-         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>SSM视频教程</tag>
          
         <tag>redis</tag>
          
@@ -930,6 +936,8 @@
          
         <tag>Git</tag>
          
+        <tag>GitHub</tag>
+         
         <tag>Java</tag>
          
         <tag>Java视频教程</tag>
@@ -941,8 +949,6 @@
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
-         
-        <tag>GitHub</tag>
          
          
            
