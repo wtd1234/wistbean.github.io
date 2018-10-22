@@ -58,7 +58,7 @@
 <meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/ss3.png">
 <meta property="og:image" content="http://owx1uvd7t.bkt.clouddn.com/ss4.png">
 <meta property="og:image" content="http://owh7v964r.bkt.clouddn.com/ss7.png">
-<meta property="og:updated_time" content="2018-10-21T21:04:56.138Z">
+<meta property="og:updated_time" content="2018-10-22T19:58:42.799Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="优惠购买搬瓦工搭建自己的VPN并开启BBR加速访问">
 <meta name="twitter:description" content="为什么选择搬瓦工VPS之前购买了不同商家的云服务器，有阿里云的VPS，也有腾讯云VPS，还有亚马逊的VPS，最后觉得最好用的还是搬瓦工VPS。 相比较而言性价比高，而且搬瓦工是国外的，你懂的，没有什么审核限制，一般来说，使用搬瓦工搭建一个自己的 VPN 来访问 Google 查询资料，看看文献什么的速度还是很快的。 搬瓦工优惠码很多人不知道，搬搬瓦工官网隐藏了一个彩蛋，就是隐藏了优惠码，这个优惠码">
@@ -341,13 +341,17 @@
 </ul>
 <p>连接到你的搬瓦工服务器之后，接下来几个命令让你快速搭建一个属于自己的ss服务器：</p>
 <ol>
-<li>搬瓦工安装 wget <figure class="highlight plain"><figcaption><span>install wget```</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2. 搬瓦工执行安装shadowsocks</span><br></pre></td></tr></table></figure>
+<li><p>搬瓦工安装 wget</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install wget</span><br></pre></td></tr></table></figure>
 </li>
-</ol>
-<p>wget –no-check-certificate -O shadowsocks.sh <a href="https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh" target="_blank" rel="noopener">https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3. 搬瓦工获取shadowsocks.sh读取权限</span><br></pre></td></tr></table></figure></p>
-<p>chmod +x shadowsocks.sh<br><code>`</code></p>
-<ol start="4">
-<li>设置密码和端口号<br>当你输入<code>chmod +x shadowsocks.sh</code>后就可以设置密码和端口号了：<figure class="image-bubble">
+<li><p>搬瓦工执行安装shadowsocks</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget –no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>搬瓦工获取shadowsocks.sh读取权限</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x shadowsocks.sh</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>设置密码和端口号<br>当你输入<code>chmod +x shadowsocks.sh</code>后就可以设置密码和端口号了：</p>
+<figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
                     <img src="http://owx1uvd7t.bkt.clouddn.com/ss1.png" alt="搬瓦工搭建ss" title="">
@@ -413,7 +417,7 @@
     <div class="content">
       <!--  
 <span class="post-time">
-    最后更新时间：<time datetime="2018-10-21T21:04:56.138Z" itemprop="dateUpdated">2018-10-22 05:04:56</time>
+    最后更新时间：<time datetime="2018-10-22T19:58:42.799Z" itemprop="dateUpdated">2018-10-23 03:58:42</time>
 </span><br>
 
 
@@ -421,7 +425,6 @@
         本站所有文章均为原创，转载请注明出处：url_for(page.permalink)
         
         -->
-
         本站所有文章均为原创，转载请注明出处：
         <a href="https://www.wistbean.com/use-banwagong.html">
                    wistbean|肯定会
