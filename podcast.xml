@@ -20,7 +20,28 @@
     
     <item>
       <title>python 爬虫应该学习什么知识点？</title>
-      <description> 什么是爬虫如果说把互联网比喻成蜘蛛网，那么爬虫就是在这张网上的蜘蛛，它可以在上面爬来爬去。在互联网中，爬虫就是机器人，你应该对百度和 Google 很熟悉吧，为什么我们可以很快的从它们的搜索引擎中获取到资料呢？
+      <description> 
+        
+            
+        
+        
+          var ap = new APlayer({
+            element: document.getElementById(&amp;quot;aplayer-ZZOPkpBD&amp;quot;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &amp;quot;python 爬虫应该学习什么知识点？&amp;quot;,
+              author: &amp;quot;wistbean|肯定会电台&amp;quot;,
+              url: &amp;quot;http://owx1uvd7t.bkt.clouddn.com/47.mp3&amp;quot;,
+              pic: &amp;quot;&amp;quot;,
+              lrc: &amp;quot;&amp;quot;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        
+什么是爬虫如果说把互联网比喻成蜘蛛网，那么爬虫就是在这张网上的蜘蛛，它可以在上面爬来爬去。在互联网中，爬虫就是机器人，你应该对百度和 Google 很熟悉吧，为什么我们可以很快的从它们的搜索引擎中获取到资料呢？
 原因就是它们都有自己的爬虫，在整个互联网上，24小时不间断的爬取那些愿意让它们爬取的网站内容，爬虫将这些内容的索引保存下来，放到百度自己的数据库里面，所以用户搜索的时候，就能很快的搜到你要的网站。
 
                 
@@ -81,7 +102,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-krxEwcOs&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-OuoDfyKD&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -155,7 +176,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-hOMEDpMH&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-qjaFMBve&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -218,7 +239,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-RmMDYvYy&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-UibgBdAT&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -464,6 +485,26 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
     </item>
     
     <item>
+      <title>通过互联网赚取你的第一桶金</title>
+      <description> 
+
+内容通过互联网赚钱的 9 种渠道
+肯定会电台相关肯定会电台肯定会电台RSS订阅
+ </description>
+      <itunes:author> wistbean</itunes:author>
+      <itunes:subtitle> </itunes:subtitle>
+      <itunes:summary>  </itunes:summary>
+      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
+      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/38.mp3" length="14698979" type=""/>
+      <guid></guid>
+      <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
+      <itunes:duration>00:17:29</itunes:duration>
+      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+        
+      </psc:chapters>
+    </item>
+    
+    <item>
       <title>你的个人隐私被泄露了，咋办？</title>
       <description> 
         
@@ -471,7 +512,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-ttIzWqTR&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-wNSJOXSZ&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -504,26 +545,6 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
     </item>
     
     <item>
-      <title>通过互联网赚取你的第一桶金</title>
-      <description> 
-
-内容通过互联网赚钱的 9 种渠道
-肯定会电台相关肯定会电台肯定会电台RSS订阅
- </description>
-      <itunes:author> wistbean</itunes:author>
-      <itunes:subtitle> </itunes:subtitle>
-      <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/38.mp3" length="14698979" type=""/>
-      <guid></guid>
-      <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
-      <itunes:duration>00:17:29</itunes:duration>
-      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
-        
-      </psc:chapters>
-    </item>
-    
-    <item>
       <title>找到你要的资源，Google高级搜索技巧</title>
       <description> 
         
@@ -531,7 +552,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-PmmObkef&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-QkBIpDaK&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
