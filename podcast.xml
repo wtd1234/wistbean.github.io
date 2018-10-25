@@ -26,7 +26,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-ZZOPkpBD&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-pwQBkCgQ&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -102,7 +102,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-OuoDfyKD&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-gRumPvvY&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -176,7 +176,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-qjaFMBve&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-PufRYtfO&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -239,7 +239,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-UibgBdAT&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-qPXBsyAT&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -512,7 +512,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-wNSJOXSZ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-sGSlCbjo&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -552,7 +552,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-QkBIpDaK&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-OJhRFPFl&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
