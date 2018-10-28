@@ -3,6 +3,32 @@
 
 
     
+  <url>
+    <loc>https://www.wistbean.com/python-spider-dangdang.html</loc>
+    <lastmod>2018-10-28T08:52:29.808Z</lastmod>
+    <data>
+        <display>
+        <title>Python爬取当当网最受欢迎的 500 本书</title>
+        <pubTime>2018-10-28T08:03:48.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>python</tag>
+         
+        <tag>python爬虫</tag>
+         
+        <tag>python基础</tag>
+         
+         
+           
+             
+              <breadCrumb title="python" url="https://www.wistbean.com/categories/python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>https://www.wistbean.com/5s-can-change-your-life.html</loc>
@@ -12,9 +38,9 @@
         <title>改变了生活的 5 秒钟</title>
         <pubTime>2018-10-26T08:50:19.000Z</pubTime>
         
-        <tag>个人提升</tag>
-         
         <tag>肯定会电台</tag>
+         
+        <tag>个人提升</tag>
          
         <tag>精华分享</tag>
          
@@ -42,17 +68,17 @@
         <title>hexo搭建个人网站博客完全教程</title>
         <pubTime>2018-08-30T11:38:13.000Z</pubTime>
         
+        <tag>个人网站</tag>
+         
         <tag>搬瓦工</tag>
          
-        <tag>个人网站</tag>
+        <tag>Git</tag>
          
         <tag>教程</tag>
          
         <tag>hexo</tag>
          
         <tag>blog</tag>
-         
-        <tag>Git</tag>
          
         <tag>Nginx</tag>
          
@@ -320,9 +346,9 @@
         <title>读书:一个年轻人和老人的故事</title>
         <pubTime>2018-09-13T17:45:26.000Z</pubTime>
         
-        <tag>个人提升</tag>
-         
         <tag>肯定会电台</tag>
+         
+        <tag>个人提升</tag>
          
         <tag>精华分享</tag>
          
@@ -616,9 +642,9 @@
         <title>终身成长:别让思维毁了自己</title>
         <pubTime>2018-10-12T11:25:30.000Z</pubTime>
         
-        <tag>个人提升</tag>
-         
         <tag>互联网</tag>
+         
+        <tag>个人提升</tag>
          
          
            
@@ -646,9 +672,9 @@
         
         <tag>肯定会电台</tag>
          
-        <tag>个人网站</tag>
-         
         <tag>互联网</tag>
+         
+        <tag>个人网站</tag>
          
         <tag>人工智能</tag>
          
@@ -1039,11 +1065,11 @@
         <title>「1-4」GitHub完全使用指南</title>
         <pubTime>2018-08-29T09:25:21.000Z</pubTime>
         
-        <tag>教程</tag>
+        <tag>GitHub</tag>
          
         <tag>Git</tag>
          
-        <tag>GitHub</tag>
+        <tag>教程</tag>
          
         <tag>Java</tag>
          
@@ -1116,9 +1142,9 @@
         <title>「1-3」代码托管Git的使用</title>
         <pubTime>2018-08-29T09:25:20.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Git</tag>
+         
+        <tag>教程</tag>
          
         <tag>Java</tag>
          
@@ -1466,9 +1492,9 @@
         
         <tag>肯定会电台</tag>
          
-        <tag>个人网站</tag>
-         
         <tag>互联网</tag>
+         
+        <tag>个人网站</tag>
          
          
            
@@ -1522,9 +1548,9 @@
         <title>GitHub是什么？如何使用？</title>
         <pubTime>2018-09-15T11:53:09.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>GitHub</tag>
+         
+        <tag>Git</tag>
          
          
            
