@@ -38,18 +38,18 @@
     
     
     <meta name="keywords" content="数据结构,算法,修炼内功,复杂度分析">
-    <meta name="description" content="12345678int cal(int n)&amp;#123;        int sum = 0;        int i = 1;        for (; i &amp;lt;= n ; ++i) &amp;#123;            sum += i;        &amp;#125;    &amp;#125; 这一段求和代码中，第 2、3 行分别要执行一个 unit_time 的时间。 第 5、6 行分别需要">
+    <meta name="description" content="大 O 时间表示法12345678int cal(int n)&amp;#123;        int sum = 0;        int i = 1;        for (; i &amp;lt;= n ; ++i) &amp;#123;            sum += i;        &amp;#125;    &amp;#125; 这一段求和代码中，第 2、3 行分别要执行一个 unit_time 的时间。 第">
 <meta name="keywords" content="数据结构,算法,修炼内功,复杂度分析">
 <meta property="og:type" content="article">
 <meta property="og:title" content="算法中的时间复杂度分析">
 <meta property="og:url" content="https://www.wistbean.com/space-complexity.html">
 <meta property="og:site_name" content="肯定会">
-<meta property="og:description" content="12345678int cal(int n)&amp;#123;        int sum = 0;        int i = 1;        for (; i &amp;lt;= n ; ++i) &amp;#123;            sum += i;        &amp;#125;    &amp;#125; 这一段求和代码中，第 2、3 行分别要执行一个 unit_time 的时间。 第 5、6 行分别需要">
+<meta property="og:description" content="大 O 时间表示法12345678int cal(int n)&amp;#123;        int sum = 0;        int i = 1;        for (; i &amp;lt;= n ; ++i) &amp;#123;            sum += i;        &amp;#125;    &amp;#125; 这一段求和代码中，第 2、3 行分别要执行一个 unit_time 的时间。 第">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-10-29T13:44:50.750Z">
+<meta property="og:updated_time" content="2018-10-29T18:03:31.221Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="算法中的时间复杂度分析">
-<meta name="twitter:description" content="12345678int cal(int n)&amp;#123;        int sum = 0;        int i = 1;        for (; i &amp;lt;= n ; ++i) &amp;#123;            sum += i;        &amp;#125;    &amp;#125; 这一段求和代码中，第 2、3 行分别要执行一个 unit_time 的时间。 第 5、6 行分别需要">
+<meta name="twitter:description" content="大 O 时间表示法12345678int cal(int n)&amp;#123;        int sum = 0;        int i = 1;        for (; i &amp;lt;= n ; ++i) &amp;#123;            sum += i;        &amp;#125;    &amp;#125; 这一段求和代码中，第 2、3 行分别要执行一个 unit_time 的时间。 第">
     
         <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
     
@@ -188,6 +188,13 @@
 
 <div class="container body-wrap">
     
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>目录</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#大-O-时间表示法"><span class="post-toc-number">1.</span> <span class="post-toc-text">大 O 时间表示法</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#时间复杂度分析"><span class="post-toc-number">2.</span> <span class="post-toc-text">时间复杂度分析</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#常见的复杂度"><span class="post-toc-number">3.</span> <span class="post-toc-text">常见的复杂度</span></a></li></ol>
+        </nav>
+    </aside>
+
 
 <article id="post-space-complexity"
   class="post-article article-type-post fade" itemprop="blogPost">
@@ -210,10 +217,46 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> sum = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> i = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (; i &lt;= n ; ++i) &#123;</span><br><span class="line">            sum += i;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<p>这一段求和代码中，第 2、3 行分别要执行一个 unit_time 的时间。 第 5、6 行分别需要执行 n 个unit_time 的时间。<br>整段代码所需要执行的时间T(n) = 2*unit_time + 2n*unit_time = <code>(2+2n)*unit_time</code></p>
+            <h1 id="大-O-时间表示法"><a href="#大-O-时间表示法" class="headerlink" title="大 O 时间表示法"></a>大 O 时间表示法</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> sum = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> i = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (; i &lt;= n ; ++i) &#123;</span><br><span class="line">            sum += i;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>这一段求和代码中，第 2、3 行分别要执行一个 unit_time 的时间。 第 5、6 行分别需要执行 n 个unit_time 的时间。</p>
+<p>整段代码所需要执行的时间T(n) = 2*unit_time + 2n*unit_time = <code>(2+2n)*unit_time</code></p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal2</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> i = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">int</span> j = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">int</span> sum = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (; i &lt;= n ; ++i) &#123;</span><br><span class="line">            j = <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">for</span> (; j &lt;= n ; ++j) &#123;</span><br><span class="line">                sum = sum + i*j;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<p>这段代码中，第 3、4、5 分别要执行一个 unit_time 的时间。第 7、8 行分别要执行 n 个 unit_time 的时间。第 9、10 行分别要执行 n^2 个unit_time 的时间。<br>所以这段代码所需要执行的时间T(n) = (3+2n+2n^2)*unit_time</p>
+<p>这段代码中，第 3、4、5 分别要执行一个 unit_time 的时间。第 7、8 行分别要执行 n 个 unit_time 的时间。第 9、10 行分别要执行 n<sup>2</sup> 个unit_time 的时间。<br>所以这段代码所需要执行的时间为<code>T(n) = (3+2n+2n^2)*unit_time</code></p>
+<p>由此可见，代码执行时间与数据规模大小有关，从以下这两个公式中可以得出<em>大 O 时间表示法</em>。</p>
+<blockquote>
+<p>T(n) = (2+2n)*unit_time<br>T(n) = (3+2n+2n<sup>2</sup>)*unit_time</p>
+</blockquote>
+<p><em>T(n) = O(&fnof;(n))</em> : 大 O 时间表示法，表示数据规模增长的越高，执行时间越久。因为公式中的常量和系数并不会影响它们之间的关系，所以可以忽略，以上两个公式就可以简写为：</p>
+<blockquote>
+<p>T(n) = O(n)<br>T(n) = O(n<sup>2</sup>)</p>
+</blockquote>
+<h1 id="时间复杂度分析"><a href="#时间复杂度分析" class="headerlink" title="时间复杂度分析"></a>时间复杂度分析</h1><p>明白了「大 O 时间表示法」之后，来试着分析一下代码的时间复杂度，由于 T(n) = O(&fnof;(n)) 中，对常量，系数可以忽略不计，那么在上面两段代码中，只需要去分析代码中循环次数最多的代码就可以了，比如在一段代码中，只需要分析：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (; i &lt;= n ; ++i) &#123;</span><br><span class="line">           sum += i;</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure>
+<p>可以得出第一段代码中的时间复杂度为 O(n)。</p>
+<p>在第二段代码中，只需要分析：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (; i &lt;= n ; ++i) &#123;</span><br><span class="line">            j = <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">for</span> (; j &lt;= n ; ++j) &#123;</span><br><span class="line">                sum = sum + i*j;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+<p>可以得出第二段代码中的时间复杂度为 O(n<sup>2</sup>)</p>
+<p>那么在一段代码中，有多段循环的代码，怎么分析呢？比如以下这样的代码：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">cal3</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> sum_1 = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> p = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span> (; p &lt; <span class="number">100</span>; ++p) &#123;</span><br><span class="line">            sum_1 += p;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum_2 = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> q = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span> (; q &lt; n; ++q) &#123;</span><br><span class="line">            sum_1 += p;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> sum_3 = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">int</span> i = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">int</span> j = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span> (; i &lt; n; ++i) &#123;</span><br><span class="line">            <span class="keyword">for</span> (; j &lt; n; ++j) &#123;</span><br><span class="line">                sum_3 += j;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> sum_1+sum_2+sum_3;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>这段代码主要是得出sum_1+sum_2+sum_3。通过分析可以得到第一小段代码执行 100 次，是常量，所以时间复杂度是 O(n)。第二小段代码时间复杂度是 O(n)。第三小段代码的时间复杂度是 O(n<sup>2</sup>)。<br>那么这个时候就可以<em>取复杂度最大</em>的，也就是说这整段代码的时间复杂度为 O(n<sup>2</sup>)。</p>
+<blockquote>
+<p>加法法则：当 T1(n) = O(f(n)),T2(n) = O(g(n)) , 则 T(n) = O(max(f(n),g(n)))</p>
+</blockquote>
+<p>还有一种嵌套代码的情况，比如这样的：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">cal4</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">       <span class="keyword">int</span> sum = <span class="number">0</span>;</span><br><span class="line">       <span class="keyword">int</span> i = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">       <span class="keyword">for</span> (; i &lt; n; ++i) &#123;</span><br><span class="line">           sum = sum + f(i);</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">       <span class="keyword">return</span> sum;</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">f</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">       <span class="keyword">int</span> sum = <span class="number">0</span>;</span><br><span class="line">       <span class="keyword">int</span> i = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">       <span class="keyword">for</span> (; i &lt; n; ++i) &#123;</span><br><span class="line">           sum = sum + i;</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">       <span class="keyword">return</span> sum;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
+<p>在第 6 行代码中，去调用了一个时间复杂度为 O(n) 的的函数，而第 5、6 行的时间复杂度本身就是 O(n),所以这整段代码的时间复杂度就是 T(n) = O(n) * O(n) = O(n<sup>2</sup>)。</p>
+<p>所以，在嵌套代码中，时间复杂度就是嵌套代码内外复杂度的乘积。</p>
+<h1 id="常见的复杂度"><a href="#常见的复杂度" class="headerlink" title="常见的复杂度"></a>常见的复杂度</h1><p>复杂度由低到高如下：</p>
+<ol>
+<li>O(1)</li>
+<li>O(logn)</li>
+<li>O(n)</li>
+<li>O(nlogn)</li>
+<li>O(n<sup>2</sup>)</li>
+</ol>
+<p>对于 O(logn) 复杂度：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">i = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">while</span>(i&lt;n)&#123;</span><br><span class="line">    i = i*<span class="number">2</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>在这里循环执行了 i=i*2,列出来就是:2<sup>x</sup>=n,也就是log<sub>2</sub>n=x;底数2可以忽略不计，所以复杂度为O(logn)</p>
 
         </div>
 
@@ -222,7 +265,7 @@
     <div class="content">
       <!--  
 <span class="post-time">
-    最后更新时间：<time datetime="2018-10-29T13:44:50.750Z" itemprop="dateUpdated">2018-10-29 21:44:50</time>
+    最后更新时间：<time datetime="2018-10-29T18:03:31.221Z" itemprop="dateUpdated">2018-10-30 02:03:31</time>
 </span><br>
 
 
