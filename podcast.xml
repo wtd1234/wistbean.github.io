@@ -19,6 +19,73 @@
     <language>zh-CN</language>
     
     <item>
+      <title>当一个斜杆青年怎么样</title>
+      <description> 
+        
+            
+        
+        
+          var ap = new APlayer({
+            element: document.getElementById(&amp;quot;aplayer-XoLuklzv&amp;quot;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &amp;quot;当一个斜杆青年怎么样&amp;quot;,
+              author: &amp;quot;wistbean|肯定会&amp;quot;,
+              url: &amp;quot;/podcast/49.mp3&amp;quot;,
+              pic: &amp;quot;&amp;quot;,
+              lrc: &amp;quot;&amp;quot;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        
+你是不是常常听到这样的话：
+你想实现财富自由么？你想活出自己，遵从自己内心去做自己喜欢的事情么？你想拥有一切你想要的东西么？
+
+那就去做梦吧！
+
+但今天，我想说，不用去做梦，也许也可以做到，你信么？今天跟你谈谈斜杆青年。
+什么是斜杆青年斜杆青年,说的是拥有多重职业和身份的多元生活人群。
+斜杆，就是 / ，如果有人在做文字版的自我介绍，诸如：「职位：作者/开发者/摄影师」 ，那么就说明他是一个斜杆人士。他们在自己喜欢的领域，开启自己的斜杆人生。
+为什么要当一名斜杆青年很久以来，人们都觉得你的经验价值在于你是否长期的，单一的在你熟悉的领域做一件事，这样才能成为专家。话说的没错，但是如果能够「一专多能」，是不是更好呢？毕竟人就活一次，可以多发掘自己身上更多的可能性嘛。
+有很多人想要当一个斜杆青年，但是又觉得好像违背了什么，害怕些什么，感觉自己内心想要的和现实不一致。
+但其实自己的生命意义并不是要按照别人的规定来，生命的意义本身就没有绝对的标准，没有好坏，没有对错。能让自己的生命更加的完整，为什么不做呢？
+看过一句很触动我的话：人可以不成功，但是不能不听从自己的内心。
+斜杆青年好当么？如果放在以前，斜杆青年确实不太实际，但是现在网络科技突飞猛进的发展着，就没有什么不可能的事，斜杆已经是全新的价值观，是一个新时代的产物了。
+斜杆青年有两个显著的特点：
+
+
+多重职业
+多重收入
+
+
+一个程序员除了敲代码外，他也可以帮人摄影，他也可以写作。一个医生除了帮人看病外，他也可以讲课，科普知识。他们不给自己设限，不断学习，锻炼自个儿，成为斜杆，拥有更多的收入。这本身就是一件很酷的事。
+看起来好像不错啊，但是你愿意打破现状，勇敢的走出第一步，给自己加上一条斜杆么？
+斜杆青年在追求尽早的实现财富自由，但是重点不在财富上，而是「自由」两字，能够有更多自己的时间分配自由，有拒绝别人的自由，做自己想做的事情。
+在斜杆这条路上，需要很强的自制力，不断的学习，自我知识积累，有多元的兴趣和专长，还要不停的试错，不停的实践。在斜杆的人群里，成功的对立面不是失败，而是学习。
+对于我自己而言，我自己有着开放的心态，我觉得以后将会越来越少人朝九晚五按部就班的工作，远程办公，数字游民的生活方式会越来越流行，我不会给自己的人生设限，前两天主持人李咏和大侠金庸相继逝世，都在惋惜和心痛，但不得不承认，再牛逼的人，也有一天会走到终点，所以我觉得人就活一次，人生长度有限，但是生活的维度可以多重。
+假如你在自己的领域中还额外会别的技能，这不就加分了吗?我经常会鼓励身边的朋友在业余的时间学习点自己感兴趣的东西，说不定以后这技能会给自己带来惊喜呢。
+比如说你会技术，但是你又会写作，还会产品，还长得好看等，那么你会发现，你接下来要走的路比其他「单一」的人会宽的多。
+像我现在是一名技术人，但是也在写作，做视频，做podcast，做产品等，这都是我，我会花更多的时间去学习，去执行，一步一步的去完善我的斜杆人生。
+因为我想成长到配得上「自由」的生活，毕竟，人只有在为自己努力的时候，才会拥有最强大的动力。
+当然，活法有很多种，这只是其中的一种生活方式，做到骨灰级的专家和多元发展，都没有绝对的标准，也没有好坏之分，不同的人，想法不同罢了。
+ </description>
+      <itunes:author> wistbean</itunes:author>
+      <itunes:subtitle> </itunes:subtitle>
+      <itunes:summary>  </itunes:summary>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/49.mp3" length="9104229" type=""/>
+      <guid></guid>
+      <pubDate>Thu, 01 Nov 2018 10:30:26 GMT</pubDate>
+      <itunes:duration>00:06:18</itunes:duration>
+      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+        
+      </psc:chapters>
+    </item>
+    
+    <item>
       <title>改变了生活的 5 秒钟</title>
       <description> 
         
@@ -26,14 +93,14 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-IPiJrzzo&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-PMVUKOMy&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &amp;quot;改变了生活的 5 秒钟&amp;quot;,
               author: &amp;quot;wistbean|肯定会&amp;quot;,
-              url: &amp;quot;http://owh7v964r.bkt.clouddn.com/48.mp3&amp;quot;,
+              url: &amp;quot;/podcast/48.mp3&amp;quot;,
               pic: &amp;quot;&amp;quot;,
               lrc: &amp;quot;&amp;quot;
             }
@@ -86,8 +153,8 @@
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owh7v964r.bkt.clouddn.com/48.mp3" length="11492743" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/48.mp3" length="11492743" type=""/>
       <guid></guid>
       <pubDate>Fri, 26 Oct 2018 08:50:19 GMT</pubDate>
       <itunes:duration>00:07:58</itunes:duration>
@@ -104,14 +171,14 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-OiecoNBt&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-wvpnbgmJ&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &amp;quot;python 爬虫应该学习什么知识点？&amp;quot;,
               author: &amp;quot;wistbean|肯定会电台&amp;quot;,
-              url: &amp;quot;http://owx1uvd7t.bkt.clouddn.com/47.mp3&amp;quot;,
+              url: &amp;quot;/images/47.mp3&amp;quot;,
               pic: &amp;quot;&amp;quot;,
               lrc: &amp;quot;&amp;quot;
             }
@@ -162,8 +229,8 @@ PyCharm编辑器的使用
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/47.mp3" length="11702967" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/47.mp3" length="11702967" type=""/>
       <guid></guid>
       <pubDate>Thu, 18 Oct 2018 17:51:03 GMT</pubDate>
       <itunes:duration>00:08:09</itunes:duration>
@@ -180,14 +247,14 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-wBTlWfDT&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-jUXKQIBj&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &amp;quot;怎么才能让自己不要成为韭菜&amp;quot;,
               author: &amp;quot;wistbean&amp;quot;,
-              url: &amp;quot;http://owx1uvd7t.bkt.clouddn.com/46.mp3&amp;quot;,
+              url: &amp;quot;/images/46.mp3&amp;quot;,
               pic: &amp;quot;&amp;quot;,
               lrc: &amp;quot;&amp;quot;
             }
@@ -233,8 +300,8 @@ PyCharm编辑器的使用
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/46.mp3" length="13173722" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/46.mp3" length="13173722" type=""/>
       <guid></guid>
       <pubDate>Fri, 12 Oct 2018 11:25:30 GMT</pubDate>
       <itunes:duration>00:09:08</itunes:duration>
@@ -254,14 +321,14 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-zJkcdahS&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-VuRUpkjD&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &amp;quot;AI即将夺走人们的主控权和决策能力&amp;quot;,
               author: &amp;quot;wistbean&amp;quot;,
-              url: &amp;quot;http://owx1uvd7t.bkt.clouddn.com/45.mp3&amp;quot;,
+              url: &amp;quot;/images/45.mp3&amp;quot;,
               pic: &amp;quot;&amp;quot;,
               lrc: &amp;quot;&amp;quot;
             }
@@ -299,8 +366,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/45.mp3" length="11536215" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/45.mp3" length="11536215" type=""/>
       <guid></guid>
       <pubDate>Fri, 05 Oct 2018 08:23:43 GMT</pubDate>
       <itunes:duration>00:08:00</itunes:duration>
@@ -317,14 +384,14 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-sksSHHRc&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-hItbfnzC&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &amp;quot;怎么才能让自己不要成为韭菜&amp;quot;,
               author: &amp;quot;wistbean&amp;quot;,
-              url: &amp;quot;http://owx1uvd7t.bkt.clouddn.com/44_2.mp3&amp;quot;,
+              url: &amp;quot;/images/44_2.mp3&amp;quot;,
               pic: &amp;quot;&amp;quot;,
               lrc: &amp;quot;&amp;quot;
             }
@@ -385,8 +452,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/44_2.mp3" length="16014229" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/44_2.mp3" length="16014229" type=""/>
       <guid></guid>
       <pubDate>Thu, 27 Sep 2018 14:19:47 GMT</pubDate>
       <itunes:duration>00:11:06</itunes:duration>
@@ -418,8 +485,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/43.mp3" length="13084931" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/43.mp3" length="13084931" type=""/>
       <guid></guid>
       <pubDate>Fri, 21 Sep 2018 11:04:39 GMT</pubDate>
       <itunes:duration>00:09:04</itunes:duration>
@@ -511,8 +578,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/42.mp3" length="24229754" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/42.mp3" length="24229754" type=""/>
       <guid></guid>
       <pubDate>Thu, 13 Sep 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:16:49</itunes:duration>
@@ -531,8 +598,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/41.mp3" length="11528832" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/41.mp3" length="11528832" type=""/>
       <guid></guid>
       <pubDate>Thu, 06 Sep 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:07:59</itunes:duration>
@@ -552,8 +619,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/40.mp3" length="12975462" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/40.mp3" length="12975462" type=""/>
       <guid></guid>
       <pubDate>Thu, 30 Aug 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:09:00</itunes:duration>
@@ -572,8 +639,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owx1uvd7t.bkt.clouddn.com/38.mp3" length="14698979" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/38.mp3" length="14698979" type=""/>
       <guid></guid>
       <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:17:29</itunes:duration>
@@ -590,14 +657,14 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-yEPDwaDa&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-tnKZquuc&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &amp;quot;你的个人隐私被泄露了，咋办？&amp;quot;,
               author: &amp;quot;wistbean&amp;quot;,
-              url: &amp;quot;http://owh7v964r.bkt.clouddn.com/39.mp3&amp;quot;,
+              url: &amp;quot;/images/39.mp3&amp;quot;,
               pic: &amp;quot;&amp;quot;,
               lrc: &amp;quot;&amp;quot;
             }
@@ -612,8 +679,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owh7v964r.bkt.clouddn.com/39.mp3" length="16568669" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/39.mp3" length="16568669" type=""/>
       <guid></guid>
       <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:11:29</itunes:duration>
@@ -630,14 +697,14 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-HXNFgKGO&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-FGUxndmU&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
             music: {
               title: &amp;quot;找到你要的资源，Google高级搜索技巧&amp;quot;,
               author: &amp;quot;wistbean&amp;quot;,
-              url: &amp;quot;http://owh7v964r.bkt.clouddn.com/37.mp3&amp;quot;,
+              url: &amp;quot;/images/37.mp3&amp;quot;,
               pic: &amp;quot;&amp;quot;,
               lrc: &amp;quot;&amp;quot;
             }
@@ -705,8 +772,8 @@ Google的以图搜图也是很牛逼的，你可以去体验一下。
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="http://owh7v964r.bkt.clouddn.com/cover.jpg" />
-      <enclosure url="http://owh7v964r.bkt.clouddn.com/37.mp3" length="10969421" type=""/>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/37.mp3" length="10969421" type=""/>
       <guid></guid>
       <pubDate>Thu, 02 Aug 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:13:02</itunes:duration>
