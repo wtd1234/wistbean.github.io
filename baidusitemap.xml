@@ -4,6 +4,51 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/java-ssm-4-2.html</loc>
+    <lastmod>2018-11-02T18:19:21.699Z</lastmod>
+    <data>
+        <display>
+        <title>「4-2」 使用 Nginx 访问 FastDSF 文件服务器</title>
+        <pubTime>2018-11-02T13:17:53.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Nginx</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>商品分类管理</tag>
+         
+        <tag>FastDFS</tag>
+         
+        <tag>SecureCRT</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/slash.html</loc>
     <lastmod>2018-11-02T10:19:30.047Z</lastmod>
     <data>
@@ -1425,15 +1470,15 @@
          
         <tag>Maven</tag>
          
-        <tag>EasyUI</tag>
-         
-        <tag>SSM视频教程</tag>
-         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>SSM视频教程</tag>
          
         <tag>redis</tag>
          
