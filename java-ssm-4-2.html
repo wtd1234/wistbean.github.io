@@ -38,18 +38,18 @@
     
     
     <meta name="keywords" content="教程,Nginx,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,商品分类管理,FastDFS,SecureCRT">
-    <meta name="description" content="SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器  Nginx可以做什么呢？Nginx可以做HTTP服务器可以利用它来做一些静态资源的访问服务器，例如我们系统用到的图片，可以用Nginx服务器来专门访问我们的图片系统。 例如，有一个电商的网站，当有商品在系统中上架时，可以将上架的商品图片存放到我们的图片服务器，当我们需要这个商品的详情的时候，就可以通过Nginx去访问相">
+    <meta name="description" content="SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器    Nginx可以做什么呢？Nginx可以做HTTP服务器可以利用它来做一些静态资源的访问服务器，例如我们系统用到的图片，可以用Nginx服务器来专门访问我们的图片系统。 例如，有一个电商的网站，当有商品在系统中上架时，可以将上架的商品图片存放到我们的图片服务器，当我们需要这个商品的详情的时候，就可以通过Nginx去访">
 <meta name="keywords" content="教程,Nginx,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,商品分类管理,FastDFS,SecureCRT">
 <meta property="og:type" content="article">
 <meta property="og:title" content="「4-2」 使用 Nginx 访问 FastDSF 文件服务器">
 <meta property="og:url" content="https://www.wistbean.com/java-ssm-4-2.html">
 <meta property="og:site_name" content="肯定会">
-<meta property="og:description" content="SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器  Nginx可以做什么呢？Nginx可以做HTTP服务器可以利用它来做一些静态资源的访问服务器，例如我们系统用到的图片，可以用Nginx服务器来专门访问我们的图片系统。 例如，有一个电商的网站，当有商品在系统中上架时，可以将上架的商品图片存放到我们的图片服务器，当我们需要这个商品的详情的时候，就可以通过Nginx去访问相">
+<meta property="og:description" content="SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器    Nginx可以做什么呢？Nginx可以做HTTP服务器可以利用它来做一些静态资源的访问服务器，例如我们系统用到的图片，可以用Nginx服务器来专门访问我们的图片系统。 例如，有一个电商的网站，当有商品在系统中上架时，可以将上架的商品图片存放到我们的图片服务器，当我们需要这个商品的详情的时候，就可以通过Nginx去访">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-11-02T18:19:21.699Z">
+<meta property="og:updated_time" content="2018-11-03T05:51:50.922Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="「4-2」 使用 Nginx 访问 FastDSF 文件服务器">
-<meta name="twitter:description" content="SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器  Nginx可以做什么呢？Nginx可以做HTTP服务器可以利用它来做一些静态资源的访问服务器，例如我们系统用到的图片，可以用Nginx服务器来专门访问我们的图片系统。 例如，有一个电商的网站，当有商品在系统中上架时，可以将上架的商品图片存放到我们的图片服务器，当我们需要这个商品的详情的时候，就可以通过Nginx去访问相">
+<meta name="twitter:description" content="SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器    Nginx可以做什么呢？Nginx可以做HTTP服务器可以利用它来做一些静态资源的访问服务器，例如我们系统用到的图片，可以用Nginx服务器来专门访问我们的图片系统。 例如，有一个电商的网站，当有商品在系统中上架时，可以将上架的商品图片存放到我们的图片服务器，当我们需要这个商品的详情的时候，就可以通过Nginx去访">
     
         <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
     
@@ -191,7 +191,7 @@
     <aside class="post-widget">
         <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
             <h4>目录</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#SSM视频教程第4-2节：使用-Nginx-访问-FastDSF-文件服务器"><span class="post-toc-number">1.</span> <span class="post-toc-text">SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Nginx可以做什么呢？"><span class="post-toc-number">2.</span> <span class="post-toc-text">Nginx可以做什么呢？</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Nginx可以做HTTP服务器"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">Nginx可以做HTTP服务器</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Nginx可以做虚拟主机"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">Nginx可以做虚拟主机</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Nginx可以进行负载均衡的反向代理"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">Nginx可以进行负载均衡的反向代理</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Nginx在Linux上安装"><span class="post-toc-number">3.</span> <span class="post-toc-text">Nginx在Linux上安装</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#首先需要安装Nginx的依赖环境："><span class="post-toc-number">3.1.</span> <span class="post-toc-text">首先需要安装Nginx的依赖环境：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#下载Nginx"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">下载Nginx</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#解压Nginx"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">解压Nginx</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#参数配置"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">参数配置</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#编译安装"><span class="post-toc-number">3.5.</span> <span class="post-toc-text">编译安装</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#启动"><span class="post-toc-number">3.6.</span> <span class="post-toc-text">启动</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#关闭"><span class="post-toc-number">3.7.</span> <span class="post-toc-text">关闭</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#重新加载配置文件"><span class="post-toc-number">3.8.</span> <span class="post-toc-text">重新加载配置文件</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#SSM视频教程目录"><span class="post-toc-number">4.</span> <span class="post-toc-text">SSM视频教程目录</span></a></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#SSM视频教程第4-2节：使用-Nginx-访问-FastDSF-文件服务器"><span class="post-toc-number">1.</span> <span class="post-toc-text">SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Nginx可以做什么呢？"><span class="post-toc-number">2.</span> <span class="post-toc-text">Nginx可以做什么呢？</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Nginx可以做HTTP服务器"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">Nginx可以做HTTP服务器</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Nginx可以做虚拟主机"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">Nginx可以做虚拟主机</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Nginx可以进行负载均衡的反向代理"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">Nginx可以进行负载均衡的反向代理</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Nginx在Linux上安装"><span class="post-toc-number">3.</span> <span class="post-toc-text">Nginx在Linux上安装</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#首先需要安装Nginx的依赖环境："><span class="post-toc-number">3.1.</span> <span class="post-toc-text">首先需要安装Nginx的依赖环境：</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#下载Nginx"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">下载Nginx</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#解压Nginx"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">解压Nginx</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#参数配置"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">参数配置</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#编译安装"><span class="post-toc-number">3.5.</span> <span class="post-toc-text">编译安装</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#启动"><span class="post-toc-number">3.6.</span> <span class="post-toc-text">启动</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#关闭"><span class="post-toc-number">3.7.</span> <span class="post-toc-text">关闭</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#重新加载配置文件"><span class="post-toc-number">3.8.</span> <span class="post-toc-text">重新加载配置文件</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#相关"><span class="post-toc-number">4.</span> <span class="post-toc-text">相关</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#SSM视频教程目录"><span class="post-toc-number">5.</span> <span class="post-toc-text">SSM视频教程目录</span></a></li></ol>
         </nav>
     </aside>
 
@@ -217,7 +217,7 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <h1 id="SSM视频教程第4-2节：使用-Nginx-访问-FastDSF-文件服务器"><a href="#SSM视频教程第4-2节：使用-Nginx-访问-FastDSF-文件服务器" class="headerlink" title="SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器"></a>SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器</h1><iframe width="641" height="385" src="https://www.youtube.com/embed/GCppfRCS2ds" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1 id="SSM视频教程第4-2节：使用-Nginx-访问-FastDSF-文件服务器"><a href="#SSM视频教程第4-2节：使用-Nginx-访问-FastDSF-文件服务器" class="headerlink" title="SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器"></a>SSM视频教程第4-2节：使用 Nginx 访问 FastDSF 文件服务器</h1> <iframe src="//player.bilibili.com/player.html?aid=35159487&cid=61603656&page=1" width="681" height="385" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 <h1 id="Nginx可以做什么呢？"><a href="#Nginx可以做什么呢？" class="headerlink" title="Nginx可以做什么呢？"></a>Nginx可以做什么呢？</h1><h2 id="Nginx可以做HTTP服务器"><a href="#Nginx可以做HTTP服务器" class="headerlink" title="Nginx可以做HTTP服务器"></a>Nginx可以做HTTP服务器</h2><p>可以利用它来做一些静态资源的访问服务器，例如我们系统用到的图片，可以用Nginx服务器来专门访问我们的图片系统。</p>
 <p>例如，有一个电商的网站，当有商品在系统中上架时，可以将上架的商品图片存放到我们的图片服务器，当我们需要这个商品的详情的时候，就可以通过Nginx去访问相应的图片。nginx比apache占用的cpu资源少，在高并发的情况下能保持低资源低消耗高性能。</p>
@@ -349,7 +349,8 @@ make install
 </code></pre><p>开始启动了…</p>
 <h2 id="关闭"><a href="#关闭" class="headerlink" title="关闭"></a>关闭</h2><pre><code>./nginx -s stop
 </code></pre><h2 id="重新加载配置文件"><a href="#重新加载配置文件" class="headerlink" title="重新加载配置文件"></a>重新加载配置文件</h2><pre><code>./nginx -s reload
-</code></pre><h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul>
+</code></pre><h1 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h1><p><a href="https://www.wistbean.com/java-ssm-4-1.html">Java文件服务器 FastDFS 的搭建教程</a></p>
+<h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul>
 <li><a href="https://www.wistbean.com/java-ssm-video.html#SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B%E7%9B%AE%E5%BD%95">SSM视频教程目录</a></li>
 </ul>
 
@@ -360,7 +361,7 @@ make install
     <div class="content">
       <!--  
 <span class="post-time">
-    最后更新时间：<time datetime="2018-11-02T18:19:21.699Z" itemprop="dateUpdated">2018-11-03 02:19:21</time>
+    最后更新时间：<time datetime="2018-11-03T05:51:50.922Z" itemprop="dateUpdated">2018-11-03 13:51:50</time>
 </span><br>
 
 
