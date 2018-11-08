@@ -26,7 +26,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-ezTKhHtB&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-QErBNOFt&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -93,7 +93,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-OiPLTCvJ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-fhgjCSlG&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -171,7 +171,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-IBMMKLTt&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-uIWFuXpq&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -247,7 +247,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-xmIHcNtU&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-OZhGNbpK&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -321,7 +321,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-fKkEzAMb&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-dLDqHttY&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -384,7 +384,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-DyCVHzsL&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-rkTdmrDz&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -637,7 +637,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-GxMNCFIQ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-GRddsYVS&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -697,7 +697,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-qxHVCoOP&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-HoBmSBlL&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
