@@ -19,6 +19,90 @@
     <language>zh-CN</language>
     
     <item>
+      <title>双十一剁手之前，先了解这些骚操作能让你省很多钱</title>
+      <description> 前言马上双十一了，你准备好剁手了么？购物车添加满了吗？那就先把购物车清空吧，购物车全选，一键删除。
+因为接下来我想跟你讲点骚操作，让你花更少的钱，买更多的东西。当然，土豪就随意了。
+双十一京东淘宝的优惠规则挺繁琐的，有些商家需要你先收藏关注他们，然后才能领券，还要分享，缴定金等一系列操作，最后买完你发现，好像和打个 8 折没什么区别。这就是他们的套路！
+还有一些商家，在双十一前先偷偷摸摸的涨价，然后到双十一的时候搞个极大的优惠来诱惑你。
+
+        
+            
+        
+        
+          var ap = new APlayer({
+            element: document.getElementById(&amp;quot;aplayer-oRoaevsP&amp;quot;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &amp;quot;双十一剁手之前，先了解这些骚操作能让你省很多钱&amp;quot;,
+              author: &amp;quot;wistbean|肯定会&amp;quot;,
+              url: &amp;quot;/podcast/50.mp3&amp;quot;,
+              pic: &amp;quot;&amp;quot;,
+              lrc: &amp;quot;&amp;quot;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        
+查看历史低价这里推荐一个比价，追踪历史价格的网站：http://www.manmanbuy.com/
+通过这里你就可以商家是否在套路你了，比如我就看到某个商家的 iPhone 7 ，价格频繁涨跌：
+
+                
+                    
+                    
+                
+                
+            
+看到了吗？11月9号这里先来个猛涨，然后降价，区间都快 1k 了 - -
+货比三家现在的商家那么多，京东，淘宝，天猫，亚马逊等等，你要买的东西，这些平台肯定有人在卖的，那么价格就会有差异，我们可以通过商品名称或者型号，查询所有商家的价格对比，从而找到最便宜的商家入手。
+比如我比价了一下 MacBook Air，在天猫需要 5698 ，而在京东要 6488…
+
+                
+                    
+                    
+                
+                
+            
+还可以再省钱还记得我之前说的通过互联网赚钱的 9 种渠道么，就有说到淘宝客，推广联盟，你可以通过 阿里妈妈 这个平台注册成为一个淘宝客，当然其它平台也有，例如京东联盟，亚马逊的 affiliate 等，然后你就可以从里面推荐一些商品给别人，如果别人购买了你推荐的商品，相当于帮别人卖产品。那么你就可以从中获取一定的佣金。
+那么这时候你不妨自己注册一个推广联盟账号，把你和你朋友通过比价得到最低价格的商品，再通过他们的联盟平台里面搜索，获取推广链接，然后你再从这个链接购买，把佣金给赚了，是不是很爽？
+
+                
+                    
+                    
+                
+                
+            
+最后有些东西可能需要到双十一晚上12点抢购，这种拼手速的玩意你可以写一个脚本，比如用 Python 定时下单你购物车的东西，一般情况下，海外的商品会便宜很多，贵倒是贵在运费上，如果跟朋友团购海外商品也是不错的选择。其实掌握点小技巧每天都是在过双十一。
+相关
+                
+                    
+                    
+                
+                通过互联网赚钱的 9 种渠道
+            
+
+                
+                    
+                    
+                
+                怎么才能让自己不要成为韭菜
+            
+ </description>
+      <itunes:author> wistbean</itunes:author>
+      <itunes:subtitle> </itunes:subtitle>
+      <itunes:summary>  </itunes:summary>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/50.mp3" length="9581087" type=""/>
+      <guid></guid>
+      <pubDate>Fri, 09 Nov 2018 06:26:46 GMT</pubDate>
+      <itunes:duration>00:06:38</itunes:duration>
+      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+        
+      </psc:chapters>
+    </item>
+    
+    <item>
       <title>当一个斜杆青年怎么样</title>
       <description> 
         
@@ -26,7 +110,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-QErBNOFt&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-kTgObvog&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -93,7 +177,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-fhgjCSlG&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-lFrqZDzU&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -171,7 +255,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-uIWFuXpq&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-WaLBGwNH&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -247,7 +331,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-OZhGNbpK&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-UEBoVzos&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -321,7 +405,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-dLDqHttY&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-ajnFcHUs&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -384,7 +468,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-rkTdmrDz&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-jzJKnpCj&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -637,7 +721,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-GRddsYVS&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-QILZljCT&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -697,7 +781,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-HoBmSBlL&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-eVhezTfp&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
