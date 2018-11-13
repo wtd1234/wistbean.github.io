@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wistbean.com/fitness/index.html</loc>
+    
+    <lastmod>2018-11-13T14:33:59.794Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.wistbean.com/shuangshiyi.html</loc>
     
     <lastmod>2018-11-09T09:33:25.882Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://www.wistbean.com/python-spider-wechat.html</loc>
     
     <lastmod>2018-11-08T14:52:32.783Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wistbean.com/fitness/index.html</loc>
-    
-    <lastmod>2018-11-08T14:25:23.544Z</lastmod>
     
   </url>
   

@@ -30,7 +30,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-stjsswGd&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-rXMukvkW&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -100,7 +100,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-mqHejlUB&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-GyrCiiAi&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -167,7 +167,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-SRpHekCc&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-GjtkKJJz&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -245,7 +245,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-roCJUxLB&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-lgEjzizT&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -321,7 +321,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-RIYjQzeo&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-LBXGgYhD&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -395,7 +395,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-fVPPDpgM&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-vhNbpsdR&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -458,7 +458,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-uLLvbEcL&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-MSeCgIhW&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -711,7 +711,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-SoNdvZwO&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-mPehvmEI&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -771,7 +771,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-CUieuuoj&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-jClbbvos&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
