@@ -4,8 +4,58 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/big-data.html</loc>
+    <lastmod>2018-11-17T16:09:20.708Z</lastmod>
+    <data>
+        <display>
+        <title>体面的"大数据"</title>
+        <pubTime>2018-11-16T09:58:44.000Z</pubTime>
+        
+        <tag>肯定会电台</tag>
+         
+        <tag>互联网</tag>
+         
+         
+           
+             
+              <breadCrumb title="podcast" url="https://www.wistbean.com/categories/podcast/"/>
+          
+             
+              <breadCrumb title="肯定会电台" url="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/use-banwagong.html</loc>
+    <lastmod>2018-11-14T13:43:14.900Z</lastmod>
+    <data>
+        <display>
+        <title>优惠购买搬瓦工搭建自己的VPN并开启BBR加速访问</title>
+        <pubTime>2018-10-21T20:23:59.000Z</pubTime>
+        
+        <tag>搬瓦工</tag>
+         
+        <tag>vpn</tag>
+         
+         
+           
+             
+              <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
+          
+             
+              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/%E6%90%AC%E7%93%A6%E5%B7%A5/vpn/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/build-personal-website.html</loc>
-    <lastmod>2018-11-13T19:42:05.768Z</lastmod>
+    <lastmod>2018-11-13T19:44:22.181Z</lastmod>
     <data>
         <display>
         <title>hexo搭建个人网站博客完全教程</title>
@@ -55,31 +105,6 @@
         <tag>搬瓦工搭建ss</tag>
          
         <tag>Shadowsocks</tag>
-         
-         
-           
-             
-              <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
-          
-             
-              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/%E6%90%AC%E7%93%A6%E5%B7%A5/vpn/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/use-banwagong.html</loc>
-    <lastmod>2018-11-13T15:10:20.001Z</lastmod>
-    <data>
-        <display>
-        <title>优惠购买搬瓦工搭建自己的VPN并开启BBR加速访问</title>
-        <pubTime>2018-10-21T20:23:59.000Z</pubTime>
-        
-        <tag>搬瓦工</tag>
-         
-        <tag>vpn</tag>
          
          
            
