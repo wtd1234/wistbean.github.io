@@ -29,7 +29,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-TSpXuQap&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-tjJhdLTK&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -87,7 +87,7 @@ chines robot，丢脸不?
       <title>双十一剁手之前，先了解这些骚操作能让你省很多钱</title>
       <description> 前言马上双十一了，你准备好剁手了么？购物车添加满了吗？那就先把购物车清空吧，购物车全选，一键删除。
 因为接下来我想跟你讲点骚操作，让你花更少的钱，买更多的东西。当然，土豪就随意了。
-双十一京东淘宝的优惠规则挺繁琐的，有些商家需要你先收藏关注他们，然后才能领券，还要分享，缴定金等一系列操作，最后买完你发现，好像和打个 8 折没什么区别。这就是他们的套路！
+双十一京东宝的优惠规则挺繁琐的，有些商家需要你先收藏关注他们，然后才能领券，还要分享，缴定金等一系列操作，最后买完你发现，好像和打个 8 折没什么区别。这就是他们的套路！
 还有一些商家，在双十一前先偷偷摸摸的涨价，然后到双十一的时候搞个极大的优惠来诱惑你。
 
         
@@ -95,7 +95,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-dUObkevE&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-nlcPRsrj&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -165,7 +165,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-wLEdaDmZ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-pXwfzCyJ&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -232,7 +232,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-zPSMWoPo&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-ZOZwoLrm&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -310,7 +310,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-HeSGFtCy&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-tVmacqVX&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -386,7 +386,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-yPbrohBI&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-viubUOzZ&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -460,7 +460,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-IDyeqEtJ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-wrwymZGc&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -523,7 +523,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-izoUoJbq&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-SdNeezQM&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -769,26 +769,6 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
     </item>
     
     <item>
-      <title>通过互联网赚取你的第一桶金</title>
-      <description> 
-
-内容通过互联网赚钱的 9 种渠道
-肯定会电台相关肯定会电台肯定会电台RSS订阅
- </description>
-      <itunes:author> wistbean</itunes:author>
-      <itunes:subtitle> </itunes:subtitle>
-      <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/38.mp3" length="14698979" type=""/>
-      <guid></guid>
-      <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
-      <itunes:duration>00:17:29</itunes:duration>
-      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
-        
-      </psc:chapters>
-    </item>
-    
-    <item>
       <title>你的个人隐私被泄露了，咋办？</title>
       <description> 
         
@@ -796,7 +776,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-IxdiTLBk&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-QOEnGcTU&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -829,6 +809,26 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
     </item>
     
     <item>
+      <title>通过互联网赚取你的第一桶金</title>
+      <description> 
+
+内容通过互联网赚钱的 9 种渠道
+肯定会电台相关肯定会电台肯定会电台RSS订阅
+ </description>
+      <itunes:author> wistbean</itunes:author>
+      <itunes:subtitle> </itunes:subtitle>
+      <itunes:summary>  </itunes:summary>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/38.mp3" length="14698979" type=""/>
+      <guid></guid>
+      <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
+      <itunes:duration>00:17:29</itunes:duration>
+      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+        
+      </psc:chapters>
+    </item>
+    
+    <item>
       <title>找到你要的资源，Google高级搜索技巧</title>
       <description> 
         
@@ -836,7 +836,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-ozjEHiqZ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-gOSgGiGr&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
