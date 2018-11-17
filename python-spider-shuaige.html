@@ -48,10 +48,11 @@
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://www.wistbean.com/images/shuaige1.png">
 <meta property="og:image" content="https://www.wistbean.com/images/shuaige2.png">
+<meta property="og:image" content="https://www.wistbean.com/images/shuaige3.png">
 <meta property="og:image" content="https://www.wistbean.com/images/shuaige4.png">
 <meta property="og:image" content="https://www.wistbean.com/images/shuaige6.jpg">
 <meta property="og:image" content="https://www.wistbean.com/images/shuaige5.png">
-<meta property="og:updated_time" content="2018-11-17T17:51:46.178Z">
+<meta property="og:updated_time" content="2018-11-17T18:10:04.627Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用 Python 爬取帅哥到自己的电脑">
 <meta name="twitter:description" content="写在前面前不久，公众号后台有妹子不高兴了，私信我说，我为什么会觉得我公众号的人都是喜欢看性感女人呢？什么时候发发性感男人啊。                                                                                                            想想也是，毕竟关注这个公众号有 15.6% 是妹纸呢。怎么能">
@@ -242,7 +243,14 @@
                 <div class="image-caption"></div>
             </figure>
 <p>答应我，先别激动好么？</p>
-<h1 id="分析帅哥图片地址"><a href="#分析帅哥图片地址" class="headerlink" title="分析帅哥图片地址"></a>分析帅哥图片地址</h1><p>首先来分析一下我们要爬取的这些图片地址，通过 Chrome 的开发者工具可以看到这些图片的地址在 img 标签中，但是这个地址有点奇怪，在 src 里面还有一个 src 指向图片的地址，我们要的图片地址就是在第二个 src 指向的地址，所以我们的正则应该是这样：</p>
+<h1 id="分析帅哥图片地址"><a href="#分析帅哥图片地址" class="headerlink" title="分析帅哥图片地址"></a>分析帅哥图片地址</h1><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/shuaige3.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p>首先来分析一下我们要爬取的这些图片地址，通过 Chrome 的开发者工具可以看到这些图片的地址在 img 标签中，但是这个地址有点奇怪，在 src 里面还有一个 src 指向图片的地址，我们要的图片地址就是在第二个 src 指向的地址，所以我们的正则应该是这样：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&apos;&lt;div class=&quot;inner_wrapper_img inner_wrapper_img1&quot;&gt;.*?&lt;img.*?src=&quot;/e/ext.*?src=(.*?)&amp;amp;h=240&amp;amp;w=190&amp;amp;zc=1&quot;.*?&lt;/div&gt;&apos;</span><br></pre></td></tr></table></figure>
 <p>当我们要点击下一页的时候呢，可以发现请求地址携带了一个参数 <code>/index_2.html</code> ,所以我们可以通过这个变量来获取多页的图片数据。</p>
 <h1 id="爬取性感男人图片"><a href="#爬取性感男人图片" class="headerlink" title="爬取性感男人图片"></a>爬取性感男人图片</h1><p>那么分析完之后我们就开始下手吧，我们可以创建一个叫做 shuaige 的图片文件夹，专门来放这些帅哥的</p>
@@ -288,7 +296,7 @@
     <div class="content">
       <!--  
 <span class="post-time">
-    最后更新时间：<time datetime="2018-11-17T17:51:46.178Z" itemprop="dateUpdated">2018-11-18 01:51:46</time>
+    最后更新时间：<time datetime="2018-11-17T18:10:04.627Z" itemprop="dateUpdated">2018-11-18 02:10:04</time>
 </span><br>
 
 
