@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wistbean.com/aboutMe/index.html</loc>
+    
+    <lastmod>2018-11-25T18:25:08.861Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.wistbean.com/vpn/index.html</loc>
     
     <lastmod>2018-11-25T13:42:52.021Z</lastmod>
@@ -481,13 +488,6 @@
     <loc>https://www.wistbean.com/space-complexity.html</loc>
     
     <lastmod>2018-10-29T18:03:31.221Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wistbean.com/aboutMe/index.html</loc>
-    
-    <lastmod>2018-10-25T15:57:11.466Z</lastmod>
     
   </url>
   
