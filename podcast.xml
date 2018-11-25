@@ -19,8 +19,29 @@
     <language>zh-CN</language>
     
     <item>
-      <title>推荐几个有价值的地方</title>
-      <description> 前不久掘金 CEO 发布了一篇叫做 《不如我们从头来过》 的文章，卖了波情怀，主要还是说明了掘金团队要裁员的情况，看的出来，他们挺不容易的，掘金这个技术社区相对来说还是很纯粹的。
+      <title>这些非常有价值的学习网站，你知道几个？</title>
+      <description> 
+        
+            
+        
+        
+          var ap = new APlayer({
+            element: document.getElementById(&amp;quot;aplayer-AvNuJLua&amp;quot;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &amp;quot;推荐几个有价值的地方&amp;quot;,
+              author: &amp;quot;wistbean|肯定会&amp;quot;,
+              url: &amp;quot;/podcast/52.mp3&amp;quot;,
+              pic: &amp;quot;&amp;quot;,
+              lrc: &amp;quot;&amp;quot;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        
+前不久掘金 CEO 发布了一篇叫做 《不如我们从头来过》 的文章，卖了波情怀，主要还是说明了掘金团队要裁员的情况，看的出来，他们挺不容易的，掘金这个技术社区相对来说还是很纯粹的。
 整个网站使用起来算是挺舒服的，没有像 CSDN 那样满屏的广告，简单的风格，可惜「掘金小册子」搞不起来。
 看完后在朋友圈发了下自己的看法，有朋友留言问我有没有什么好的技术社区和学习的地方推荐一下。
 翻看了一下自己收藏和付费加入的一些技术社区以及学习的地方，有几个对我来说很有价值，所以分享一下。
@@ -73,7 +94,7 @@ TED 地址： https://www.ted.com/
                 
                 学堂在线
             
-BBC learningenglish一个不错的英语学习平台，里面很多都是外国人在教，可以说是很纯粹的了，不会被带歪。比如说有教怎么发音，还有很多用英语交流的场景，视频教程很精美。
+BBC learningenglishBBC一个不错的英语学习平台，里面很多都是外国人在教，可以说是很纯粹的了，不会被带歪。比如说有教怎么发音，还有很多用英语交流的场景，视频教程很精美。
 
                 
                     
@@ -130,7 +151,7 @@ b站、Youtube之前说过了，b站不仅仅是个二次元的视频资源网�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-KjdZOloi&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-ajwfkOhT&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -196,7 +217,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-VqfEMFGH&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-gEKSRQdt&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -266,7 +287,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-aQqkPZRH&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-xmxGyLrk&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -333,7 +354,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-sesPGwfG&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-CtRjHYsi&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -411,7 +432,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-rcRFSWFf&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-htoYaAef&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -487,7 +508,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-FUnXMFSZ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-uTrsuJXG&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -561,7 +582,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-iDOdwkmm&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-zIXcGYTT&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -624,7 +645,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-ENomUjvq&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-gASimQPS&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -870,6 +891,26 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
     </item>
     
     <item>
+      <title>通过互联网赚取你的第一桶金</title>
+      <description> 
+
+内容通过互联网赚钱的 9 种渠道
+肯定会电台相关肯定会电台肯定会电台RSS订阅
+ </description>
+      <itunes:author> wistbean</itunes:author>
+      <itunes:subtitle> </itunes:subtitle>
+      <itunes:summary>  </itunes:summary>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/38.mp3" length="14698979" type=""/>
+      <guid></guid>
+      <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
+      <itunes:duration>00:17:29</itunes:duration>
+      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+        
+      </psc:chapters>
+    </item>
+    
+    <item>
       <title>你的个人隐私被泄露了，咋办？</title>
       <description> 
         
@@ -877,7 +918,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-RVbAFvhl&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-doZWfYgU&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -910,26 +951,6 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
     </item>
     
     <item>
-      <title>通过互联网赚取你的第一桶金</title>
-      <description> 
-
-内容通过互联网赚钱的 9 种渠道
-肯定会电台相关肯定会电台肯定会电台RSS订阅
- </description>
-      <itunes:author> wistbean</itunes:author>
-      <itunes:subtitle> </itunes:subtitle>
-      <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/38.mp3" length="14698979" type=""/>
-      <guid></guid>
-      <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
-      <itunes:duration>00:17:29</itunes:duration>
-      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
-        
-      </psc:chapters>
-    </item>
-    
-    <item>
       <title>找到你要的资源，Google高级搜索技巧</title>
       <description> 
         
@@ -937,7 +958,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-EGfXuLzU&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-wwkzRYau&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
