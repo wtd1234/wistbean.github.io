@@ -4,6 +4,55 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/cloud-server.html</loc>
+    <lastmod>2018-11-27T18:10:36.147Z</lastmod>
+    <data>
+        <display>
+        <title>推荐|我用了十几台云服务器VPS后，告诉你哪家云服务产商性价比高,性能稳定</title>
+        <pubTime>2018-11-27T12:10:21.000Z</pubTime>
+        
+        <tag>搬瓦工</tag>
+         
+        <tag>云服务器</tag>
+         
+        <tag>vultr</tag>
+         
+         
+           
+             
+              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/use-banwagong.html</loc>
+    <lastmod>2018-11-27T12:05:28.860Z</lastmod>
+    <data>
+        <display>
+        <title>优惠购买搬瓦工搭建自己的VPN并开启BBR加速访问</title>
+        <pubTime>2018-10-21T20:23:59.000Z</pubTime>
+        
+        <tag>搬瓦工</tag>
+         
+        <tag>vpn</tag>
+         
+         
+           
+             
+              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
+          
+             
+              <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/vpn/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/ipsec,l2tp_vpn.html</loc>
     <lastmod>2018-11-27T11:55:24.489Z</lastmod>
     <data>
@@ -226,31 +275,6 @@
 
     
   <url>
-    <loc>https://www.wistbean.com/use-banwagong.html</loc>
-    <lastmod>2018-11-14T13:43:14.900Z</lastmod>
-    <data>
-        <display>
-        <title>优惠购买搬瓦工搭建自己的VPN并开启BBR加速访问</title>
-        <pubTime>2018-10-21T20:23:59.000Z</pubTime>
-        
-        <tag>搬瓦工</tag>
-         
-        <tag>vpn</tag>
-         
-         
-           
-             
-              <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
-          
-             
-              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/%E6%90%AC%E7%93%A6%E5%B7%A5/vpn/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.wistbean.com/build-personal-website.html</loc>
     <lastmod>2018-11-13T19:44:22.181Z</lastmod>
     <data>
@@ -258,17 +282,17 @@
         <title>hexo搭建个人网站博客完全教程</title>
         <pubTime>2018-08-30T11:38:13.000Z</pubTime>
         
+        <tag>搬瓦工</tag>
+         
         <tag>个人网站</tag>
          
-        <tag>搬瓦工</tag>
+        <tag>Git</tag>
          
         <tag>教程</tag>
          
         <tag>hexo</tag>
          
         <tag>blog</tag>
-         
-        <tag>Git</tag>
          
         <tag>Nginx</tag>
          
@@ -445,13 +469,13 @@
          
         <tag>Maven</tag>
          
+        <tag>EasyUI</tag>
+         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
-         
-        <tag>EasyUI</tag>
          
         <tag>SSM视频教程</tag>
          
@@ -502,9 +526,9 @@
         <title>当一个斜杆青年怎么样</title>
         <pubTime>2018-11-01T10:30:26.000Z</pubTime>
         
-        <tag>肯定会电台</tag>
-         
         <tag>个人提升</tag>
+         
+        <tag>肯定会电台</tag>
          
          
            
@@ -530,9 +554,9 @@
         <title>改变了生活的 5 秒钟</title>
         <pubTime>2018-10-26T08:50:19.000Z</pubTime>
         
-        <tag>肯定会电台</tag>
-         
         <tag>个人提升</tag>
+         
+        <tag>肯定会电台</tag>
          
         <tag>精华分享</tag>
          
@@ -651,9 +675,9 @@
         <title>读书:一个年轻人和老人的故事</title>
         <pubTime>2018-09-13T17:45:26.000Z</pubTime>
         
-        <tag>肯定会电台</tag>
-         
         <tag>个人提升</tag>
+         
+        <tag>肯定会电台</tag>
          
         <tag>精华分享</tag>
          
@@ -711,9 +735,9 @@
         <title>终身成长:别让思维毁了自己</title>
         <pubTime>2018-10-12T11:25:30.000Z</pubTime>
         
-        <tag>互联网</tag>
-         
         <tag>个人提升</tag>
+         
+        <tag>互联网</tag>
          
          
            
@@ -1329,11 +1353,11 @@
         <title>「1-4」GitHub完全使用指南</title>
         <pubTime>2018-08-29T09:25:21.000Z</pubTime>
         
-        <tag>教程</tag>
+        <tag>GitHub</tag>
          
         <tag>Git</tag>
          
-        <tag>GitHub</tag>
+        <tag>教程</tag>
          
         <tag>Java</tag>
          
@@ -1371,9 +1395,9 @@
         <title>「1-3」代码托管Git的使用</title>
         <pubTime>2018-08-29T09:25:20.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Git</tag>
+         
+        <tag>教程</tag>
          
         <tag>Java</tag>
          
@@ -1421,11 +1445,11 @@
          
         <tag>分布式</tag>
          
-        <tag>架构</tag>
-         
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
+         
+        <tag>架构</tag>
          
          
            
@@ -1787,9 +1811,9 @@
         <title>GitHub是什么？如何使用？</title>
         <pubTime>2018-09-15T11:53:09.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>GitHub</tag>
+         
+        <tag>Git</tag>
          
          
            
