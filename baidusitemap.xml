@@ -3,6 +3,7 @@
 
 
     
+    
   <url>
     <loc>https://www.wistbean.com/java-ssm-4-3.html</loc>
     <lastmod>2018-11-30T14:48:46.237Z</lastmod>
@@ -35,11 +36,11 @@
          
         <tag>SecureCRT</tag>
          
-        <tag>postman</tag>
-         
         <tag>文件服务器</tag>
          
         <tag>上传下载</tag>
+         
+        <tag>postman</tag>
          
          
            
@@ -556,6 +557,8 @@
          
         <tag>EasyUI</tag>
          
+        <tag>postman</tag>
+         
         <tag>SSM视频教程</tag>
          
         <tag>redis</tag>
@@ -579,8 +582,6 @@
         <tag>Tomcat7</tag>
          
         <tag>JDK</tag>
-         
-        <tag>postman</tag>
          
         <tag>sqlyog</tag>
          

@@ -137,6 +137,13 @@
             </li>
         
             <li class="waves-block waves-effect">
+              <a href="/support/"  >
+                <i class="icon icon-lg icon-thumbs-up"></i>
+                赞助wistbean
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
               <a href="/links/"  >
                 <i class="icon icon-lg icon-link"></i>
                 友情链接
@@ -231,13 +238,7 @@
 <p>我们开发的程序是给用户使用的，而我们的程序是使用对象来完成产生的。对象可以看成是对问题的描述的一种解决方案，它与问题空间之间一一映射。也就是<strong>将问题抽取成为对象集合</strong>。</p>
 <p>在java中以class关键字来定义类的对象，类包含了元素和功能，是一种<strong>引用类型</strong>，和Int、Float等类型是一样的道理，只不过Int、Float等这些基本类型是java内置了的，所以我们可以拿来即用，而我们自定义的对象需要我们进行实例化后使用。</p>
 <h1 id="java面向对象的服务提供者"><a href="#java面向对象的服务提供者" class="headerlink" title="java面向对象的服务提供者"></a>java面向对象的服务提供者</h1><p>我们可以将对象看作服务提供者，比如手机这个对象，我们可以用它来聊天，打开闪光灯，砸核桃等。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/oop1.png" alt="OOP 面向对象" title="">
-                </div>
-                <div class="image-caption">OOP 面向对象</div>
-            </figure>
+<p><img src="/images/oop1.png" alt="OOP 面向对象"></p>
 <p>当每个对象都有各自独特的服务的时候，我们在使用的时候就很方便高效了，我们知道要实现什么功能，就拿什么对象来使用，如果我们对多个对象的各个方面都“组合”的很好的话，那么对代码来说是<strong>高内聚</strong>的，我们都约定俗成开发程序高内聚是我们追求你之一。</p>
 <h1 id="java面向对象的封装"><a href="#java面向对象的封装" class="headerlink" title="java面向对象的封装"></a>java面向对象的封装</h1><p>假设在合作开发的时候，有人负责创建类来提供服务，有人收集使用类来快速实现程序开发，我们把第一种人暂且叫类（服务）创建者，第二种人叫做使用服务（类）者。</p>
 <p>那么在这种情况下，创建者对自己的类只需要暴露必需的功能给使用者就可以了，使用者无需关心创建者是怎么样实现类的细节，拿来用就好了。这样创建者会对比较“脆弱”的代码进行封装，使用者无法触及，防止使用者随意修改，减少了bug的产生，还有就是创建者对封装的这些代码修改不会对使用者造成影响，比如类创建者在一开始创建类的时候某功能写的简单了，后来为了提高性能，那么修改这部分代码，实际上对使用者是毫无影响的。</p>
