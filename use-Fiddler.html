@@ -38,13 +38,13 @@
     
     
     <meta name="keywords" content="python,工具使用,Fiddler">
-    <meta name="description" content="什么是 Fiddler ？Fiddler是一款免费强大的抓包工具，有了它可以抓取我们在网上的一些请求数据，除了PC端之外，手机也可以使用它来抓包。 原理就是它能够代理我们一些数据的访问和返回，它以web代理服务器的形式工作：  那么我们有了这个 Fiddler 工具之后，就可以对一些数据进行拦截，拿到我们想要的数据，还可以对请求数据进行篡改，有一些游戏不是根据你玩了多少分然后排名的么？如果我们能够">
+    <meta name="description" content="什么是 Fiddler ？Fiddler是一款免费强大的抓包工具，有了它可以抓取我们在网上的一些请求数据，除了PC端之外，手机也可以使用它来抓包。 原理就是它能够代理我们一些数据的访问和返回，它以web代理服务器的形式工作：">
 <meta name="keywords" content="python,工具使用,Fiddler">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Fiddler 抓包工具完全使用教程">
 <meta property="og:url" content="https://www.wistbean.com/use-Fiddler.html">
 <meta property="og:site_name" content="肯定会">
-<meta property="og:description" content="什么是 Fiddler ？Fiddler是一款免费强大的抓包工具，有了它可以抓取我们在网上的一些请求数据，除了PC端之外，手机也可以使用它来抓包。 原理就是它能够代理我们一些数据的访问和返回，它以web代理服务器的形式工作：  那么我们有了这个 Fiddler 工具之后，就可以对一些数据进行拦截，拿到我们想要的数据，还可以对请求数据进行篡改，有一些游戏不是根据你玩了多少分然后排名的么？如果我们能够">
+<meta property="og:description" content="什么是 Fiddler ？Fiddler是一款免费强大的抓包工具，有了它可以抓取我们在网上的一些请求数据，除了PC端之外，手机也可以使用它来抓包。 原理就是它能够代理我们一些数据的访问和返回，它以web代理服务器的形式工作：">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://www.wistbean.com/images/fiddler1.png">
 <meta property="og:image" content="https://www.wistbean.com/images/fiddler4.png">
@@ -68,7 +68,7 @@
 <meta property="og:updated_time" content="2018-11-02T08:52:37.413Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Fiddler 抓包工具完全使用教程">
-<meta name="twitter:description" content="什么是 Fiddler ？Fiddler是一款免费强大的抓包工具，有了它可以抓取我们在网上的一些请求数据，除了PC端之外，手机也可以使用它来抓包。 原理就是它能够代理我们一些数据的访问和返回，它以web代理服务器的形式工作：  那么我们有了这个 Fiddler 工具之后，就可以对一些数据进行拦截，拿到我们想要的数据，还可以对请求数据进行篡改，有一些游戏不是根据你玩了多少分然后排名的么？如果我们能够">
+<meta name="twitter:description" content="什么是 Fiddler ？Fiddler是一款免费强大的抓包工具，有了它可以抓取我们在网上的一些请求数据，除了PC端之外，手机也可以使用它来抓包。 原理就是它能够代理我们一些数据的访问和返回，它以web代理服务器的形式工作：">
 <meta name="twitter:image" content="https://www.wistbean.com/images/fiddler1.png">
     
         <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
@@ -85,7 +85,7 @@
 <body>
     <div id="loading" class="active"></div>
 
-    <aside id="menu" class="hide" >
+    <aside id="menu"  >
   <div class="inner flex-row-vertical">
     <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
         <i class="icon icon-lg icon-close"></i>
@@ -253,32 +253,68 @@
         <div class="post-content" id="post-content" itemprop="postContent">
             <h1 id="什么是-Fiddler-？"><a href="#什么是-Fiddler-？" class="headerlink" title="什么是 Fiddler ？"></a>什么是 Fiddler ？</h1><p><a href="https://www.telerik.com/fiddler" target="_blank" rel="noopener">Fiddler</a>是一款免费强大的抓包工具，有了它可以抓取我们在网上的一些请求数据，除了PC端之外，手机也可以使用它来抓包。</p>
 <p>原理就是它能够代理我们一些数据的访问和返回，它以web代理服务器的形式工作：</p>
-<p><img src="/images/fiddler1.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler1.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>那么我们有了这个 Fiddler 工具之后，就可以对一些数据进行拦截，拿到我们想要的数据，还可以对请求数据进行篡改，有一些游戏不是根据你玩了多少分然后排名的么？如果我们能够使用它来拦截请求数据，把分数改高一点，再请求给服务器，是不是很爽？当然了，Fiddler 的用处还有很多。比如Python爬虫前的数据解析等骚操作。</p>
 <h1 id="配置Chrome使用Fiddler"><a href="#配置Chrome使用Fiddler" class="headerlink" title="配置Chrome使用Fiddler"></a>配置Chrome使用Fiddler</h1><p>点击<a href="https://www.telerik.com/download/fiddler" target="_blank" rel="noopener">fiddler官网</a>下载，安装之后自动打开。点击<code>File-&gt;Capture Traffic</code>就可以来抓包了。</p>
-<p><img src="/images/fiddler4.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler4.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>Fiddler使用的代理地址：127.0.0.1，端口是：8888。我比较喜欢使用 Chrome 浏览器，简单说下配置 Chrome 使用 Fiddler ，也就是让 Fiddler 来抓取我们在 Chrome 浏览器请求和返回数据。</p>
 <p>Chrome 默认会使用系统的代理，你可以在 Chrome 浏览器中的<code>设置--&gt;高级--&gt;打开代理设置</code>来设置你的代理地址和端口号。</p>
-<p><img src="/images/fiddler2.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler2.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>接着点击<code>局域网设置</code>，勾选<code>为 LAN 使用代理服务器</code> ，把地址：127.0.0.1，端口：8888 填进去就可以了。</p>
 <h1 id="抓取-HTTPS-请求数据"><a href="#抓取-HTTPS-请求数据" class="headerlink" title="抓取 HTTPS 请求数据"></a>抓取 HTTPS 请求数据</h1><p>现在已经很多请求都是用 https 了，那么我们得给 Fiddler 安装证书才可以使用，有些 Windows 系统在使用的时候会发现这样的错误：</p>
 <blockquote>
 <p>1.Tunnel to 443<br>2.!ERROR: Failed to generate Certificate using CertEnroll. System.Reflection.TargetInvocationException…</p>
 </blockquote>
 <p>需要设置抓取 HTTPS 请求，点击菜单 <code>Tools-&gt;Options</code> , 接着选择 HTTPS ,选择 <code>Decrypt HTTPS traffic</code>。</p>
-<p><img src="/images/fiddler3.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler3.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>接着点击右上角的 <code>Action</code> 按钮，然后选择 <code>Reset All Certificates</code>。</p>
 <p>然后在 Chrome 中输入 localhost:8888,下载证书进行安装。</p>
 <p>如果还是发现 <code>Tunnel to 443</code> 错误的话，可以下载<a href="/images/fiddlercertmaker.exe">fiddlercertmaker.exe</a> ，双击运行安装。再打开Fiddler。</p>
 <p>最后在 菜单 <code>Tools-&gt;Options</code> 右上角的 <code>Action</code> 按钮选择 <code>Trust Root Certificate</code>。</p>
 <p>那么接下来就可以进行抓包了，在 Chrome 中输入百度的网址之后，可以看到如下的样子：</p>
-<p><img src="/images/fiddler5.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler5.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>简单介绍一下每一栏都代表啥吧，其实很简单：</p>
 <blockquote>
 <p>Result : 请求的 HTTP(s) 状态吗<br>Protocol : 请求协议<br>HOST :  请求的主机名<br>URL : 请求的资源目录位置<br>Body : 请求大小<br>Caching : 请求的缓存<br>Content-Type : 服务器响应的实体类型<br>Process : 是谁（进程）发送的<br>Comments : 备注<br>Custom : 自定义</p>
 </blockquote>
 <p>当我们点击某一条请求后，在右边的 Insepector 中就可以看到具体的请求和返回信息内容了：</p>
-<p><img src="/images/fiddler6.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler6.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>那么这时候就可以分析某个你想要抓取的接口的返回数据，对其进行正则分析，做你想做的事情。</p>
 <h1 id="配置手机使用Fiddler"><a href="#配置手机使用Fiddler" class="headerlink" title="配置手机使用Fiddler"></a>配置手机使用Fiddler</h1><p>移动互联网时代，人手一部手机，移动 web 网站，手机 APP 等都需要数据交互，我们想从中抓取数据，怎么办呢？</p>
 <p>那么就需要来配置一下手机使用 Fiddler。</p>
@@ -286,41 +322,121 @@
 <ol>
 <li>Fiddler的Connection像以下这样设置：</li>
 </ol>
-<p><img src="/images/fiddler7.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler7.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <ol start="2">
 <li><p>把你的手机和电脑连接同一个 WIFI。</p>
 </li>
-<li><p>获取你电脑的 ip 地址。打开终端，输入ipconfig。找到你的 IPv4 地址，复制下来。<br><img src="/images/fiddler8.png" alt=""></p>
+<li><p>获取你电脑的 ip 地址。打开终端，输入ipconfig。找到你的 IPv4 地址，复制下来。</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler8.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 </li>
 <li><p>手机打开你连接的 wifi ，设置代理服务器和端口，这里的服务器地址就是你刚找到的 IPv4 地址，端口8888：</p>
 </li>
 </ol>
-<p><img src="/images/fiddler9.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler9.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <ol start="5">
 <li>手机打开浏览器输入你的 IPv4 地址和端口，下载安装证书：</li>
 </ol>
-<p><img src="/images/fiddler10.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler10.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>Android手机这样就配置好了，iPhone的话还要授权一下，在你手机的 <code>设置--&gt;通用--&gt;关于--&gt;证书信任--&gt;把刚刚下载的证书打上勾</code>。</p>
-<p><img src="/images/fiddler11.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler11.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>那么这个时候，你手机的所有访问都可以用Fiddler来抓包了。</p>
-<p><img src="/images/fiddler12.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler12.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>可以看到，我手机打开了微信，网易云音乐。</p>
 <h1 id="Fiddler怎么修改请求和返回数据"><a href="#Fiddler怎么修改请求和返回数据" class="headerlink" title="Fiddler怎么修改请求和返回数据"></a>Fiddler怎么修改请求和返回数据</h1><p>我们已经 Fiddler 是干嘛的了，也设置了 PC 端和手机端都可以抓取数据和分析数据了。那么怎么做点坏事呢？哦不是，怎么去修改我们的请求和返回数据呢？</p>
 <p>接下来就来说说，怎么在请求前修改请求数据和怎么在返回的时候把数据给改了。</p>
 <h2 id="请求前修改请求数据"><a href="#请求前修改请求数据" class="headerlink" title="请求前修改请求数据"></a>请求前修改请求数据</h2><p>按住 F11 打个断点，那么这时候的请求，就还没到服务器之前就被我们阻断下来，也就是在这个时候我们可以进行数据修改操作了。</p>
 <p>首先在Fiddler<strong>按一下 F11 ，在请求前打断点</strong>，这样的话，你的请求就会被拦截下来。</p>
 <p>这里以注册「逼乎」为例，哈哈真特么什么网站都有。</p>
-<p><img src="/images/fiddler16.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler16.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>随便填点信息，然后点击注册按钮，这时候请求就被我们拦截下来了。我们可以使用 Filter 过滤我们想看的请求信息。</p>
-<p><img src="/images/fiddler17.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler17.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>这时候我们点击左边的请求数据，看到右边，我们的请求表单数据就显示出来了，哇靠！！密码都不加密的么？</p>
-<p><img src="/images/fiddler18.png" alt=""></p>
-<p>我们 user_name 这个参数的名称给改了，改成「wistbean真特么帅」，然后点击 <code>Run to Completion</code>,也就是这个时候才真正的把数据传到他们的服务器去。<br><img src="/images/fiddler19.png" alt=""><br>这就算注册完了，然后我们点击菜单下面的 「Go」 可以把剩下的拦截的所有请求直接运行，再看下我们看注册完的网页，可以发现，我们的账户名变成「wistbean真特么帅」了。</p>
-<p><img src="/images/fiddler20.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler18.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p>我们 user_name 这个参数的名称给改了，改成「wistbean真特么帅」，然后点击 <code>Run to Completion</code>,也就是这个时候才真正的把数据传到他们的服务器去。<br><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler19.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure><br>这就算注册完了，然后我们点击菜单下面的 「Go」 可以把剩下的拦截的所有请求直接运行，再看下我们看注册完的网页，可以发现，我们的账户名变成「wistbean真特么帅」了。</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler20.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>说明修改数据有效。</p>
 <h2 id="请求后修改返回数据"><a href="#请求后修改返回数据" class="headerlink" title="请求后修改返回数据"></a>请求后修改返回数据</h2><p>知道怎么在请求前修改数据了，那么修改返回数据也是一个道理的，这时候要打的断点快捷键是<code>ALT+F11</code>，然后操作还是和刚刚一样，只不过是在服务器返回数据的时候被拦截，我们修改数据之后再返回客户端。</p>
 <p>无聊的时候可以装下逼或者整蛊一些朋友，比如就有朋友给我推网易的歌，我把数据拦截了一下，把信息给改了，然后我朋友一脸懵逼：</p>
-<p><img src="/images/fiddler1.jpg" alt=""><br><img src="/images/fiddler21.png" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler1.jpg" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/fiddler21.png" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>ok，以上，主要是想说一下这个 Fiddler 怎么使用，好玩。</p>
 <h1 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h1><p><a href="https://www.jianshu.com/p/99b6b4cd273c" target="_blank" rel="noopener">Fiddler教程</a><br><a href="https://www.jianshu.com/p/32c99f94881f" target="_blank" rel="noopener">Fiddler使用教程</a></p>
 
