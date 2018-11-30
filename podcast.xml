@@ -19,6 +19,70 @@
     <language>zh-CN</language>
     
     <item>
+      <title>到底怎样才算是学会知识了呢</title>
+      <description> 
+        
+            
+        
+        
+          var ap = new APlayer({
+            element: document.getElementById(&amp;quot;aplayer-mQuSSFfh&amp;quot;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &amp;quot;到底怎样才算是学会知识了呢&amp;quot;,
+              author: &amp;quot;wistbean&amp;quot;,
+              url: &amp;quot;/images/53.mp3&amp;quot;,
+              pic: &amp;quot;&amp;quot;,
+              lrc: &amp;quot;&amp;quot;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        
+在学校的时候，老师给我们传授知识，解释书本上那些晦涩难懂的概念。但很少有老师告诉我们书本之外的东西。例如：思维，认知，理财，学习方法。
+不过这没什么好抱怨的，因为很多东西，都是需要靠自己的，对吗？
+今天想跟你探讨的话题是：到底怎样才算是学会知识了呢？
+我们在学习某一知识点的时候，一般有两个层面：
+
+1.表面层面学习2.深度层面学习
+
+举个例子，我们在学习「面向对象」这个知识的时候，我们知道，对象是对问题描述的一种解决方案，我们可以将问题抽取成对象的集合，这样我们可以通过对象，来使用具体的方法。面向对象具有封装，继承，多态等特点。
+我们知道了这些，只是表面。
+如果你能够清楚的知道封装有什么好处？继承是为了什么？怎么用代码体现出来？对象的生命周期怎么样的？
+这叫深度学习。
+我们在面试的时候，其实也是在了解，你学习的深度，最直接的方式就是让你上机，让你实现一个关于某知识点的功能。
+表面学习，更多的是为了吹牛逼，深度学习，才是利己。
+那么现在我们要讨论的就是：怎样才算是深度学习到了知识了呢？
+在这里呢，给大家介绍我在使用，觉得有用的学习法，它的名字叫做费曼学习法。主要来说，有这么几个步骤：
+
+
+认真的学习一个新的知识点
+学完之后，将你学到的知识点用通俗易懂的语言讲给别人听，也可以写出来。
+发现问题，别人听不懂的地方，自己卡壳的地方，这些都是自己的弱点，都记下来，重新回去学习这些弱点。直到自己能够清晰通俗的讲出来。
+重复以上三个步骤
+
+
+举个例子，比如我学习文件服务器FastDFS这个开源项目，那么一开始就认真学习，知道它是什么玩意，它的主要功能，工作原理。
+学完之后我就会输出，其实输出的方式有很多种，跟别人讲，写博客都可以。
+当我发现，我讲的好像不够易懂，或者卡壳了，那就说明，我对它还没有真正的理解。怎么办呢？只能滚回去继续研究。直到了然于胸。所以有时候有朋友觉得我讲的东西很容易理解，其实背后都是我在「重复以上三个步骤」。
+这种学习方法的好处在于我们可以真正的了解自己学到的东西，而不至于停留在「好像懂了，又好像不懂的情况」，也锻炼了自己独立思考能力。当下次学习新的知识的时候，也会更加容易对知识加以应用。
+ </description>
+      <itunes:author> wistbean</itunes:author>
+      <itunes:subtitle> </itunes:subtitle>
+      <itunes:summary>  </itunes:summary>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/53.mp3" length="6138565" type=""/>
+      <guid></guid>
+      <pubDate>Fri, 30 Nov 2018 07:47:57 GMT</pubDate>
+      <itunes:duration>00:04:15</itunes:duration>
+      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+        
+      </psc:chapters>
+    </item>
+    
+    <item>
       <title>这些非常有价值的学习网站，你知道几个？</title>
       <description> 
         
@@ -26,7 +90,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-jnHnsTEG&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-FqxUrDHH&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -151,7 +215,7 @@ b站、Youtube之前说过了，b站不仅仅是个二次元的视频资源网�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-NtBmKJJP&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-UjOejasG&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -217,7 +281,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-DPtQGqsC&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-WvnsdncM&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -287,7 +351,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-JdhzngqV&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-ayoRnamU&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -354,7 +418,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-FIEcAazY&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-aWbPrNhE&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -432,7 +496,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-yjDWMTPI&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-TphJADzO&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -508,7 +572,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-ntrrERSI&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-SstkxUIB&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -582,7 +646,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-jxRyWFvt&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-YHtntuuT&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -645,7 +709,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-QwMVDAeE&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-egqZbhQV&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -898,7 +962,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-fUSpKXfQ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-MgrIaqLL&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -958,7 +1022,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-yIArdZoQ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-dcUkTxmx&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
