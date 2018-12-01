@@ -4,6 +4,81 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/install-centos.html</loc>
+    <lastmod>2018-12-01T21:50:56.227Z</lastmod>
+    <data>
+        <display>
+        <title>02 在VirtualBox虚拟机安装配置CentOS系统</title>
+        <pubTime>2017-04-02T09:01:58.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="https://www.wistbean.com/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/use-virtualbox-install-centos.html</loc>
+    <lastmod>2018-12-01T21:45:09.704Z</lastmod>
+    <data>
+        <display>
+        <title>01 使用 VirtualBox 创建 CentOS 虚拟机</title>
+        <pubTime>2017-04-02T04:00:33.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="https://www.wistbean.com/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/valuable-place.html</loc>
+    <lastmod>2018-12-01T15:52:01.676Z</lastmod>
+    <data>
+        <display>
+        <title>这些非常有价值的学习网站，你知道几个？</title>
+        <pubTime>2018-11-22T13:02:08.000Z</pubTime>
+        
+        <tag>肯定会电台</tag>
+         
+        <tag>互联网</tag>
+         
+        <tag>资源推荐</tag>
+         
+         
+           
+             
+              <breadCrumb title="podcast" url="https://www.wistbean.com/categories/podcast/"/>
+          
+             
+              <breadCrumb title="肯定会电台" url="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
+          
+             
+              <breadCrumb title="资源推荐" url="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E8%B5%84%E6%BA%90%E6%8E%A8%E8%8D%90/"/>
+          
+             
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/FEYNMAN-LEARNING.html</loc>
     <lastmod>2018-12-01T15:41:49.627Z</lastmod>
     <data>
@@ -324,34 +399,6 @@
 
     
     
-    
-  <url>
-    <loc>https://www.wistbean.com/valuable-place.html</loc>
-    <lastmod>2018-11-25T12:18:19.410Z</lastmod>
-    <data>
-        <display>
-        <title>这些非常有价值的学习网站，你知道几个？</title>
-        <pubTime>2018-11-22T13:02:08.000Z</pubTime>
-        
-        <tag>肯定会电台</tag>
-         
-        <tag>资源推荐</tag>
-         
-         
-           
-             
-              <breadCrumb title="podcast" url="https://www.wistbean.com/categories/podcast/"/>
-          
-             
-              <breadCrumb title="肯定会电台" url="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/"/>
-          
-             
-              <breadCrumb title="资源推荐" url="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E8%B5%84%E6%BA%90%E6%8E%A8%E8%8D%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
     
   <url>
@@ -1790,7 +1837,7 @@
 
     
   <url>
-    <loc>https://www.wistbean.com/satrt-learning-linux.html</loc>
+    <loc>https://www.wistbean.com/start-learning-linux.html</loc>
     <lastmod>2018-11-02T08:52:36.701Z</lastmod>
     <data>
         <display>

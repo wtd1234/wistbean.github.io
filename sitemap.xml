@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wistbean.com/install-centos.html</loc>
+    
+    <lastmod>2018-12-01T21:50:56.227Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.wistbean.com/use-virtualbox-install-centos.html</loc>
+    
+    <lastmod>2018-12-01T21:45:09.704Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.wistbean.com/valuable-place.html</loc>
+    
+    <lastmod>2018-12-01T15:52:01.676Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.wistbean.com/FEYNMAN-LEARNING.html</loc>
     
     <lastmod>2018-12-01T15:41:49.627Z</lastmod>
@@ -103,13 +124,6 @@
     <loc>https://www.wistbean.com/vpn/index.html</loc>
     
     <lastmod>2018-11-25T13:42:52.021Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wistbean.com/valuable-place.html</loc>
-    
-    <lastmod>2018-11-25T12:18:19.410Z</lastmod>
     
   </url>
   
@@ -422,7 +436,7 @@
   </url>
   
   <url>
-    <loc>https://www.wistbean.com/satrt-learning-linux.html</loc>
+    <loc>https://www.wistbean.com/start-learning-linux.html</loc>
     
     <lastmod>2018-11-02T08:52:36.701Z</lastmod>
     
