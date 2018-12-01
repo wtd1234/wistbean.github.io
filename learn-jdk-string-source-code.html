@@ -246,23 +246,11 @@
             <p>话说之前对代码的编写大多都是直接使用jdk里面的对象，有时候也对一些对象直接封装之后就使用了，很少去了解源码中具体细节是怎么实现的，这样显然不符合我这么帅的人的做事风格，所以我现在就来对源码进行学习学习，可能篇幅略长，不过会慢慢记录下我学习的过程和总结一下，希望对自己有帮助的同时，也能够帮助到和我一样，希望更进一步去理解java的小伙伴们！！</p>
 <h2 id="String类的大概面貌"><a href="#String类的大概面貌" class="headerlink" title="String类的大概面貌"></a>String类的大概面貌</h2><p>废话不多说了，先打开我的 InteliJ IDEA , 创建一个学习源码的项目，就叫做「learnJavaSourceCode」吧。</p>
 <p>打开String.java之后可以发现了String实现了java.io.Serializable, Comparable<string>, CharSequence ：</string></p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/3.png" alt="String.java" title="">
-                </div>
-                <div class="image-caption">String.java</div>
-            </figure>
+<p><img src="/images/3.png" alt="String.java"></p>
 <p>在 String 类中有4个成员变量：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>. <span class="keyword">private</span> <span class="keyword">final</span> <span class="keyword">char</span> value[];</span><br><span class="line"></span><br><span class="line"><span class="number">2</span>. <span class="keyword">private</span> <span class="keyword">int</span> hash; <span class="comment">// Default to 0</span></span><br><span class="line"></span><br><span class="line"><span class="number">3</span>. <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">long</span> serialVersionUID = -<span class="number">6849794470754667710L</span>;</span><br><span class="line"></span><br><span class="line"><span class="number">4</span>. <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> ObjectStreamField[] serialPersistentFields = <span class="keyword">new</span> ObjectStreamField[<span class="number">0</span>];</span><br><span class="line"></span><br><span class="line"><span class="number">5</span>. <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Comparator&lt;String&gt; CASE_INSENSITIVE_ORDER = <span class="keyword">new</span> CaseInsensitiveComparator();</span><br></pre></td></tr></table></figure></p>
 <p>有一个内部类CaseInsensitiveComparator，还有其它就是构造函数和方法了！</p>
 <h2 id="String的概要描述总结"><a href="#String的概要描述总结" class="headerlink" title="String的概要描述总结"></a>String的概要描述总结</h2><p>也就是在一开始的一大段注释：</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/describeString.png" alt="String describe" title="">
-                </div>
-                <div class="image-caption">String describe</div>
-            </figure>
+<p><img src="/images/describeString.png" alt="String describe"></p>
 <p>我对它总结一下就是以下几点：</p>
 <ol>
 <li><p>在java中所有的字符字面值（例如：”abc”）都是 String 的一个实例;</p>
@@ -313,22 +301,10 @@
 <p>我们已经知道msg1是从常量池去取的，而我们new String() 这时候应该在堆内存产生一个String对象，而通过源码可以看到这个String对象方法是将我们传入的这个 “I Love You !” 对象的value和hash进行复制：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">public String(String original) &#123;</span><br><span class="line">       this.value = original.value;</span><br><span class="line">       this.hash = original.hash;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
 <p>画个图那就是这个样子的：</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/new%20String%28%29.png" alt="new String()" title="">
-                </div>
-                <div class="image-caption">new String()</div>
-            </figure>
+<p><img src="/images/new%20String%28%29.png" alt="new String()"></p>
 <h3 id="String-char-value"><a href="#String-char-value" class="headerlink" title="String(char[] value)"></a>String(char[] value)</h3><p>我们创建个char[],然后传给String构造函数：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span>[] c = <span class="keyword">new</span> <span class="keyword">char</span>[<span class="number">3</span>];</span><br><span class="line">c[<span class="number">0</span>] = <span class="string">'I'</span>;</span><br><span class="line">c[<span class="number">1</span>] = <span class="string">'L'</span>;</span><br><span class="line">c[<span class="number">2</span>] = <span class="string">'U'</span>;</span><br><span class="line">String msg = <span class="keyword">new</span> String(c);</span><br><span class="line">System.out.println(msg);</span><br></pre></td></tr></table></figure></p>
 <p>通过debug后可以发现：</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/new%20String%28char%29.png" alt="new String()" title="">
-                </div>
-                <div class="image-caption">new String()</div>
-            </figure>
+<p><img src="/images/new%20String%28char%29.png" alt="new String()"></p>
 <p>原来它通过 Arrays.copyOf 把我们的char直接复制给value了！<br>其实我们应该也猜到了，String里面的value就是char数组！</p>
 <h3 id="String-byte-bytes"><a href="#String-byte-bytes" class="headerlink" title="String(byte[] bytes)"></a>String(byte[] bytes)</h3><p>String提供了好几个含有byte[]参数的构造函数,那么我们对byte[]和String间的转化就容易许多了。<br>可能你之前应该遇到过乱码问题，你应该是这么解决的：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">try</span> &#123;</span><br><span class="line">        String s = <span class="keyword">new</span> String(<span class="string">"乱码"</span>.getBytes(),<span class="string">"utf-8"</span>);</span><br><span class="line">    &#125; <span class="keyword">catch</span> (UnsupportedEncodingException e) &#123;</span><br><span class="line">        e.printStackTrace();</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
@@ -340,20 +316,8 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">public char charAt(int index) &#123;</span><br><span class="line">       if ((index &lt; 0) || (index &gt;= value.length)) &#123;</span><br><span class="line">           throw new StringIndexOutOfBoundsException(index);</span><br><span class="line">       &#125;</span><br><span class="line">       return value[index];</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
 <p>可以看到当我们传进去的索引值是小于0 或者 大于 这个字符串的长度，就会抛出异常。否则就返回value数组中对应的值！</p>
 <p>通过 debug 可以看到其实我们刚刚定义的 String msg = “I love you !” 中的值被放到了 value 这个数组中了！</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/s01.png" alt="String" title="">
-                </div>
-                <div class="image-caption">String</div>
-            </figure>
-<p>而我们  char c = msg.charAt(3) 传入的这个3 就是这个数组对应的下标3，所以呢，输出就是o啦！<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/s02.png" alt="String" title="">
-                </div>
-                <div class="image-caption">String</div>
-            </figure></p>
+<p><img src="/images/s01.png" alt="String"></p>
+<p>而我们  char c = msg.charAt(3) 传入的这个3 就是这个数组对应的下标3，所以呢，输出就是o啦！<br><img src="/images/s02.png" alt="String"></p>
 <h3 id="equals-Object-anObject"><a href="#equals-Object-anObject" class="headerlink" title="equals(Object anObject)"></a>equals(Object anObject)</h3><p>equals我们通常用于比较是否相同，那么你知道下面这段代码分别输出的是什么吗？</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">String s = &quot;I Love You !&quot;;</span><br><span class="line">String s1 = &quot;I Love You !&quot;;</span><br><span class="line">String s2 = new String(&quot;I Love You !&quot;);</span><br><span class="line">System.out.println(s == s1);</span><br><span class="line">System.out.println(s.equals(s1));</span><br><span class="line">System.out.println(s == s2);</span><br><span class="line">System.out.println(s.equals(s2));</span><br></pre></td></tr></table></figure>
 <p>他们分别输出的：</p>
@@ -370,13 +334,7 @@
 <p>很明显我们可以发现，equals判断的不是hashcode，而是判断它们的值是否相同，所以s.equals(s2)返回的是true！</p>
 <h3 id="endsWith-String-suffix"><a href="#endsWith-String-suffix" class="headerlink" title="endsWith(String suffix)"></a>endsWith(String suffix)</h3><p>有时候我们可能会判断字符串是否以指定的后缀结束。例如我们有获取的图片路径，判断他是不是以.jpg结尾的：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">String s = <span class="string">"canglaoshi.jpg"</span>;</span><br><span class="line">System.out.println(s.endsWith(<span class="string">".jpg"</span>)); <span class="comment">//true</span></span><br></pre></td></tr></table></figure>
-<p>debug一下就明白了它是怎么判断的：<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/endwith.png" alt="String" title="">
-                </div>
-                <div class="image-caption">String</div>
-            </figure></p>
+<p>debug一下就明白了它是怎么判断的：<br><img src="/images/endwith.png" alt="String"></p>
 <p>它会去调用 startsWith 方法。</p>
 <ul>
 <li>用 ta[] 这个数组来存放 “canglaoshi.jpg”;</li>
@@ -391,13 +349,7 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(<span class="string">"I Love You !"</span>.hashCode()); <span class="comment">//-1710377367</span></span><br></pre></td></tr></table></figure>
 <p>我们知道我们的 “I Love You !” 被放到了char数组中。<br>hashcode的算法是这样的：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">31</span> * <span class="number">0</span> + val[<span class="number">0</span>]</span><br><span class="line"><span class="number">31</span> * (<span class="number">31</span> * <span class="number">0</span> + val[<span class="number">0</span>]) +  val[<span class="number">1</span>]</span><br><span class="line"><span class="number">31</span> * (<span class="number">31</span> * (<span class="number">31</span> * <span class="number">0</span> + val[<span class="number">0</span>]) +  val[<span class="number">1</span>]) + val[<span class="number">2</span>]</span><br><span class="line">...</span><br></pre></td></tr></table></figure></p>
 <p>它的代码实现是：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">hashCode</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> h = hash;</span><br><span class="line">        <span class="keyword">if</span> (h == <span class="number">0</span> &amp;&amp; value.length &gt; <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">char</span> val[] = value;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; value.length; i++) &#123;</span><br><span class="line">                h = <span class="number">31</span> * h + val[i];</span><br><span class="line">            &#125;</span><br><span class="line">            hash = h;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> h;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></p>
-<p>可以看到它的算法，其中char值就是字符对应的ACII编码：<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/char.png" alt="String" title="">
-                </div>
-                <div class="image-caption">String</div>
-            </figure></p>
+<p>可以看到它的算法，其中char值就是字符对应的ACII编码：<br><img src="/images/char.png" alt="String"></p>
 <h3 id="substring-int-beginIndex"><a href="#substring-int-beginIndex" class="headerlink" title="substring(int beginIndex)"></a>substring(int beginIndex)</h3><p>返回一个新的字符串，它是此字符串的一个子字符串。<br>可以理解为截取字符串，它的实现就是用数组的copyOfRange将指定数组的指定范围复制到一个新数组：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">this</span>.value = Arrays.copyOfRange(value, offset, offset+count);</span><br></pre></td></tr></table></figure></p>
 <h1 id="相关文章"><a href="#相关文章" class="headerlink" title="相关文章"></a>相关文章</h1><ul>
 <li><a href="http://www.hollischuang.com/archives/99#构造方法" target="_blank" rel="noopener">Java 7 源码学习系列</a></li>
