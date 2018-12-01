@@ -38,13 +38,13 @@
     
     
     <meta name="keywords" content="教程,python,python爬虫,python基础">
-    <meta name="description" content="作为 Python 爬虫的入门教程，我想有必要来个爬虫程序压压惊，爬取性感美女的图片，然后保存到自己的电脑里面。爽歪歪~ 先看下效果吧，这是我把爬取的图片自动存储到的文件夹里边：  爬虫三步骤：抓取，分析，存储。 抓取首先我们要有个目标对吧，我们想要抓取美女照片，就去找找看哪里的网站妹纸多，那咱们就从哪里下手呗。 我发现这网站 http://www.meizitu.com 的妹纸图不错啊，那还等什">
+    <meta name="description" content="作为 Python 爬虫的入门教程，我想有必要来个爬虫程序压压惊，爬取性感美女的图片，然后保存到自己的电脑里面。爽歪歪~ 先看下效果吧，这是我把爬取的图片自动存储到的文件夹里边：                                                                                                            爬虫三">
 <meta name="keywords" content="教程,python,python爬虫,python基础">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python爬虫基础：爬取妹子图片并保存到本地">
 <meta property="og:url" content="https://www.wistbean.com/python-spider-meizi.html">
 <meta property="og:site_name" content="肯定会">
-<meta property="og:description" content="作为 Python 爬虫的入门教程，我想有必要来个爬虫程序压压惊，爬取性感美女的图片，然后保存到自己的电脑里面。爽歪歪~ 先看下效果吧，这是我把爬取的图片自动存储到的文件夹里边：  爬虫三步骤：抓取，分析，存储。 抓取首先我们要有个目标对吧，我们想要抓取美女照片，就去找找看哪里的网站妹纸多，那咱们就从哪里下手呗。 我发现这网站 http://www.meizitu.com 的妹纸图不错啊，那还等什">
+<meta property="og:description" content="作为 Python 爬虫的入门教程，我想有必要来个爬虫程序压压惊，爬取性感美女的图片，然后保存到自己的电脑里面。爽歪歪~ 先看下效果吧，这是我把爬取的图片自动存储到的文件夹里边：                                                                                                            爬虫三">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://www.wistbean.com/images/pp1.gif">
 <meta property="og:image" content="https://www.wistbean.com/images/pp2.webp">
@@ -53,7 +53,7 @@
 <meta property="og:updated_time" content="2018-12-01T08:36:29.148Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python爬虫基础：爬取妹子图片并保存到本地">
-<meta name="twitter:description" content="作为 Python 爬虫的入门教程，我想有必要来个爬虫程序压压惊，爬取性感美女的图片，然后保存到自己的电脑里面。爽歪歪~ 先看下效果吧，这是我把爬取的图片自动存储到的文件夹里边：  爬虫三步骤：抓取，分析，存储。 抓取首先我们要有个目标对吧，我们想要抓取美女照片，就去找找看哪里的网站妹纸多，那咱们就从哪里下手呗。 我发现这网站 http://www.meizitu.com 的妹纸图不错啊，那还等什">
+<meta name="twitter:description" content="作为 Python 爬虫的入门教程，我想有必要来个爬虫程序压压惊，爬取性感美女的图片，然后保存到自己的电脑里面。爽歪歪~ 先看下效果吧，这是我把爬取的图片自动存储到的文件夹里边：                                                                                                            爬虫三">
 <meta name="twitter:image" content="https://www.wistbean.com/images/pp1.gif">
     
         <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
@@ -238,21 +238,39 @@
         <div class="post-content" id="post-content" itemprop="postContent">
             <p>作为 Python 爬虫的入门教程，我想有必要来个爬虫程序压压惊，爬取性感美女的图片，然后保存到自己的电脑里面。爽歪歪~</p>
 <p>先看下效果吧，这是我把爬取的图片自动存储到的文件夹里边：</p>
-<p><img src="https://www.wistbean.com/images/pp1.gif" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.wistbean.com/images/pp1.gif" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>爬虫三步骤：<strong>抓取</strong>，<strong>分析</strong>，<strong>存储</strong>。</p>
 <h1 id="抓取"><a href="#抓取" class="headerlink" title="抓取"></a>抓取</h1><p>首先我们要有个目标对吧，我们想要抓取美女照片，就去找找看哪里的网站妹纸多，那咱们就从哪里下手呗。</p>
 <p>我发现这网站 <a href="http://www.meizitu.com" target="_blank" rel="noopener">http://www.meizitu.com</a> 的妹纸图不错啊，那还等什么，抓取呗。</p>
 <p>在 python 中有个叫做 requests 模块，直接 pip install 就可以了，然后访问这个网址获取相应的源码：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">response = requests.get(url)</span><br><span class="line">return response</span><br></pre></td></tr></table></figure>
 <p>比如我想获取性感美女的源码，那么我的 url 就是 <a href="http://www.meizitu.com/a/sexy_1.html" target="_blank" rel="noopener">http://www.meizitu.com/a/sexy_1.html</a> 通过get请求我们就可以获取返回的响应体了，我们通过response.text就可以或源码。部分源码截图如下：</p>
-<p><img src="https://www.wistbean.com/images/pp2.webp" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.wistbean.com/images/pp2.webp" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>抓取完了之后，我们对我们感兴趣的内容要进行分析了，这时候就涉及到「正则表达式」，根据我们定义的一些规则，来获取我们想要的内容。</p>
 <p>我们现在当然是对返回源码中的美女图片感兴趣啦，从返回的源码中就可以看到，美女的图片都是包裹在 img 标签中的：</p>
 <p><img src="https://www.wistbean.com/images/pp3.webp" alt=""></p>
 <p>那么我们就可以用 re 模块来匹配获取我们想要的图片链接了：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">p = r&apos;&lt;img src=&quot;([^&quot;]+\.jpg)&quot;&apos;</span><br><span class="line"></span><br><span class="line">img_addrs = re.findall(p, html)</span><br></pre></td></tr></table></figure>
 <p>获取到的部分图片链接截图：</p>
-<p><img src="https://www.wistbean.com/images/pp4.webp" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://www.wistbean.com/images/pp4.webp" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <h1 id="存储"><a href="#存储" class="headerlink" title="存储"></a>存储</h1><p>既然获取到图片链接了，那么接下来就可以存储了，这里暂时存储到自己本地电脑上吧：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">with open(filename,&apos;wb&apos;) as f:</span><br><span class="line">    img = url_open(each).content</span><br><span class="line">    f.write(img)</span><br></pre></td></tr></table></figure>
 <p>ok，这样就完成了，是不是很简单？当然爬虫说简单也简单，说复杂也复杂，关键是要看自己想做什么事情，如果你从这个例子中发现自己对 python 又多了些许兴趣，那不妨多关注我，我往后给你写一些 python爬虫 所需要的知识点，例如其它的爬虫模块如Scrapy ，一些表单的请求参数，反爬虫，cookie，多进程抓取等等。</p>
