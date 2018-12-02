@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wistbean.com/install-centos.html</loc>
+    
+    <lastmod>2018-12-02T17:39:29.444Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.wistbean.com/start-learning-linux.html</loc>
     
-    <lastmod>2018-12-02T14:40:32.788Z</lastmod>
+    <lastmod>2018-12-02T17:37:05.314Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.wistbean.com/use-virtualbox-install-centos.html</loc>
+    
+    <lastmod>2018-12-02T17:26:55.221Z</lastmod>
     
   </url>
   
@@ -26,20 +40,6 @@
     <loc>https://www.wistbean.com/support/index.html</loc>
     
     <lastmod>2018-12-02T11:26:20.166Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wistbean.com/install-centos.html</loc>
-    
-    <lastmod>2018-12-01T21:50:56.227Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wistbean.com/use-virtualbox-install-centos.html</loc>
-    
-    <lastmod>2018-12-01T21:45:09.704Z</lastmod>
     
   </url>
   

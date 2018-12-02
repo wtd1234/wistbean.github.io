@@ -4,8 +4,38 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/install-centos.html</loc>
+    <lastmod>2018-12-02T17:39:29.444Z</lastmod>
+    <data>
+        <display>
+        <title>02 在VirtualBox虚拟机安装配置CentOS系统</title>
+        <pubTime>2017-04-02T09:01:58.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>VirtualBox</tag>
+         
+        <tag>CentOS</tag>
+         
+        <tag>虚拟机</tag>
+         
+        <tag>配置</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="https://www.wistbean.com/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/start-learning-linux.html</loc>
-    <lastmod>2018-12-02T14:40:32.788Z</lastmod>
+    <lastmod>2018-12-02T17:37:05.314Z</lastmod>
     <data>
         <display>
         <title>Linux 学习启动篇</title>
@@ -14,6 +44,34 @@
         <tag>教程</tag>
          
         <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="https://www.wistbean.com/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/use-virtualbox-install-centos.html</loc>
+    <lastmod>2018-12-02T17:26:55.221Z</lastmod>
+    <data>
+        <display>
+        <title>01 使用 VirtualBox 创建 CentOS 虚拟机</title>
+        <pubTime>2017-04-02T04:00:33.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Linux</tag>
+         
+        <tag>VirtualBox</tag>
+         
+        <tag>CentOS</tag>
+         
+        <tag>虚拟机</tag>
          
          
            
@@ -95,50 +153,6 @@
 
     
     
-    
-  <url>
-    <loc>https://www.wistbean.com/install-centos.html</loc>
-    <lastmod>2018-12-01T21:50:56.227Z</lastmod>
-    <data>
-        <display>
-        <title>02 在VirtualBox虚拟机安装配置CentOS系统</title>
-        <pubTime>2017-04-02T09:01:58.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="https://www.wistbean.com/categories/Linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/use-virtualbox-install-centos.html</loc>
-    <lastmod>2018-12-01T21:45:09.704Z</lastmod>
-    <data>
-        <display>
-        <title>01 使用 VirtualBox 创建 CentOS 虚拟机</title>
-        <pubTime>2017-04-02T04:00:33.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="https://www.wistbean.com/categories/Linux/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>https://www.wistbean.com/valuable-place.html</loc>
