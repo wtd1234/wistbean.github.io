@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wistbean.com/start-learning-linux.html</loc>
+    
+    <lastmod>2018-12-02T14:40:32.788Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-video.html</loc>
+    
+    <lastmod>2018-12-02T12:52:13.222Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.wistbean.com/fitness/index.html</loc>
+    
+    <lastmod>2018-12-02T11:29:11.727Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.wistbean.com/support/index.html</loc>
     
     <lastmod>2018-12-02T11:26:20.166Z</lastmod>
@@ -128,13 +149,6 @@
   </url>
   
   <url>
-    <loc>https://www.wistbean.com/fitness/index.html</loc>
-    
-    <lastmod>2018-11-25T12:14:47.873Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.wistbean.com/python-spider-shuaige.html</loc>
     
     <lastmod>2018-11-18T08:31:50.552Z</lastmod>
@@ -194,13 +208,6 @@
     <loc>https://www.wistbean.com/java-reflection.html</loc>
     
     <lastmod>2018-11-03T06:53:34.421Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-video.html</loc>
-    
-    <lastmod>2018-11-03T05:52:20.381Z</lastmod>
     
   </url>
   
@@ -432,13 +439,6 @@
     <loc>https://www.wistbean.com/pycharm-02.html</loc>
     
     <lastmod>2018-11-02T08:52:37.076Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wistbean.com/start-learning-linux.html</loc>
-    
-    <lastmod>2018-11-02T08:52:36.701Z</lastmod>
     
   </url>
   
