@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.wistbean.com/support/index.html</loc>
+    
+    <lastmod>2018-12-02T11:26:20.166Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.wistbean.com/install-centos.html</loc>
     
     <lastmod>2018-12-01T21:50:56.227Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://www.wistbean.com/java-ssm-4-3.html</loc>
     
     <lastmod>2018-12-01T15:22:07.836Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.wistbean.com/support/index.html</loc>
-    
-    <lastmod>2018-12-01T10:04:33.786Z</lastmod>
     
   </url>
   
