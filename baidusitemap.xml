@@ -3,6 +3,36 @@
 
 
     
+    
+  <url>
+    <loc>https://www.wistbean.com/vultr-vps-bbr-ss.html</loc>
+    <lastmod>2018-12-03T08:47:48.329Z</lastmod>
+    <data>
+        <display>
+        <title>使用vultr(vps)搭建ss并开启BBR快速上网教程 超简单10分钟搞定</title>
+        <pubTime>2018-11-30T18:40:36.000Z</pubTime>
+        
+        <tag>互联网</tag>
+         
+        <tag>vultr</tag>
+         
+        <tag>vpn</tag>
+         
+        <tag>搭建ss</tag>
+         
+         
+           
+             
+              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
+          
+             
+              <breadCrumb title="vultr" url="https://www.wistbean.com/categories/vpn/vultr/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>https://www.wistbean.com/install-centos.html</loc>
     <lastmod>2018-12-02T17:39:29.444Z</lastmod>
@@ -15,9 +45,9 @@
          
         <tag>Linux</tag>
          
-        <tag>VirtualBox</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>VirtualBox</tag>
          
         <tag>虚拟机</tag>
          
@@ -67,9 +97,9 @@
          
         <tag>Linux</tag>
          
-        <tag>VirtualBox</tag>
-         
         <tag>CentOS</tag>
+         
+        <tag>VirtualBox</tag>
          
         <tag>虚拟机</tag>
          
@@ -113,13 +143,13 @@
          
         <tag>postman</tag>
          
+        <tag>UEditor</tag>
+         
         <tag>SSM视频教程</tag>
          
         <tag>redis</tag>
          
         <tag>solor</tag>
-         
-        <tag>UEditor</tag>
          
         <tag>JQuery</tag>
          
@@ -151,7 +181,6 @@
     </data>
     </url>
 
-    
     
     
   <url>
@@ -258,35 +287,6 @@
           
              
               <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/vultr-vps-bbr-ss.html</loc>
-    <lastmod>2018-12-01T08:57:44.939Z</lastmod>
-    <data>
-        <display>
-        <title>使用vultr(vps)搭建ss并开启BBR快速上网教程 超简单10分钟搞定</title>
-        <pubTime>2018-11-30T18:40:36.000Z</pubTime>
-        
-        <tag>互联网</tag>
-         
-        <tag>vultr</tag>
-         
-        <tag>vpn</tag>
-         
-        <tag>搭建ss</tag>
-         
-         
-           
-             
-              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
-          
-             
-              <breadCrumb title="vultr" url="https://www.wistbean.com/categories/vpn/vultr/"/>
           
         </display>
     </data>
@@ -599,13 +599,13 @@
          
         <tag>搬瓦工</tag>
          
+        <tag>Git</tag>
+         
         <tag>教程</tag>
          
         <tag>hexo</tag>
          
         <tag>blog</tag>
-         
-        <tag>Git</tag>
          
         <tag>Nginx</tag>
          
@@ -658,9 +658,9 @@
         
         <tag>互联网</tag>
          
-        <tag>个人理财</tag>
-         
         <tag>赚钱</tag>
+         
+        <tag>个人理财</tag>
          
          
            
@@ -830,9 +830,9 @@
         
         <tag>互联网</tag>
          
-        <tag>个人理财</tag>
-         
         <tag>赚钱</tag>
+         
+        <tag>个人理财</tag>
          
          
            
@@ -1597,11 +1597,11 @@
         <title>「1-4」GitHub完全使用指南</title>
         <pubTime>2018-08-29T09:25:21.000Z</pubTime>
         
-        <tag>教程</tag>
+        <tag>GitHub</tag>
          
         <tag>Git</tag>
          
-        <tag>GitHub</tag>
+        <tag>教程</tag>
          
         <tag>Java</tag>
          
@@ -1639,9 +1639,9 @@
         <title>「1-3」代码托管Git的使用</title>
         <pubTime>2018-08-29T09:25:20.000Z</pubTime>
         
-        <tag>教程</tag>
-         
         <tag>Git</tag>
+         
+        <tag>教程</tag>
          
         <tag>Java</tag>
          
@@ -1689,11 +1689,11 @@
          
         <tag>分布式</tag>
          
+        <tag>架构</tag>
+         
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
-         
-        <tag>架构</tag>
          
          
            
@@ -1928,9 +1928,9 @@
         
         <tag>互联网</tag>
          
-        <tag>个人理财</tag>
-         
         <tag>赚钱</tag>
+         
+        <tag>个人理财</tag>
          
         <tag>Paypal</tag>
          
@@ -1981,9 +1981,9 @@
         <title>GitHub是什么？如何使用？</title>
         <pubTime>2018-09-15T11:53:09.000Z</pubTime>
         
-        <tag>Git</tag>
-         
         <tag>GitHub</tag>
+         
+        <tag>Git</tag>
          
          
            
