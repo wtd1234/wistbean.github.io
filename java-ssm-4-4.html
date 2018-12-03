@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+<!-- Baidu Push -->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!-- End Baidu Push -->
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    
+    <title>「4-4」富文本编辑器 百度 UEditor 的使用 | 肯定会 | wistbean</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="教程,Nginx,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,FastDFS,UEditor,富文本编辑器">
+    <meta name="description" content="富文本编辑器UEditor介绍百度UEditor的介绍是：由百度web前端研发部开发所见即所得富文本web编辑器，具有轻量，可定制，注重用户体验等特点，开源基于MIT协议，允许自由使用和修改代码. 百度 UEditor 最新版的下载地址：1.4.3.3 Jsp 版本 下载之后解压可以看到一个demo，里面有js文件和一些所需要的lib：">
+<meta name="keywords" content="教程,Nginx,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,FastDFS,UEditor,富文本编辑器">
+<meta property="og:type" content="article">
+<meta property="og:title" content="「4-4」富文本编辑器 百度 UEditor 的使用">
+<meta property="og:url" content="https://www.wistbean.com/java-ssm-4-4.html">
+<meta property="og:site_name" content="肯定会">
+<meta property="og:description" content="富文本编辑器UEditor介绍百度UEditor的介绍是：由百度web前端研发部开发所见即所得富文本web编辑器，具有轻量，可定制，注重用户体验等特点，开源基于MIT协议，允许自由使用和修改代码. 百度 UEditor 最新版的下载地址：1.4.3.3 Jsp 版本 下载之后解压可以看到一个demo，里面有js文件和一些所需要的lib：">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://www.wistbean.com/images/ueditor1.png">
+<meta property="og:image" content="https://www.wistbean.com/images/ueditor2.png">
+<meta property="og:image" content="https://www.wistbean.com/images/ueditor3.png">
+<meta property="og:updated_time" content="2018-12-03T14:37:33.243Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="「4-4」富文本编辑器 百度 UEditor 的使用">
+<meta name="twitter:description" content="富文本编辑器UEditor介绍百度UEditor的介绍是：由百度web前端研发部开发所见即所得富文本web编辑器，具有轻量，可定制，注重用户体验等特点，开源基于MIT协议，允许自由使用和修改代码. 百度 UEditor 最新版的下载地址：1.4.3.3 Jsp 版本 下载之后解压可以看到一个demo，里面有js文件和一些所需要的lib：">
+<meta name="twitter:image" content="https://www.wistbean.com/images/ueditor1.png">
+    
+        <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu"  >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(http://owx1uvd7t.bkt.clouddn.com/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="http://owx1uvd7t.bkt.clouddn.com/avatar.jpg" alt="wistbean|肯定会">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">wistbean</h5>
+          <a href="mailto:wistbean.bb@gmail.com" title="wistbean.bb@gmail.com" class="mail">wistbean.bb@gmail.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/podcast/"  >
+                <i class="icon icon-lg icon-podcast"></i>
+                肯定会电台
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/Java/Java-SSM视频教程/"  >
+                <i class="icon icon-lg icon-coffee"></i>
+                Java SSM视频教程
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/vpn/"  >
+                <i class="icon icon-lg icon-google"></i>
+                云服务VPN
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/python/"  >
+                <i class="icon icon-lg icon-bug"></i>
+                python3教程
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-bars"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives/"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/aboutMe/"  >
+                <i class="icon icon-lg icon-user"></i>
+                关于wistbean
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/support/"  >
+                <i class="icon icon-lg icon-thumbs-up"></i>
+                赞助wistbean
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/links/"  >
+                <i class="icon icon-lg icon-link"></i>
+                友情链接
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">「4-4」富文本编辑器 百度 UEditor 的使用</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入感兴趣的关键字">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">「4-4」富文本编辑器 百度 UEditor 的使用</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2018-12-03T09:28:01.000Z" itemprop="datePublished" class="page-time">
+  2018-12-03
+</time>
+
+
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Java/">Java</a><ul class="article-category-list-child"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Java/Java-SSM视频教程/">Java SSM视频教程</a></li></ul></li></ul>
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>目录</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#富文本编辑器UEditor介绍"><span class="post-toc-number">1.</span> <span class="post-toc-text">富文本编辑器UEditor介绍</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#在项目中使用UEditor"><span class="post-toc-number">2.</span> <span class="post-toc-text">在项目中使用UEditor</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#将所需的-jar-包安装到-maven-仓库中"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">将所需的 jar 包安装到 maven 仓库中</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#将-ueditor-所需的文件复制到项目中"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">将 ueditor 所需的文件复制到项目中</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#后端ueditor文件的上传"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">后端ueditor文件的上传</span></a></li></ol></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-java-ssm-4-4"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">「4-4」富文本编辑器 百度 UEditor 的使用</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2018-12-03 17:28:01" datetime="2018-12-03T09:28:01.000Z"  itemprop="datePublished">2018-12-03</time>
+
+            
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Java/">Java</a><ul class="article-category-list-child"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Java/Java-SSM视频教程/">Java SSM视频教程</a></li></ul></li></ul>
+
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h1 id="富文本编辑器UEditor介绍"><a href="#富文本编辑器UEditor介绍" class="headerlink" title="富文本编辑器UEditor介绍"></a>富文本编辑器UEditor介绍</h1><p><a href="https://ueditor.baidu.com/website/index.html" target="_blank" rel="noopener">百度UEditor</a>的介绍是：由百度web前端研发部开发所见即所得富文本web编辑器，具有轻量，可定制，注重用户体验等特点，开源基于MIT协议，允许自由使用和修改代码.</p>
+<p>百度 UEditor 最新版的下载地址：<a href="https://ueditor.baidu.com/build/build_down.php?n=ueditor&amp;v=1_4_3_3-utf8-jsp" target="_blank" rel="noopener">1.4.3.3 Jsp 版本</a></p>
+<p>下载之后解压可以看到一个demo，里面有js文件和一些所需要的lib：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/ueditor1.png" alt="UEditor" title="">
+                </div>
+                <div class="image-caption">UEditor</div>
+            </figure>
+<p>打开 index.html 文件可以看到这个富文本编辑器还是挺丰富的，可以很方便获取到我们要的 HTML 源码：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/ueditor2.png" alt="UEditor demo" title="">
+                </div>
+                <div class="image-caption">UEditor demo</div>
+            </figure>
+<p>那么接下来我们就在我们的 <a href="https://github.com/wistbean/manong-ssm" target="_blank" rel="noopener">manong</a> 项目中使用这个富文本编辑器吧。</p>
+<h1 id="在项目中使用UEditor"><a href="#在项目中使用UEditor" class="headerlink" title="在项目中使用UEditor"></a>在项目中使用UEditor</h1><h2 id="将所需的-jar-包安装到-maven-仓库中"><a href="#将所需的-jar-包安装到-maven-仓库中" class="headerlink" title="将所需的 jar 包安装到 maven 仓库中"></a>将所需的 jar 包安装到 maven 仓库中</h2><p>安装json的jar包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn install:install-file -Dfile=C:\Users\Administrator\Desktop\utf8-jsp\jsp\lib\json.jar -DgroupId=com.json -DartifactId=json -Dversion=1.1 -Dpackaging=jar</span><br></pre></td></tr></table></figure>
+<p>安装 ueditor 的jar包<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn install:install-file -Dfile=C:\Users\Administrator\Desktop\utf8-jsp\jsp\lib\ueditor-1.1.2.jar -DgroupId=com.baidu -DartifactId=ueditor -Dversion=1.1.2 -Dpackaging=jar</span><br></pre></td></tr></table></figure></p>
+<h2 id="将-ueditor-所需的文件复制到项目中"><a href="#将-ueditor-所需的文件复制到项目中" class="headerlink" title="将 ueditor 所需的文件复制到项目中"></a>将 ueditor 所需的文件复制到项目中</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/ueditor3.png" alt="UEditor demo" title="">
+                </div>
+                <div class="image-caption">UEditor demo</div>
+            </figure>
+<h2 id="后端ueditor文件的上传"><a href="#后端ueditor文件的上传" class="headerlink" title="后端ueditor文件的上传"></a>后端ueditor文件的上传</h2><p>遇到上传问题：No mapping found for HTTP request with URI ，导致访问上传的图片和一些静态资源 404 。</p>
+<p>解决方式，在SpringMVC配置文件中添加：<code>&lt;mvc:default-servlet-handler/&gt;</code></p>
+<blockquote>
+<p>default-servlet-handler简介：<br> 它会对进入 DispatcherServlet 的请求进行筛选，如果发现是没有经过映射处理的请求，将该请求交由 WEB 应用服务器默认的Servlet处理。 如果不是静态资源的请求， 才由 DispatcherServlet 继续处理 ，一般 WEB 应用服务器默认的 Servlet 的名称都是 default。</p>
+</blockquote>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+      <!--  
+<span class="post-time">
+    最后更新时间：<time datetime="2018-12-03T14:37:33.243Z" itemprop="dateUpdated">2018-12-03 22:37:33</time>
+</span><br>
+
+
+        
+        本站所有文章均为原创，转载请注明出处：url_for(page.permalink)
+        
+        -->
+        本站所有文章均为原创，转载请注明出处：
+        <a href="https://www.wistbean.com/java-ssm-4-4.html">
+                   wistbean|肯定会
+         </a>
+         关注公众号「肯定会」并发送「程序员」直接免费获取 12 本精华电子书
+    </div>
+    
+    <footer>
+        <a href="https://www.wistbean.com">
+            <img src="http://owx1uvd7t.bkt.clouddn.com/avatar.jpg" alt="wistbean|肯定会">
+            wistbean
+        </a>
+    </footer>
+</blockquote>
+
+        
+
+
+        <div class="post-footer">
+            
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/EasyUI/">EasyUI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/FastDFS/">FastDFS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Intellij-IDEA/">Intellij IDEA</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java视频教程/">Java视频教程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Nginx/">Nginx</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SSM/">SSM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UEditor/">UEditor</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/分布式/">分布式</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/富文本编辑器/">富文本编辑器</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/项目实战/">项目实战</a></li></ul>
+
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/java-ssm-4-4.html&title=《「4-4」富文本编辑器 百度 UEditor 的使用》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/java-ssm-4-4.html&title=《「4-4」富文本编辑器 百度 UEditor 的使用》 — 肯定会&source=wistbean的个人博客，《肯定会电台》博客节目主播，《Java项目实战视频教程》up主，博客主要涉及到编程（Java，Python，Linux等），个..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/java-ssm-4-4.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《「4-4」富文本编辑器 百度 UEditor 的使用》 — 肯定会&url=https://www.wistbean.com/java-ssm-4-4.html&via=https://www.wistbean.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/java-ssm-4-4.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/vultr-vps-bbr-ss.html" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">使用vultr(vps)搭建ss并开启BBR快速上网教程 超简单10分钟搞定</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'false' == 'true',
+            verify: 'false' == 'true',
+            appId: "EwGBpz5cFF0t3WS9QYluuUPU-gzGzoHsz",
+            appKey: "k9IK8hrOleIsPWLjCdv9atgo",
+            avatar: "mm",
+            placeholder: "Just go go",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "10"
+        })
+    </script>
+    <!-- Valine Comments end -->
+
+
+
+
+
+
+
+</article>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        本站总读者数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        本站总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>本站已加入 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-知识 4.0  (CC BY-NC-SA 4.0)国际协议 | 转载请注明链接出处</a></span>
+        </p>
+    </div>
+
+        <div class="bottom">
+                <p><span>wistbean &copy; 2015 - 2018</span>
+                    <span>
+                        
+                        Power by <a href="https://www.wistbean.com/">wistbean</a>
+                    </span>
+                </p>
+        </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/java-ssm-4-4.html&title=《「4-4」富文本编辑器 百度 UEditor 的使用》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/java-ssm-4-4.html&title=《「4-4」富文本编辑器 百度 UEditor 的使用》 — 肯定会&source=wistbean的个人博客，《肯定会电台》博客节目主播，《Java项目实战视频教程》up主，博客主要涉及到编程（Java，Python，Linux等），个..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/java-ssm-4-4.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《「4-4」富文本编辑器 百度 UEditor 的使用》 — 肯定会&url=https://www.wistbean.com/java-ssm-4-4.html&via=https://www.wistbean.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/java-ssm-4-4.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABy0lEQVR42u3aS27DMAwFwNz/0u62G9uPpCSkxWgVJIIz8oIQP59PvK5f63lPb//ihYuLO+Zej+tuzx0xP/Dz828PjIuLe5CbBKa7/c9/8Hz43ICLi/vN3CS0Jd/j4uL+J24etqrJEi4u7rdxJ4Em+bWaXC3I1XBxcQfcvEq57/OW+i4uLm6LexVX/oQk2JX/HRcX9wg3DyiTJkqvZXu7ExcXdzP3LrjkQxW9skg1OEY4XFzcRdxqE7TaPplcaF7eMS4u7mZuErbyMkc1+ekNfODi4u7jzscjkotO8iKio+Li4h7h9gJKtWnaa9W8JD+4uLhHuFsenQxaFQMiLi7uGW6vOFJNfiZNWVxc3JPcPOGZt1Hzi9FLroaLi7uZOylr5uHsubmSXKEKExy4uLiLuNXy6ITVG++IesK4uLgbuDvSlV575mUnLi7uQW71ctMrs86Lqri4uLu5V3FVG7HP7ZbysXFxcY9wewXQXlE1P/Bk1gIXF3cVd5Ko5AGx+gqaFx1cXNyl3LzQ2YuRi3M1XFzcL+ZWg2CvHYuLi/tXuPmlZF4Keen84OLibuMmwSgfsuwlOdGlChcX9wi3HEpauGqpdEF9FxcXt8P9ASbS4jFR8HsTAAAAAElFTkSuQmCC" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
+
+
+</script>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
+
+
+
+
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>
