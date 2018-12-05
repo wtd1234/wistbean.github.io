@@ -4,8 +4,35 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/banwagong-vpn.html</loc>
+    <lastmod>2018-12-05T16:09:45.975Z</lastmod>
+    <data>
+        <display>
+        <title>使用搬瓦工快速搭建自己的VPN</title>
+        <pubTime>2018-06-10T09:06:26.000Z</pubTime>
+        
+        <tag>搬瓦工</tag>
+         
+        <tag>vpn搭建</tag>
+         
+        <tag>搬瓦工搭建vpn</tag>
+         
+         
+           
+             
+              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
+          
+             
+              <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/vpn/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/banwagong-15-1000G-vps.html</loc>
-    <lastmod>2018-12-05T15:44:59.159Z</lastmod>
+    <lastmod>2018-12-05T15:55:24.979Z</lastmod>
     <data>
         <display>
         <title>搬瓦工19美元服务器没货了，但提供了15美元1000GB的vps</title>
@@ -13,7 +40,9 @@
         
         <tag>搬瓦工</tag>
          
-        <tag>vultr</tag>
+        <tag>vps</tag>
+         
+        <tag>搬瓦工优惠</tag>
          
          
            
@@ -21,7 +50,7 @@
               <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
           
              
-              <breadCrumb title="vultr" url="https://www.wistbean.com/categories/%E6%90%AC%E7%93%A6%E5%B7%A5/vultr/"/>
+              <breadCrumb title="vps" url="https://www.wistbean.com/categories/%E6%90%AC%E7%93%A6%E5%B7%A5/vps/"/>
           
         </display>
     </data>
@@ -112,9 +141,9 @@
         <title>2018最新12月vultr vps优惠送25美元</title>
         <pubTime>2018-11-30T16:40:36.000Z</pubTime>
         
-        <tag>vultr</tag>
-         
         <tag>互联网</tag>
+         
+        <tag>vultr</tag>
          
         <tag>vpn</tag>
          
@@ -143,9 +172,9 @@
         <title>使用vultr(vps)搭建ss并开启BBR快速上网教程 超简单10分钟搞定</title>
         <pubTime>2018-11-30T18:40:36.000Z</pubTime>
         
-        <tag>vultr</tag>
-         
         <tag>互联网</tag>
+         
+        <tag>vultr</tag>
          
         <tag>vpn</tag>
          
@@ -241,13 +270,13 @@
          
         <tag>postman</tag>
          
-        <tag>UEditor</tag>
-         
         <tag>SSM视频教程</tag>
          
         <tag>redis</tag>
          
         <tag>solor</tag>
+         
+        <tag>UEditor</tag>
          
         <tag>JQuery</tag>
          
@@ -534,9 +563,9 @@
         
         <tag>搬瓦工</tag>
          
-        <tag>vultr</tag>
-         
         <tag>云服务器</tag>
+         
+        <tag>vultr</tag>
          
          
            
@@ -561,33 +590,6 @@
         <tag>搬瓦工搭建vpn</tag>
          
         <tag>IPsec/L2TP</tag>
-         
-         
-           
-             
-              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
-          
-             
-              <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/vpn/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/banwagong-vpn.html</loc>
-    <lastmod>2018-11-27T11:55:24.383Z</lastmod>
-    <data>
-        <display>
-        <title>使用搬瓦工快速搭建自己的VPN</title>
-        <pubTime>2018-06-10T09:06:26.000Z</pubTime>
-        
-        <tag>搬瓦工</tag>
-         
-        <tag>vpn搭建</tag>
-         
-        <tag>搬瓦工搭建vpn</tag>
          
          
            
@@ -781,9 +783,9 @@
         
         <tag>互联网</tag>
          
-        <tag>个人理财</tag>
-         
         <tag>赚钱</tag>
+         
+        <tag>个人理财</tag>
          
          
            
@@ -953,9 +955,9 @@
         
         <tag>互联网</tag>
          
-        <tag>个人理财</tag>
-         
         <tag>赚钱</tag>
+         
+        <tag>个人理财</tag>
          
          
            
@@ -1812,11 +1814,11 @@
          
         <tag>分布式</tag>
          
+        <tag>架构</tag>
+         
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
-         
-        <tag>架构</tag>
          
          
            
@@ -2051,9 +2053,9 @@
         
         <tag>互联网</tag>
          
-        <tag>个人理财</tag>
-         
         <tag>赚钱</tag>
+         
+        <tag>个人理财</tag>
          
         <tag>Paypal</tag>
          
