@@ -26,7 +26,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-zMZbxfVD&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-YuQICLas&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -90,7 +90,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-UYAefDYg&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-BqKbMuQL&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -215,7 +215,7 @@ b站、Youtube之前说过了，b站不仅仅是个二次元的视频资源网�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-dcyxvYlh&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-GfDsXNUT&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -281,7 +281,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-daphBKAz&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-XHPzQSeK&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -351,7 +351,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-RdeBOCLM&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-oPZROTgP&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -418,7 +418,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-UKTWSJus&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-yTnPaWrr&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -496,7 +496,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-WqDTNsVs&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-qYTJzBFQ&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -572,7 +572,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-rtjhfFiy&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-rtfPQsyZ&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -646,7 +646,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-shpphGtN&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-sjdlGXUa&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -709,7 +709,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-cnXPyMqL&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-zlItDCOU&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -955,26 +955,6 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
     </item>
     
     <item>
-      <title>通过互联网赚取你的第一桶金</title>
-      <description> 
-
-内容通过互联网赚钱的 9 种渠道
-肯定会电台相关肯定会电台肯定会电台RSS订阅
- </description>
-      <itunes:author> wistbean</itunes:author>
-      <itunes:subtitle> </itunes:subtitle>
-      <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/38.mp3" length="14698979" type=""/>
-      <guid></guid>
-      <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
-      <itunes:duration>00:17:29</itunes:duration>
-      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
-        
-      </psc:chapters>
-    </item>
-    
-    <item>
       <title>你的个人隐私被泄露了，咋办？</title>
       <description> 
         
@@ -982,7 +962,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-OHfNwsmT&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-pdeaSFtR&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -1015,6 +995,26 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
     </item>
     
     <item>
+      <title>通过互联网赚取你的第一桶金</title>
+      <description> 
+
+内容通过互联网赚钱的 9 种渠道
+肯定会电台相关肯定会电台肯定会电台RSS订阅
+ </description>
+      <itunes:author> wistbean</itunes:author>
+      <itunes:subtitle> </itunes:subtitle>
+      <itunes:summary>  </itunes:summary>
+      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
+      <enclosure url="https://www.wistbean.com/podcast/38.mp3" length="14698979" type=""/>
+      <guid></guid>
+      <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
+      <itunes:duration>00:17:29</itunes:duration>
+      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+        
+      </psc:chapters>
+    </item>
+    
+    <item>
       <title>找到你要的资源，Google高级搜索技巧</title>
       <description> 
         
@@ -1022,7 +1022,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-OxmgEOBF&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-IZrQmcsB&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
