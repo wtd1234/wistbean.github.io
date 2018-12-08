@@ -19,6 +19,32 @@
     <language>zh-CN</language>
     
     <item>
+      <title>肯定会电台，晚点见</title>
+      <description> 不知不觉，肯定会电台已经做了 53 期了，平均每周都会更新一期，其实每期时间不长，大多都在 10 分钟左右。
+其实我经常听podcast，我觉得这种方式挺好的，听听别人的想法，听听一些自己可能从来不知道的东西，扩展自己的视野。
+后来想着要不自己也弄一个玩玩，说点科技上的，说点个人提升的，说点书上的精华。想想自己能做点输出，让别人听了觉得有用，是件挺有意义的事情。
+虽然说自己做的这个玩意没有多好，但在做的过程还是能体会到背后的那些付出，原来，有些事情被我想得过于简单。
+不管这么样，这一年我还是有在坚持的，要不也不会有这 53 期。
+不过听这个肯定会电台的人不多，有那么几个人私信我说，很好。还是有点开心的。
+其实，这也是自己在不断的尝试一些“新鲜”事物之一，觉得可以做就试试，试试就好好试试。
+最近每周五都更新一期，我觉得星期五是整个星期挺美好的一个数字，不过从这个星期五开始暂时停更一阵子啦。
+停下来，看一看，想一想先，也先做点减法。
+肯定会电台，54-100期，晚点见。
+ </description>
+      <itunes:author> wistbean</itunes:author>
+      <itunes:subtitle> </itunes:subtitle>
+      <itunes:summary>  </itunes:summary>
+      <itunes:image href="" />
+      <enclosure url="" length="" type=""/>
+      <guid></guid>
+      <pubDate>Sat, 08 Dec 2018 07:54:00 GMT</pubDate>
+      <itunes:duration></itunes:duration>
+      <psc:chapters version="1.2" xmlns:psc="http://podlove.org/simple-chapters">
+        
+      </psc:chapters>
+    </item>
+    
+    <item>
       <title>到底怎样才算是学会知识了呢</title>
       <description> 
         
@@ -26,7 +52,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-MyiwSTma&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-itkhkCrh&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -90,7 +116,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-LirXYjEV&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-WVysfLyq&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -215,7 +241,7 @@ b站、Youtube之前说过了，b站不仅仅是个二次元的视频资源网�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-pnYzdVto&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-PfJvzNWE&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -281,7 +307,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-YfdRXHxb&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-YWpcGhSJ&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -351,7 +377,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-hedgzcWI&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-hPexTCvT&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -418,7 +444,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-kmekdVMZ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-RQmkEVWe&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -496,7 +522,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-LJszfBQJ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-WJoICBEd&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -572,7 +598,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-InsBWHTo&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-WgzOuMAQ&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -646,7 +672,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-NRnkzyNn&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-NNcCSlSa&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -709,7 +735,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-vutloOUn&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-XLlMhoRv&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -962,7 +988,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-vYvTtviG&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-oQnkGdyq&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -1022,7 +1048,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-AyTbbRNY&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-LdwNNwVv&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
