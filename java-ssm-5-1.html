@@ -37,16 +37,21 @@
     <meta name="theme-color" content="#3F51B5">
     
     
-    <meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,UEditor,富文本编辑器,商品">
-    <meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,UEditor,富文本编辑器,商品">
+    <meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,EasyUI,Intellij IDEA,UEditor,富文本编辑器,商品,FreeMarker">
+    <meta name="description" content="什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
+<meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,EasyUI,Intellij IDEA,UEditor,富文本编辑器,商品,FreeMarker">
 <meta property="og:type" content="article">
 <meta property="og:title" content="「5-1」Java模板引擎FreeMarker整合SSM">
 <meta property="og:url" content="https://www.wistbean.com/java-ssm-5-1.html">
 <meta property="og:site_name" content="肯定会">
+<meta property="og:description" content="什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-12-09T15:39:22.468Z">
+<meta property="og:image" content="https://freemarker.apache.org/images/overview.png">
+<meta property="og:updated_time" content="2018-12-11T15:45:56.892Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="「5-1」Java模板引擎FreeMarker整合SSM">
+<meta name="twitter:description" content="什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
+<meta name="twitter:image" content="https://freemarker.apache.org/images/overview.png">
     
         <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
     
@@ -174,8 +179,8 @@
         <h1 class="title">「5-1」Java模板引擎FreeMarker整合SSM</h1>
         <h5 class="subtitle">
             
-                <time datetime="2018-12-08T13:27:26.000Z" itemprop="datePublished" class="page-time">
-  2018-12-08
+                <time datetime="2018-12-11T13:27:26.000Z" itemprop="datePublished" class="page-time">
+  2018-12-11
 </time>
 
 
@@ -193,6 +198,13 @@
 
 <div class="container body-wrap">
     
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>目录</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#什么是FreeMarker"><span class="post-toc-number">1.</span> <span class="post-toc-text">什么是FreeMarker</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#FreeMarker与SpringMVC的整合"><span class="post-toc-number">2.</span> <span class="post-toc-text">FreeMarker与SpringMVC的整合</span></a></li></ol>
+        </nav>
+    </aside>
+
 
 <article id="post-java-ssm-5-1"
   class="post-article article-type-post fade" itemprop="blogPost">
@@ -200,7 +212,7 @@
     <div class="post-card">
         <h1 class="post-card-title">「5-1」Java模板引擎FreeMarker整合SSM</h1>
         <div class="post-meta">
-            <time class="post-time" title="2018-12-08 21:27:26" datetime="2018-12-08T13:27:26.000Z"  itemprop="datePublished">2018-12-08</time>
+            <time class="post-time" title="2018-12-11 21:27:26" datetime="2018-12-11T13:27:26.000Z"  itemprop="datePublished">2018-12-11</time>
 
             
 	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Java/">Java</a><ul class="article-category-list-child"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Java/Java-SSM视频教程/">Java SSM视频教程</a></li></ul></li></ul>
@@ -215,7 +227,17 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            
+            <h1 id="什么是FreeMarker"><a href="#什么是FreeMarker" class="headerlink" title="什么是FreeMarker"></a>什么是FreeMarker</h1><p><a href="https://freemarker.apache.org/" target="_blank" rel="noopener">FreeMarker</a>是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://freemarker.apache.org/images/overview.png" alt="FreeMarker" title="">
+                </div>
+                <div class="image-caption">FreeMarker</div>
+            </figure>
+<p>比如上图中的 ${name} 就是一个模板，这样的话前端不需要知道这个数据的具体逻辑，后端给就是了，页面的样式和数据之间分离出来，各过各的，挺好。</p>
+<p>FreeMarker 还提供了一些<a href="https://freemarker.apache.org/docs/dgui_template_directives.html" target="_blank" rel="noopener">指令</a>，比如 if 判断，列表数据，循环等。我们的项目中到时候会用到。</p>
+<h1 id="FreeMarker与SpringMVC的整合"><a href="#FreeMarker与SpringMVC的整合" class="headerlink" title="FreeMarker与SpringMVC的整合"></a>FreeMarker与SpringMVC的整合</h1>
         </div>
 
         <blockquote class="post-copyright">
@@ -223,7 +245,7 @@
     <div class="content">
       <!--  
 <span class="post-time">
-    最后更新时间：<time datetime="2018-12-09T15:39:22.468Z" itemprop="dateUpdated">2018-12-09 23:39:22</time>
+    最后更新时间：<time datetime="2018-12-11T15:45:56.892Z" itemprop="dateUpdated">2018-12-11 23:45:56</time>
 </span><br>
 
 
@@ -251,7 +273,7 @@
 
         <div class="post-footer">
             
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/EasyUI/">EasyUI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Intellij-IDEA/">Intellij IDEA</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java视频教程/">Java视频教程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SSM/">SSM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UEditor/">UEditor</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/分布式/">分布式</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/商品/">商品</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/富文本编辑器/">富文本编辑器</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/项目实战/">项目实战</a></li></ul>
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/EasyUI/">EasyUI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/FreeMarker/">FreeMarker</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Intellij-IDEA/">Intellij IDEA</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java视频教程/">Java视频教程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SSM/">SSM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UEditor/">UEditor</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/分布式/">分布式</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/商品/">商品</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/富文本编辑器/">富文本编辑器</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/项目实战/">项目实战</a></li></ul>
 
 
             
@@ -306,21 +328,14 @@
     </div>
 
     
-<nav class="post-nav flex-row flex-justify-between">
-  
-    <div class="waves-block waves-effect prev">
-      <a href="/bangwagong-vultr-na-ge-hao.html" id="post-prev" class="post-nav-link">
-        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
-        <h4 class="title">搬瓦工和vultr哪个好</h4>
-      </a>
-    </div>
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
   
 
   
     <div class="waves-block waves-effect next">
-      <a href="/ken-ding-hui-dian-tai.html" id="post-next" class="post-nav-link">
+      <a href="/banwagong-quick-build-ss.html" id="post-next" class="post-nav-link">
         <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
-        <h4 class="title">肯定会电台，晚点见</h4>
+        <h4 class="title">搬瓦工vps一键搭建ss(安装shadowsocks)科学上网，傻瓜式1分钟搞定</h4>
       </a>
     </div>
   
