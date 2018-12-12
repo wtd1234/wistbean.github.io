@@ -37,9 +37,9 @@
     <meta name="theme-color" content="#3F51B5">
     
     
-    <meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,EasyUI,Intellij IDEA,UEditor,富文本编辑器,商品,FreeMarker">
+    <meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,UEditor,富文本编辑器,商品,FreeMarker">
     <meta name="description" content="什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
-<meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,EasyUI,Intellij IDEA,UEditor,富文本编辑器,商品,FreeMarker">
+<meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,UEditor,富文本编辑器,商品,FreeMarker">
 <meta property="og:type" content="article">
 <meta property="og:title" content="「5-1」Java模板引擎FreeMarker整合SSM">
 <meta property="og:url" content="https://www.wistbean.com/java-ssm-5-1.html">
@@ -47,7 +47,9 @@
 <meta property="og:description" content="什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://freemarker.apache.org/images/overview.png">
-<meta property="og:updated_time" content="2018-12-11T15:45:56.892Z">
+<meta property="og:image" content="https://www.wistbean.com/images/freemarker.png">
+<meta property="og:image" content="https://www.wistbean.com/images/freemarker1.png">
+<meta property="og:updated_time" content="2018-12-12T11:44:34.765Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="「5-1」Java模板引擎FreeMarker整合SSM">
 <meta name="twitter:description" content="什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
@@ -201,7 +203,7 @@
     <aside class="post-widget">
         <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
             <h4>目录</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#什么是FreeMarker"><span class="post-toc-number">1.</span> <span class="post-toc-text">什么是FreeMarker</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#FreeMarker与SpringMVC的整合"><span class="post-toc-number">2.</span> <span class="post-toc-text">FreeMarker与SpringMVC的整合</span></a></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#什么是FreeMarker"><span class="post-toc-number">1.</span> <span class="post-toc-text">什么是FreeMarker</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#FreeMarker与SpringMVC的整合"><span class="post-toc-number">2.</span> <span class="post-toc-text">FreeMarker与SpringMVC的整合</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#maven-依赖-freemarker"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">maven 依赖 freemarker</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#SpringMVC配置FreeMarker"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">SpringMVC配置FreeMarker</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Controller使用FreeMarker"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">Controller使用FreeMarker</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#template使用"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">template使用</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#运行效果"><span class="post-toc-number">2.5.</span> <span class="post-toc-text">运行效果</span></a></li></ol></li></ol>
         </nav>
     </aside>
 
@@ -237,7 +239,28 @@
             </figure>
 <p>比如上图中的 ${name} 就是一个模板，这样的话前端不需要知道这个数据的具体逻辑，后端给就是了，页面的样式和数据之间分离出来，各过各的，挺好。</p>
 <p>FreeMarker 还提供了一些<a href="https://freemarker.apache.org/docs/dgui_template_directives.html" target="_blank" rel="noopener">指令</a>，比如 if 判断，列表数据，循环等。我们的项目中到时候会用到。</p>
-<h1 id="FreeMarker与SpringMVC的整合"><a href="#FreeMarker与SpringMVC的整合" class="headerlink" title="FreeMarker与SpringMVC的整合"></a>FreeMarker与SpringMVC的整合</h1>
+<h1 id="FreeMarker与SpringMVC的整合"><a href="#FreeMarker与SpringMVC的整合" class="headerlink" title="FreeMarker与SpringMVC的整合"></a>FreeMarker与SpringMVC的整合</h1><h2 id="maven-依赖-freemarker"><a href="#maven-依赖-freemarker" class="headerlink" title="maven 依赖 freemarker"></a>maven 依赖 freemarker</h2><p>freemarker的maven依赖,<a href="https://mvnrepository.com/artifact/org.freemarker/freemarker/2.3.28" target="_blank" rel="noopener">最新版本如下</a>：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;org.freemarker&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;freemarker&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;2.3.28&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure>
+<p>支持集成常见的第三方库的依赖：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">     &lt;groupId&gt;org.springframework&lt;/groupId&gt;</span><br><span class="line">     &lt;artifactId&gt;spring-context-support&lt;/artifactId&gt;</span><br><span class="line">     &lt;version&gt;$&#123;spring.version&#125;&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="SpringMVC配置FreeMarker"><a href="#SpringMVC配置FreeMarker" class="headerlink" title="SpringMVC配置FreeMarker"></a>SpringMVC配置FreeMarker</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--freemarker的配置在前，当当请求发现/WEB-INF/ftl/没有的时候，就会去/WEB-INF/jsp/查找--&gt;</span><br><span class="line">   &lt;bean id=&quot;freemarkerConfig&quot; class=&quot;org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer&quot;&gt;</span><br><span class="line">       &lt;property name=&quot;templateLoaderPath&quot; value=&quot;/WEB-INF/ftl/&quot;/&gt;</span><br><span class="line">   &lt;/bean&gt;</span><br><span class="line">   &lt;bean id=&quot;viewResolver&quot; class=&quot;org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver&quot;&gt;</span><br><span class="line">       &lt;property name=&quot;prefix&quot; value=&quot;&quot;/&gt;</span><br><span class="line">       &lt;property name=&quot;suffix&quot; value=&quot;.ftl&quot;/&gt;</span><br><span class="line">       &lt;property name=&quot;contentType&quot; value=&quot;text/html; charset=UTF-8&quot;/&gt;</span><br><span class="line">   &lt;/bean&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="Controller使用FreeMarker"><a href="#Controller使用FreeMarker" class="headerlink" title="Controller使用FreeMarker"></a>Controller使用FreeMarker</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Controller</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FreeMarkerTestController</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@RequestMapping</span>(<span class="string">"/hello"</span>)</span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">SayHello</span><span class="params">(Model model)</span></span>&#123;</span><br><span class="line">        model.addAttribute(<span class="string">"name"</span>,<span class="string">"wistbean"</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"hello"</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@RequestMapping</span>(<span class="string">"/hi"</span>)</span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">SayHi</span><span class="params">(Model model)</span></span>&#123;</span><br><span class="line">        model.addAttribute(<span class="string">"name"</span>,<span class="string">"wistbean"</span>);</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"hi"</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="template使用"><a href="#template使用" class="headerlink" title="template使用"></a>template使用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;h1&gt;hello $&#123;name&#125;&lt;/h1&gt;</span><br></pre></td></tr></table></figure>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/freemarker.png" alt="freemarker" title="">
+                </div>
+                <div class="image-caption">freemarker</div>
+            </figure>
+<h2 id="运行效果"><a href="#运行效果" class="headerlink" title="运行效果"></a>运行效果</h2><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/freemarker1.png" alt="freemarker" title="">
+                </div>
+                <div class="image-caption">freemarker</div>
+            </figure>
+
         </div>
 
         <blockquote class="post-copyright">
@@ -245,7 +268,7 @@
     <div class="content">
       <!--  
 <span class="post-time">
-    最后更新时间：<time datetime="2018-12-11T15:45:56.892Z" itemprop="dateUpdated">2018-12-11 23:45:56</time>
+    最后更新时间：<time datetime="2018-12-12T11:44:34.765Z" itemprop="dateUpdated">2018-12-12 19:44:34</time>
 </span><br>
 
 
