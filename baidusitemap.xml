@@ -4,11 +4,69 @@
 
     
   <url>
-    <loc>https://www.wistbean.com/java-ssm-5-1.html</loc>
-    <lastmod>2018-12-12T11:44:34.765Z</lastmod>
+    <loc>https://www.wistbean.com/vultr-vps-bbr-ss.html</loc>
+    <lastmod>2018-12-13T10:41:56.583Z</lastmod>
     <data>
         <display>
-        <title>「5-1」Java模板引擎FreeMarker整合SSM</title>
+        <title>使用vultr(vps)搭建ss并开启BBR快速上网教程 超简单10分钟搞定</title>
+        <pubTime>2018-11-30T18:40:36.000Z</pubTime>
+        
+        <tag>vultr</tag>
+         
+        <tag>优惠码</tag>
+         
+        <tag>互联网</tag>
+         
+        <tag>vpn</tag>
+         
+        <tag>搭建ss</tag>
+         
+         
+           
+             
+              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
+          
+             
+              <breadCrumb title="vultr" url="https://www.wistbean.com/categories/vpn/vultr/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/banwagong-vpn.html</loc>
+    <lastmod>2018-12-13T10:14:07.746Z</lastmod>
+    <data>
+        <display>
+        <title>使用搬瓦工快速搭建自己的VPN</title>
+        <pubTime>2018-06-10T09:06:26.000Z</pubTime>
+        
+        <tag>搬瓦工</tag>
+         
+        <tag>vpn搭建</tag>
+         
+        <tag>搬瓦工搭建vpn</tag>
+         
+         
+           
+             
+              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
+          
+             
+              <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/vpn/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-5-1.html</loc>
+    <lastmod>2018-12-12T14:43:03.009Z</lastmod>
+    <data>
+        <display>
+        <title>「5-1」Java模板引擎FreeMarker整合到SSM</title>
         <pubTime>2018-12-11T13:27:26.000Z</pubTime>
         
         <tag>教程</tag>
@@ -27,13 +85,9 @@
          
         <tag>EasyUI</tag>
          
-        <tag>UEditor</tag>
-         
-        <tag>富文本编辑器</tag>
-         
-        <tag>商品</tag>
-         
         <tag>FreeMarker</tag>
+         
+        <tag>模板引擎</tag>
          
          
            
@@ -91,9 +145,9 @@
          
         <tag>vps</tag>
          
-        <tag>教程</tag>
-         
         <tag>ss搭建</tag>
+         
+        <tag>教程</tag>
          
          
            
@@ -102,33 +156,6 @@
           
              
               <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/vps/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/banwagong-vpn.html</loc>
-    <lastmod>2018-12-10T14:24:38.178Z</lastmod>
-    <data>
-        <display>
-        <title>使用搬瓦工快速搭建自己的VPN</title>
-        <pubTime>2018-06-10T09:06:26.000Z</pubTime>
-        
-        <tag>搬瓦工</tag>
-         
-        <tag>vpn搭建</tag>
-         
-        <tag>搬瓦工搭建vpn</tag>
-         
-         
-           
-             
-              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
-          
-             
-              <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/vpn/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
           
         </display>
     </data>
@@ -274,37 +301,6 @@
 
     
   <url>
-    <loc>https://www.wistbean.com/vultr-vps-bbr-ss.html</loc>
-    <lastmod>2018-12-06T13:32:59.174Z</lastmod>
-    <data>
-        <display>
-        <title>使用vultr(vps)搭建ss并开启BBR快速上网教程 超简单10分钟搞定</title>
-        <pubTime>2018-11-30T18:40:36.000Z</pubTime>
-        
-        <tag>互联网</tag>
-         
-        <tag>vultr</tag>
-         
-        <tag>优惠码</tag>
-         
-        <tag>vpn</tag>
-         
-        <tag>搭建ss</tag>
-         
-         
-           
-             
-              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
-          
-             
-              <breadCrumb title="vultr" url="https://www.wistbean.com/categories/vpn/vultr/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.wistbean.com/cloud-server.html</loc>
     <lastmod>2018-12-06T06:19:27.142Z</lastmod>
     <data>
@@ -361,11 +357,11 @@
         <title>2018最新12月vultr vps优惠送25美元</title>
         <pubTime>2018-11-30T16:40:36.000Z</pubTime>
         
-        <tag>互联网</tag>
-         
         <tag>vultr</tag>
          
         <tag>优惠码</tag>
+         
+        <tag>互联网</tag>
          
         <tag>vpn</tag>
          
@@ -884,9 +880,9 @@
         <title>hexo搭建个人网站博客完全教程</title>
         <pubTime>2018-08-30T11:38:13.000Z</pubTime>
         
-        <tag>个人网站</tag>
-         
         <tag>搬瓦工</tag>
+         
+        <tag>个人网站</tag>
          
         <tag>教程</tag>
          
@@ -1978,11 +1974,11 @@
          
         <tag>分布式</tag>
          
+        <tag>架构</tag>
+         
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
-         
-        <tag>架构</tag>
          
          
            

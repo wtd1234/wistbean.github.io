@@ -37,9 +37,9 @@
     <meta name="theme-color" content="#3F51B5">
     
     
-    <meta name="keywords" content="互联网,vultr,优惠码,vpn,搭建ss">
+    <meta name="keywords" content="vultr,优惠码,互联网,vpn,搭建ss">
     <meta name="description" content="如果你想要查询一些权威的资料，上 Google 搜索有用的内容，超流畅 1080p 高清观看Youtube，畅游全网，而且完全拥有自己的服务器，那么本文将从购买vultr vps，到搭建属于你自己的 ss(Shadowrocks) 服务器，并且开启 BBR 加速上网，10分钟几个步骤轻松搞定。 首先我们需要购买一台境外的服务器，接着我们在这台云服务器里面安装代理服务，那么以后我们上网的时候就可以通">
-<meta name="keywords" content="互联网,vultr,优惠码,vpn,搭建ss">
+<meta name="keywords" content="vultr,优惠码,互联网,vpn,搭建ss">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用vultr(vps)搭建ss并开启BBR快速上网教程 超简单10分钟搞定">
 <meta property="og:url" content="https://www.wistbean.com/vultr-vps-bbr-ss.html">
@@ -50,7 +50,14 @@
 <meta property="og:image" content="https://www.wistbean.com/images/vultr-login.png">
 <meta property="og:image" content="https://www.wistbean.com/images/vultr-location.png">
 <meta property="og:image" content="https://www.wistbean.com/images/vultr-buy.gif">
-<meta property="og:image" content="https://www.wistbean.com/images/vultr-paymethod.png">
+<meta property="og:image" content="https://www.wistbean.com/images/vultr00.png">
+<meta property="og:image" content="https://www.wistbean.com/images/vultr01.png">
+<meta property="og:image" content="https://www.wistbean.com/images/vultr02.png">
+<meta property="og:image" content="https://www.wistbean.com/images/vultr03.png">
+<meta property="og:image" content="https://www.wistbean.com/images/vultr04.png">
+<meta property="og:image" content="https://www.wistbean.com/images/vultr05.png">
+<meta property="og:image" content="https://www.wistbean.com/images/vultr06.png">
+<meta property="og:image" content="https://www.wistbean.com/images/vultr07.png">
 <meta property="og:image" content="https://www.wistbean.com/images/linux-panel.png">
 <meta property="og:image" content="https://www.wistbean.com/images/ss1.png">
 <meta property="og:image" content="https://www.wistbean.com/images/ss2.png">
@@ -59,7 +66,7 @@
 <meta property="og:image" content="https://www.wistbean.com/images/vpn18.png">
 <meta property="og:image" content="https://www.wistbean.com/images/pic8.png">
 <meta property="og:image" content="https://www.wistbean.com/images/ss7.png">
-<meta property="og:updated_time" content="2018-12-06T13:32:59.174Z">
+<meta property="og:updated_time" content="2018-12-13T10:41:56.583Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用vultr(vps)搭建ss并开启BBR快速上网教程 超简单10分钟搞定">
 <meta name="twitter:description" content="如果你想要查询一些权威的资料，上 Google 搜索有用的内容，超流畅 1080p 高清观看Youtube，畅游全网，而且完全拥有自己的服务器，那么本文将从购买vultr vps，到搭建属于你自己的 ss(Shadowrocks) 服务器，并且开启 BBR 加速上网，10分钟几个步骤轻松搞定。 首先我们需要购买一台境外的服务器，接着我们在这台云服务器里面安装代理服务，那么以后我们上网的时候就可以通">
@@ -213,7 +220,7 @@
     <aside class="post-widget">
         <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
             <h4>目录</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#优惠购买vultr"><span class="post-toc-number">1.</span> <span class="post-toc-text">优惠购买vultr</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#注册vultr"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">注册vultr</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#vultr-购买流程"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">vultr 购买流程</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#使用vultr搭建ss服务器"><span class="post-toc-number">2.</span> <span class="post-toc-text">使用vultr搭建ss服务器</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#下载Linux连接工具"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">下载Linux连接工具</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#开始搭建ss"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">开始搭建ss</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#输入以下命令，然后回车："><span class="post-toc-number">2.2.1.</span> <span class="post-toc-text">输入以下命令，然后回车：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#接着执行安装shadowsocks："><span class="post-toc-number">2.2.2.</span> <span class="post-toc-text">接着执行安装shadowsocks：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#获取-shadowsocks-sh-读取权限："><span class="post-toc-number">2.2.3.</span> <span class="post-toc-text">获取 shadowsocks.sh 读取权限：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#设置你的-ss-密码和端口号："><span class="post-toc-number">2.2.4.</span> <span class="post-toc-text">设置你的 ss 密码和端口号：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#选择加密方式"><span class="post-toc-number">2.2.5.</span> <span class="post-toc-text">选择加密方式</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#安装ss完成"><span class="post-toc-number">2.2.6.</span> <span class="post-toc-text">安装ss完成</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#开始使用vultr的ss"><span class="post-toc-number">3.</span> <span class="post-toc-text">开始使用vultr的ss</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#windows使用Shadowsocks"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">windows使用Shadowsocks</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Android使用Shadowsocks"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Android使用Shadowsocks</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#iPhone使用Shadowsocks"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">iPhone使用Shadowsocks</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#vultr使用BBR加速上网"><span class="post-toc-number">4.</span> <span class="post-toc-text">vultr使用BBR加速上网</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装-BBR"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">安装 BBR</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#获取读写权限"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">获取读写权限</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#启动BBR安装"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">启动BBR安装</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#相关"><span class="post-toc-number">5.</span> <span class="post-toc-text">相关</span></a></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#优惠购买vultr"><span class="post-toc-number">1.</span> <span class="post-toc-text">优惠购买vultr</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#注册vultr"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">注册vultr</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#vultr-购买流程"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">vultr 购买流程</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#选择服务器的机房位置，一般来说离你越近越好，速度会快那么一丢丢："><span class="post-toc-number">1.2.1.</span> <span class="post-toc-text">选择服务器的机房位置，一般来说离你越近越好，速度会快那么一丢丢：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#选择服务器的系统类型，选择-CentOS-版本："><span class="post-toc-number">1.2.2.</span> <span class="post-toc-text">选择服务器的系统类型，选择 CentOS 版本：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#选择服务器的价格和具体配置，自己用的话选最低的就够用了："><span class="post-toc-number">1.2.3.</span> <span class="post-toc-text">选择服务器的价格和具体配置，自己用的话选最低的就够用了：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#确认购买"><span class="post-toc-number">1.2.4.</span> <span class="post-toc-text">确认购买</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#拥有一台服务器"><span class="post-toc-number">1.2.5.</span> <span class="post-toc-text">拥有一台服务器</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#使用vultr搭建ss服务器"><span class="post-toc-number">2.</span> <span class="post-toc-text">使用vultr搭建ss服务器</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#下载Linux连接工具"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">下载Linux连接工具</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#开始搭建ss"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">开始搭建ss</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#输入以下命令，然后回车："><span class="post-toc-number">2.2.1.</span> <span class="post-toc-text">输入以下命令，然后回车：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#接着执行安装shadowsocks："><span class="post-toc-number">2.2.2.</span> <span class="post-toc-text">接着执行安装shadowsocks：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#获取-shadowsocks-sh-读取权限："><span class="post-toc-number">2.2.3.</span> <span class="post-toc-text">获取 shadowsocks.sh 读取权限：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#设置你的-ss-密码和端口号："><span class="post-toc-number">2.2.4.</span> <span class="post-toc-text">设置你的 ss 密码和端口号：</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#选择加密方式"><span class="post-toc-number">2.2.5.</span> <span class="post-toc-text">选择加密方式</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#安装ss完成"><span class="post-toc-number">2.2.6.</span> <span class="post-toc-text">安装ss完成</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#开始使用vultr的ss"><span class="post-toc-number">3.</span> <span class="post-toc-text">开始使用vultr的ss</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#windows使用Shadowsocks"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">windows使用Shadowsocks</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Android使用Shadowsocks"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">Android使用Shadowsocks</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#iPhone使用Shadowsocks"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">iPhone使用Shadowsocks</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#vultr使用BBR加速上网"><span class="post-toc-number">4.</span> <span class="post-toc-text">vultr使用BBR加速上网</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装-BBR"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">安装 BBR</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#获取读写权限"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">获取读写权限</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#启动BBR安装"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">启动BBR安装</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#相关"><span class="post-toc-number">5.</span> <span class="post-toc-text">相关</span></a></li></ol>
         </nav>
     </aside>
 
@@ -242,7 +249,7 @@
             <p>如果你想要查询一些权威的资料，上 Google 搜索有用的内容，超流畅 1080p 高清观看Youtube，畅游全网，而且完全拥有自己的服务器，那么本文将从购买vultr vps，到搭建属于你自己的 ss(Shadowrocks) 服务器，并且开启 BBR 加速上网，10分钟几个步骤轻松搞定。</p>
 <p>首先我们需要购买一台境外的服务器，接着我们在这台云服务器里面安装代理服务，那么以后我们上网的时候就可以通过它来中转，轻松畅快的畅游全网了。</p>
 <h1 id="优惠购买vultr"><a href="#优惠购买vultr" class="headerlink" title="优惠购买vultr"></a>优惠购买vultr</h1><p>在使用了<a href="https://www.wistbean.com/cloud-server.html">一些服务器之后</a>，我觉得 <a href="https://www.vultr.com/?ref=7656887" target="_blank" rel="noopener">vultr</a> 的性价比超高，最低 $2.5/月 ，就可以拥有一台 1TB 月流量的服务器了，根本用不完。</p>
-<p>而且现在 <a href="https://www.vultr.com/?ref=7656887" target="_blank" rel="noopener">vultr</a> 优惠力度很大，<strong>注册就送 10 美元</strong>。</p>
+<p>而且现在 <a href="https://www.vultr.com/?ref=7656887" target="_blank" rel="noopener">vultr</a> 优惠力度很大，<strong>充值 10 美元送 10 美元</strong>。</p>
 <h2 id="注册vultr"><a href="#注册vultr" class="headerlink" title="注册vultr"></a>注册vultr</h2><p>点击 <a href="https://www.vultr.com/?ref=7656887" target="_blank" rel="noopener">vultr官网</a> 进行注册：</p>
 <figure class="image-bubble">
                 <div class="img-lightbox">
@@ -268,7 +275,6 @@
                 </div>
                 <div class="image-caption">登录vultr</div>
             </figure>
-<p>登录进去之后选择左边的 Servers 菜单，接着就可以选择你要的服务器了，<strong>在第二步的时候选择 CentOS 系统</strong>，第4、5、6、7步骤可以不填：</p>
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
@@ -276,18 +282,67 @@
                 </div>
                 <div class="image-caption">购买vultr</div>
             </figure>
-<p>vultr提供的支付方式简直完美，支持信用卡，比特币，paypal，支付宝，微信支付，在这里可以进行充值支付。</p>
+<p>登录进去之后选择左边的 billing 的菜单进行充值，vultr提供的支付方式简直完美，支持信用卡，比特币，paypal，支付宝，微信支付，在这里可以进行充值支付。</p>
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="https://www.wistbean.com/images/vultr-paymethod.png" alt="vultr支付方式" title="">
+                    <img src="/images/vultr00.png" alt="vultr充值" title="">
                 </div>
-                <div class="image-caption">vultr支付方式</div>
+                <div class="image-caption">vultr充值</div>
             </figure>
-<p>ok，支付完之后你就拥有一台属于你自己的服务器了。点击 Servers 可以看到你的服务器信息，这里有几个比较重要的信息你要留意下：</p>
-<blockquote>
-<p>1.ip地址<br>2.系统账户名，一般是 root<br>3.密码</p>
-</blockquote>
+<p>充值完成之后，就可以左侧的 Sevrers 菜单，接着可以点击 <code>deploy one</code> 或者右侧的 + 号来选购你要的服务器：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/vultr01.png" alt="vultr充值" title="">
+                </div>
+                <div class="image-caption">vultr充值</div>
+            </figure>
+<h3 id="选择服务器的机房位置，一般来说离你越近越好，速度会快那么一丢丢："><a href="#选择服务器的机房位置，一般来说离你越近越好，速度会快那么一丢丢：" class="headerlink" title="选择服务器的机房位置，一般来说离你越近越好，速度会快那么一丢丢："></a>选择服务器的机房位置，一般来说离你越近越好，速度会快那么一丢丢：</h3><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/vultr02.png" alt="vultr服务器位置" title="">
+                </div>
+                <div class="image-caption">vultr服务器位置</div>
+            </figure>
+<h3 id="选择服务器的系统类型，选择-CentOS-版本："><a href="#选择服务器的系统类型，选择-CentOS-版本：" class="headerlink" title="选择服务器的系统类型，选择 CentOS 版本："></a>选择服务器的系统类型，选择 CentOS 版本：</h3><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/vultr03.png" alt="vultr系统类型" title="">
+                </div>
+                <div class="image-caption">vultr系统类型</div>
+            </figure>
+<h3 id="选择服务器的价格和具体配置，自己用的话选最低的就够用了："><a href="#选择服务器的价格和具体配置，自己用的话选最低的就够用了：" class="headerlink" title="选择服务器的价格和具体配置，自己用的话选最低的就够用了："></a>选择服务器的价格和具体配置，自己用的话选最低的就够用了：</h3><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/vultr04.png" alt="vultr配置" title="">
+                </div>
+                <div class="image-caption">vultr配置</div>
+            </figure>
+<h3 id="确认购买"><a href="#确认购买" class="headerlink" title="确认购买"></a>确认购买</h3><p>其它步骤可以忽略，然后点击右下角的 Deploy Now：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/vultr05.png" alt="vultr" title="">
+                </div>
+                <div class="image-caption">vultr</div>
+            </figure>
+<h3 id="拥有一台服务器"><a href="#拥有一台服务器" class="headerlink" title="拥有一台服务器"></a>拥有一台服务器</h3><p>点击之后你就拥有一台属于你自己的服务器了：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/vultr06.png" alt="vultr" title="">
+                </div>
+                <div class="image-caption">vultr</div>
+            </figure>
+<p>点击你的服务器，进去之后你就可以看到你的服务器的ip地址和账号密码了：</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/images/vultr07.png" alt="vultr" title="">
+                </div>
+                <div class="image-caption">vultr</div>
+            </figure>
 <p>以上信息等会用来从你的电脑连接到你的服务器上。</p>
 <h1 id="使用vultr搭建ss服务器"><a href="#使用vultr搭建ss服务器" class="headerlink" title="使用vultr搭建ss服务器"></a>使用vultr搭建ss服务器</h1><h2 id="下载Linux连接工具"><a href="#下载Linux连接工具" class="headerlink" title="下载Linux连接工具"></a>下载Linux连接工具</h2><p>需要在你的电脑连接到你的服务器，那么就需要连接工具，连接工具有很多个，根据你的需要，以下随意下载一个连接工具即可：</p>
 <ul>
@@ -385,7 +440,7 @@
     <div class="content">
       <!--  
 <span class="post-time">
-    最后更新时间：<time datetime="2018-12-06T13:32:59.174Z" itemprop="dateUpdated">2018-12-06 21:32:59</time>
+    最后更新时间：<time datetime="2018-12-13T10:41:56.583Z" itemprop="dateUpdated">2018-12-13 18:41:56</time>
 </span><br>
 
 
