@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+
+    
+
+    
+
+
+<!-- Baidu Push -->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!-- End Baidu Push -->
+
+
+    <meta charset="utf-8">
+    
+    
+    
+    
+    <title>Java进阶SSM分布式项目实战大纲 | 肯定会 | wistbean</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="前言介绍 Java 进阶 SSM 分布式项目实战教程的特色(新工具（Git对比svn，Intellij对比eclipse），新技术（SSM，Springboot）)，适合的学习人群，以及java web框架的大概的发展，着重说明项目在这个项目实战的基础上，后面会讲到springboot的使用。从读者角度出发，谈谈过来人的一点经验。 第一章 项目介绍1.1 技术选型主要列出项目中所涉及到的技术要点，">
+<meta name="keywords" content="搬瓦工搭建vpn，vultr搭建ss，ssm视频教程">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Java进阶SSM分布式项目实战大纲">
+<meta property="og:url" content="https://www.wistbean.com/outline.html">
+<meta property="og:site_name" content="肯定会">
+<meta property="og:description" content="前言介绍 Java 进阶 SSM 分布式项目实战教程的特色(新工具（Git对比svn，Intellij对比eclipse），新技术（SSM，Springboot）)，适合的学习人群，以及java web框架的大概的发展，着重说明项目在这个项目实战的基础上，后面会讲到springboot的使用。从读者角度出发，谈谈过来人的一点经验。 第一章 项目介绍1.1 技术选型主要列出项目中所涉及到的技术要点，">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-12-13T17:43:43.312Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Java进阶SSM分布式项目实战大纲">
+<meta name="twitter:description" content="前言介绍 Java 进阶 SSM 分布式项目实战教程的特色(新工具（Git对比svn，Intellij对比eclipse），新技术（SSM，Springboot）)，适合的学习人群，以及java web框架的大概的发展，着重说明项目在这个项目实战的基础上，后面会讲到springboot的使用。从读者角度出发，谈谈过来人的一点经验。 第一章 项目介绍1.1 技术选型主要列出项目中所涉及到的技术要点，">
+    
+        <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="stylesheet" href="/css/style.css?v=1.7.2">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu" class="hide">
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(https://www.wistbean.com/images/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="https://www.wistbean.com/img/avatar.jpg" alt="wistbean|肯定会">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">wistbean</h5>
+          <a href="mailto:wistbean.bb@gmail.com" title="wistbean.bb@gmail.com" class="mail">wistbean.bb@gmail.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/podcast/"  >
+                <i class="icon icon-lg icon-podcast"></i>
+                肯定会电台
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/Java/Java-SSM视频教程/"  >
+                <i class="icon icon-lg icon-coffee"></i>
+                Java SSM视频教程
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/vpn/"  >
+                <i class="icon icon-lg icon-google"></i>
+                云服务VPN
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/python/"  >
+                <i class="icon icon-lg icon-bug"></i>
+                python3教程
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-bars"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives/"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/aboutMe/"  >
+                <i class="icon icon-lg icon-user"></i>
+                关于
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/support/"  >
+                <i class="icon icon-lg icon-thumbs-up"></i>
+                赞助
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light off" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">Java进阶SSM分布式项目实战大纲</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="搬瓦工搭建vpn">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">Java进阶SSM分布式项目实战大纲</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2018-12-13T14:05:23.000Z" itemprop="datePublished" class="page-time">
+  2018-12-13
+</time>
+
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>目录</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#前言"><span class="post-toc-number">1.</span> <span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第一章-项目介绍"><span class="post-toc-number">2.</span> <span class="post-toc-text">第一章 项目介绍</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-1-技术选型"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">1.1 技术选型</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-2-开发环境"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">1.2 开发环境</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#1-3-学习计划（要点）"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">1.3 学习计划（要点）</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第二章-项目开始之前"><span class="post-toc-number">3.</span> <span class="post-toc-text">第二章 项目开始之前</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2-1-分布式架构"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">2.1 分布式架构</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2-2-Git的使用"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">2.2 Git的使用</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#2-3-GitHub的使用"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">2.3 GitHub的使用</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第三章-开始实战-Maven的使用"><span class="post-toc-number">4.</span> <span class="post-toc-text">第三章 开始实战-Maven的使用</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#3-1-Maven的使用"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">3.1 Maven的使用</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#3-2-码农商城-SSM-系统所需的-Maven-模块简介"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">3.2 码农商城 SSM 系统所需的 Maven 模块简介</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#3-3-使用-InteliJ-IDEA-创建-Maven-项目与相关配置"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">3.3 使用 InteliJ IDEA 创建 Maven 项目与相关配置</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#3-4-使用-InteliJ-IDEA-创建分布式多模块-Maven-项目"><span class="post-toc-number">4.4.</span> <span class="post-toc-text">3.4 使用 InteliJ IDEA 创建分布式多模块 Maven 项目</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#3-5-使用InteliJ-IDEA-创建-Maven-聚合工程"><span class="post-toc-number">4.5.</span> <span class="post-toc-text">3.5 使用InteliJ IDEA 创建 Maven 聚合工程</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第四章-实战-SSM的整合"><span class="post-toc-number">5.</span> <span class="post-toc-text">第四章 实战-SSM的整合</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#4-1-maven依赖相关jar包"><span class="post-toc-number">5.0.1.</span> <span class="post-toc-text">4.1 maven依赖相关jar包</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#4-2-Spring-Spring-MVC-Mybatis整合"><span class="post-toc-number">5.0.2.</span> <span class="post-toc-text">4.2 Spring + Spring MVC + Mybatis整合</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#4-3-Spring事务配置"><span class="post-toc-number">5.0.3.</span> <span class="post-toc-text">4.3 Spring事务配置</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#4-4-Spring-MVC配置"><span class="post-toc-number">5.0.4.</span> <span class="post-toc-text">4.4 Spring MVC配置</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#4-5-web-xml配置"><span class="post-toc-number">5.0.5.</span> <span class="post-toc-text">4.5 web.xml配置</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#4-6-MyBatis逆向工程"><span class="post-toc-number">5.0.6.</span> <span class="post-toc-text">4.6 MyBatis逆向工程</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第五章-实战-后台管理系统"><span class="post-toc-number">6.</span> <span class="post-toc-text">第五章 实战-后台管理系统</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#5-1-使用-PowerDesigner-逆向生成-MySQL-数据库"><span class="post-toc-number">6.0.1.</span> <span class="post-toc-text">5.1 使用 PowerDesigner 逆向生成 MySQL 数据库</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#5-2-后台管理系统-EasyUI-的使用"><span class="post-toc-number">6.0.2.</span> <span class="post-toc-text">5.2 后台管理系统 EasyUI 的使用</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#5-3-对商品分类的管理"><span class="post-toc-number">6.0.3.</span> <span class="post-toc-text">5.3 对商品分类的管理</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#第六章-实战-Java分布式文件服务器FastDFS"><span class="post-toc-number">7.</span> <span class="post-toc-text">第六章 实战-Java分布式文件服务器FastDFS</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#6-1-Java文件服务器-FastDFS-的搭建教程"><span class="post-toc-number">7.0.1.</span> <span class="post-toc-text">6.1 Java文件服务器 FastDFS 的搭建教程</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#6-2-使用-Nginx-访问-FastDSF-文件服务器"><span class="post-toc-number">7.0.2.</span> <span class="post-toc-text">6.2 使用 Nginx 访问 FastDSF 文件服务器</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#6-3-SpringMVC整合FastDFS实现文件的上传和访问"><span class="post-toc-number">7.0.3.</span> <span class="post-toc-text">6.3 SpringMVC整合FastDFS实现文件的上传和访问</span></a></li></ol></li></ol></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-outline"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">Java进阶SSM分布式项目实战大纲</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2018-12-13 22:05:23" datetime="2018-12-13T14:05:23.000Z"  itemprop="datePublished">2018-12-13</time>
+
+            
+
+
+            
+<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
+    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
+</span>
+
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>介绍 Java 进阶 SSM 分布式项目实战教程的特色(新工具（Git对比svn，Intellij对比eclipse），新技术（SSM，Springboot）)，适合的学习人群，以及java web框架的大概的发展，着重说明项目在这个项目实战的基础上，后面会讲到springboot的使用。从读者角度出发，谈谈过来人的一点经验。</p>
+<h1 id="第一章-项目介绍"><a href="#第一章-项目介绍" class="headerlink" title="第一章 项目介绍"></a>第一章 项目介绍</h1><h2 id="1-1-技术选型"><a href="#1-1-技术选型" class="headerlink" title="1.1 技术选型"></a>1.1 技术选型</h2><p>主要列出项目中所涉及到的技术要点，让读者有个大概的认识，激发读者的兴趣。</p>
+<h2 id="1-2-开发环境"><a href="#1-2-开发环境" class="headerlink" title="1.2 开发环境"></a>1.2 开发环境</h2><p>同上</p>
+<h2 id="1-3-学习计划（要点）"><a href="#1-3-学习计划（要点）" class="headerlink" title="1.3 学习计划（要点）"></a>1.3 学习计划（要点）</h2><p>详细说明从项目中可以获取到什么知识点，如能够明白集群和分布式架构的区别、如何使用Maven进行工程搭建，怎么的整合SSM框架，Mybatis逆向工程以及使用，如何在Linux上分布式部署项目等等。</p>
+<h1 id="第二章-项目开始之前"><a href="#第二章-项目开始之前" class="headerlink" title="第二章 项目开始之前"></a>第二章 项目开始之前</h1><h2 id="2-1-分布式架构"><a href="#2-1-分布式架构" class="headerlink" title="2.1 分布式架构"></a>2.1 分布式架构</h2><p>  介绍为什么要用分布式架构<br>  介绍传统的集群架构与分布式架构的区别<br>  集群架构的优缺点<br>  分布式架构的优缺点</p>
+<h2 id="2-2-Git的使用"><a href="#2-2-Git的使用" class="headerlink" title="2.2 Git的使用"></a>2.2 Git的使用</h2><p> Git可以干什么呢？<br> Git的常用的操作命令的使用</p>
+<h2 id="2-3-GitHub的使用"><a href="#2-3-GitHub的使用" class="headerlink" title="2.3 GitHub的使用"></a>2.3 GitHub的使用</h2><p> GitHub简单介绍<br> GitHub常用的操作使用</p>
+<h1 id="第三章-开始实战-Maven的使用"><a href="#第三章-开始实战-Maven的使用" class="headerlink" title="第三章 开始实战-Maven的使用"></a>第三章 开始实战-Maven的使用</h1><h2 id="3-1-Maven的使用"><a href="#3-1-Maven的使用" class="headerlink" title="3.1 Maven的使用"></a>3.1 Maven的使用</h2><p> 简单介绍Maven<br> maven安装<br> maven配置<br> maven特性</p>
+<h2 id="3-2-码农商城-SSM-系统所需的-Maven-模块简介"><a href="#3-2-码农商城-SSM-系统所需的-Maven-模块简介" class="headerlink" title="3.2 码农商城 SSM 系统所需的 Maven 模块简介"></a>3.2 码农商城 SSM 系统所需的 Maven 模块简介</h2><p>分布式模块，列出项目中各个模块的主要作用</p>
+<h2 id="3-3-使用-InteliJ-IDEA-创建-Maven-项目与相关配置"><a href="#3-3-使用-InteliJ-IDEA-创建-Maven-项目与相关配置" class="headerlink" title="3.3 使用 InteliJ IDEA 创建 Maven 项目与相关配置"></a>3.3 使用 InteliJ IDEA 创建 Maven 项目与相关配置</h2><p>介绍如何 在 InteliJ IDEA 在创建 Maven 项目<br>介绍如何 在 InteliJ IDEA 在配置 Maven<br>maven镜像配置，仓库路径</p>
+<h2 id="3-4-使用-InteliJ-IDEA-创建分布式多模块-Maven-项目"><a href="#3-4-使用-InteliJ-IDEA-创建分布式多模块-Maven-项目" class="headerlink" title="3.4 使用 InteliJ IDEA 创建分布式多模块 Maven 项目"></a>3.4 使用 InteliJ IDEA 创建分布式多模块 Maven 项目</h2><pre><code>parent 父模块
+common 通用模块
+manager 管理模块
+sso 单点登录模块
+rest restful模块
+search 搜索模块
+等等
+</code></pre><h2 id="3-5-使用InteliJ-IDEA-创建-Maven-聚合工程"><a href="#3-5-使用InteliJ-IDEA-创建-Maven-聚合工程" class="headerlink" title="3.5 使用InteliJ IDEA 创建 Maven 聚合工程"></a>3.5 使用InteliJ IDEA 创建 Maven 聚合工程</h2><p>介绍 maven 聚合工程<br>搭建 maven 的聚合工程</p>
+<h1 id="第四章-实战-SSM的整合"><a href="#第四章-实战-SSM的整合" class="headerlink" title="第四章 实战-SSM的整合"></a>第四章 实战-SSM的整合</h1><h3 id="4-1-maven依赖相关jar包"><a href="#4-1-maven依赖相关jar包" class="headerlink" title="4.1 maven依赖相关jar包"></a>4.1 maven依赖相关jar包</h3><p>相关jar包依赖声明</p>
+<h3 id="4-2-Spring-Spring-MVC-Mybatis整合"><a href="#4-2-Spring-Spring-MVC-Mybatis整合" class="headerlink" title="4.2 Spring + Spring MVC + Mybatis整合"></a>4.2 Spring + Spring MVC + Mybatis整合</h3><p>ssm整合实战</p>
+<h3 id="4-3-Spring事务配置"><a href="#4-3-Spring事务配置" class="headerlink" title="4.3 Spring事务配置"></a>4.3 Spring事务配置</h3><p>事务相关配置说明</p>
+<h3 id="4-4-Spring-MVC配置"><a href="#4-4-Spring-MVC配置" class="headerlink" title="4.4 Spring MVC配置"></a>4.4 Spring MVC配置</h3><p>MVC的配置<br>扫描包配置等</p>
+<h3 id="4-5-web-xml配置"><a href="#4-5-web-xml配置" class="headerlink" title="4.5 web.xml配置"></a>4.5 web.xml配置</h3><p>web.xml的配置相关注释</p>
+<h3 id="4-6-MyBatis逆向工程"><a href="#4-6-MyBatis逆向工程" class="headerlink" title="4.6 MyBatis逆向工程"></a>4.6 MyBatis逆向工程</h3><p>介绍如何通过逆向工程快速将数据表生成对象</p>
+<h1 id="第五章-实战-后台管理系统"><a href="#第五章-实战-后台管理系统" class="headerlink" title="第五章 实战-后台管理系统"></a>第五章 实战-后台管理系统</h1><h3 id="5-1-使用-PowerDesigner-逆向生成-MySQL-数据库"><a href="#5-1-使用-PowerDesigner-逆向生成-MySQL-数据库" class="headerlink" title="5.1 使用 PowerDesigner 逆向生成 MySQL 数据库"></a>5.1 使用 PowerDesigner 逆向生成 MySQL 数据库</h3><p>PowerDesigner 创建物理模型<br>PowerDesigner 创建商品分类表、商品表<br>PowerDesigner 设置注释以及默认值<br>PowerDesigner 连接MySQL服务器配置<br>PowerDesigner 逆向生成数据表</p>
+<h3 id="5-2-后台管理系统-EasyUI-的使用"><a href="#5-2-后台管理系统-EasyUI-的使用" class="headerlink" title="5.2 后台管理系统 EasyUI 的使用"></a>5.2 后台管理系统 EasyUI 的使用</h3><p>简单介绍EasyUI<br>使用到的组件介绍Layout、Tree、Tabs、DataGrid</p>
+<h3 id="5-3-对商品分类的管理"><a href="#5-3-对商品分类的管理" class="headerlink" title="5.3 对商品分类的管理"></a>5.3 对商品分类的管理</h3><p>后台界面的搭建<br>商品分类表的逆向生成数据表<br>Jquery的使用：post请求、回调函数等使用<br>商品分类表的数据交互<br>Json 对象数据封装<br>MyBatis 添加返回主键id<br>MyBatis 多条件语句操作<br>Intellij IDEA 工具的打断点，调试使用</p>
+<h1 id="第六章-实战-Java分布式文件服务器FastDFS"><a href="#第六章-实战-Java分布式文件服务器FastDFS" class="headerlink" title="第六章 实战-Java分布式文件服务器FastDFS"></a>第六章 实战-Java分布式文件服务器FastDFS</h1><h3 id="6-1-Java文件服务器-FastDFS-的搭建教程"><a href="#6-1-Java文件服务器-FastDFS-的搭建教程" class="headerlink" title="6.1 Java文件服务器 FastDFS 的搭建教程"></a>6.1 Java文件服务器 FastDFS 的搭建教程</h3><p>什么是 FastDFS<br>主要功能<br>工作原理</p>
+<h3 id="6-2-使用-Nginx-访问-FastDSF-文件服务器"><a href="#6-2-使用-Nginx-访问-FastDSF-文件服务器" class="headerlink" title="6.2 使用 Nginx 访问 FastDSF 文件服务器"></a>6.2 使用 Nginx 访问 FastDSF 文件服务器</h3><p>Nginx下载安装<br>Nginx配置FastDFS<br>后面部署的时候还需详细介绍Nginx的使用</p>
+<h3 id="6-3-SpringMVC整合FastDFS实现文件的上传和访问"><a href="#6-3-SpringMVC整合FastDFS实现文件的上传和访问" class="headerlink" title="6.3 SpringMVC整合FastDFS实现文件的上传和访问"></a>6.3 SpringMVC整合FastDFS实现文件的上传和访问</h3><p>下载fastdfs-client-java<br>安装依赖fastdfs-client-java<br>创建 fastdfs 客户端</p>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+      <!--  
+<span class="post-time">
+    最后更新时间：<time datetime="2018-12-13T17:43:43.312Z" itemprop="dateUpdated">2018-12-14 01:43:43</time>
+</span><br>
+
+
+        
+        本站所有文章均为原创，转载请注明出处：url_for(page.permalink)
+        
+        -->
+        本站所有文章均为原创，转载请注明出处：
+        <a href="https://www.wistbean.com/outline.html">
+                   wistbean|肯定会
+         </a>
+         关注公众号「肯定会」并发送「程序员」直接免费获取 12 本精华电子书
+    </div>
+    
+    <footer>
+        <a href="https://www.wistbean.com">
+            <img src="https://www.wistbean.com/img/avatar.jpg" alt="wistbean|肯定会">
+            wistbean
+        </a>
+    </footer>
+</blockquote>
+
+        
+
+
+        <div class="post-footer">
+            
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/outline.html&title=《Java进阶SSM分布式项目实战大纲》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/outline.html&title=《Java进阶SSM分布式项目实战大纲》 — 肯定会&source=wistbean的个人网站，平常喜欢折腾一些vps，如搬瓦工，vultr，在这里教会你使用搬瓦工搭建vpn，vultr搭建ss，我还制作了一些优质的教程和..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/outline.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Java进阶SSM分布式项目实战大纲》 — 肯定会&url=https://www.wistbean.com/outline.html&via=https://www.wistbean.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/outline.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/java-ssm-5-1.html" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">「5-1」Java模板引擎FreeMarker整合到SSM</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'false' == 'true',
+            verify: 'false' == 'true',
+            appId: "EwGBpz5cFF0t3WS9QYluuUPU-gzGzoHsz",
+            appKey: "k9IK8hrOleIsPWLjCdv9atgo",
+            avatar: "wavatar",
+            placeholder: "Just go go",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "10"
+        })
+    </script>
+    <!-- Valine Comments end -->
+
+
+
+
+
+
+
+</article>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        本站总读者数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        本站总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>本站已加入 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-知识 4.0  (CC BY-NC-SA 4.0)国际协议 | 转载请注明链接出处</a></span>
+        </p>
+    </div>
+
+        <div class="bottom">
+                <p><span>wistbean &copy; 2015 - 2018</span>
+                    <span>
+                        
+                         <a href="https://www.wistbean.com/">肯定会|wistbean</a>、
+                          <a href="https://www.bwh8.net/aff.php?aff=32874" target="_blank">搬瓦工2019优惠码</a>、
+                          <a href="https://www.vultr.com/?ref=7656887" target="_blank">vultr2019优惠码</a>
+                    </span>
+                </p>
+        </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/outline.html&title=《Java进阶SSM分布式项目实战大纲》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/outline.html&title=《Java进阶SSM分布式项目实战大纲》 — 肯定会&source=wistbean的个人网站，平常喜欢折腾一些vps，如搬瓦工，vultr，在这里教会你使用搬瓦工搭建vpn，vultr搭建ss，我还制作了一些优质的教程和..." data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/outline.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Java进阶SSM分布式项目实战大纲》 — 肯定会&url=https://www.wistbean.com/outline.html&via=https://www.wistbean.com" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/outline.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABz0lEQVR42u3aS27DMAwFQN//0u62QGL1kbLkpBitjNSNRlkQ4uc44nVerN9/fX0z+c5jxcLFxZ3mnsN1hXjdbLx9fsgrAy4u7n7uONAk9KsNeoe//BwXF/eDub1rUHJJwsXF/UbuOHj1kh9cXNzP5PYKH2PcGayFuRouLu4EN69SrnteUt/FxcVtcc/iyq8447JIc3dcXNwt3Dyg5AeoRqTym7i4uIu5dwWXatJSTZmOvDaDi4s7za2OTPWO0fshCmhcXNxbuXm4yccv8pA0/uTNMy4u7nZutXWRX4+qQS1KfnBxcZdxk5ZJr/xRbZOMD1P+N1xc3AnuOMmpjmj0Dp/vi4uLu587Ux4dX0pm2rdR8oOLi7uA22ug5ulNHgqjQIaLi7uY25uNnGmN5A2bQhKFi4u7gNsrkuZBJ0dHTRpcXNyHuHl7dWbQKnn/zZu4uLgfwK0OTOTpULMNg4uLu5jbS12qjdhe4RUXF/cpbnU84q7LTV6taR4GFxd3mntX8IpSl2KKhYuL+yw3L4/mz/PJDy4u7v/gJmGuGvKiqgkuLu6j3GpFNh/IiL4fFxd3I7c3hpWkPdVr0B8/Fi4u7hZuNZTMjFj1QiQuLu5G7g8gFWfW8e4NmgAAAABJRU5ErkJggg==" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
+
+
+</script>
+
+<script src="/js/main.min.js?v=1.7.2"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="/js/search.min.js?v=1.7.2" async></script>
+
+
+
+
+
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+</body>
+</html>

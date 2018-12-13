@@ -38,21 +38,21 @@
     
     
     <meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,FreeMarker,模板引擎">
-    <meta name="description" content="什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
+    <meta name="description" content="SSM视频教程第5-1节：Java模板引擎FreeMarker整合到SSM   什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
 <meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,FreeMarker,模板引擎">
 <meta property="og:type" content="article">
 <meta property="og:title" content="「5-1」Java模板引擎FreeMarker整合到SSM">
 <meta property="og:url" content="https://www.wistbean.com/java-ssm-5-1.html">
 <meta property="og:site_name" content="肯定会">
-<meta property="og:description" content="什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
+<meta property="og:description" content="SSM视频教程第5-1节：Java模板引擎FreeMarker整合到SSM   什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://freemarker.apache.org/images/overview.png">
 <meta property="og:image" content="https://www.wistbean.com/images/freemarker.png">
 <meta property="og:image" content="https://www.wistbean.com/images/freemarker1.png">
-<meta property="og:updated_time" content="2018-12-12T14:43:03.009Z">
+<meta property="og:updated_time" content="2018-12-13T17:46:12.775Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="「5-1」Java模板引擎FreeMarker整合到SSM">
-<meta name="twitter:description" content="什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
+<meta name="twitter:description" content="SSM视频教程第5-1节：Java模板引擎FreeMarker整合到SSM   什么是FreeMarkerFreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。">
 <meta name="twitter:image" content="https://freemarker.apache.org/images/overview.png">
     
         <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
@@ -203,7 +203,7 @@
     <aside class="post-widget">
         <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
             <h4>目录</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#什么是FreeMarker"><span class="post-toc-number">1.</span> <span class="post-toc-text">什么是FreeMarker</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#FreeMarker与SpringMVC的整合"><span class="post-toc-number">2.</span> <span class="post-toc-text">FreeMarker与SpringMVC的整合</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#maven-依赖-freemarker"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">maven 依赖 freemarker</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#SpringMVC配置FreeMarker"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">SpringMVC配置FreeMarker</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Controller使用FreeMarker"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">Controller使用FreeMarker</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#template使用"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">template使用</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#运行效果"><span class="post-toc-number">2.5.</span> <span class="post-toc-text">运行效果</span></a></li></ol></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#SSM视频教程第5-1节：Java模板引擎FreeMarker整合到SSM"><span class="post-toc-number">1.</span> <span class="post-toc-text">SSM视频教程第5-1节：Java模板引擎FreeMarker整合到SSM</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#什么是FreeMarker"><span class="post-toc-number">2.</span> <span class="post-toc-text">什么是FreeMarker</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#FreeMarker与SpringMVC的整合"><span class="post-toc-number">3.</span> <span class="post-toc-text">FreeMarker与SpringMVC的整合</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#maven-依赖-freemarker"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">maven 依赖 freemarker</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#SpringMVC配置FreeMarker"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">SpringMVC配置FreeMarker</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Controller使用FreeMarker"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">Controller使用FreeMarker</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#template使用"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">template使用</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#运行效果"><span class="post-toc-number">3.5.</span> <span class="post-toc-text">运行效果</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#SSM视频教程目录"><span class="post-toc-number">4.</span> <span class="post-toc-text">SSM视频教程目录</span></a></li></ol>
         </nav>
     </aside>
 
@@ -229,7 +229,9 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <h1 id="什么是FreeMarker"><a href="#什么是FreeMarker" class="headerlink" title="什么是FreeMarker"></a>什么是FreeMarker</h1><p><a href="https://freemarker.apache.org/" target="_blank" rel="noopener">FreeMarker</a>是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。</p>
+            <h1 id="SSM视频教程第5-1节：Java模板引擎FreeMarker整合到SSM"><a href="#SSM视频教程第5-1节：Java模板引擎FreeMarker整合到SSM" class="headerlink" title="SSM视频教程第5-1节：Java模板引擎FreeMarker整合到SSM"></a>SSM视频教程第5-1节：Java模板引擎FreeMarker整合到SSM</h1><iframe src="//player.bilibili.com/player.html?aid=38024613&cid=66844321&page=1" width="681" height="385" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<h1 id="什么是FreeMarker"><a href="#什么是FreeMarker" class="headerlink" title="什么是FreeMarker"></a>什么是FreeMarker</h1><p><a href="https://freemarker.apache.org/" target="_blank" rel="noopener">FreeMarker</a>是一个 Java 的模板引擎，可以使用它来动态的绑定数据。比如我们在 JSP 中想要直接显示 Controller 传过来的数据的时候，那么我们就可以使用到 FreeMarker。</p>
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
@@ -260,6 +262,9 @@
                 </div>
                 <div class="image-caption">freemarker</div>
             </figure>
+<h1 id="SSM视频教程目录"><a href="#SSM视频教程目录" class="headerlink" title="SSM视频教程目录"></a>SSM视频教程目录</h1><ul>
+<li><a href="https://www.wistbean.com/java-ssm-video.html#SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B%E7%9B%AE%E5%BD%95">SSM视频教程目录</a></li>
+</ul>
 
         </div>
 
@@ -268,7 +273,7 @@
     <div class="content">
       <!--  
 <span class="post-time">
-    最后更新时间：<time datetime="2018-12-12T14:43:03.009Z" itemprop="dateUpdated">2018-12-12 22:43:03</time>
+    最后更新时间：<time datetime="2018-12-13T17:46:12.775Z" itemprop="dateUpdated">2018-12-14 01:46:12</time>
 </span><br>
 
 
@@ -351,7 +356,14 @@
     </div>
 
     
-<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/outline.html" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">Java进阶SSM分布式项目实战大纲</h4>
+      </a>
+    </div>
   
 
   
