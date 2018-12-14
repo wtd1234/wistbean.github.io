@@ -4,6 +4,789 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/java-ssm-3-2.html</loc>
+    <lastmod>2018-12-14T18:01:52.015Z</lastmod>
+    <data>
+        <display>
+        <title>「3-2」使用 PowerDesigner 逆向生成 MySQL 数据库</title>
+        <pubTime>2018-09-23T17:42:42.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-4-2.html</loc>
+    <lastmod>2018-12-14T18:01:51.904Z</lastmod>
+    <data>
+        <display>
+        <title>「4-2」 使用 Nginx 访问 FastDSF 文件服务器</title>
+        <pubTime>2018-11-02T13:17:53.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Nginx</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>商品分类管理</tag>
+         
+        <tag>FastDFS</tag>
+         
+        <tag>SecureCRT</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-3-1.html</loc>
+    <lastmod>2018-12-14T18:01:51.715Z</lastmod>
+    <data>
+        <display>
+        <title>「3-1」 后台管理系统 EasyUI 的使用</title>
+        <pubTime>2018-09-18T16:40:25.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-4-3.html</loc>
+    <lastmod>2018-12-14T18:01:51.558Z</lastmod>
+    <data>
+        <display>
+        <title>「4-3」SpringMVC整合FastDFS实现文件上传下载</title>
+        <pubTime>2018-11-28T13:31:40.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Nginx</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>商品分类管理</tag>
+         
+        <tag>FastDFS</tag>
+         
+        <tag>SecureCRT</tag>
+         
+        <tag>文件服务器</tag>
+         
+        <tag>上传下载</tag>
+         
+        <tag>postman</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-3-4.html</loc>
+    <lastmod>2018-12-14T18:01:51.458Z</lastmod>
+    <data>
+        <display>
+        <title>「3-4」 对商品分类进行增删改查的操作(下)</title>
+        <pubTime>2018-10-09T15:00:55.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>商品分类管理</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-2-5.html</loc>
+    <lastmod>2018-12-14T18:01:51.330Z</lastmod>
+    <data>
+        <display>
+        <title>「2-5」使用InteliJ IDEA 创建 Maven 聚合工程</title>
+        <pubTime>2018-08-29T09:25:26.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>IntelliJ IDEA</tag>
+         
+        <tag>Maven</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+             
+              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-4-1.html</loc>
+    <lastmod>2018-12-14T18:01:51.274Z</lastmod>
+    <data>
+        <display>
+        <title>「4-1」 Java文件服务器 FastDFS 的搭建教程</title>
+        <pubTime>2018-10-23T15:23:00.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>商品分类管理</tag>
+         
+        <tag>FastDFS</tag>
+         
+        <tag>SecureCRT</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-4-4.html</loc>
+    <lastmod>2018-12-14T18:01:51.207Z</lastmod>
+    <data>
+        <display>
+        <title>「4-4」SpringMVC整合富文本编辑器百度UEditor的使用</title>
+        <pubTime>2018-12-03T09:28:01.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Nginx</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>FastDFS</tag>
+         
+        <tag>UEditor</tag>
+         
+        <tag>富文本编辑器</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-2-6.html</loc>
+    <lastmod>2018-12-14T18:01:51.123Z</lastmod>
+    <data>
+        <display>
+        <title>「2-6」Java SSM框架的整合与Mybatis逆向工程</title>
+        <pubTime>2018-08-29T09:25:26.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>IntelliJ IDEA</tag>
+         
+        <tag>Maven</tag>
+         
+        <tag>Spring</tag>
+         
+        <tag>Spring MVC</tag>
+         
+        <tag>Mybatis</tag>
+         
+        <tag>逆向工程</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+             
+              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-3-3.html</loc>
+    <lastmod>2018-12-14T18:01:51.062Z</lastmod>
+    <data>
+        <display>
+        <title>「3-3」 对商品分类进行增删改查的操作(上)</title>
+        <pubTime>2018-10-01T13:31:12.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>商品分类管理</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-2-4.html</loc>
+    <lastmod>2018-12-14T18:01:51.001Z</lastmod>
+    <data>
+        <display>
+        <title>「2-4」使用InteliJ IDEA 创建分布式多模块 Maven 项目</title>
+        <pubTime>2018-08-29T09:25:25.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>IntelliJ IDEA</tag>
+         
+        <tag>Maven</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+             
+              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-5-1.html</loc>
+    <lastmod>2018-12-14T17:56:56.039Z</lastmod>
+    <data>
+        <display>
+        <title>「5-1」Java模板引擎FreeMarker整合SSM</title>
+        <pubTime>2018-12-11T13:27:26.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>UEditor</tag>
+         
+        <tag>富文本编辑器</tag>
+         
+        <tag>商品</tag>
+         
+        <tag>FreeMarker</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-2-1.html</loc>
+    <lastmod>2018-12-14T17:55:13.951Z</lastmod>
+    <data>
+        <display>
+        <title>「2-1」什么是Maven，Maven的配置</title>
+        <pubTime>2018-08-29T09:25:22.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Maven</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+             
+              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-2-3.html</loc>
+    <lastmod>2018-12-14T17:55:13.786Z</lastmod>
+    <data>
+        <display>
+        <title>「2-3」使用 InteliJ IDEA 创建 Maven 项目与相关配置</title>
+        <pubTime>2018-08-29T09:25:24.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>IntelliJ IDEA</tag>
+         
+        <tag>Maven</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+             
+              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-2-2.html</loc>
+    <lastmod>2018-12-14T17:55:13.693Z</lastmod>
+    <data>
+        <display>
+        <title>「2-2」码农商城 SSM 系统所需的 Maven 模块简介</title>
+        <pubTime>2018-08-29T09:25:23.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Maven</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+             
+              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-1-1.html</loc>
+    <lastmod>2018-12-14T17:55:13.601Z</lastmod>
+    <data>
+        <display>
+        <title>「1-1」分布式高并发java web项目实战视频教程介绍</title>
+        <pubTime>2018-08-29T09:25:18.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>IntelliJ IDEA</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-1-3.html</loc>
+    <lastmod>2018-12-14T17:55:13.480Z</lastmod>
+    <data>
+        <display>
+        <title>「1-3」代码托管Git的使用</title>
+        <pubTime>2018-08-29T09:25:20.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Git</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>IntelliJ IDEA</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+             
+              <breadCrumb title="Git" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-1-4.html</loc>
+    <lastmod>2018-12-14T17:55:13.424Z</lastmod>
+    <data>
+        <display>
+        <title>「1-4」GitHub完全使用指南</title>
+        <pubTime>2018-08-29T09:25:21.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Git</tag>
+         
+        <tag>GitHub</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>IntelliJ IDEA</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+             
+              <breadCrumb title="Git" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-1-2.html</loc>
+    <lastmod>2018-12-14T17:55:13.227Z</lastmod>
+    <data>
+        <display>
+        <title>「1-2」传统的集群架构和分布式架构区别</title>
+        <pubTime>2018-08-29T09:25:19.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>IntelliJ IDEA</tag>
+         
+        <tag>架构</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/banwagong-quick-build-ss.html</loc>
     <lastmod>2018-12-14T11:10:06.787Z</lastmod>
     <data>
@@ -149,9 +932,9 @@
         
         <tag>搬瓦工</tag>
          
-        <tag>vultr</tag>
-         
         <tag>vps</tag>
+         
+        <tag>vultr</tag>
          
         <tag>优惠码</tag>
          
@@ -191,13 +974,13 @@
          
         <tag>Maven</tag>
          
+        <tag>EasyUI</tag>
+         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
-         
-        <tag>EasyUI</tag>
          
         <tag>postman</tag>
          
@@ -226,47 +1009,6 @@
         <tag>JDK</tag>
          
         <tag>sqlyog</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-5-1.html</loc>
-    <lastmod>2018-12-13T17:46:12.775Z</lastmod>
-    <data>
-        <display>
-        <title>「5-1」Java模板引擎FreeMarker整合到SSM</title>
-        <pubTime>2018-12-11T13:27:26.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-        <tag>EasyUI</tag>
-         
-        <tag>FreeMarker</tag>
-         
-        <tag>模板引擎</tag>
          
          
            
@@ -322,9 +1064,9 @@
         
         <tag>互联网</tag>
          
-        <tag>赚钱</tag>
-         
         <tag>个人理财</tag>
+         
+        <tag>赚钱</tag>
          
         <tag>Paypal</tag>
          
@@ -342,7 +1084,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>https://www.wistbean.com/banwagong-15-1000G-vps.html</loc>
@@ -443,51 +1184,6 @@
           
              
               <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vultr/vpn/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-4-4.html</loc>
-    <lastmod>2018-12-04T11:08:54.330Z</lastmod>
-    <data>
-        <display>
-        <title>「4-4」SpringMVC整合富文本编辑器百度UEditor的使用</title>
-        <pubTime>2018-12-03T09:28:01.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Nginx</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-        <tag>EasyUI</tag>
-         
-        <tag>FastDFS</tag>
-         
-        <tag>UEditor</tag>
-         
-        <tag>富文本编辑器</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
           
         </display>
     </data>
@@ -629,57 +1325,6 @@
           
              
               <breadCrumb title="个人提升" url="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E4%B8%AA%E4%BA%BA%E6%8F%90%E5%8D%87/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-4-3.html</loc>
-    <lastmod>2018-12-01T15:22:07.836Z</lastmod>
-    <data>
-        <display>
-        <title>「4-3」SpringMVC整合FastDFS实现文件上传下载</title>
-        <pubTime>2018-11-28T13:31:40.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Nginx</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-        <tag>EasyUI</tag>
-         
-        <tag>商品分类管理</tag>
-         
-        <tag>FastDFS</tag>
-         
-        <tag>SecureCRT</tag>
-         
-        <tag>文件服务器</tag>
-         
-        <tag>上传下载</tag>
-         
-        <tag>postman</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
           
         </display>
     </data>
@@ -943,9 +1588,9 @@
         
         <tag>互联网</tag>
          
-        <tag>赚钱</tag>
-         
         <tag>个人理财</tag>
+         
+        <tag>赚钱</tag>
          
          
            
@@ -954,51 +1599,6 @@
           
              
               <breadCrumb title="互联网" url="https://www.wistbean.com/categories/%E4%B8%AA%E4%BA%BA%E7%90%86%E8%B4%A2/%E4%BA%92%E8%81%94%E7%BD%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-4-2.html</loc>
-    <lastmod>2018-11-04T07:26:27.385Z</lastmod>
-    <data>
-        <display>
-        <title>「4-2」 使用 Nginx 访问 FastDSF 文件服务器</title>
-        <pubTime>2018-11-02T13:17:53.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Nginx</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-        <tag>EasyUI</tag>
-         
-        <tag>商品分类管理</tag>
-         
-        <tag>FastDFS</tag>
-         
-        <tag>SecureCRT</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
           
         </display>
     </data>
@@ -1115,9 +1715,9 @@
         
         <tag>互联网</tag>
          
-        <tag>赚钱</tag>
-         
         <tag>个人理财</tag>
+         
+        <tag>赚钱</tag>
          
          
            
@@ -1425,603 +2025,6 @@
           
              
               <breadCrumb title="互联网" url="https://www.wistbean.com/categories/podcast/%E8%82%AF%E5%AE%9A%E4%BC%9A%E7%94%B5%E5%8F%B0/%E4%BA%92%E8%81%94%E7%BD%91/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-4-1.html</loc>
-    <lastmod>2018-11-02T09:27:56.969Z</lastmod>
-    <data>
-        <display>
-        <title>「4-1」 Java文件服务器 FastDFS 的搭建教程</title>
-        <pubTime>2018-10-23T15:23:00.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-        <tag>EasyUI</tag>
-         
-        <tag>商品分类管理</tag>
-         
-        <tag>FastDFS</tag>
-         
-        <tag>SecureCRT</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-3-4.html</loc>
-    <lastmod>2018-11-02T09:27:22.818Z</lastmod>
-    <data>
-        <display>
-        <title>「3-4」 对商品分类进行增删改查的操作(下)</title>
-        <pubTime>2018-10-09T15:00:55.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-        <tag>EasyUI</tag>
-         
-        <tag>商品分类管理</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-3-3.html</loc>
-    <lastmod>2018-11-02T09:26:35.051Z</lastmod>
-    <data>
-        <display>
-        <title>「3-3」 对商品分类进行增删改查的操作(上)</title>
-        <pubTime>2018-10-01T13:31:12.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-        <tag>EasyUI</tag>
-         
-        <tag>商品分类管理</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-3-2.html</loc>
-    <lastmod>2018-11-02T09:26:03.314Z</lastmod>
-    <data>
-        <display>
-        <title>「3-2」使用 PowerDesigner 逆向生成 MySQL 数据库</title>
-        <pubTime>2018-09-23T17:42:42.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-        <tag>EasyUI</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-3-1.html</loc>
-    <lastmod>2018-11-02T09:25:19.367Z</lastmod>
-    <data>
-        <display>
-        <title>「3-1」 后台管理系统 EasyUI 的使用</title>
-        <pubTime>2018-09-18T16:40:25.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-        <tag>EasyUI</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-2-6.html</loc>
-    <lastmod>2018-11-02T09:24:44.295Z</lastmod>
-    <data>
-        <display>
-        <title>「2-6」Java SSM框架的整合与Mybatis逆向工程</title>
-        <pubTime>2018-08-29T09:25:26.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>Maven</tag>
-         
-        <tag>Spring</tag>
-         
-        <tag>Spring MVC</tag>
-         
-        <tag>Mybatis</tag>
-         
-        <tag>逆向工程</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-             
-              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-2-5.html</loc>
-    <lastmod>2018-11-02T09:22:08.435Z</lastmod>
-    <data>
-        <display>
-        <title>「2-5」使用InteliJ IDEA 创建 Maven 聚合工程</title>
-        <pubTime>2018-08-29T09:25:26.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>Maven</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-             
-              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-2-4.html</loc>
-    <lastmod>2018-11-02T09:21:25.869Z</lastmod>
-    <data>
-        <display>
-        <title>「2-4」使用InteliJ IDEA 创建分布式多模块 Maven 项目</title>
-        <pubTime>2018-08-29T09:25:25.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>Maven</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-             
-              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-2-3.html</loc>
-    <lastmod>2018-11-02T09:20:53.802Z</lastmod>
-    <data>
-        <display>
-        <title>「2-3」使用 InteliJ IDEA 创建 Maven 项目与相关配置</title>
-        <pubTime>2018-08-29T09:25:24.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>Maven</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-             
-              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-2-2.html</loc>
-    <lastmod>2018-11-02T09:19:07.500Z</lastmod>
-    <data>
-        <display>
-        <title>「2-2」码农商城 SSM 系统所需的 Maven 模块简介</title>
-        <pubTime>2018-08-29T09:25:23.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Maven</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-             
-              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-2-1.html</loc>
-    <lastmod>2018-11-02T09:18:32.315Z</lastmod>
-    <data>
-        <display>
-        <title>「2-1」什么是Maven，Maven的配置</title>
-        <pubTime>2018-08-29T09:25:22.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Maven</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-             
-              <breadCrumb title="Maven" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Maven/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-1-4.html</loc>
-    <lastmod>2018-11-02T09:17:50.512Z</lastmod>
-    <data>
-        <display>
-        <title>「1-4」GitHub完全使用指南</title>
-        <pubTime>2018-08-29T09:25:21.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Git</tag>
-         
-        <tag>GitHub</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-             
-              <breadCrumb title="Git" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-1-3.html</loc>
-    <lastmod>2018-11-02T09:15:21.328Z</lastmod>
-    <data>
-        <display>
-        <title>「1-3」代码托管Git的使用</title>
-        <pubTime>2018-08-29T09:25:20.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Git</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-             
-              <breadCrumb title="Git" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/Git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-1-2.html</loc>
-    <lastmod>2018-11-02T09:13:14.902Z</lastmod>
-    <data>
-        <display>
-        <title>「1-2」传统的集群架构和分布式架构区别</title>
-        <pubTime>2018-08-29T09:25:19.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>架构</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-1-1.html</loc>
-    <lastmod>2018-11-02T09:12:30.021Z</lastmod>
-    <data>
-        <display>
-        <title>「1-1」分布式高并发java web项目实战视频教程介绍</title>
-        <pubTime>2018-08-29T09:25:18.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
           
         </display>
     </data>
