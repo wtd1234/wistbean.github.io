@@ -38,27 +38,27 @@
     
     
     
-    <title>「5-2」 码农商城-实现商品添加界面 | 肯定会 | wistbean</title>
+    <title>「5-3」实现码农商城商品分类的添加数据交互 | 肯定会 | wistbean</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
     
     
-    <meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,UEditor,富文本编辑器,商品,FreeMarker">
-    <meta name="description" content="访问不了Youtube？1.点击搭建自己的VPN教程轻松访问1080p高清Youtube视频。2.或者点击本节b站视频教程地址观看。  管理系统的添加商品页面EasyUI给我们提供了Form组件，我们使用它的表单提交，可以很方便的来与后端数据进行交互。">
-<meta name="keywords" content="教程,Java,Java视频教程,项目实战,分布式,SSM,Intellij IDEA,EasyUI,UEditor,富文本编辑器,商品,FreeMarker">
+    <meta name="keywords" content="">
+    <meta name="description" content="我们已经在5-2小节中实现了商品添加的界面,那么接下来我们就要对数据进行交互了。 在我们请求 product_add 这个页面的时候，我们应该将商品分类父级的数据放到 session 里面，然后传给页面。所以我们可以写一个 Controller 来实现： 123456@RequestMapping(&quot;/product_add&quot;)public String requestProductAdd(Htt">
+<meta name="keywords" content="搬瓦工搭建vpn，vultr搭建ss，ssm视频教程">
 <meta property="og:type" content="article">
-<meta property="og:title" content="「5-2」 码农商城-实现商品添加界面">
-<meta property="og:url" content="https://www.wistbean.com/java-ssm-5-2.html">
+<meta property="og:title" content="「5-3」实现码农商城商品分类的添加数据交互">
+<meta property="og:url" content="https://www.wistbean.com/java-ssm-5-3.html">
 <meta property="og:site_name" content="肯定会">
-<meta property="og:description" content="访问不了Youtube？1.点击搭建自己的VPN教程轻松访问1080p高清Youtube视频。2.或者点击本节b站视频教程地址观看。  管理系统的添加商品页面EasyUI给我们提供了Form组件，我们使用它的表单提交，可以很方便的来与后端数据进行交互。">
+<meta property="og:description" content="我们已经在5-2小节中实现了商品添加的界面,那么接下来我们就要对数据进行交互了。 在我们请求 product_add 这个页面的时候，我们应该将商品分类父级的数据放到 session 里面，然后传给页面。所以我们可以写一个 Controller 来实现： 123456@RequestMapping(&quot;/product_add&quot;)public String requestProductAdd(Htt">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://www.wistbean.com/images/easyui_form.png">
-<meta property="og:updated_time" content="2018-12-21T08:33:45.942Z">
+<meta property="og:image" content="https://www.wistbean.com/images/cat.png">
+<meta property="og:updated_time" content="2018-12-23T15:38:19.836Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="「5-2」 码农商城-实现商品添加界面">
-<meta name="twitter:description" content="访问不了Youtube？1.点击搭建自己的VPN教程轻松访问1080p高清Youtube视频。2.或者点击本节b站视频教程地址观看。  管理系统的添加商品页面EasyUI给我们提供了Form组件，我们使用它的表单提交，可以很方便的来与后端数据进行交互。">
-<meta name="twitter:image" content="https://www.wistbean.com/images/easyui_form.png">
+<meta name="twitter:title" content="「5-3」实现码农商城商品分类的添加数据交互">
+<meta name="twitter:description" content="我们已经在5-2小节中实现了商品添加的界面,那么接下来我们就要对数据进行交互了。 在我们请求 product_add 这个页面的时候，我们应该将商品分类父级的数据放到 session 里面，然后传给页面。所以我们可以写一个 Controller 来实现： 123456@RequestMapping(&quot;/product_add&quot;)public String requestProductAdd(Htt">
+<meta name="twitter:image" content="https://www.wistbean.com/images/cat.png">
     
         <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
     
@@ -160,7 +160,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light off" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">「5-2」 码农商城-实现商品添加界面</div>
+        <div class="flex-col header-title ellipsis">「5-3」实现码农商城商品分类的添加数据交互</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -183,15 +183,13 @@
 <header class="content-header post-header">
 
     <div class="container fade-scale">
-        <h1 class="title">「5-2」 码农商城-实现商品添加界面</h1>
+        <h1 class="title">「5-3」实现码农商城商品分类的添加数据交互</h1>
         <h5 class="subtitle">
             
-                <time datetime="2018-12-16T06:47:55.000Z" itemprop="datePublished" class="page-time">
-  2018-12-16
+                <time datetime="2018-12-23T05:46:09.000Z" itemprop="datePublished" class="page-time">
+  2018-12-23
 </time>
 
-
-	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Java/">Java</a><ul class="article-category-list-child"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Java/Java-SSM视频教程/">Java SSM视频教程</a></li></ul></li></ul>
 
             
         </h5>
@@ -205,25 +203,16 @@
 
 <div class="container body-wrap">
     
-    <aside class="post-widget">
-        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
-            <h4>目录</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#管理系统的添加商品页面"><span class="post-toc-number">1.</span> <span class="post-toc-text">管理系统的添加商品页面</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#SpringMVC整合Ueditor，EasyUI"><span class="post-toc-number">2.</span> <span class="post-toc-text">SpringMVC整合Ueditor，EasyUI</span></a></li></ol>
-        </nav>
-    </aside>
 
-
-<article id="post-java-ssm-5-2"
+<article id="post-java-ssm-5-3"
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
-        <h1 class="post-card-title">「5-2」 码农商城-实现商品添加界面</h1>
+        <h1 class="post-card-title">「5-3」实现码农商城商品分类的添加数据交互</h1>
         <div class="post-meta">
-            <time class="post-time" title="2018-12-16 14:47:55" datetime="2018-12-16T06:47:55.000Z"  itemprop="datePublished">2018-12-16</time>
+            <time class="post-time" title="2018-12-23 13:46:09" datetime="2018-12-23T05:46:09.000Z"  itemprop="datePublished">2018-12-23</time>
 
             
-	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Java/">Java</a><ul class="article-category-list-child"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Java/Java-SSM视频教程/">Java SSM视频教程</a></li></ul></li></ul>
-
 
 
             
@@ -234,22 +223,22 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/gjvIuZVUTIQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<blockquote>
-<p>访问不了Youtube？<br>1.点击<a href="/banwagong-ss.html">搭建自己的VPN教程</a>轻松访问1080p高清Youtube视频。<br>2.或者点击<a href="https://www.bilibili.com/video/av38471418/" target="_blank" rel="noopener">本节b站视频教程地址</a>观看。</p>
-</blockquote>
-<h1 id="管理系统的添加商品页面"><a href="#管理系统的添加商品页面" class="headerlink" title="管理系统的添加商品页面"></a>管理系统的添加商品页面</h1><p><a href="http://www.jeasyui.com/documentation/index.php#" target="_blank" rel="noopener">EasyUI</a>给我们提供了<a href="http://www.jeasyui.com/documentation/form.php?_=1544943321524" target="_blank" rel="noopener">Form组件</a>，我们使用它的表单提交，可以很方便的来与后端数据进行交互。</p>
+            <p>我们已经在<a href="https://www.wistbean.com/java-ssm-5-2.html">5-2</a>小节中实现了商品添加的界面,那么接下来我们就要对数据进行交互了。</p>
+<p>在我们请求 product_add 这个页面的时候，我们应该将商品分类父级的数据放到 session 里面，然后传给页面。所以我们可以写一个 Controller 来实现：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@RequestMapping</span>(<span class="string">"/product_add"</span>)</span><br><span class="line"><span class="function"><span class="keyword">public</span> String <span class="title">requestProductAdd</span><span class="params">(HttpServletRequest request)</span></span>&#123;</span><br><span class="line">    List&lt;EasyUITree&gt; categories = productCategoryService.findProductCategoryListByParentId((<span class="keyword">short</span>) <span class="number">0</span>);</span><br><span class="line">    request.getSession().setAttribute(<span class="string">"categories"</span>,categories);</span><br><span class="line">    <span class="keyword">return</span> <span class="string">"product_add"</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>接着我们的jsp就需要用动态的方式获取数据了：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">&lt;%</span><br><span class="line">    List&lt;EasyUITree&gt; list = (List) session.getAttribute(<span class="string">"categories"</span>);</span><br><span class="line">%&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"> &lt;td&gt;所属分类：&lt;/td&gt;</span><br><span class="line"> &lt;td&gt;</span><br><span class="line">     &lt;select id=<span class="string">"cc"</span>  <span class="class"><span class="keyword">class</span></span>=<span class="string">"easyui-combobox"</span> name=<span class="string">"cid"</span> style=<span class="string">"width:800px;"</span>&gt;</span><br><span class="line">         &lt;option value="0"&gt;请选择&lt;/option&gt;</span><br><span class="line">         &lt;%</span><br><span class="line">             <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;list.size();i++)&#123;</span><br><span class="line">                 EasyUITree item = list.get(i);</span><br><span class="line">                 %&gt;</span><br><span class="line">                 &lt;option value="&lt;%=item.getId()%&gt;"&gt;&lt;%=item.getText()%&gt;&lt;/option&gt;</span><br><span class="line">             &lt;%</span><br><span class="line">             &#125;</span><br><span class="line">         %&gt;</span><br><span class="line"></span><br><span class="line">     &lt;/select&gt;</span><br><span class="line"> &lt;/td&gt;</span><br></pre></td></tr></table></figure>
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="/images/easyui_form.png" alt="easyui_form" title="">
+                    <img src="/images/cat.png" alt="获取商品分类" title="">
                 </div>
-                <div class="image-caption">easyui_form</div>
+                <div class="image-caption">获取商品分类</div>
             </figure>
-<h1 id="SpringMVC整合Ueditor，EasyUI"><a href="#SpringMVC整合Ueditor，EasyUI" class="headerlink" title="SpringMVC整合Ueditor，EasyUI"></a>SpringMVC整合Ueditor，EasyUI</h1><p>新建 product_add.jsp，添加ueditor所需要的js文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot; src=&quot;/ueditor/ueditor.config.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot; src=&quot;/ueditor/ueditor.all.min.js&quot;&gt; &lt;/script&gt;</span><br><span class="line">&lt;!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败--&gt;</span><br><span class="line">&lt;!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文--&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot; src=&quot;/ueditor/lang/zh-cn/zh-cn.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure></p>
-<p>在 ueditor.config.js 文件中需要配置一下路径，很多人因为在这里遇到了找不到资源文件的问题：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">URL = URL + &quot;/ueditor/&quot;;</span><br></pre></td></tr></table></figure>
+<p>虽然我们已经获取到了一级分类了，但是有些分类是有二级类目的，这时候我们需要用到 JavaScript 来写一些方法，对商品分类的获取与展示，商品图片的上传，商品详情页的数据处理等。</p>
+<p>那么我们可以创建一个 produat_add.js 文件。然后在我们需要用到的地方引入这个 js 文件，从而能够应用到 js 方法。</p>
+<p>当我们点击分类的时候，获取选中的id，然后去请求获取相应的子分类:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$(&quot;#addProductForm&quot;).find(&quot;select[name=&apos;cid&apos;]&quot;).combobox(&#123;</span><br><span class="line">          width: 190,</span><br><span class="line">          onChange: function() &#123;</span><br><span class="line">              var value=$(&quot;#cc&quot;).val();</span><br><span class="line">              loadSubCategories(value);</span><br><span class="line">          &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 
         </div>
 
@@ -258,7 +247,7 @@
     <div class="content">
       <!--  
 <span class="post-time">
-    最后更新时间：<time datetime="2018-12-21T08:33:45.942Z" itemprop="dateUpdated">2018-12-21 16:33:45</time>
+    最后更新时间：<time datetime="2018-12-23T15:38:19.836Z" itemprop="dateUpdated">2018-12-23 23:38:19</time>
 </span><br>
 
 
@@ -267,7 +256,7 @@
         
         -->
         本站所有文章均为原创，转载请注明出处：
-        <a href="https://www.wistbean.com/java-ssm-5-2.html">
+        <a href="https://www.wistbean.com/java-ssm-5-3.html">
                    wistbean|肯定会
          </a>
          关注公众号「肯定会」并发送「程序员」直接免费获取 12 本精华电子书
@@ -286,8 +275,6 @@
 
         <div class="post-footer">
             
-	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/EasyUI/">EasyUI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/FreeMarker/">FreeMarker</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Intellij-IDEA/">Intellij IDEA</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java视频教程/">Java视频教程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SSM/">SSM</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/UEditor/">UEditor</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/分布式/">分布式</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/商品/">商品</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/富文本编辑器/">富文本编辑器</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/项目实战/">项目实战</a></li></ul>
-
 
             
 <div class="page-share-wrap">
@@ -296,7 +283,7 @@
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/java-ssm-5-2.html&title=《「5-2」 码农商城-实现商品添加界面》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/java-ssm-5-3.html&title=《「5-3」实现码农商城商品分类的添加数据交互》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -306,22 +293,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/java-ssm-5-2.html&title=《「5-2」 码农商城-实现商品添加界面》 — 肯定会&source=wistbean的个人网站，Java进阶SSM视频教程，肯定会电台，服务器vps搬瓦工搭建。" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/java-ssm-5-3.html&title=《「5-3」实现码农商城商品分类的添加数据交互》 — 肯定会&source=wistbean的个人网站，Java进阶SSM视频教程，肯定会电台，服务器vps搬瓦工搭建。" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/java-ssm-5-2.html" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/java-ssm-5-3.html" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《「5-2」 码农商城-实现商品添加界面》 — 肯定会&url=https://www.wistbean.com/java-ssm-5-2.html&via=https://www.wistbean.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《「5-3」实现码农商城商品分类的添加数据交互》 — 肯定会&url=https://www.wistbean.com/java-ssm-5-3.html&via=https://www.wistbean.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/java-ssm-5-2.html" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/java-ssm-5-3.html" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -341,21 +328,14 @@
     </div>
 
     
-<nav class="post-nav flex-row flex-justify-between">
-  
-    <div class="waves-block waves-effect prev">
-      <a href="/java-ssm-5-3.html" id="post-prev" class="post-nav-link">
-        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
-        <h4 class="title">「5-3」实现码农商城商品分类的添加数据交互</h4>
-      </a>
-    </div>
+<nav class="post-nav flex-row flex-justify-between flex-row-reverse">
   
 
   
     <div class="waves-block waves-effect next">
-      <a href="/java-ssm-5-1.html" id="post-next" class="post-nav-link">
+      <a href="/java-ssm-5-2.html" id="post-next" class="post-nav-link">
         <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
-        <h4 class="title">「5-1」Java模板引擎FreeMarker整合SSM</h4>
+        <h4 class="title">「5-2」 码农商城-实现商品添加界面</h4>
       </a>
     </div>
   
@@ -453,7 +433,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/java-ssm-5-2.html&title=《「5-2」 码农商城-实现商品添加界面》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/java-ssm-5-3.html&title=《「5-3」实现码农商城商品分类的添加数据交互》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -463,22 +443,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/java-ssm-5-2.html&title=《「5-2」 码农商城-实现商品添加界面》 — 肯定会&source=wistbean的个人网站，Java进阶SSM视频教程，肯定会电台，服务器vps搬瓦工搭建。" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/java-ssm-5-3.html&title=《「5-3」实现码农商城商品分类的添加数据交互》 — 肯定会&source=wistbean的个人网站，Java进阶SSM视频教程，肯定会电台，服务器vps搬瓦工搭建。" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/java-ssm-5-2.html" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/java-ssm-5-3.html" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《「5-2」 码农商城-实现商品添加界面》 — 肯定会&url=https://www.wistbean.com/java-ssm-5-2.html&via=https://www.wistbean.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《「5-3」实现码农商城商品分类的添加数据交互》 — 肯定会&url=https://www.wistbean.com/java-ssm-5-3.html&via=https://www.wistbean.com" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/java-ssm-5-2.html" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/java-ssm-5-3.html" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -489,7 +469,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABw0lEQVR42u3aMW7DMAwF0N7/0ilQdOgS+ZOyGBd4ngw7kZ4XgiL59RVfr5/r7331yXrNmy9cXNxt7mt5vVu693a9/tqAi4s7z82DV4LLWbkBFxf3mdx1vtELVbi4uP+du05cknNKshouLu5zuHlqUgWt/3XwrIaLi7vB7RVM770/Xt/FxcW9qSuRB5Q8Zent+7saLi7uCDdphKyfJy2TaiH14oNxcXFHuD16HqSSwFddARcX9zQ3SWgSdO/AU36Ci4t7mJtv0CuGVge8LtbHxcUd4SZtkurH5E3ZPIC+jbu4uLgj3J1Rqt6QVn4owsXFneTu0HuBLA+guLi4n+JWx612tr/hU3FxcR/ArSYf1dZp9eiFi4t7mlsNWHmZo9ekuRj7wMXFHeHmG/fGtqpN1iiA4uLiHubmDY+8xbKT0ODi4j6H21suabQUKrVBARcXF3eSW6UkCU3vaFTu8+Di4h7gVgPKTnFk/1CEi4s7yc1Tljxs9UY6kn/h4uJOcqvt0vw3O23awmtcXNwPcXeGM6oFlLdr4uLiPpKbpzK98Y6L1AoXF3eQm7dGkoDVC2HJPS4u7gy3WjDtHYfywIeLi/tR7jd3fkP61L7UbQAAAABJRU5ErkJggg==" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAAByElEQVR42u3aSYrDMBAFUN//0s42EKz+VRowzdPKJI70nEVRg68rXvfP+v786fr7k6c9rx0LFxd3mnsP15g7Rj+dMn688Vm4uLgnueNA80T8Y+shNH9IXFzc93OTQJaEQlxc3P/ETe6sFj+4uLjv5OaBJn+MmeJqQa2Gi4s7wc27lPuut/R3cXFxW9y7uKqDlvFYpXw6Li7uEW4vTVk7si3fiYuLe4Sb3zo/jk0QzeIHFxd3EXc8FOkVQjmimZHh4uK+gFsNTNXip9B8wcXFPcJNiHm6k+xQHZwUEh1cXNxF3OR1q2rDtNdGif4IXFzcg9x8IJokOjkr+fZx8oOLi7uNW01WeuPYJLnJ0yNcXNyT3B0BqzeGKdRquLi4R7j54CQJVfmvCifi4uIe5/boeeDLE6BC3MXFxT3CTUqUcUrUS2gWFD+4uLhLufPNkWo51Guq4uLi7ub22qDVRkYe7K78iXFxcbdx8zV/ZFL2zIQ/XFzctdyZ4LW7cCpHX1xc3KXcmSFKFbegVsPFxX0ZN2+dVPcpVGy4uLgv4xaCTpAG5aUXLi7ueW5S/FSbp9UiJ9oZFxf3CLccSoIhysyrWsv6u7i4uB3uB/CGUsHcQMPPAAAAAElFTkSuQmCC" alt="微信分享二维码">
 </div>
 
 

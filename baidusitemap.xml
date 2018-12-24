@@ -4,6 +4,54 @@
 
     
   <url>
+    <loc>https://www.wistbean.com/java-ssm-5-3.html</loc>
+    <lastmod>2018-12-23T15:38:19.836Z</lastmod>
+    <data>
+        <display>
+        <title>「5-3」实现码农商城商品分类的添加数据交互</title>
+        <pubTime>2018-12-23T05:46:09.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/banwagong-ss.html</loc>
+    <lastmod>2018-12-22T06:01:20.723Z</lastmod>
+    <data>
+        <display>
+        <title>搬瓦工快速手动搭建SS(Shadowsocks)服务器简明详细教程</title>
+        <pubTime>2018-10-07T08:27:43.000Z</pubTime>
+        
+        <tag>搬瓦工</tag>
+         
+        <tag>vpn搭建</tag>
+         
+        <tag>搬瓦工搭建vpn</tag>
+         
+        <tag>搬瓦工搭建ss</tag>
+         
+        <tag>Shadowsocks</tag>
+         
+        <tag>搬瓦工vps</tag>
+         
+         
+           
+             
+              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
+          
+             
+              <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/vpn/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.wistbean.com/banwagong-vpn.html</loc>
     <lastmod>2018-12-21T14:52:12.688Z</lastmod>
     <data>
@@ -51,37 +99,6 @@
         <tag>搬瓦工没有一键ss功能了怎么办</tag>
          
         <tag>搬瓦工取消了一键安装shadowsocks</tag>
-         
-         
-           
-             
-              <breadCrumb title="vpn" url="https://www.wistbean.com/categories/vpn/"/>
-          
-             
-              <breadCrumb title="搬瓦工" url="https://www.wistbean.com/categories/vpn/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/banwagong-ss.html</loc>
-    <lastmod>2018-12-21T14:18:03.954Z</lastmod>
-    <data>
-        <display>
-        <title>搬瓦工快速手动搭建SS(Shadowsocks)服务器简明详细教程</title>
-        <pubTime>2018-10-07T08:27:43.000Z</pubTime>
-        
-        <tag>搬瓦工</tag>
-         
-        <tag>vpn搭建</tag>
-         
-        <tag>搬瓦工搭建vpn</tag>
-         
-        <tag>搬瓦工搭建ss</tag>
-         
-        <tag>Shadowsocks</tag>
          
          
            
@@ -154,9 +171,9 @@
         
         <tag>搬瓦工</tag>
          
-        <tag>vultr</tag>
-         
         <tag>vps</tag>
+         
+        <tag>vultr</tag>
          
         <tag>优惠码</tag>
          
@@ -576,11 +593,11 @@
          
         <tag>分布式</tag>
          
-        <tag>架构</tag>
-         
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
+         
+        <tag>架构</tag>
          
          
            
@@ -695,17 +712,17 @@
          
         <tag>Maven</tag>
          
-        <tag>EasyUI</tag>
-         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
          
-        <tag>postman</tag>
+        <tag>EasyUI</tag>
          
         <tag>UEditor</tag>
+         
+        <tag>postman</tag>
          
         <tag>SSM视频教程</tag>
          
