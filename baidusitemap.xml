@@ -27,11 +27,11 @@
          
         <tag>EasyUI</tag>
          
-        <tag>Jqury</tag>
-         
         <tag>商品</tag>
          
         <tag>FreeMarker</tag>
+         
+        <tag>Jqury</tag>
          
          
            
@@ -70,13 +70,13 @@
          
         <tag>EasyUI</tag>
          
-        <tag>商品</tag>
-         
-        <tag>FreeMarker</tag>
-         
         <tag>UEditor</tag>
          
         <tag>富文本编辑器</tag>
+         
+        <tag>商品</tag>
+         
+        <tag>FreeMarker</tag>
          
          
            
@@ -115,13 +115,13 @@
          
         <tag>EasyUI</tag>
          
-        <tag>商品</tag>
-         
-        <tag>FreeMarker</tag>
-         
         <tag>UEditor</tag>
          
         <tag>富文本编辑器</tag>
+         
+        <tag>商品</tag>
+         
+        <tag>FreeMarker</tag>
          
          
            
@@ -289,9 +289,9 @@
         
         <tag>搬瓦工</tag>
          
-        <tag>vps</tag>
-         
         <tag>vultr</tag>
+         
+        <tag>vps</tag>
          
         <tag>优惠码</tag>
          
@@ -623,9 +623,9 @@
          
         <tag>Git</tag>
          
-        <tag>Java</tag>
-         
         <tag>GitHub</tag>
+         
+        <tag>Java</tag>
          
         <tag>Java视频教程</tag>
          
@@ -785,15 +785,15 @@
          
         <tag>Maven</tag>
          
-        <tag>EasyUI</tag>
-         
-        <tag>postman</tag>
-         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>postman</tag>
          
         <tag>UEditor</tag>
          
