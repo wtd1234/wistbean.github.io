@@ -5,14 +5,132 @@
     
   <url>
     <loc>https://www.wistbean.com/java-ssm-5-3.html</loc>
-    <lastmod>2018-12-23T15:38:19.836Z</lastmod>
+    <lastmod>2018-12-25T07:11:26.811Z</lastmod>
     <data>
         <display>
         <title>「5-3」实现码农商城商品分类的添加数据交互</title>
         <pubTime>2018-12-23T05:46:09.000Z</pubTime>
         
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>Jqury</tag>
+         
+        <tag>商品</tag>
+         
+        <tag>FreeMarker</tag>
+         
          
            
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-5-2.html</loc>
+    <lastmod>2018-12-25T07:09:53.743Z</lastmod>
+    <data>
+        <display>
+        <title>「5-2」 码农商城-实现商品添加界面</title>
+        <pubTime>2018-12-16T06:47:55.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>商品</tag>
+         
+        <tag>FreeMarker</tag>
+         
+        <tag>UEditor</tag>
+         
+        <tag>富文本编辑器</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.wistbean.com/java-ssm-5-1.html</loc>
+    <lastmod>2018-12-25T07:09:52.877Z</lastmod>
+    <data>
+        <display>
+        <title>「5-1」Java模板引擎FreeMarker整合SSM</title>
+        <pubTime>2018-12-11T13:27:26.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>商品</tag>
+         
+        <tag>FreeMarker</tag>
+         
+        <tag>UEditor</tag>
+         
+        <tag>富文本编辑器</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
         </display>
     </data>
     </url>
@@ -505,9 +623,9 @@
          
         <tag>Git</tag>
          
-        <tag>GitHub</tag>
-         
         <tag>Java</tag>
+         
+        <tag>GitHub</tag>
          
         <tag>Java视频教程</tag>
          
@@ -648,51 +766,6 @@
 
     
   <url>
-    <loc>https://www.wistbean.com/java-ssm-5-2.html</loc>
-    <lastmod>2018-12-21T08:33:45.942Z</lastmod>
-    <data>
-        <display>
-        <title>「5-2」 码农商城-实现商品添加界面</title>
-        <pubTime>2018-12-16T06:47:55.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-        <tag>EasyUI</tag>
-         
-        <tag>UEditor</tag>
-         
-        <tag>富文本编辑器</tag>
-         
-        <tag>商品</tag>
-         
-        <tag>FreeMarker</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.wistbean.com/java-ssm-video.html</loc>
     <lastmod>2018-12-20T11:11:21.236Z</lastmod>
     <data>
@@ -712,17 +785,17 @@
          
         <tag>Maven</tag>
          
+        <tag>EasyUI</tag>
+         
+        <tag>postman</tag>
+         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
          
-        <tag>EasyUI</tag>
-         
         <tag>UEditor</tag>
-         
-        <tag>postman</tag>
          
         <tag>SSM视频教程</tag>
          
@@ -962,51 +1035,6 @@
         <tag>FastDFS</tag>
          
         <tag>SecureCRT</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://www.wistbean.com/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://www.wistbean.com/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.wistbean.com/java-ssm-5-1.html</loc>
-    <lastmod>2018-12-16T12:07:42.738Z</lastmod>
-    <data>
-        <display>
-        <title>「5-1」Java模板引擎FreeMarker整合SSM</title>
-        <pubTime>2018-12-11T13:27:26.000Z</pubTime>
-        
-        <tag>教程</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Java视频教程</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>SSM</tag>
-         
-        <tag>Intellij IDEA</tag>
-         
-        <tag>EasyUI</tag>
-         
-        <tag>UEditor</tag>
-         
-        <tag>富文本编辑器</tag>
-         
-        <tag>商品</tag>
-         
-        <tag>FreeMarker</tag>
          
          
            
