@@ -84,15 +84,15 @@
 <body>
     <div id="loading" class="active"></div>
 
-    <aside id="menu" class="show">
+    <aside id="menu" class="hide">
   <div class="inner flex-row-vertical">
     <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
         <i class="icon icon-lg icon-close"></i>
     </a>
-    <div class="brand-wrap" style="background-image:url(https://www.wistbean.com/images/brand.jpg)">
+    <div class="brand-wrap" style="background-image:url(https://wistbean.github.io/images/brand.jpg)">
       <div class="brand">
         <a href="/" class="avatar waves-effect waves-circle waves-light">
-          <img src="https://www.wistbean.com/img/avatar.jpg" alt="wistbean|肯定会">
+          <img src="https://wistbean.github.io/img/avatar.jpg" alt="wistbean|肯定会">
         </a>
         <hgroup class="introduce">
           <h5 class="nickname">wistbean</h5>
@@ -242,10 +242,11 @@
         
 
 
-访问不了Youtube？1.点击搭建自己的VPN教程轻松访问1080p高清Youtube视频。2.或者点击本节b站视频教程地址观看。
+访问不了Youtube？点击本节b站视频教程地址观看。
 
 我们已经在5-2小节中实现了商品添加的界面,那么接下来我们就要对数据进行交互了。
-在我们请求 product_add 这个页面的时候，我们应该将商品分类父级的数据放到 session 里面，然后传给页面。所以我们可以写一个 Controller 来实现...
+在我们请求 product_add 这个页面的时候，我们应该将商品分类父级的数据放到 session 里面，然后传给页面。所以我们可以写一个 Controller 来实现：
+123456@RequestMapping("/product_add")...
     
 
         <a href="/java-ssm-5-3.html" class="post-more waves-effect waves-button">
@@ -750,18 +751,18 @@ FreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数�
 
 </div>
 
+<div class="card page-about-me flex-row">
+            <a href="https://www.wistbean.com" class="avatar waves-effect waves-circle waves-light"><img src="/img/avatar.jpg"></a>
+            <div class="content flex-col">
+                <p><strong>wistbean的友情链接</strong></p>
+                <p><a href="https://www.topworker.cn/" target="blank">Topworker | 跨境从业者</a></p>
+                <p><a href="https://pay.topworker.cn/" target="blank">Topworker | 跨境收付款</a></p>
+            </div>
+</div>
+
         <footer class="footer">
     <div class="top">
         
-<p>
-    <span id="busuanzi_container_site_uv" style='display:none'>
-        本站总读者数：<span id="busuanzi_value_site_uv"></span>
-    </span>
-    <span id="busuanzi_container_site_pv" style='display:none'>
-        本站总访问量：<span id="busuanzi_value_site_pv"></span>
-    </span>
-</p>
-
 
         <p>
             
@@ -775,7 +776,7 @@ FreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数�
                 <p><span>wistbean &copy; 2015 - 2018</span>
                     <span>
                         
-                         <a href="https://www.wistbean.com/">肯定会|wistbean</a>、
+                         <a href="https://wistbean.github.io/">肯定会|wistbean</a>、
                           <a href="https://www.bwh8.net/aff.php?aff=32874" target="_blank">搬瓦工2019优惠码</a>、
                           <a href="https://www.vultr.com/?ref=7656887" target="_blank">vultr2019优惠码</a>
                     </span>
@@ -867,8 +868,6 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
 
 
 
-
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

@@ -52,7 +52,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-qJWtfRWk&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-jmjaqByY&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -98,8 +98,8 @@
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/53.mp3" length="6138565" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/53.mp3" length="6138565" type=""/>
       <guid></guid>
       <pubDate>Fri, 30 Nov 2018 07:47:57 GMT</pubDate>
       <itunes:duration>00:04:15</itunes:duration>
@@ -116,7 +116,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-kQNNoYSs&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-RcVLeyHC&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -220,8 +220,8 @@ b站、Youtube之前说过了，b站不仅仅是个二次元的视频资源网�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/52.mp3" length="10357415" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/52.mp3" length="10357415" type=""/>
       <guid></guid>
       <pubDate>Thu, 22 Nov 2018 13:02:08 GMT</pubDate>
       <itunes:duration>00:07:11</itunes:duration>
@@ -241,7 +241,7 @@ b站、Youtube之前说过了，b站不仅仅是个二次元的视频资源网�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-opMaNoga&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-pYXYhfyb&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -285,8 +285,8 @@ chines robot，丢脸不?
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/51.mp3" length="9239249" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/51.mp3" length="9239249" type=""/>
       <guid></guid>
       <pubDate>Fri, 16 Nov 2018 09:58:44 GMT</pubDate>
       <itunes:duration>00:06:24</itunes:duration>
@@ -307,7 +307,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-srMgFfhI&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-wbFHYYce&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -359,8 +359,8 @@ chines robot，丢脸不?
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/50.mp3" length="9581087" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/50.mp3" length="9581087" type=""/>
       <guid></guid>
       <pubDate>Fri, 09 Nov 2018 06:26:46 GMT</pubDate>
       <itunes:duration>00:06:38</itunes:duration>
@@ -377,7 +377,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-jbvDGRfT&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-pkimNYrE&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -426,8 +426,8 @@ chines robot，丢脸不?
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/49.mp3" length="9104229" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/49.mp3" length="9104229" type=""/>
       <guid></guid>
       <pubDate>Thu, 01 Nov 2018 10:30:26 GMT</pubDate>
       <itunes:duration>00:06:18</itunes:duration>
@@ -444,7 +444,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-WnfIPjIK&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-noTxEGjL&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -504,8 +504,8 @@ chines robot，丢脸不?
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/48.mp3" length="11492743" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/48.mp3" length="11492743" type=""/>
       <guid></guid>
       <pubDate>Fri, 26 Oct 2018 08:50:19 GMT</pubDate>
       <itunes:duration>00:07:58</itunes:duration>
@@ -522,7 +522,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-OIPrrqXi&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-YoDfvdRt&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -580,8 +580,8 @@ PyCharm编辑器的使用
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/47.mp3" length="11702967" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/47.mp3" length="11702967" type=""/>
       <guid></guid>
       <pubDate>Thu, 18 Oct 2018 17:51:03 GMT</pubDate>
       <itunes:duration>00:08:09</itunes:duration>
@@ -598,7 +598,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-RsfSaOCp&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-fXhJygUD&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -651,8 +651,8 @@ PyCharm编辑器的使用
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/46.mp3" length="13173722" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/46.mp3" length="13173722" type=""/>
       <guid></guid>
       <pubDate>Fri, 12 Oct 2018 11:25:30 GMT</pubDate>
       <itunes:duration>00:09:08</itunes:duration>
@@ -672,7 +672,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-jrbFADgB&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-NQvrbzmE&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -717,8 +717,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/45.mp3" length="11536215" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/45.mp3" length="11536215" type=""/>
       <guid></guid>
       <pubDate>Fri, 05 Oct 2018 08:23:43 GMT</pubDate>
       <itunes:duration>00:08:00</itunes:duration>
@@ -735,7 +735,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-RHATyMas&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-YCsHtGug&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -803,8 +803,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/44_2.mp3" length="16014229" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/44_2.mp3" length="16014229" type=""/>
       <guid></guid>
       <pubDate>Thu, 27 Sep 2018 14:19:47 GMT</pubDate>
       <itunes:duration>00:11:06</itunes:duration>
@@ -836,8 +836,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/43.mp3" length="13084931" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/43.mp3" length="13084931" type=""/>
       <guid></guid>
       <pubDate>Fri, 21 Sep 2018 11:04:39 GMT</pubDate>
       <itunes:duration>00:09:04</itunes:duration>
@@ -929,8 +929,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/42.mp3" length="24229754" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/42.mp3" length="24229754" type=""/>
       <guid></guid>
       <pubDate>Thu, 13 Sep 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:16:49</itunes:duration>
@@ -949,8 +949,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/41.mp3" length="11528832" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/41.mp3" length="11528832" type=""/>
       <guid></guid>
       <pubDate>Thu, 06 Sep 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:07:59</itunes:duration>
@@ -970,8 +970,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/40.mp3" length="12975462" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/40.mp3" length="12975462" type=""/>
       <guid></guid>
       <pubDate>Thu, 30 Aug 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:09:00</itunes:duration>
@@ -988,7 +988,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-RFSeiTjO&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-tnyLDTHN&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -1010,8 +1010,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/39.mp3" length="16568669" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/39.mp3" length="16568669" type=""/>
       <guid></guid>
       <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:11:29</itunes:duration>
@@ -1030,8 +1030,8 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/38.mp3" length="14698979" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/38.mp3" length="14698979" type=""/>
       <guid></guid>
       <pubDate>Thu, 09 Aug 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:17:29</itunes:duration>
@@ -1048,7 +1048,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-sPKXsqLJ&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-RmpmxIui&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -1123,8 +1123,8 @@ Google的以图搜图也是很牛逼的，你可以去体验一下。
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
       <itunes:summary>  </itunes:summary>
-      <itunes:image href="https://www.wistbean.com/images/cover.jpg" />
-      <enclosure url="https://www.wistbean.com/podcast/37.mp3" length="10969421" type=""/>
+      <itunes:image href="https://wistbean.github.io/images/cover.jpg" />
+      <enclosure url="https://wistbean.github.io/podcast/37.mp3" length="10969421" type=""/>
       <guid></guid>
       <pubDate>Thu, 02 Aug 2018 17:45:26 GMT</pubDate>
       <itunes:duration>00:13:02</itunes:duration>
