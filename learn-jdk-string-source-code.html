@@ -62,26 +62,26 @@
 <meta name="keywords" content="Java,String">
 <meta property="og:type" content="article">
 <meta property="og:title" content="解析Java中的 String 源码">
-<meta property="og:url" content="https://www.wistbean.com/learn-jdk-string-source-code.html">
+<meta property="og:url" content="https://wistbean.github.io/learn-jdk-string-source-code.html">
 <meta property="og:site_name" content="肯定会">
 <meta property="og:description" content="话说之前对代码的编写大多都是直接使用jdk里面的对象，有时候也对一些对象直接封装之后就使用了，很少去了解源码中具体细节是怎么实现的，这样显然不符合我这么帅的人的做事风格，所以我现在就来对源码进行学习学习，可能篇幅略长，不过会慢慢记录下我学习的过程和总结一下，希望对自己有帮助的同时，也能够帮助到和我一样，希望更进一步去理解java的小伙伴们！！ String类的大概面貌废话不多说了，先打开我的 In">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://www.wistbean.com/images/3.png">
-<meta property="og:image" content="https://www.wistbean.com/images/describeString.png">
-<meta property="og:image" content="https://www.wistbean.com/images/String.png">
-<meta property="og:image" content="https://www.wistbean.com/images/s2.png">
-<meta property="og:image" content="https://www.wistbean.com/images/s3.png">
-<meta property="og:image" content="https://www.wistbean.com/images/new%20String%28%29.png">
-<meta property="og:image" content="https://www.wistbean.com/images/new%20String%28char%29.png">
-<meta property="og:image" content="https://www.wistbean.com/images/s01.png">
-<meta property="og:image" content="https://www.wistbean.com/images/s02.png">
-<meta property="og:image" content="https://www.wistbean.com/images/endwith.png">
-<meta property="og:image" content="https://www.wistbean.com/images/char.png">
+<meta property="og:image" content="https://wistbean.github.io/images/3.png">
+<meta property="og:image" content="https://wistbean.github.io/images/describeString.png">
+<meta property="og:image" content="https://wistbean.github.io/images/String.png">
+<meta property="og:image" content="https://wistbean.github.io/images/s2.png">
+<meta property="og:image" content="https://wistbean.github.io/images/s3.png">
+<meta property="og:image" content="https://wistbean.github.io/images/new%20String%28%29.png">
+<meta property="og:image" content="https://wistbean.github.io/images/new%20String%28char%29.png">
+<meta property="og:image" content="https://wistbean.github.io/images/s01.png">
+<meta property="og:image" content="https://wistbean.github.io/images/s02.png">
+<meta property="og:image" content="https://wistbean.github.io/images/endwith.png">
+<meta property="og:image" content="https://wistbean.github.io/images/char.png">
 <meta property="og:updated_time" content="2018-11-02T08:52:37.254Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="解析Java中的 String 源码">
 <meta name="twitter:description" content="话说之前对代码的编写大多都是直接使用jdk里面的对象，有时候也对一些对象直接封装之后就使用了，很少去了解源码中具体细节是怎么实现的，这样显然不符合我这么帅的人的做事风格，所以我现在就来对源码进行学习学习，可能篇幅略长，不过会慢慢记录下我学习的过程和总结一下，希望对自己有帮助的同时，也能够帮助到和我一样，希望更进一步去理解java的小伙伴们！！ String类的大概面貌废话不多说了，先打开我的 In">
-<meta name="twitter:image" content="https://www.wistbean.com/images/3.png">
+<meta name="twitter:image" content="https://wistbean.github.io/images/3.png">
     
         <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
     
@@ -436,14 +436,14 @@
         
         -->
         本站所有文章均为原创，转载请注明出处：
-        <a href="https://www.wistbean.com/learn-jdk-string-source-code.html">
+        <a href="https://wistbean.github.io/learn-jdk-string-source-code.html">
                    wistbean|肯定会
          </a>
          关注公众号「肯定会」并发送「程序员」直接免费获取 12 本精华电子书
     </div>
     
     <footer>
-        <a href="https://www.wistbean.com">
+        <a href="https://wistbean.github.io">
             <img src="https://www.wistbean.com/img/avatar.jpg" alt="wistbean|肯定会">
             wistbean
         </a>
@@ -465,7 +465,7 @@
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/learn-jdk-string-source-code.html&title=《解析Java中的 String 源码》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://wistbean.github.io/learn-jdk-string-source-code.html&title=《解析Java中的 String 源码》 — 肯定会&pic=https://wistbean.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -475,22 +475,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/learn-jdk-string-source-code.html&title=《解析Java中的 String 源码》 — 肯定会&source=wistbean的个人网站，肯定会。" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://wistbean.github.io/learn-jdk-string-source-code.html&title=《解析Java中的 String 源码》 — 肯定会&source=答应自己的事，就要做到。" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/learn-jdk-string-source-code.html" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://wistbean.github.io/learn-jdk-string-source-code.html" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《解析Java中的 String 源码》 — 肯定会&url=https://www.wistbean.com/learn-jdk-string-source-code.html&via=https://www.wistbean.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《解析Java中的 String 源码》 — 肯定会&url=https://wistbean.github.io/learn-jdk-string-source-code.html&via=https://wistbean.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/learn-jdk-string-source-code.html" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://wistbean.github.io/learn-jdk-string-source-code.html" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -622,7 +622,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/learn-jdk-string-source-code.html&title=《解析Java中的 String 源码》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://wistbean.github.io/learn-jdk-string-source-code.html&title=《解析Java中的 String 源码》 — 肯定会&pic=https://wistbean.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -632,22 +632,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/learn-jdk-string-source-code.html&title=《解析Java中的 String 源码》 — 肯定会&source=wistbean的个人网站，肯定会。" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://wistbean.github.io/learn-jdk-string-source-code.html&title=《解析Java中的 String 源码》 — 肯定会&source=答应自己的事，就要做到。" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/learn-jdk-string-source-code.html" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://wistbean.github.io/learn-jdk-string-source-code.html" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《解析Java中的 String 源码》 — 肯定会&url=https://www.wistbean.com/learn-jdk-string-source-code.html&via=https://www.wistbean.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《解析Java中的 String 源码》 — 肯定会&url=https://wistbean.github.io/learn-jdk-string-source-code.html&via=https://wistbean.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/learn-jdk-string-source-code.html" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://wistbean.github.io/learn-jdk-string-source-code.html" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -658,7 +658,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACN0lEQVR42u3azVLDMAxF4b7/S5cZVjBQ91wpYbB8suqkwe7nhdBPHg98PT+vr5/TO/z+z28vu2TIkLEt47m8fjLWd8hq66NZ339JlSFDxgEMEmTTLUkwJYF7/dtkyJAhI03p0iQvDfQyZMiQwQNuusK6lJUhQ4YMwiCBr98+I2ni7bW4DBkyNmTUBgN/8/n2+YYMGTL+PeNZujor90viX9aUIUPGaMZ60drrFzykkueDQCxDhowDGLVwWWvDpSUrOnoZMmQMZQRWEJrJarUEMYj9MmTIGMdIB4pke94y44kgOgIZMmQMZfCNOzOHq1LMN402GTJkDGX0g2DavCPlMWnPvcHIkCFjECMtIEkJyltvaTL68kkZMmSMZqTbp2OANCkk3bPWOFOGDBkbMkiA6zzJw2irJJYhQ8ZoRm0M0JpChKPK4P+GDBkyRjM6w4DaOCF9zaIVrGXIkLE5o/8KaSc4dtp5356XIUPGAYz0z2rpGh9J8jFnSy9DhoxNGLW3M/i36ZGlA4M377jJkCHjGEanGq6NLXnRG28mQ4aMzRnp0jx0pgGXH4oMGTLOYfQ35q23NBHkv1CGDBlTGbWGF2/u8yK5NciUIUPGaAa/+HI8KHdGoTxMy5AhYwYjHRymjfurAi46aRkyZIxm8CDLk7basLNYi8uQIUMGHkamoZk3+24MuDJkyBjE4EkhaZxdNYSQIUPGOYy0+OTNNV7KFnuBMmTIOIBxXy+LHxZPBFtgGTJk7Mf4AOGviYew/UFBAAAAAElFTkSuQmCC" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACLklEQVR42u3aQW7DMAwF0dz/0um2QGp5PqUUMDleGS5q6XnBkCJfL3y9f12fz6/u19fV+z//euySIUPGYxlksTXg6p1ko+u1+IeQIUPGBMZ6KzwIEgD/BGRvMmTIkFFL+3iATgO9DBkyZKwZJFlc/9f+KjJkyJjMIIGPp31pYUzWPVaLy5Ah44GMtDT9z/uv9DdkyJDxKEYtUNao/Em8KxkyZLRm1FqYvMgkG60NefyxugwZMpoyyPE9OSyrlb7p2y55MmTIGMBIUzceHGtHb2krQoYMGRMYOyNcZEl+XyybZciQ0ZpxdkiCj1DwxLF43CZDhoxGDF6C8pQOjXCFrcritIgMGTJaMHhw3DkaI8d5afC9TA1lyJAxhpEOhO0H8fSDXv56yJAhox0jXaAWiHkZzFsFMmTImMPgx2G8cK2NVvBG5s3vhgwZMtox9jd3qnm5dTAnQ4aMYQxSdu4EVpI4xjAZMmQMY6RxLE3pvpjbypAhoykjTQr3G5an3n9zdihDhowBDJ7k8TDKy10+zCFDhoyZjG8MrdZgvFEqQ4aMCYydYYh0/KLWlqgNc8iQIaMH4x1e6XF/XIiWmqMyZMjozeBXuiRvBvBAHDQJZMiQ0Y7BQyd5zjdaO9S7qcVlyJDRmpEWsfuh+XAtLkOGDBlhCE6TTvL85lPKkCFDRpqolYImH7+QIUPGTMZ+EZsmgrwJgT6rDBkyWjNqCVza+OTbXW96q5EpQ4aM5zF+AD8yrWMWmmIDAAAAAElFTkSuQmCC" alt="微信分享二维码">
 </div>
 
 

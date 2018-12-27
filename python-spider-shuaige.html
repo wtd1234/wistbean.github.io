@@ -62,7 +62,7 @@
 <meta name="keywords" content="教程,python,python爬虫,python基础">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用 Python 爬取帅哥到自己的电脑">
-<meta property="og:url" content="https://www.wistbean.com/python-spider-shuaige.html">
+<meta property="og:url" content="https://wistbean.github.io/python-spider-shuaige.html">
 <meta property="og:site_name" content="肯定会">
 <meta property="og:description" content="写在前面前不久，公众号后台有妹子不高兴了，私信我说，我为什么会觉得我公众号的人都是喜欢看性感女人呢？什么时候发发性感男人啊。                                                                                                            想想也是，毕竟关注这个公众号有 15.6% 是妹纸呢。怎么能">
 <meta property="og:locale" content="zh-CN">
@@ -252,7 +252,7 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>前不久，公众号后台有妹子不高兴了，私信我说，我为什么会觉得我公众号的人都是喜欢看<a href="https://www.wistbean.com/python-spider-meizi.html">性感女人</a>呢？什么时候发发性感男人啊。</p>
+            <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>前不久，公众号后台有妹子不高兴了，私信我说，我为什么会觉得我公众号的人都是喜欢看<a href="https://www.wistbean.com/python-spider-meizi.html" target="_blank" rel="noopener">性感女人</a>呢？什么时候发发性感男人啊。</p>
 <figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
@@ -313,8 +313,8 @@
 <p>友情提示：小爬怡情，大爬伤身！</p>
 <p>完整代码：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">url_open</span><span class="params">(url)</span>:</span></span><br><span class="line"></span><br><span class="line">    <span class="comment"># 以字典的形式添加请求头</span></span><br><span class="line">    header = &#123;</span><br><span class="line">        <span class="string">'User-Agent'</span>: <span class="string">"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0"</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment"># 使用get方法发送请求获取网页源码</span></span><br><span class="line">    response = requests.get(url, headers=header)</span><br><span class="line">    <span class="keyword">return</span> response</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">find_imgs</span><span class="params">(url)</span>:</span></span><br><span class="line">    html = url_open(url).text</span><br><span class="line">    pattern = re.compile(<span class="string">'&lt;div class="inner_wrapper_img inner_wrapper_img1"&gt;.*?&lt;img.*?src="/e/ext.*?src=(.*?)&amp;amp;h=240&amp;amp;w=190&amp;amp;zc=1".*?&lt;/div&gt;'</span>,re.S)</span><br><span class="line">    img_addrs = re.findall(pattern, html)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> img_addrs</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">download_shuaige</span><span class="params">(dirName=<span class="string">"shuaige"</span>)</span>:</span></span><br><span class="line">    os.mkdir(dirName)</span><br><span class="line">    os.chdir(dirName)</span><br><span class="line"></span><br><span class="line">    pageNumber = <span class="number">2</span></span><br><span class="line">    x = <span class="number">0</span></span><br><span class="line">    img_address = []</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> pageNumber &lt; <span class="number">5</span> :</span><br><span class="line">        page_url = url + <span class="string">'/index_'</span>+str(pageNumber)+<span class="string">'.html'</span></span><br><span class="line">        addrs = find_imgs(page_url)</span><br><span class="line">        print(len(addrs))</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> addrs:</span><br><span class="line">            <span class="keyword">if</span> i <span class="keyword">in</span> img_address :</span><br><span class="line">                <span class="keyword">continue</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                img_address.append(i)</span><br><span class="line">            print(len(img_address))</span><br><span class="line">        <span class="keyword">for</span> each <span class="keyword">in</span> img_address:</span><br><span class="line">            print(each)</span><br><span class="line"></span><br><span class="line">        pageNumber += <span class="number">1</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> each <span class="keyword">in</span> img_address:</span><br><span class="line">        filename = str(x) + <span class="string">".jpg"</span></span><br><span class="line">        x+=<span class="number">1</span></span><br><span class="line">        <span class="keyword">with</span> open(filename,<span class="string">'wb'</span>) <span class="keyword">as</span> f:</span><br><span class="line">            img = url_open(each).content</span><br><span class="line">            f.write(img)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    url = <span class="string">"http://www.shuaige5.com/tag/xinggannanren"</span></span><br><span class="line">    download_shuaige()</span><br></pre></td></tr></table></figure></p>
 <h1 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h1><ul>
-<li><a href="https://www.wistbean.com/python-spider-dangdang.html">Python爬取当当网最受欢迎的 500 本书</a></li>
-<li><a href="https://www.wistbean.com/python-spider-wechat.html">python爬取微信好友数据，分析后我好像知道了些什么</a></li>
+<li><a href="https://www.wistbean.com/python-spider-dangdang.html" target="_blank" rel="noopener">Python爬取当当网最受欢迎的 500 本书</a></li>
+<li><a href="https://www.wistbean.com/python-spider-wechat.html" target="_blank" rel="noopener">python爬取微信好友数据，分析后我好像知道了些什么</a></li>
 </ul>
 
         </div>
@@ -333,14 +333,14 @@
         
         -->
         本站所有文章均为原创，转载请注明出处：
-        <a href="https://www.wistbean.com/python-spider-shuaige.html">
+        <a href="https://wistbean.github.io/python-spider-shuaige.html">
                    wistbean|肯定会
          </a>
          关注公众号「肯定会」并发送「程序员」直接免费获取 12 本精华电子书
     </div>
     
     <footer>
-        <a href="https://www.wistbean.com">
+        <a href="https://wistbean.github.io">
             <img src="https://www.wistbean.com/img/avatar.jpg" alt="wistbean|肯定会">
             wistbean
         </a>
@@ -362,7 +362,7 @@
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/python-spider-shuaige.html&title=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://wistbean.github.io/python-spider-shuaige.html&title=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&pic=https://wistbean.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -372,22 +372,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/python-spider-shuaige.html&title=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&source=wistbean的个人网站，肯定会。" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://wistbean.github.io/python-spider-shuaige.html&title=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&source=答应自己的事，就要做到。" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/python-spider-shuaige.html" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://wistbean.github.io/python-spider-shuaige.html" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&url=https://www.wistbean.com/python-spider-shuaige.html&via=https://www.wistbean.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&url=https://wistbean.github.io/python-spider-shuaige.html&via=https://wistbean.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/python-spider-shuaige.html" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://wistbean.github.io/python-spider-shuaige.html" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -519,7 +519,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.wistbean.com/python-spider-shuaige.html&title=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&pic=https://www.wistbean.com/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://wistbean.github.io/python-spider-shuaige.html&title=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&pic=https://wistbean.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -529,22 +529,22 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.wistbean.com/python-spider-shuaige.html&title=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&source=wistbean的个人网站，肯定会。" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://wistbean.github.io/python-spider-shuaige.html&title=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&source=答应自己的事，就要做到。" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.wistbean.com/python-spider-shuaige.html" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://wistbean.github.io/python-spider-shuaige.html" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&url=https://www.wistbean.com/python-spider-shuaige.html&via=https://www.wistbean.com" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《使用 Python 爬取帅哥到自己的电脑》 — 肯定会&url=https://wistbean.github.io/python-spider-shuaige.html&via=https://wistbean.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://www.wistbean.com/python-spider-shuaige.html" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://wistbean.github.io/python-spider-shuaige.html" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -555,7 +555,7 @@
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACMUlEQVR42u3aS46DMBAFwNz/0sx2RhHMezaJhF2sIhLAxaLj/rxe8XG8Hdff/v7N++/fr32/z+sTBwYGxmMZx+Vx9oC7rmrPn1IxMDA2YCShMIl4eZi+jpn52jAwMDCSDdwRHPlyMTAwMD7BGEuA8zMYGBgYeTp6HTTbb/NS3c25OAYGxgMZedD8/ueP9DcwMDAexTjKo9325VvJNiX+c08MDIylGW3R/2yD2Jb48zJcsR4MDIxFGTPB9K7wOvOy6nwaAwPjgYyZoYp845gMXowNfJz+b2BgYCzEGBuhmI91bSo7dRkGBsaijGRj1w5GtM8qNqwYGBhLM2ZK82OwJAFuk20MDIy1GW1RrF3W2EREvR4MDIwNGHllrh0tHUuDcwAGBsY+jLYxOTYkkT8rWfo/nQ0MDIyFGElYnB+2GAuyg8MWGBgYizLywtm9Dc72bsW4GAYGxkKMsdLYWKqZNA/awIqBgbEPI3/AXQMZY83OUyoGBsbSjJlGY1t0yzeObfsBAwNjB0aSsrajGO1bzEPz6RowMDA2Y7QlsJaUNyajfwkMDIxtGDPLalPNvM1ZvFYMDIxFGd9PWccC/T8tBAwMjKUZ83NWY+MUbTKc3w0DA2NVxthIRF7obyfU6kIbBgbGNoyZBeVjE/mwRd6QwMDAwEgWVz9yorZf+zAwMLZktG2AsfGLfBQDAwNjH0aydUvOFL3TIMjmY2QYGBhrM+Y3bfk2MS+lJYNlGBgYGzB+ALpmIuAqk/p3AAAAAElFTkSuQmCC" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACK0lEQVR42u3aS27DMAwFwNz/0u62QGHlkXIKhBqvCieVNV4w4uf1iq/r5vr76e87f1e4W/lunYcvDAyMr2Vcy+vuO+sVnnoFyd4wMDDOYSShcB1Mk/tJSF0/6/Y+BgYGRrx0EhyTIIuBgYGxw0gOfMn6SRKLgYGBUU1i1ws1k89lGvyRXBwDA+MLGXnV/f///kh/AwMD46sYV/HqHRN7AbewKwwMjNGMPMD1mpq9ZLW3HwwMjJMZSQOyN9qVNziTOxgYGLMZeUDMH5MU4HqDGm9eFgYGxlDGTvJZLZwlSWwSuKP+BgYGxghGEuaq4Gop7SPTIhgYGOMYeRBMPq0mtHnLAQMDA6OarPbK+tVgHQVfDAyM0YzeMbH6zeaBr7gyBgbGbMZT4TJvW+YDGYUDKwYGxlBGMqJaLZP1Xk01HGNgYJzD2Am4a14v9d0ZisXAwJjKyMcsqk2C6haThPaVv10MDIxBjP1WYr71aiCuFuYwMDBOYOTL7TQve68mbzBgYGBMZVQLXtUiXa9slz8FAwPjHEaSoO4PipV/AeITIAYGxjmMpx7/bAEuOgFiYGAMZVzFa6c810tuy4dCDAyMcYxes/OpEFz9ZYiGwzAwMIYykiC70zDYiYr5eAcGBsYJjN74xU7KupPEvmlhYmBgYLSamtXD4tacCAYGBkYcdqvg9QpvnoWBgXEAozq2lZfyk/+t1gUxMDBOY2xNahQHLPJN7B89MTAwRjB+AObMA/F9EtGyAAAAAElFTkSuQmCC" alt="微信分享二维码">
 </div>
 
 
