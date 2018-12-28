@@ -207,11 +207,42 @@
 </header>
 
 
-<script>
 
-</script>
-<!-- Save for Web Slices (未标题-1) -->
-<table id="tb01" width="1366" height="768" border="0" cellpadding="0" cellspacing="0">
+<!-- Save for Web Slices (phone) -->
+<table style="display:none" id="tab_phone" width="414" height="736" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<a href="https://wistbean.github.io/categories/python/" target="_self"
+				onmouseover="window.status='python_web';  return true;"
+				onmouseout="window.status='';  return true;">
+				<img src="images/python_web.jpg" width="414" height="316" border="0" alt="python_web"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://wistbean.github.io/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/" target="_self"
+				onmouseover="window.status='java-ssm-video-mobile';  return true;"
+				onmouseout="window.status='';  return true;">
+				<img src="images/java-ssm-video-mobile.jpg" width="414" height="101" border="0" alt="java-ssm-video-mobile"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://wistbean.github.io/categories/vpn/" target="_self"
+				onmouseover="window.status='google-mobile';  return true;"
+				onmouseout="window.status='';  return true;">
+				<img src="images/google-mobile.jpg" width="414" height="114" border="0" alt="google-mobile"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="https://wistbean.github.io/categories/python/" target="_self"
+				onmouseover="window.status='python_web';  return true;"
+				onmouseout="window.status='';  return true;">
+				<img src="images/python_web-04.jpg" width="414" height="205" border="0" alt="python_web"></a></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
+
+<!-- Save for Web Slices (pc) -->
+<table style="display:none" id="tb_pc" width="1366" height="768" border="0" cellpadding="0" cellspacing="0">
 	<tr>
 		<td>
 			<img src="images/wistbean_01.jpg" width="1366" height="387" alt=""></td>
@@ -786,7 +817,20 @@ FreeMarker是一个 Java 的模板引擎，可以使用它来动态的绑定数�
                 <p><a href="https://pay.topworker.cn/" target="blank">Topworker | 跨境收付款</a></p>
             </div>
 </div>
+<script>
+function goPAGE(){
 
+    if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+         document.getElementById('tab_phone').style.display = 'block';
+         document.getElementById('tb_pc').style.display = 'none';
+    }
+    else {
+        document.getElementById('tb_pc').style.display = 'block';
+        document.getElementById('tab_phone').style.display = 'none';
+    }
+}
+goPAGE();
+</script>
 
 
 
