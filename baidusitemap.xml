@@ -23,23 +23,23 @@
          
         <tag>Maven</tag>
          
-        <tag>EasyUI</tag>
-         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
          
+        <tag>EasyUI</tag>
+         
         <tag>postman</tag>
+         
+        <tag>UEditor</tag>
          
         <tag>SSM视频教程</tag>
          
         <tag>redis</tag>
          
         <tag>solor</tag>
-         
-        <tag>UEditor</tag>
          
         <tag>JQuery</tag>
          
@@ -96,11 +96,11 @@
          
         <tag>EasyUI</tag>
          
-        <tag>Jqury</tag>
-         
         <tag>商品</tag>
          
         <tag>FreeMarker</tag>
+         
+        <tag>Jqury</tag>
          
          
            
@@ -162,11 +162,11 @@
          
         <tag>分布式</tag>
          
-        <tag>架构</tag>
-         
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
+         
+        <tag>架构</tag>
          
          
            
@@ -1052,9 +1052,9 @@
         
         <tag>搬瓦工</tag>
          
-        <tag>vps</tag>
-         
         <tag>vultr</tag>
+         
+        <tag>vps</tag>
          
         <tag>优惠码</tag>
          
@@ -1555,13 +1555,13 @@
          
         <tag>EasyUI</tag>
          
-        <tag>商品</tag>
-         
-        <tag>FreeMarker</tag>
-         
         <tag>UEditor</tag>
          
         <tag>富文本编辑器</tag>
+         
+        <tag>商品</tag>
+         
+        <tag>FreeMarker</tag>
          
          
            
@@ -1748,13 +1748,13 @@
          
         <tag>EasyUI</tag>
          
-        <tag>商品</tag>
-         
-        <tag>FreeMarker</tag>
-         
         <tag>UEditor</tag>
          
         <tag>富文本编辑器</tag>
+         
+        <tag>商品</tag>
+         
+        <tag>FreeMarker</tag>
          
          
            
@@ -1977,9 +1977,9 @@
          
         <tag>vps</tag>
          
-        <tag>教程</tag>
-         
         <tag>ss搭建</tag>
+         
+        <tag>教程</tag>
          
         <tag>搬瓦工一键ss</tag>
          
