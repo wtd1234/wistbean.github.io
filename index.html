@@ -291,7 +291,7 @@
 
   
     <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/java-ssm-5-4.html">「5-4」实现码农商城商品添加之图片上传</a>
+      <a class="post-title-link" href="/java-ssm-5-4.html">「5-4」FastDFS+filebox+ajaxFileUpload实现商品图片上传</a>
     </h3>
   
 
@@ -302,7 +302,9 @@
 
     
         在 5-3 小节的时候，我们已经实现了对商品分类的获取展示，那么接下来就要将商品图片上传到我们的存储服务器，然后把商品的图片地址存放到我们的数据库里面。
-
+我们已经搭建好了Java文件服务器FastDFS了，而且我们也可以写了上传图片的接口，那么接下来就可以使用 ajaxFileUpload 来上传我们的商品图片。
+ajaxFileUpload的源码如下：
+123456789101112131...
     
 
         <a href="/java-ssm-5-4.html" class="post-more waves-effect waves-button">
