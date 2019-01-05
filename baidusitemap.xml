@@ -4,6 +4,51 @@
 
     
   <url>
+    <loc>https://wistbean.github.io/java-ssm-5-5.html</loc>
+    <lastmod>2019-01-05T12:02:13.076Z</lastmod>
+    <data>
+        <display>
+        <title>「5-5」码农商城后台管理实现商品添加</title>
+        <pubTime>2019-01-05T06:56:43.000Z</pubTime>
+        
+        <tag>教程</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>Java视频教程</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>SSM</tag>
+         
+        <tag>Intellij IDEA</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>商品</tag>
+         
+        <tag>Jqury</tag>
+         
+        <tag>easyui文件上传</tag>
+         
+        <tag>ajaxFileUpload</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://wistbean.github.io/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://wistbean.github.io/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://wistbean.github.io/deep-web.html</loc>
     <lastmod>2019-01-04T12:18:14.998Z</lastmod>
     <data>
@@ -204,13 +249,13 @@
          
         <tag>FreeMarker</tag>
          
+        <tag>Jqury</tag>
+         
         <tag>easyui-filebox</tag>
          
         <tag>easyui文件上传</tag>
          
         <tag>ajaxFileUpload</tag>
-         
-        <tag>Jqury</tag>
          
          
            
@@ -311,11 +356,11 @@
         
         <tag>搬瓦工</tag>
          
+        <tag>vultr</tag>
+         
         <tag>vps</tag>
          
         <tag>优惠码</tag>
-         
-        <tag>vultr</tag>
          
          
            
@@ -584,9 +629,9 @@
         
         <tag>互联网</tag>
          
-        <tag>优惠码</tag>
-         
         <tag>vultr</tag>
+         
+        <tag>优惠码</tag>
          
         <tag>vpn</tag>
          
@@ -1508,11 +1553,11 @@
         <title>hexo搭建个人网站博客完全教程</title>
         <pubTime>2018-08-30T11:38:13.000Z</pubTime>
         
+        <tag>个人网站</tag>
+         
         <tag>搬瓦工</tag>
          
         <tag>教程</tag>
-         
-        <tag>个人网站</tag>
          
         <tag>hexo</tag>
          
@@ -1625,9 +1670,9 @@
         
         <tag>互联网</tag>
          
-        <tag>优惠码</tag>
-         
         <tag>vultr</tag>
+         
+        <tag>优惠码</tag>
          
         <tag>vpn</tag>
          
