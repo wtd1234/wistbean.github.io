@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-9097083609097034",
+        enable_page_level_ads: true
+      });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131395348-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-131395348-1');
+    </script>
+
+    
+
+    
+
+    
+
+
+<!-- Baidu Push -->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<!-- End Baidu Push -->
+
+
+    <meta charset="utf-8">
+    
+    <meta name="google-site-verification" content="bcJVGqEGcBIay29szBsswzqYxY3qUzWuvu1hfad3-08">
+    
+    
+    
+    
+    <title>Mybatis分页，DataGrid使用，实现商品列表分页展示 | 肯定会 | wistbean</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <meta name="theme-color" content="#3F51B5">
+    
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="接下来我们就来获取商品数据了，我们需要完成的目标：   mybatis分页插件的使用 获取到的数据列表进行分页展示，DataGrid使用   那么我们会使用到的分页插件是 Mybatis-PageHelper 。在我们的 manong 项目中依赖它，然后进行简单的配置，就可以很方便的使用分页功能了。 Mybatis-PageHelper使用pagehelper的依赖12345 &amp;lt;depend">
+<meta name="keywords" content="wistbean，肯定会。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mybatis分页，DataGrid使用，实现商品列表分页展示">
+<meta property="og:url" content="https://wistbean.github.io/java-ssm-5-6.html">
+<meta property="og:site_name" content="肯定会">
+<meta property="og:description" content="接下来我们就来获取商品数据了，我们需要完成的目标：   mybatis分页插件的使用 获取到的数据列表进行分页展示，DataGrid使用   那么我们会使用到的分页插件是 Mybatis-PageHelper 。在我们的 manong 项目中依赖它，然后进行简单的配置，就可以很方便的使用分页功能了。 Mybatis-PageHelper使用pagehelper的依赖12345 &amp;lt;depend">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-01-07T13:54:03.551Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mybatis分页，DataGrid使用，实现商品列表分页展示">
+<meta name="twitter:description" content="接下来我们就来获取商品数据了，我们需要完成的目标：   mybatis分页插件的使用 获取到的数据列表进行分页展示，DataGrid使用   那么我们会使用到的分页插件是 Mybatis-PageHelper 。在我们的 manong 项目中依赖它，然后进行简单的配置，就可以很方便的使用分页功能了。 Mybatis-PageHelper使用pagehelper的依赖12345 &amp;lt;depend">
+    
+        <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
+    
+    <link rel="shortcut icon" href="/favicon.png">
+    <link rel="stylesheet" href="/css/style.css?v=1.7.2">
+    <script>window.lazyScripts=[]</script>
+
+    <!-- custom head -->
+    
+
+</head>
+
+<body>
+    <div id="loading" class="active"></div>
+
+    <aside id="menu"  >
+  <div class="inner flex-row-vertical">
+    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
+        <i class="icon icon-lg icon-close"></i>
+    </a>
+    <div class="brand-wrap" style="background-image:url(https://wistbean.github.io/images/brand.jpg)">
+      <div class="brand">
+        <a href="/" class="avatar waves-effect waves-circle waves-light">
+          <img src="https://wistbean.github.io/img/avatar.jpg" alt="wistbean|肯定会">
+        </a>
+        <hgroup class="introduce">
+          <h5 class="nickname">wistbean</h5>
+          <a href="mailto:wistbean.bb@gmail.com" title="wistbean.bb@gmail.com" class="mail">wistbean.bb@gmail.com</a>
+        </hgroup>
+      </div>
+    </div>
+    <div class="scroll-wrap flex-col">
+      <ul class="nav">
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/podcast/"  >
+                <i class="icon icon-lg icon-podcast"></i>
+                肯定会电台
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/Java/Java-SSM视频教程/"  >
+                <i class="icon icon-lg icon-coffee"></i>
+                Java SSM视频教程
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/vpn/"  >
+                <i class="icon icon-lg icon-google"></i>
+                云服务VPN
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories/python/"  >
+                <i class="icon icon-lg icon-bug"></i>
+                python3教程
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/categories"  >
+                <i class="icon icon-lg icon-bars"></i>
+                分类
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/archives/"  >
+                <i class="icon icon-lg icon-archives"></i>
+                归档
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/aboutMe/"  >
+                <i class="icon icon-lg icon-user"></i>
+                关于
+              </a>
+            </li>
+        
+            <li class="waves-block waves-effect">
+              <a href="/support/"  >
+                <i class="icon icon-lg icon-thumbs-up"></i>
+                我要支持wistbean
+              </a>
+            </li>
+        
+      </ul>
+    </div>
+  </div>
+</aside>
+
+    <main id="main">
+        <header class="top-header" id="header">
+    <div class="flex-row">
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light off" id="menu-toggle">
+          <i class="icon icon-lg icon-navicon"></i>
+        </a>
+        <div class="flex-col header-title ellipsis">Mybatis分页，DataGrid使用，实现商品列表分页展示</div>
+        
+        <div class="search-wrap" id="search-wrap">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+                <i class="icon icon-lg icon-chevron-left"></i>
+            </a>
+            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="搬瓦工搭建vpn">
+            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
+                <i class="icon icon-lg icon-search"></i>
+            </a>
+        </div>
+        
+        
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
+            <i class="icon icon-lg icon-share-alt"></i>
+        </a>
+        
+
+    </div>
+</header>
+<header class="content-header post-header">
+
+    <div class="container fade-scale">
+        <h1 class="title">Mybatis分页，DataGrid使用，实现商品列表分页展示</h1>
+        <h5 class="subtitle">
+            
+                <time datetime="2019-01-07T10:06:44.000Z" itemprop="datePublished" class="page-time">
+  2019-01-07
+</time>
+
+
+            
+        </h5>
+    </div>
+
+    
+
+
+</header>
+
+
+<div class="container body-wrap">
+    
+    <aside class="post-widget">
+        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
+            <h4>目录</h4>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Mybatis-PageHelper使用"><span class="post-toc-number">1.</span> <span class="post-toc-text">Mybatis-PageHelper使用</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#pagehelper的依赖"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">pagehelper的依赖</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#在-sqlMapConfig-xml-中配置插件"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">在 sqlMapConfig.xml 中配置插件</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#DataGrid-Json数据"><span class="post-toc-number">2.</span> <span class="post-toc-text">DataGrid Json数据</span></a></li></ol>
+        </nav>
+    </aside>
+
+
+<article id="post-java-ssm-5-6"
+  class="post-article article-type-post fade" itemprop="blogPost">
+
+    <div class="post-card">
+        <h1 class="post-card-title">Mybatis分页，DataGrid使用，实现商品列表分页展示</h1>
+        <div class="post-meta">
+            <time class="post-time" title="2019-01-07 18:06:44" datetime="2019-01-07T10:06:44.000Z"  itemprop="datePublished">2019-01-07</time>
+
+            
+
+
+            
+
+        </div>
+        <div class="post-content" id="post-content" itemprop="postContent">
+            <p>接下来我们就来获取商品数据了，我们需要完成的目标：</p>
+<blockquote>
+<ol>
+<li>mybatis分页插件的使用</li>
+<li>获取到的数据列表进行分页展示，DataGrid使用</li>
+</ol>
+</blockquote>
+<p>那么我们会使用到的分页插件是 <a href="https://github.com/pagehelper/Mybatis-PageHelper/blob/master/wikis/zh/HowToUse.md" target="_blank" rel="noopener">Mybatis-PageHelper</a> 。在我们的 <a href="https://github.com/wistbean/manong-ssm" target="_blank" rel="noopener">manong</a> 项目中依赖它，然后进行简单的配置，就可以很方便的使用分页功能了。</p>
+<h1 id="Mybatis-PageHelper使用"><a href="#Mybatis-PageHelper使用" class="headerlink" title="Mybatis-PageHelper使用"></a>Mybatis-PageHelper使用</h1><h2 id="pagehelper的依赖"><a href="#pagehelper的依赖" class="headerlink" title="pagehelper的依赖"></a>pagehelper的依赖</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"> &lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;com.github.pagehelper&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;pagehelper&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;5.1.8&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="在-sqlMapConfig-xml-中配置插件"><a href="#在-sqlMapConfig-xml-中配置插件" class="headerlink" title="在 sqlMapConfig.xml 中配置插件"></a>在 sqlMapConfig.xml 中配置插件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;plugins&gt;</span><br><span class="line">    &lt;plugin interceptor=&quot;com.github.pagehelper.PageHelper&quot;&gt;</span><br><span class="line">        &lt;property name=&quot;helperDialect&quot; value=&quot;mysql&quot;/&gt;</span><br><span class="line">    &lt;/plugin&gt;</span><br><span class="line">&lt;/plugins&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="DataGrid-Json数据"><a href="#DataGrid-Json数据" class="headerlink" title="DataGrid Json数据"></a>DataGrid Json数据</h1><p>DataGrid 需要返回的 JSON 数据是这样的：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&quot;total&quot;:28,&quot;rows&quot;:[......]&#125;</span><br></pre></td></tr></table></figure></p>
+<p>所以我们可以用一个对象来封装，最终将数据以上面的这样 JSON 格式来返回：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">EasyDataGrid</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span> total;</span><br><span class="line">    <span class="keyword">private</span> List&lt;?&gt; rows;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getTotal</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> total;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setTotal</span><span class="params">(<span class="keyword">int</span> total)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.total = total;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> List&lt;?&gt; getRows() &#123;</span><br><span class="line">        <span class="keyword">return</span> rows;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setRows</span><span class="params">(List&lt;?&gt; rows)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.rows = rows;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+        </div>
+
+        <blockquote class="post-copyright">
+    
+    <div class="content">
+      <!--  
+<span class="post-time">
+    最后更新时间：<time datetime="2019-01-07T13:54:03.551Z" itemprop="dateUpdated">2019-01-07 21:54:03</time>
+</span><br>
+
+
+        
+        本站所有文章均为原创，转载请注明出处：url_for(page.permalink)
+        
+        -->
+        本站所有文章均为原创，转载请注明出处：
+        <a href="https://wistbean.github.io/java-ssm-5-6.html">
+                   wistbean|肯定会
+         </a>
+         关注公众号「肯定会」并发送「程序员」直接免费获取 12 本精华电子书
+    </div>
+    
+    <footer>
+        <a href="https://wistbean.github.io">
+            <img src="https://wistbean.github.io/img/avatar.jpg" alt="wistbean|肯定会">
+            wistbean
+        </a>
+    </footer>
+</blockquote>
+
+        
+
+
+        <div class="post-footer">
+            
+
+            
+<div class="page-share-wrap">
+    
+
+<div class="page-share" id="pageShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://wistbean.github.io/java-ssm-5-6.html&title=《Mybatis分页，DataGrid使用，实现商品列表分页展示》 — 肯定会&pic=https://wistbean.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://wistbean.github.io/java-ssm-5-6.html&title=《Mybatis分页，DataGrid使用，实现商品列表分页展示》 — 肯定会&source=答应自己的事，就要做到。" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://wistbean.github.io/java-ssm-5-6.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Mybatis分页，DataGrid使用，实现商品列表分页展示》 — 肯定会&url=https://wistbean.github.io/java-ssm-5-6.html&via=https://wistbean.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://wistbean.github.io/java-ssm-5-6.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+
+    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
+        <i class="icon icon-share-alt icon-lg"></i>
+    </a>
+</div>
+
+
+
+        </div>
+    </div>
+
+    
+<nav class="post-nav flex-row flex-justify-between">
+  
+    <div class="waves-block waves-effect prev">
+      <a href="/github-free.html" id="post-prev" class="post-nav-link">
+        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
+        <h4 class="title">挖槽！GitHub无限私有仓库免费了</h4>
+      </a>
+    </div>
+  
+
+  
+    <div class="waves-block waves-effect next">
+      <a href="/java-ssm-5-5.html" id="post-next" class="post-nav-link">
+        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
+        <h4 class="title">「5-5」码农商城实现商品数据提交到Mysql数据库</h4>
+      </a>
+    </div>
+  
+</nav>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Valine Comments -->
+    <div class="comments vcomment" id="comments"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+    <!-- Valine Comments script -->
+    <script>
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+          return GUEST_INFO.indexOf(item) > -1
+        });
+        new Valine({
+            el: '#comments',
+            notify: 'false' == 'true',
+            verify: 'false' == 'true',
+            appId: "EwGBpz5cFF0t3WS9QYluuUPU-gzGzoHsz",
+            appKey: "k9IK8hrOleIsPWLjCdv9atgo",
+            avatar: "wavatar",
+            placeholder: "Just go go",
+            guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
+            pageSize: "10"
+        })
+    </script>
+    <!-- Valine Comments end -->
+
+
+
+
+
+
+
+</article>
+
+
+
+</div>
+
+        <footer class="footer">
+    <div class="top">
+        
+
+        <p>
+            
+                <span><a href="/atom.xml" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span>
+            
+            <span>本站已加入 <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-知识 4.0  (CC BY-NC-SA 4.0)国际协议 | 转载请注明链接出处</a></span>
+        </p>
+    </div>
+
+        <div class="bottom">
+                <p><span>wistbean &copy; 2015 - 2019</span>
+                    <span>
+                        
+                         <a href="https://wistbean.github.io/">肯定会|wistbean</a>、
+                          <a href="https://www.bwh8.net/aff.php?aff=32874" target="_blank">搬瓦工2019优惠码</a>、
+                          <a href="https://www.vultr.com/?ref=7656887" target="_blank">vultr2019优惠码</a>
+                    </span>
+                </p>
+        </div>
+</footer>
+
+    </main>
+    <div class="mask" id="mask"></div>
+<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
+
+
+
+<div class="global-share" id="globalShare">
+    <ul class="reset share-icons">
+      <li>
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://wistbean.github.io/java-ssm-5-6.html&title=《Mybatis分页，DataGrid使用，实现商品列表分页展示》 — 肯定会&pic=https://wistbean.github.io/img/avatar.jpg" data-title="微博">
+          <i class="icon icon-weibo"></i>
+        </a>
+      </li>
+      <li>
+        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
+          <i class="icon icon-weixin"></i>
+        </a>
+      </li>
+      <li>
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://wistbean.github.io/java-ssm-5-6.html&title=《Mybatis分页，DataGrid使用，实现商品列表分页展示》 — 肯定会&source=答应自己的事，就要做到。" data-title=" QQ">
+          <i class="icon icon-qq"></i>
+        </a>
+      </li>
+      <li>
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://wistbean.github.io/java-ssm-5-6.html" data-title=" Facebook">
+          <i class="icon icon-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Mybatis分页，DataGrid使用，实现商品列表分页展示》 — 肯定会&url=https://wistbean.github.io/java-ssm-5-6.html&via=https://wistbean.github.io" data-title=" Twitter">
+          <i class="icon icon-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://wistbean.github.io/java-ssm-5-6.html" data-title=" Google+">
+          <i class="icon icon-google-plus"></i>
+        </a>
+      </li>
+    </ul>
+ </div>
+
+
+<div class="page-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACLUlEQVR42u3aS27DMAwFwNz/0u62RWDnkXIKmBqtAtdONF6w/Oj1itdxsn7/9f3+5Mr797zfedvCwMB4LOO4XGf3nG1u/UVc/+4pFQMDYwPG2Q8nX508lWCSbzi9joGBgRFv7jrUXodjDAwMjO8x8qI0v4KBgYHRK2ITfFK+rqShN9TiGBgYD2TkW/n/z1+Zb2BgYDyKcRRXHhyr4fJYWBgYGLMZeYDrpWgJKSpQkxYeBgbGUEa1pOyNNnvUAgwDA2MzRq8pdu9gIBkY/LmCgYGxAePeMrWXSvaCdeFhDAyMxzLy9O6ucWP1StKYw8DA2IGRJ2S9GWm1PVdNWDEwMHZgJButNsWqIbtXyn74v4GBgTGC0Stcq+PJ5mQ1eK0YGBi7MfJx40oJmkwek8HDh9MiGBgYQxl5yKsmc72CuXnYAgMDYxxjJfnrbaWagOYBGgMDYx9GtTStjhCS4xf5+AEDA2MfRl5A5tu6OZiuZLsYGBiDGMm2es24POCuD0cxMDCmMvKNFlK0VhFb3VWU4WJgYAxi5GlinlaujzwLoRkDA2MbxsrnfERaTTqj3BYDA2Mo4yiu3kiy12grpJIYGBijGdUytVBSLowc8kBfxmBgYDyWkY8h87ey8uaawRoDA2MDRq+47aV3X0FiYGBgtBK46lGMpLn2oemGgYGBEQfTXqsuSTQLk1gMDIxxjKSIzRttvWeXimcMDIzRjLx07B2k6MHWj3pgYGCMYPwAnvqTYZS/D+sAAAAASUVORK5CYII=" alt="微信分享二维码">
+</div>
+
+
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/node-waves/0.7.4/waves.min.js"></script>
+<script>
+var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
+
+
+</script>
+
+<script src="/js/main.min.js?v=1.7.2"></script>
+
+
+<div class="search-panel" id="search-panel">
+    <ul class="search-result" id="search-result"></ul>
+</div>
+<template id="search-tpl">
+<li class="item">
+    <a href="{path}" class="waves-block waves-effect">
+        <div class="title ellipsis" title="{title}">{title}</div>
+        <div class="flex-row flex-middle">
+            <div class="tags ellipsis">
+                {tags}
+            </div>
+            <time class="flex-col time">{date}</time>
+        </div>
+    </a>
+</li>
+</template>
+
+<script src="/js/search.min.js?v=1.7.2" async></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
