@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wistbean.github.io/support/index.html</loc>
+    
+    <lastmod>2019-01-15T15:27:45.606Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wistbean.github.io/java-ssm-6-1.html</loc>
     
-    <lastmod>2019-01-15T09:57:05.964Z</lastmod>
+    <lastmod>2019-01-15T10:18:52.778Z</lastmod>
     
   </url>
   
@@ -131,13 +138,6 @@
     <loc>https://wistbean.github.io/deep-web.html</loc>
     
     <lastmod>2019-01-04T12:18:14.998Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wistbean.github.io/support/index.html</loc>
-    
-    <lastmod>2019-01-04T12:14:52.490Z</lastmod>
     
   </url>
   
