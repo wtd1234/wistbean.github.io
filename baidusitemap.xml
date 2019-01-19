@@ -3,6 +3,63 @@
 
 
     
+  <url>
+    <loc>https://wistbean.github.io/banwagong-ssr-quick.html</loc>
+    <lastmod>2019-01-19T10:08:56.451Z</lastmod>
+    <data>
+        <display>
+        <title>搬瓦工新手一键快速搭建SSR并开启bbr加速上网教程</title>
+        <pubTime>2019-01-19T09:20:03.000Z</pubTime>
+        
+        <tag>搬瓦工ssr 2019</tag>
+         
+        <tag>搬瓦工ssr混淆</tag>
+         
+        <tag>搬瓦工ssr链接</tag>
+         
+        <tag>搬瓦工cn2 ssr</tag>
+         
+        <tag>科学上网</tag>
+         
+        <tag>shadowsocks搭建教程</tag>
+         
+         
+           
+             
+              <breadCrumb title="vpn" url="https://wistbean.github.io/categories/vpn/"/>
+          
+             
+              <breadCrumb title="搬瓦工" url="https://wistbean.github.io/categories/vpn/%E6%90%AC%E7%93%A6%E5%B7%A5/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://wistbean.github.io/cloud-server.html</loc>
+    <lastmod>2019-01-19T10:05:01.340Z</lastmod>
+    <data>
+        <display>
+        <title>推荐|我用了十几台云服务器VPS后，告诉你哪家云服务产商性价比高,性能稳定</title>
+        <pubTime>2019-11-27T12:10:21.000Z</pubTime>
+        
+        <tag>搬瓦工</tag>
+         
+        <tag>vultr</tag>
+         
+        <tag>云服务器</tag>
+         
+         
+           
+             
+              <breadCrumb title="vpn" url="https://wistbean.github.io/categories/vpn/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>https://wistbean.github.io/java-ssm-6-2.html</loc>
@@ -27,9 +84,9 @@
         <title>vultr2019最新优惠，新注册vultr的用户可以免费获取50美元</title>
         <pubTime>2019-01-17T07:18:28.000Z</pubTime>
         
-        <tag>优惠码</tag>
-         
         <tag>vultr</tag>
+         
+        <tag>优惠码</tag>
          
         <tag>vpn</tag>
          
@@ -75,9 +132,9 @@
         
         <tag>互联网</tag>
          
-        <tag>优惠码</tag>
-         
         <tag>vultr</tag>
+         
+        <tag>优惠码</tag>
          
         <tag>vpn</tag>
          
@@ -106,11 +163,11 @@
         
         <tag>搬瓦工</tag>
          
+        <tag>vultr</tag>
+         
         <tag>vps</tag>
          
         <tag>优惠码</tag>
-         
-        <tag>vultr</tag>
          
          
            
@@ -129,30 +186,6 @@
 
     
   <url>
-    <loc>https://wistbean.github.io/cloud-server.html</loc>
-    <lastmod>2019-01-17T07:26:37.764Z</lastmod>
-    <data>
-        <display>
-        <title>推荐|我用了十几台云服务器VPS后，告诉你哪家云服务产商性价比高,性能稳定</title>
-        <pubTime>2018-11-27T12:10:21.000Z</pubTime>
-        
-        <tag>搬瓦工</tag>
-         
-        <tag>vultr</tag>
-         
-        <tag>云服务器</tag>
-         
-         
-           
-             
-              <breadCrumb title="vpn" url="https://wistbean.github.io/categories/vpn/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://wistbean.github.io/vultr-25-December-vps-coupon.html</loc>
     <lastmod>2019-01-17T07:26:37.691Z</lastmod>
     <data>
@@ -162,9 +195,9 @@
         
         <tag>互联网</tag>
          
-        <tag>优惠码</tag>
-         
         <tag>vultr</tag>
+         
+        <tag>优惠码</tag>
          
         <tag>vpn</tag>
          
@@ -337,11 +370,11 @@
          
         <tag>Jqury</tag>
          
+        <tag>easyui-filebox</tag>
+         
         <tag>easyui文件上传</tag>
          
         <tag>ajaxFileUpload</tag>
-         
-        <tag>easyui-filebox</tag>
          
          
            
@@ -789,11 +822,11 @@
          
         <tag>分布式</tag>
          
-        <tag>架构</tag>
-         
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
+         
+        <tag>架构</tag>
          
          
            
@@ -876,17 +909,17 @@
          
         <tag>Maven</tag>
          
-        <tag>EasyUI</tag>
-         
         <tag>Spring</tag>
          
         <tag>Spring MVC</tag>
          
         <tag>Mybatis</tag>
          
-        <tag>UEditor</tag>
+        <tag>EasyUI</tag>
          
         <tag>postman</tag>
+         
+        <tag>UEditor</tag>
          
         <tag>SSM视频教程</tag>
          
