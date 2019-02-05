@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wistbean.github.io/python-spider-tutorial.html</loc>
+    
+    <lastmod>2019-02-05T08:21:29.771Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wistbean.github.io/python-spider-wechat.html</loc>
+    
+    <lastmod>2019-02-05T08:15:27.045Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wistbean.github.io/nian-zhong-zong-jie-2018.html</loc>
     
     <lastmod>2019-02-04T15:22:03.440Z</lastmod>
@@ -278,13 +292,6 @@
     <loc>https://wistbean.github.io/make-money.html</loc>
     
     <lastmod>2018-12-27T13:46:51.596Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wistbean.github.io/python-spider-wechat.html</loc>
-    
-    <lastmod>2018-12-27T13:46:51.460Z</lastmod>
     
   </url>
   
