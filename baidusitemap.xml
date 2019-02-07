@@ -4,6 +4,7 @@
 
     
     
+    
   <url>
     <loc>https://wistbean.github.io/python-spider-tutorial.html</loc>
     <lastmod>2019-02-05T09:08:21.097Z</lastmod>
@@ -87,7 +88,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>https://wistbean.github.io/java-ssm-6-1.html</loc>
@@ -370,11 +370,11 @@
          
         <tag>商品</tag>
          
-        <tag>Jqury</tag>
-         
         <tag>easyui文件上传</tag>
          
         <tag>ajaxFileUpload</tag>
+         
+        <tag>Jqury</tag>
          
          
            
@@ -465,13 +465,13 @@
          
         <tag>FreeMarker</tag>
          
-        <tag>Jqury</tag>
-         
-        <tag>easyui-filebox</tag>
-         
         <tag>easyui文件上传</tag>
          
         <tag>ajaxFileUpload</tag>
+         
+        <tag>Jqury</tag>
+         
+        <tag>easyui-filebox</tag>
          
          
            
@@ -760,11 +760,11 @@
          
         <tag>商品</tag>
          
-        <tag>Jqury</tag>
-         
         <tag>easyui文件上传</tag>
          
         <tag>ajaxFileUpload</tag>
+         
+        <tag>Jqury</tag>
          
          
            
@@ -919,11 +919,11 @@
          
         <tag>分布式</tag>
          
+        <tag>架构</tag>
+         
         <tag>SSM</tag>
          
         <tag>IntelliJ IDEA</tag>
-         
-        <tag>架构</tag>
          
          
            
@@ -1014,9 +1014,9 @@
          
         <tag>EasyUI</tag>
          
-        <tag>postman</tag>
-         
         <tag>UEditor</tag>
+         
+        <tag>postman</tag>
          
         <tag>SSM视频教程</tag>
          
