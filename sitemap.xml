@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wistbean.github.io/python-spider-tutorial.html</loc>
+    
+    <lastmod>2019-02-10T09:45:18.206Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wistbean.github.io/support/index.html</loc>
     
     <lastmod>2019-02-07T15:27:24.012Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://wistbean.github.io/fitness/index.html</loc>
     
     <lastmod>2019-02-07T15:08:35.604Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wistbean.github.io/python-spider-tutorial.html</loc>
-    
-    <lastmod>2019-02-05T09:08:21.097Z</lastmod>
     
   </url>
   
