@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wistbean.github.io/support/index.html</loc>
+    <loc>https://wistbean.github.io/fitness/index.html</loc>
     
-    <lastmod>2019-02-20T10:12:02.137Z</lastmod>
+    <lastmod>2019-02-22T09:29:53.938Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wistbean.github.io/fitness/index.html</loc>
+    <loc>https://wistbean.github.io/make-a-contentprovider.html</loc>
     
-    <lastmod>2019-02-20T10:10:47.085Z</lastmod>
+    <lastmod>2019-02-21T13:14:47.238Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wistbean.github.io/nian-zhong-zong-jie-2018.html</loc>
+    
+    <lastmod>2019-02-21T13:01:46.174Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wistbean.github.io/support/index.html</loc>
+    
+    <lastmod>2019-02-20T10:12:02.137Z</lastmod>
     
   </url>
   
@@ -47,13 +61,6 @@
     <loc>https://wistbean.github.io/python-spider-wechat.html</loc>
     
     <lastmod>2019-02-05T08:15:27.045Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wistbean.github.io/nian-zhong-zong-jie-2018.html</loc>
-    
-    <lastmod>2019-02-04T15:22:03.440Z</lastmod>
     
   </url>
   
