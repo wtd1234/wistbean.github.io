@@ -43,24 +43,24 @@
     
     
     
-    <title>「6-4」实现商城首页左侧的分类导航数据展示 | 肯定会 | wistbean</title>
+    <title>「6-4」rest系统提供商城首页分类导航的json数据 | 肯定会 | wistbean</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
     
     
-    <meta name="keywords" content="">
+    <meta name="keywords" content="码农商城,rest,json,rest接口java,商城首页分类导航">
     <meta name="description" content="我们已经创建好了 rest 系统，那么接下来这一小节我们来实现商城首页的分类数据展示。 在 portal 系统中，我们的首页目前是静态的数据，接下来我们就从 rest 系统中取 json 数据，接着将数据展示到首页分类中。 主要思路   在 portal 系统中获取 rest 服务中的 json 数据； 使用 freemarker 展示数据   商城分类json数据格式12345678910111">
-<meta name="keywords" content="wistbean，肯定会。">
+<meta name="keywords" content="码农商城,rest,json,rest接口java,商城首页分类导航">
 <meta property="og:type" content="article">
-<meta property="og:title" content="「6-4」实现商城首页左侧的分类导航数据展示">
+<meta property="og:title" content="「6-4」rest系统提供商城首页分类导航的json数据">
 <meta property="og:url" content="https://wistbean.github.io/java-ssm-6-4.html">
 <meta property="og:site_name" content="肯定会">
 <meta property="og:description" content="我们已经创建好了 rest 系统，那么接下来这一小节我们来实现商城首页的分类数据展示。 在 portal 系统中，我们的首页目前是静态的数据，接下来我们就从 rest 系统中取 json 数据，接着将数据展示到首页分类中。 主要思路   在 portal 系统中获取 rest 服务中的 json 数据； 使用 freemarker 展示数据   商城分类json数据格式12345678910111">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-23T10:20:06.637Z">
+<meta property="og:updated_time" content="2019-02-23T17:53:56.097Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="「6-4」实现商城首页左侧的分类导航数据展示">
+<meta name="twitter:title" content="「6-4」rest系统提供商城首页分类导航的json数据">
 <meta name="twitter:description" content="我们已经创建好了 rest 系统，那么接下来这一小节我们来实现商城首页的分类数据展示。 在 portal 系统中，我们的首页目前是静态的数据，接下来我们就从 rest 系统中取 json 数据，接着将数据展示到首页分类中。 主要思路   在 portal 系统中获取 rest 服务中的 json 数据； 使用 freemarker 展示数据   商城分类json数据格式12345678910111">
     
         <link rel="alternate" type="application/atom+xml" title="肯定会" href="/atom.xml">
@@ -163,7 +163,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light off" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">「6-4」实现商城首页左侧的分类导航数据展示</div>
+        <div class="flex-col header-title ellipsis">「6-4」rest系统提供商城首页分类导航的json数据</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -186,7 +186,7 @@
 <header class="content-header post-header">
 
     <div class="container fade-scale">
-        <h1 class="title">「6-4」实现商城首页左侧的分类导航数据展示</h1>
+        <h1 class="title">「6-4」rest系统提供商城首页分类导航的json数据</h1>
         <h5 class="subtitle">
             
                 <time datetime="2019-02-22T11:56:10.000Z" itemprop="datePublished" class="page-time">
@@ -211,7 +211,7 @@
     <aside class="post-widget">
         <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
             <h4>目录</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#商城分类json数据格式"><span class="post-toc-number">1.</span> <span class="post-toc-text">商城分类json数据格式</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#通过json数据转化为实体类"><span class="post-toc-number">2.</span> <span class="post-toc-text">通过json数据转化为实体类</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Controller"><span class="post-toc-number">3.</span> <span class="post-toc-text">Controller</span></a></li></ol>
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#商城分类json数据格式"><span class="post-toc-number">1.</span> <span class="post-toc-text">商城分类json数据格式</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#通过json数据转化为实体类"><span class="post-toc-number">2.</span> <span class="post-toc-text">通过json数据转化为实体类</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#具体实现"><span class="post-toc-number">3.</span> <span class="post-toc-text">具体实现</span></a></li></ol>
         </nav>
     </aside>
 
@@ -220,7 +220,7 @@
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
-        <h1 class="post-card-title">「6-4」实现商城首页左侧的分类导航数据展示</h1>
+        <h1 class="post-card-title">「6-4」rest系统提供商城首页分类导航的json数据</h1>
         <div class="post-meta">
             <time class="post-time" title="2019-02-22 19:56:10" datetime="2019-02-22T11:56:10.000Z"  itemprop="datePublished">2019-02-22</time>
 
@@ -245,7 +245,8 @@
 <h1 id="商城分类json数据格式"><a href="#商城分类json数据格式" class="headerlink" title="商城分类json数据格式"></a>商城分类json数据格式</h1><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"categories"</span>:[</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="attr">"cat_id"</span>:<span class="string">"1"</span>,</span><br><span class="line">            <span class="attr">"name"</span>:<span class="string">"父级分类名称"</span>,</span><br><span class="line">            <span class="attr">"sub_cetegories"</span>:[</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="attr">"cat_id"</span>:<span class="string">"2"</span>,</span><br><span class="line">                    <span class="attr">"name"</span>:<span class="string">"java se"</span></span><br><span class="line">                &#125;,</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="attr">"cat_id"</span>:<span class="string">"3"</span>,</span><br><span class="line">                    <span class="attr">"name"</span>:<span class="string">"java ee"</span></span><br><span class="line">                &#125;</span><br><span class="line">            ]</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="attr">"cat_id"</span>:<span class="string">"2"</span>,</span><br><span class="line">            <span class="attr">"name"</span>:<span class="string">"分类名称"</span>,</span><br><span class="line">            <span class="attr">"sub_cetegories"</span>:[</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="attr">"cat_id"</span>:<span class="string">"2"</span>,</span><br><span class="line">                    <span class="attr">"name"</span>:<span class="string">"java se"</span></span><br><span class="line">                &#125;,</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="attr">"cat_id"</span>:<span class="string">"3"</span>,</span><br><span class="line">                    <span class="attr">"name"</span>:<span class="string">"java ee"</span></span><br><span class="line">                &#125;</span><br><span class="line">            ]</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h1 id="通过json数据转化为实体类"><a href="#通过json数据转化为实体类" class="headerlink" title="通过json数据转化为实体类"></a>通过json数据转化为实体类</h1><p>可以使用 idea 的 <a href="https://plugins.jetbrains.com/plugin/7654-gsonformat" target="_blank" rel="noopener">GsonFormart 插件</a>生成相应的实体类</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Res_Categories</span> </span>&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> List&lt;CategoriesBean&gt; categories;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> List&lt;CategoriesBean&gt; <span class="title">getCategories</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> categories;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setCategories</span><span class="params">(List&lt;CategoriesBean&gt; categories)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.categories = categories;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">CategoriesBean</span> </span>&#123;</span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * cat_id : 1</span></span><br><span class="line"><span class="comment">         * name : 父级分类名称</span></span><br><span class="line"><span class="comment">         * sub_cetegories : [&#123;"cat_id":"2","name":"java se"&#125;,&#123;"cat_id":"3","name":"java ee"&#125;]</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">private</span> String cat_id;</span><br><span class="line">        <span class="keyword">private</span> String name;</span><br><span class="line">        <span class="keyword">private</span> List&lt;SubCetegoriesBean&gt; sub_cetegories;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">public</span> String <span class="title">getCat_id</span><span class="params">()</span> </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> cat_id;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setCat_id</span><span class="params">(String cat_id)</span> </span>&#123;</span><br><span class="line">            <span class="keyword">this</span>.cat_id = cat_id;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> name;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">            <span class="keyword">this</span>.name = name;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">public</span> List&lt;SubCetegoriesBean&gt; <span class="title">getSub_cetegories</span><span class="params">()</span> </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> sub_cetegories;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setSub_cetegories</span><span class="params">(List&lt;SubCetegoriesBean&gt; sub_cetegories)</span> </span>&#123;</span><br><span class="line">            <span class="keyword">this</span>.sub_cetegories = sub_cetegories;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">SubCetegoriesBean</span> </span>&#123;</span><br><span class="line">            <span class="comment">/**</span></span><br><span class="line"><span class="comment">             * cat_id : 2</span></span><br><span class="line"><span class="comment">             * name : java se</span></span><br><span class="line"><span class="comment">             */</span></span><br><span class="line"></span><br><span class="line">            <span class="keyword">private</span> String cat_id;</span><br><span class="line">            <span class="keyword">private</span> String name;</span><br><span class="line"></span><br><span class="line">            <span class="function"><span class="keyword">public</span> String <span class="title">getCat_id</span><span class="params">()</span> </span>&#123;</span><br><span class="line">                <span class="keyword">return</span> cat_id;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setCat_id</span><span class="params">(String cat_id)</span> </span>&#123;</span><br><span class="line">                <span class="keyword">this</span>.cat_id = cat_id;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">                <span class="keyword">return</span> name;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">                <span class="keyword">this</span>.name = name;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="Controller"><a href="#Controller" class="headerlink" title="Controller"></a>Controller</h1>
+<h1 id="具体实现"><a href="#具体实现" class="headerlink" title="具体实现"></a>具体实现</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ProductCategoryServiceImpl</span> <span class="keyword">implements</span> <span class="title">ProductCategoryService</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    ProductCategoryMapper productCategoryMapper;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Res_Categories <span class="title">getCategories</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        Res_Categories res_categories = <span class="keyword">new</span> Res_Categories();</span><br><span class="line"></span><br><span class="line">        ProductCategoryExample productCategoryExample = <span class="keyword">new</span> ProductCategoryExample();</span><br><span class="line">        ProductCategoryExample.Criteria criteria = productCategoryExample.createCriteria();</span><br><span class="line">        criteria.andParentIdEqualTo((<span class="keyword">short</span>) <span class="number">0</span>);</span><br><span class="line">        List&lt;ProductCategory&gt; productCategories = productCategoryMapper.selectByExample(productCategoryExample);</span><br><span class="line"></span><br><span class="line">        List&lt;Res_Categories.CategoriesBean&gt; categories = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; productCategories.size(); i++) &#123;</span><br><span class="line">            Res_Categories.CategoriesBean categoriesBean = <span class="keyword">new</span> Res_Categories.CategoriesBean();</span><br><span class="line">            categoriesBean.setCat_id(productCategories.get(i).getId()+<span class="string">""</span>);</span><br><span class="line">            categoriesBean.setName(productCategories.get(i).getName());</span><br><span class="line"></span><br><span class="line">            <span class="comment">//获取子分类</span></span><br><span class="line">            List&lt;Res_Categories.CategoriesBean.SubCetegoriesBean&gt; subCategories = getSubCategories(productCategories</span><br><span class="line">                    .get(i)</span><br><span class="line">                    .getId());</span><br><span class="line"></span><br><span class="line">            categoriesBean.setSub_cetegories(subCategories);</span><br><span class="line">            categories.add(categoriesBean);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        res_categories.setCategories(categories);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> res_categories;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> List&lt;Res_Categories.CategoriesBean.SubCetegoriesBean&gt; getSubCategories(Short id) &#123;</span><br><span class="line"></span><br><span class="line">        List&lt;Res_Categories.CategoriesBean.SubCetegoriesBean&gt; list = <span class="keyword">new</span> ArrayList&lt;&gt;();</span><br><span class="line"></span><br><span class="line">        ProductCategoryExample productCategoryExample = <span class="keyword">new</span> ProductCategoryExample();</span><br><span class="line">        ProductCategoryExample.Criteria criteria = productCategoryExample.createCriteria();</span><br><span class="line">        criteria.andParentIdEqualTo(id);</span><br><span class="line">        List&lt;ProductCategory&gt; productCategories = productCategoryMapper.selectByExample(productCategoryExample);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;productCategories.size() ; i++) &#123;</span><br><span class="line">            ProductCategory productCategory = productCategories.get(i);</span><br><span class="line">            Res_Categories.CategoriesBean.SubCetegoriesBean subCetegoriesBean = <span class="keyword">new</span> Res_Categories.CategoriesBean</span><br><span class="line">                    .SubCetegoriesBean();</span><br><span class="line">            subCetegoriesBean.setCat_id(productCategory.getId()+<span class="string">""</span>);</span><br><span class="line">            subCetegoriesBean.setName(productCategory.getName());</span><br><span class="line">            list.add(subCetegoriesBean);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> list;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
         </div>
 
         <blockquote class="post-copyright">
@@ -253,7 +254,7 @@
     <div class="content">
       <!--  
 <span class="post-time">
-    最后更新时间：<time datetime="2019-02-23T10:20:06.637Z" itemprop="dateUpdated">2019-02-23 18:20:06</time>
+    最后更新时间：<time datetime="2019-02-23T17:53:56.097Z" itemprop="dateUpdated">2019-02-24 01:53:56</time>
 </span><br>
 
 
@@ -280,6 +281,8 @@
 
         <div class="post-footer">
             
+	<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/json/">json</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/rest/">rest</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/rest接口java/">rest接口java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/商城首页分类导航/">商城首页分类导航</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/码农商城/">码农商城</a></li></ul>
+
 
             
 <div class="page-share-wrap">
@@ -288,7 +291,7 @@
 <div class="page-share" id="pageShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://wistbean.github.io/java-ssm-6-4.html&title=《「6-4」实现商城首页左侧的分类导航数据展示》 — 肯定会&pic=https://wistbean.github.io/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://wistbean.github.io/java-ssm-6-4.html&title=《「6-4」rest系统提供商城首页分类导航的json数据》 — 肯定会&pic=https://wistbean.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -298,7 +301,7 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://wistbean.github.io/java-ssm-6-4.html&title=《「6-4」实现商城首页左侧的分类导航数据展示》 — 肯定会&source=答应自己的事，就要做到。" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://wistbean.github.io/java-ssm-6-4.html&title=《「6-4」rest系统提供商城首页分类导航的json数据》 — 肯定会&source=答应自己的事，就要做到。" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -308,7 +311,7 @@
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《「6-4」实现商城首页左侧的分类导航数据展示》 — 肯定会&url=https://wistbean.github.io/java-ssm-6-4.html&via=https://wistbean.github.io" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《「6-4」rest系统提供商城首页分类导航的json数据》 — 肯定会&url=https://wistbean.github.io/java-ssm-6-4.html&via=https://wistbean.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
@@ -336,9 +339,9 @@
 <nav class="post-nav flex-row flex-justify-between">
   
     <div class="waves-block waves-effect prev">
-      <a href="/cloud-server.html" id="post-prev" class="post-nav-link">
+      <a href="/java-ssm-6-5.html" id="post-prev" class="post-nav-link">
         <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
-        <h4 class="title">推荐|我用了十几台云服务器VPS后，告诉你哪家云服务产商性价比高,性能稳定</h4>
+        <h4 class="title">「6-5」 httpclient+freemarker实现商城首页分类的导航数据展示</h4>
       </a>
     </div>
   
@@ -436,7 +439,7 @@
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://wistbean.github.io/java-ssm-6-4.html&title=《「6-4」实现商城首页左侧的分类导航数据展示》 — 肯定会&pic=https://wistbean.github.io/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://wistbean.github.io/java-ssm-6-4.html&title=《「6-4」rest系统提供商城首页分类导航的json数据》 — 肯定会&pic=https://wistbean.github.io/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -446,7 +449,7 @@
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://wistbean.github.io/java-ssm-6-4.html&title=《「6-4」实现商城首页左侧的分类导航数据展示》 — 肯定会&source=答应自己的事，就要做到。" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://wistbean.github.io/java-ssm-6-4.html&title=《「6-4」rest系统提供商城首页分类导航的json数据》 — 肯定会&source=答应自己的事，就要做到。" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
@@ -456,7 +459,7 @@
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《「6-4」实现商城首页左侧的分类导航数据展示》 — 肯定会&url=https://wistbean.github.io/java-ssm-6-4.html&via=https://wistbean.github.io" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《「6-4」rest系统提供商城首页分类导航的json数据》 — 肯定会&url=https://wistbean.github.io/java-ssm-6-4.html&via=https://wistbean.github.io" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
