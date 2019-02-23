@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wistbean.github.io/cloud-server.html</loc>
+    
+    <lastmod>2019-02-23T11:08:05.535Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wistbean.github.io/fitness/index.html</loc>
     
-    <lastmod>2019-02-22T09:29:53.938Z</lastmod>
+    <lastmod>2019-02-23T10:56:22.584Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wistbean.github.io/java-ssm-6-4.html</loc>
+    
+    <lastmod>2019-02-23T10:20:06.637Z</lastmod>
     
   </url>
   
@@ -82,13 +96,6 @@
     <loc>https://wistbean.github.io/banwagong-ssr-quick.html</loc>
     
     <lastmod>2019-01-19T10:08:56.451Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wistbean.github.io/cloud-server.html</loc>
-    
-    <lastmod>2019-01-19T10:05:01.340Z</lastmod>
     
   </url>
   
