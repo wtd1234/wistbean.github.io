@@ -3,6 +3,78 @@
 
 
     
+    
+  <url>
+    <loc>https://wistbean.github.io/java-ssm-video.html</loc>
+    <lastmod>2019-02-24T13:45:35.559Z</lastmod>
+    <data>
+        <display>
+        <title>Java进阶SSM分布式项目实战视频教程</title>
+        <pubTime>2018-09-10T07:42:30.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+        <tag>Nginx</tag>
+         
+        <tag>Java</tag>
+         
+        <tag>项目实战</tag>
+         
+        <tag>分布式</tag>
+         
+        <tag>码农商城</tag>
+         
+        <tag>Maven</tag>
+         
+        <tag>Spring</tag>
+         
+        <tag>Spring MVC</tag>
+         
+        <tag>Mybatis</tag>
+         
+        <tag>EasyUI</tag>
+         
+        <tag>UEditor</tag>
+         
+        <tag>postman</tag>
+         
+        <tag>SSM视频教程</tag>
+         
+        <tag>redis</tag>
+         
+        <tag>solor</tag>
+         
+        <tag>JQuery</tag>
+         
+        <tag>Freemark</tag>
+         
+        <tag>activMQ</tag>
+         
+        <tag>httpClient</tag>
+         
+        <tag>MySQL</tag>
+         
+        <tag>InteliJ IDEA</tag>
+         
+        <tag>Tomcat7</tag>
+         
+        <tag>JDK</tag>
+         
+        <tag>sqlyog</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="https://wistbean.github.io/categories/Java/"/>
+          
+             
+              <breadCrumb title="Java SSM视频教程" url="https://wistbean.github.io/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
   <url>
     <loc>https://wistbean.github.io/java-ssm-6-3.html</loc>
     <lastmod>2019-02-24T13:35:11.944Z</lastmod>
@@ -91,7 +163,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>https://wistbean.github.io/shuangshiyi.html</loc>
@@ -888,9 +959,9 @@
          
         <tag>FreeMarker</tag>
          
-        <tag>SpringMVC</tag>
-         
         <tag>Portal</tag>
+         
+        <tag>SpringMVC</tag>
          
         <tag>spring freemarker配置</tag>
          
@@ -946,77 +1017,6 @@
         <tag>上传下载</tag>
          
         <tag>postman</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="https://wistbean.github.io/categories/Java/"/>
-          
-             
-              <breadCrumb title="Java SSM视频教程" url="https://wistbean.github.io/categories/Java/Java-SSM%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://wistbean.github.io/java-ssm-video.html</loc>
-    <lastmod>2019-02-23T17:53:55.168Z</lastmod>
-    <data>
-        <display>
-        <title>Java进阶SSM分布式项目实战视频教程</title>
-        <pubTime>2018-09-10T07:42:30.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-        <tag>Nginx</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>项目实战</tag>
-         
-        <tag>分布式</tag>
-         
-        <tag>码农商城</tag>
-         
-        <tag>Maven</tag>
-         
-        <tag>Spring</tag>
-         
-        <tag>Spring MVC</tag>
-         
-        <tag>Mybatis</tag>
-         
-        <tag>EasyUI</tag>
-         
-        <tag>postman</tag>
-         
-        <tag>UEditor</tag>
-         
-        <tag>SSM视频教程</tag>
-         
-        <tag>redis</tag>
-         
-        <tag>solor</tag>
-         
-        <tag>JQuery</tag>
-         
-        <tag>Freemark</tag>
-         
-        <tag>activMQ</tag>
-         
-        <tag>httpClient</tag>
-         
-        <tag>MySQL</tag>
-         
-        <tag>InteliJ IDEA</tag>
-         
-        <tag>Tomcat7</tag>
-         
-        <tag>JDK</tag>
-         
-        <tag>sqlyog</tag>
          
          
            
@@ -1877,9 +1877,9 @@
          
         <tag>vps</tag>
          
-        <tag>ss搭建</tag>
-         
         <tag>教程</tag>
+         
+        <tag>ss搭建</tag>
          
         <tag>搬瓦工一键ss</tag>
          
