@@ -6,7 +6,7 @@
     <copyright></copyright>
     <itunes:subtitle></itunes:subtitle>
     <itunes:author>wistbean</itunes:author>
-    <itunes:summary>答应自己的事，就要做到。</itunes:summary>
+    <itunes:summary>wistbean，肯定会</itunes:summary>
     <itunes:owner>
       <itunes:name>wistbean</itunes:name>
       <itunes:email>wistbean.bb@gmail.com</itunes:email>
@@ -52,7 +52,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-lXAtNYRu&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-clIkBphz&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -116,7 +116,7 @@
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-KzgSnPFO&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-EZopnNVx&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -241,7 +241,7 @@ b站、Youtube之前说过了，b站不仅仅是个二次元的视频资源网�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-SHVbjHvu&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-LseFhviC&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -307,7 +307,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-kJGbosgd&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-SaaaOpHU&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -377,7 +377,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-tAdfYCiW&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-UMYqlbUn&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -444,7 +444,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-nynKMBNi&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-IuBXYHnd&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -522,7 +522,7 @@ chines robot，丢脸不?
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-GAQFPYOI&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-CHKggdiq&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -598,7 +598,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-WwotdMOF&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-xYrgKvmS&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -672,7 +672,7 @@ PyCharm编辑器的使用
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-FksROXxY&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-FDrDpPRp&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -713,6 +713,9 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
 人工智能正在向高端职位进军：你担心饭碗会被拿走吗
 人工智能+，将改变所有的行业 - Huawei
 
+相关文章
+5G即将到来，那么到底什么是 5G 呢？
+
  </description>
       <itunes:author> wistbean</itunes:author>
       <itunes:subtitle> </itunes:subtitle>
@@ -735,7 +738,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-bfjqYhNL&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-mkNaAimU&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -988,7 +991,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-CXVeDGIS&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-leCrjxAS&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -1048,7 +1051,7 @@ AI 能够帮助我们，也会害了我们，所以我们应该不断的学习�
         
         
           var ap = new APlayer({
-            element: document.getElementById(&amp;quot;aplayer-NBShbFnA&amp;quot;),
+            element: document.getElementById(&amp;quot;aplayer-LpOmqPpi&amp;quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
