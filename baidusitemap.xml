@@ -3,6 +3,7 @@
 
 
     
+    
   <url>
     <loc>https://wistbean.github.io/java-ssm-6-4.html</loc>
     <lastmod>2019-03-11T18:02:19.518Z</lastmod>
@@ -13,13 +14,13 @@
         
         <tag>码农商城</tag>
          
-        <tag>json</tag>
-         
         <tag>rest</tag>
          
-        <tag>rest接口java</tag>
-         
         <tag>商城首页分类导航</tag>
+         
+        <tag>json</tag>
+         
+        <tag>rest接口java</tag>
          
          
            
@@ -769,7 +770,6 @@
     </url>
 
     
-    
   <url>
     <loc>https://wistbean.github.io/java-xue-xi-lu-xian.html</loc>
     <lastmod>2019-03-03T10:36:49.342Z</lastmod>
@@ -838,11 +838,11 @@
         
         <tag>码农商城</tag>
          
-        <tag>商城首页分类导航</tag>
-         
         <tag>httpclient</tag>
          
         <tag>freemarker</tag>
+         
+        <tag>商城首页分类导航</tag>
          
          
            
@@ -1246,9 +1246,9 @@
          
         <tag>EasyUI</tag>
          
-        <tag>postman</tag>
-         
         <tag>UEditor</tag>
+         
+        <tag>postman</tag>
          
         <tag>SSM视频教程</tag>
          

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wistbean.github.io/fitness/index.html</loc>
+    
+    <lastmod>2019-03-12T10:37:13.027Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wistbean.github.io/java-ssm-6-4.html</loc>
     
     <lastmod>2019-03-11T18:02:19.518Z</lastmod>
@@ -131,13 +138,6 @@
     <loc>https://wistbean.github.io/cloud-server.html</loc>
     
     <lastmod>2019-03-09T16:53:36.793Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wistbean.github.io/fitness/index.html</loc>
-    
-    <lastmod>2019-03-09T16:47:53.445Z</lastmod>
     
   </url>
   
