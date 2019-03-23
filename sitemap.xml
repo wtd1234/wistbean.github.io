@@ -2,16 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wistbean.github.io/support/index.html</loc>
+    <loc>https://wistbean.github.io/cloud-server.html</loc>
     
-    <lastmod>2019-03-23T08:18:51.377Z</lastmod>
+    <lastmod>2019-03-23T08:30:26.277Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://wistbean.github.io/cloud-server.html</loc>
+    <loc>https://wistbean.github.io/banwagong-ss.html</loc>
     
-    <lastmod>2019-03-22T13:26:00.395Z</lastmod>
+    <lastmod>2019-03-23T08:30:26.214Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wistbean.github.io/use-banwagong.html</loc>
+    
+    <lastmod>2019-03-23T08:30:26.058Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wistbean.github.io/banwagong-vpn.html</loc>
+    
+    <lastmod>2019-03-23T08:30:25.996Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wistbean.github.io/banwagong-ssr-quick.html</loc>
+    
+    <lastmod>2019-03-23T08:30:25.934Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wistbean.github.io/support/index.html</loc>
+    
+    <lastmod>2019-03-23T08:18:51.377Z</lastmod>
     
   </url>
   
@@ -212,27 +240,6 @@
   </url>
   
   <url>
-    <loc>https://wistbean.github.io/banwagong-vpn.html</loc>
-    
-    <lastmod>2019-03-01T07:33:58.572Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wistbean.github.io/banwagong-ssr-quick.html</loc>
-    
-    <lastmod>2019-03-01T07:33:58.510Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wistbean.github.io/use-banwagong.html</loc>
-    
-    <lastmod>2019-03-01T07:33:58.448Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wistbean.github.io/bangwagong-vultr-na-ge-hao.html</loc>
     
     <lastmod>2019-03-01T07:33:13.082Z</lastmod>
@@ -250,13 +257,6 @@
     <loc>https://wistbean.github.io/banwagong-15-1000G-vps.html</loc>
     
     <lastmod>2019-03-01T07:33:12.895Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wistbean.github.io/banwagong-ss.html</loc>
-    
-    <lastmod>2019-03-01T07:33:12.817Z</lastmod>
     
   </url>
   
